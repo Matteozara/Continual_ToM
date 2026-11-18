@@ -1,0 +1,594 @@
+{
+    "Sally-Anne_qwen3-4b_": [
+        {
+            "question_type": "reality",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stB",
+            "samples": 30,
+            "corrects": 0,
+            "accuracy": 0.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stA",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndA",
+            "samples": 30,
+            "corrects": 24,
+            "accuracy": 0.8,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndB",
+            "samples": 30,
+            "corrects": 2,
+            "accuracy": 0.0667,
+            "not_answered": 0
+        }
+    ],
+    "Sally-Anne_qwen3-4b_CoT": [
+        {
+            "question_type": "reality",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stB",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stA",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndA",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndB",
+            "samples": 30,
+            "corrects": 29,
+            "accuracy": 0.9667,
+            "not_answered": 0
+        }
+    ],
+    "Sally-Anne_qwen3-4b_Complete": [
+        {
+            "question_type": "reality",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stB",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stA",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndA",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndB",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        }
+    ],
+    "Sally-Anne_qwen3-4b_standard": [
+        {
+            "question_type": "reality",
+            "samples": 30,
+            "corrects": 26,
+            "accuracy": 0.8667,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stB",
+            "samples": 30,
+            "corrects": 0,
+            "accuracy": 0.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stA",
+            "samples": 30,
+            "corrects": 25,
+            "accuracy": 0.8333,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndA",
+            "samples": 30,
+            "corrects": 1,
+            "accuracy": 0.0333,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndB",
+            "samples": 30,
+            "corrects": 1,
+            "accuracy": 0.0333,
+            "not_answered": 0
+        }
+    ],
+    "Sally-Anne_qwen2.5-7b_": [
+        {
+            "question_type": "reality",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stB",
+            "samples": 30,
+            "corrects": 3,
+            "accuracy": 0.1,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stA",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndA",
+            "samples": 30,
+            "corrects": 9,
+            "accuracy": 0.3,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndB",
+            "samples": 30,
+            "corrects": 18,
+            "accuracy": 0.6,
+            "not_answered": 0
+        }
+    ],
+    "Sally-Anne_qwen2.5-7b_CoT": [
+        {
+            "question_type": "reality",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stB",
+            "samples": 30,
+            "corrects": 29,
+            "accuracy": 0.9667,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stA",
+            "samples": 30,
+            "corrects": 20,
+            "accuracy": 0.6667,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndA",
+            "samples": 30,
+            "corrects": 29,
+            "accuracy": 0.9667,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndB",
+            "samples": 30,
+            "corrects": 29,
+            "accuracy": 0.9667,
+            "not_answered": 0
+        }
+    ],
+    "Sally-Anne_qwen2.5-7b_Complete": [
+        {
+            "question_type": "reality",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stB",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stA",
+            "samples": 30,
+            "corrects": 19,
+            "accuracy": 0.6333,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndA",
+            "samples": 30,
+            "corrects": 29,
+            "accuracy": 0.9667,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndB",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        }
+    ],
+    "Sally-Anne_qwen2.5-7b_standard": [
+        {
+            "question_type": "reality",
+            "samples": 30,
+            "corrects": 28,
+            "accuracy": 0.9333,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stB",
+            "samples": 30,
+            "corrects": 7,
+            "accuracy": 0.2333,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stA",
+            "samples": 30,
+            "corrects": 26,
+            "accuracy": 0.8667,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndA",
+            "samples": 30,
+            "corrects": 0,
+            "accuracy": 0.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndB",
+            "samples": 30,
+            "corrects": 0,
+            "accuracy": 0.0,
+            "not_answered": 0
+        }
+    ],
+    "Sally-Anne_gemma2-27b_": [
+        {
+            "question_type": "reality",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stB",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stA",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndA",
+            "samples": 30,
+            "corrects": 29,
+            "accuracy": 0.9667,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndB",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        }
+    ],
+    "Sally-Anne_gemma2-27b_CoT": [
+        {
+            "question_type": "reality",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stB",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stA",
+            "samples": 30,
+            "corrects": 22,
+            "accuracy": 0.7333,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndA",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndB",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        }
+    ],
+    "Sally-Anne_gemma2-27b_Complete": [
+        {
+            "question_type": "reality",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stB",
+            "samples": 30,
+            "corrects": 27,
+            "accuracy": 0.9,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stA",
+            "samples": 30,
+            "corrects": 18,
+            "accuracy": 0.6,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndA",
+            "samples": 30,
+            "corrects": 23,
+            "accuracy": 0.7667,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndB",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        }
+    ],
+    "Sally-Anne_gemma2-27b_standard": [
+        {
+            "question_type": "reality",
+            "samples": 30,
+            "corrects": 28,
+            "accuracy": 0.9333,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stB",
+            "samples": 30,
+            "corrects": 2,
+            "accuracy": 0.0667,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stA",
+            "samples": 30,
+            "corrects": 28,
+            "accuracy": 0.9333,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndA",
+            "samples": 30,
+            "corrects": 2,
+            "accuracy": 0.0667,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndB",
+            "samples": 30,
+            "corrects": 2,
+            "accuracy": 0.0667,
+            "not_answered": 0
+        }
+    ],
+    "Sally-Anne_llama3-70b_": [
+        {
+            "question_type": "reality",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stB",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stA",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndA",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndB",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        }
+    ],
+    "Sally-Anne_llama3-70b_CoT": [
+        {
+            "question_type": "reality",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stB",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stA",
+            "samples": 30,
+            "corrects": 27,
+            "accuracy": 0.9,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndA",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndB",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        }
+    ],
+    "Sally-Anne_llama3-70b_Complete": [
+        {
+            "question_type": "reality",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stB",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stA",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndA",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndB",
+            "samples": 30,
+            "corrects": 28,
+            "accuracy": 0.9333,
+            "not_answered": 0
+        }
+    ],
+    "Sally-Anne_llama3-70b_standard": [
+        {
+            "question_type": "reality",
+            "samples": 30,
+            "corrects": 23,
+            "accuracy": 0.7667,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stB",
+            "samples": 30,
+            "corrects": 3,
+            "accuracy": 0.1,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stA",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndA",
+            "samples": 30,
+            "corrects": 3,
+            "accuracy": 0.1,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndB",
+            "samples": 30,
+            "corrects": 0,
+            "accuracy": 0.0,
+            "not_answered": 0
+        }
+    ]
+}

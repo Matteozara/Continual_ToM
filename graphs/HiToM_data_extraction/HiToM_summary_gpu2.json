@@ -1,0 +1,150 @@
+{
+    "qwen3-30b_standard": [
+        {
+            "question_order": "0",
+            "samples": 60,
+            "corrects": 48,
+            "accuracy": 0.8,
+            "not_answered": 2
+        },
+        {
+            "question_order": "3",
+            "samples": 60,
+            "corrects": 25,
+            "accuracy": 0.4167,
+            "not_answered": 1
+        },
+        {
+            "question_order": "4",
+            "samples": 60,
+            "corrects": 24,
+            "accuracy": 0.4,
+            "not_answered": 0
+        },
+        {
+            "question_order": "1",
+            "samples": 60,
+            "corrects": 23,
+            "accuracy": 0.3833,
+            "not_answered": 2
+        },
+        {
+            "question_order": "2",
+            "samples": 60,
+            "corrects": 24,
+            "accuracy": 0.4,
+            "not_answered": 1
+        }
+    ],
+    "qwen3-30b_task_specific": [
+        {
+            "question_order": "0",
+            "samples": 60,
+            "corrects": 48,
+            "accuracy": 0.8,
+            "not_answered": 0
+        },
+        {
+            "question_order": "3",
+            "samples": 60,
+            "corrects": 28,
+            "accuracy": 0.4667,
+            "not_answered": 0
+        },
+        {
+            "question_order": "4",
+            "samples": 60,
+            "corrects": 26,
+            "accuracy": 0.4333,
+            "not_answered": 0
+        },
+        {
+            "question_order": "1",
+            "samples": 60,
+            "corrects": 26,
+            "accuracy": 0.4333,
+            "not_answered": 0
+        },
+        {
+            "question_order": "2",
+            "samples": 60,
+            "corrects": 30,
+            "accuracy": 0.5,
+            "not_answered": 0
+        }
+    ],
+    "qwen2.5-72b_standard": [
+        {
+            "question_order": "0",
+            "samples": 60,
+            "corrects": 57,
+            "accuracy": 0.95,
+            "not_answered": 0
+        },
+        {
+            "question_order": "3",
+            "samples": 60,
+            "corrects": 20,
+            "accuracy": 0.3333,
+            "not_answered": 0
+        },
+        {
+            "question_order": "4",
+            "samples": 60,
+            "corrects": 23,
+            "accuracy": 0.3833,
+            "not_answered": 0
+        },
+        {
+            "question_order": "1",
+            "samples": 60,
+            "corrects": 27,
+            "accuracy": 0.45,
+            "not_answered": 0
+        },
+        {
+            "question_order": "2",
+            "samples": 60,
+            "corrects": 19,
+            "accuracy": 0.3167,
+            "not_answered": 0
+        }
+    ],
+    "qwen2.5-72b_task_specific": [
+        {
+            "question_order": "0",
+            "samples": 60,
+            "corrects": 54,
+            "accuracy": 0.9,
+            "not_answered": 0
+        },
+        {
+            "question_order": "3",
+            "samples": 60,
+            "corrects": 21,
+            "accuracy": 0.35,
+            "not_answered": 0
+        },
+        {
+            "question_order": "4",
+            "samples": 60,
+            "corrects": 23,
+            "accuracy": 0.3833,
+            "not_answered": 0
+        },
+        {
+            "question_order": "1",
+            "samples": 60,
+            "corrects": 32,
+            "accuracy": 0.5333,
+            "not_answered": 0
+        },
+        {
+            "question_order": "2",
+            "samples": 60,
+            "corrects": 22,
+            "accuracy": 0.3667,
+            "not_answered": 0
+        }
+    ]
+}

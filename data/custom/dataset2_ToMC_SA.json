@@ -1,0 +1,1217 @@
+[
+    {
+        "story": [
+            "Neila and Juanita were hanging out in the attic.",
+            "They saw a closet and a cabinet.",
+            "They found a towel in the closet.",
+            "Juanita left the attic.",
+            "Neila moved the towel to the cabinet."
+        ],
+        "memory_tracking": [
+            {
+                "sentence": "Neila and Juanita were hanging out in the attic.",
+                "locations": {"Neila": "attic", "Juanita": "attic"},
+                "beliefs": {
+                    "1-order": {
+                    },
+                    "higher-order": {}
+                }
+            },
+            {
+                "sentence": "They saw a closet and a cabinet.",
+                "locations": {"Neila": "attic", "Juanita": "attic"},
+                "beliefs": {
+                    "1-order": {
+                        "Neila": "Believes there is a closet and a cabinet.",
+                        "Juanita": "Believes there is a closet and a cabinet."
+                    },
+                    "higher-order": {
+                        "Neila": "Knows Juanita believes there is a closet and a cabinet.",
+                        "Juanita": "Knows Neila believes there is a closet and a cabinet."
+                    }
+                }
+            },
+            {
+                "sentence": "They found a towel in the closet.",
+                "locations": {"Neila": "attic", "Juanita": "attic", "towel": "closet"},
+                "beliefs": {
+                    "1-order": {
+                        "Neila": "Believes there is a closet and a cabinet and believes towel is in the closet.",
+                        "Juanita": "Believes there is a closet and a cabinet and believes towel is in the closet."
+                    },
+                    "higher-order": {
+                        "Neila": "Knows Juanita believes there is a closet and a cabinet and Juanita believes the towel is in the closet.",
+                        "Juanita": "Knows Neila believes there is a closet and a cabinet and Neila believes the towel is in the closet."
+                    }
+                }
+            },
+            {
+                "sentence": "Juanita left the attic.",
+                "locations": {"Neila": "attic", "Juanita": "outside attic", "towel": "closet"},
+                "beliefs": {
+                    "1-order": {
+                        "Neila": "Believes there is a closet and a cabinet and believes towel is in the closet.",
+                        "Juanita": "Believes there is a closet and a cabinet and believes towel is in the closet."
+                    },
+                    "higher-order": {
+                        "Neila": "Knows Juanita believes there is a closet and a cabinet and Juanita believes the towel is in the closet.",
+                        "Juanita": "Knows Neila believes there is a closet and a cabinet and Neila believes the towel is in the closet."
+                    }
+                }
+            },
+            {
+                "sentence": "Neila moved the towel to the cabinet.",
+                "locations": {"Neila": "attic", "Juanita": "outside attic", "towel": "cabinet"},
+                "beliefs": {
+                    "1-order": {
+                        "Neila": "Believes there is a closet and a cabinet and believes towel is in the cabinet.",
+                        "Juanita": "Believes there is a closet and a cabinet and believes towel is in the closet."
+                    },
+                    "higher-order": {
+                        "Neila": "Knows Juanita believes there is a closet and a cabinet and Juanita believes the towel is in the closet.",
+                        "Juanita": "Knows Neila believes there is a closet and a cabinet and Neila believes the towel is in the closet."
+                    }
+                }
+            }
+        ],
+        "question": "Where is the towel?",
+        "answer": "cabinet.",
+        "belief": "False",
+        "question_type": "reality",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Neila and Juanita were hanging out in the attic.",
+            "They saw a closet and a cabinet.",
+            "They found a towel in the closet.",
+            "Juanita left the attic.",
+            "Neila moved the towel to the cabinet."
+        ],
+        "memory_tracking": [
+            {
+                "sentence": "Neila and Juanita were hanging out in the attic.",
+                "locations": {"Neila": "attic", "Juanita": "attic"},
+                "beliefs": {
+                    "1-order": {
+                    },
+                    "higher-order": {}
+                }
+            },
+            {
+                "sentence": "They saw a closet and a cabinet.",
+                "locations": {"Neila": "attic", "Juanita": "attic"},
+                "beliefs": {
+                    "1-order": {
+                        "Neila": "Believes there is a closet and a cabinet.",
+                        "Juanita": "Believes there is a closet and a cabinet."
+                    },
+                    "higher-order": {
+                        "Neila": "Knows Juanita believes there is a closet and a cabinet.",
+                        "Juanita": "Knows Neila believes there is a closet and a cabinet."
+                    }
+                }
+            },
+            {
+                "sentence": "They found a towel in the closet.",
+                "locations": {"Neila": "attic", "Juanita": "attic", "towel": "closet"},
+                "beliefs": {
+                    "1-order": {
+                        "Neila": "Believes there is a closet and a cabinet and believes towel is in the closet.",
+                        "Juanita": "Believes there is a closet and a cabinet and believes towel is in the closet."
+                    },
+                    "higher-order": {
+                        "Neila": "Knows Juanita believes there is a closet and a cabinet and Juanita believes the towel is in the closet.",
+                        "Juanita": "Knows Neila believes there is a closet and a cabinet and Neila believes the towel is in the closet."
+                    }
+                }
+            },
+            {
+                "sentence": "Juanita left the attic.",
+                "locations": {"Neila": "attic", "Juanita": "outside attic", "towel": "closet"},
+                "beliefs": {
+                    "1-order": {
+                        "Neila": "Believes there is a closet and a cabinet and believes towel is in the closet.",
+                        "Juanita": "Believes there is a closet and a cabinet and believes towel is in the closet."
+                    },
+                    "higher-order": {
+                        "Neila": "Knows Juanita believes there is a closet and a cabinet and Juanita believes the towel is in the closet.",
+                        "Juanita": "Knows Neila believes there is a closet and a cabinet and Neila believes the towel is in the closet."
+                    }
+                }
+            },
+            {
+                "sentence": "Neila moved the towel to the cabinet.",
+                "locations": {"Neila": "attic", "Juanita": "outside attic", "towel": "cabinet"},
+                "beliefs": {
+                    "1-order": {
+                        "Neila": "Believes there is a closet and a cabinet and believes towel is in the cabinet.",
+                        "Juanita": "Believes there is a closet and a cabinet and believes towel is in the closet."
+                    },
+                    "higher-order": {
+                        "Neila": "Knows Juanita believes there is a closet and a cabinet and Juanita believes the towel is in the closet.",
+                        "Juanita": "Knows Neila believes there is a closet and a cabinet and Neila believes the towel is in the closet."
+                    }
+                }
+            }
+        ],
+        "question": "After Juanita came back to the attic, where would Juanita look for the towel?",
+        "answer": "closet.",
+        "belief": "False",
+        "question_type": "1stB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Neila and Juanita were hanging out in the attic.",
+            "They saw a closet and a cabinet.",
+            "They found a towel in the closet.",
+            "Juanita left the attic.",
+            "Neila moved the towel to the cabinet."
+        ],
+        "memory_tracking": [
+            {
+                "sentence": "Neila and Juanita were hanging out in the attic.",
+                "locations": {"Neila": "attic", "Juanita": "attic"},
+                "beliefs": {
+                    "1-order": {
+                    },
+                    "higher-order": {}
+                }
+            },
+            {
+                "sentence": "They saw a closet and a cabinet.",
+                "locations": {"Neila": "attic", "Juanita": "attic"},
+                "beliefs": {
+                    "1-order": {
+                        "Neila": "Believes there is a closet and a cabinet.",
+                        "Juanita": "Believes there is a closet and a cabinet."
+                    },
+                    "higher-order": {
+                        "Neila": "Knows Juanita believes there is a closet and a cabinet.",
+                        "Juanita": "Knows Neila believes there is a closet and a cabinet."
+                    }
+                }
+            },
+            {
+                "sentence": "They found a towel in the closet.",
+                "locations": {"Neila": "attic", "Juanita": "attic", "towel": "closet"},
+                "beliefs": {
+                    "1-order": {
+                        "Neila": "Believes there is a closet and a cabinet and believes towel is in the closet.",
+                        "Juanita": "Believes there is a closet and a cabinet and believes towel is in the closet."
+                    },
+                    "higher-order": {
+                        "Neila": "Knows Juanita believes there is a closet and a cabinet and Juanita believes the towel is in the closet.",
+                        "Juanita": "Knows Neila believes there is a closet and a cabinet and Neila believes the towel is in the closet."
+                    }
+                }
+            },
+            {
+                "sentence": "Juanita left the attic.",
+                "locations": {"Neila": "attic", "Juanita": "outside attic", "towel": "closet"},
+                "beliefs": {
+                    "1-order": {
+                        "Neila": "Believes there is a closet and a cabinet and believes towel is in the closet.",
+                        "Juanita": "Believes there is a closet and a cabinet and believes towel is in the closet."
+                    },
+                    "higher-order": {
+                        "Neila": "Knows Juanita believes there is a closet and a cabinet and Juanita believes the towel is in the closet.",
+                        "Juanita": "Knows Neila believes there is a closet and a cabinet and Neila believes the towel is in the closet."
+                    }
+                }
+            },
+            {
+                "sentence": "Neila moved the towel to the cabinet.",
+                "locations": {"Neila": "attic", "Juanita": "outside attic", "towel": "cabinet"},
+                "beliefs": {
+                    "1-order": {
+                        "Neila": "Believes there is a closet and a cabinet and believes towel is in the cabinet.",
+                        "Juanita": "Believes there is a closet and a cabinet and believes towel is in the closet."
+                    },
+                    "higher-order": {
+                        "Neila": "Knows Juanita believes there is a closet and a cabinet and Juanita believes the towel is in the closet.",
+                        "Juanita": "Knows Neila believes there is a closet and a cabinet and Neila believes the towel is in the closet."
+                    }
+                }
+            }
+        ],
+        "question": "After Juanita came back to the attic, where would Neila look for the towel?",
+        "answer": "cabinet.",
+        "belief": "False",
+        "question_type": "1stA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Neila and Juanita were hanging out in the attic.",
+            "They saw a closet and a cabinet.",
+            "They found a towel in the closet.",
+            "Juanita left the attic.",
+            "Neila moved the towel to the cabinet."
+        ],
+        "memory_tracking": [
+            {
+                "sentence": "Neila and Juanita were hanging out in the attic.",
+                "locations": {"Neila": "attic", "Juanita": "attic"},
+                "beliefs": {
+                    "1-order": {
+                    },
+                    "higher-order": {}
+                }
+            },
+            {
+                "sentence": "They saw a closet and a cabinet.",
+                "locations": {"Neila": "attic", "Juanita": "attic"},
+                "beliefs": {
+                    "1-order": {
+                        "Neila": "Believes there is a closet and a cabinet.",
+                        "Juanita": "Believes there is a closet and a cabinet."
+                    },
+                    "higher-order": {
+                        "Neila": "Knows Juanita believes there is a closet and a cabinet.",
+                        "Juanita": "Knows Neila believes there is a closet and a cabinet."
+                    }
+                }
+            },
+            {
+                "sentence": "They found a towel in the closet.",
+                "locations": {"Neila": "attic", "Juanita": "attic", "towel": "closet"},
+                "beliefs": {
+                    "1-order": {
+                        "Neila": "Believes there is a closet and a cabinet and believes towel is in the closet.",
+                        "Juanita": "Believes there is a closet and a cabinet and believes towel is in the closet."
+                    },
+                    "higher-order": {
+                        "Neila": "Knows Juanita believes there is a closet and a cabinet and Juanita believes the towel is in the closet.",
+                        "Juanita": "Knows Neila believes there is a closet and a cabinet and Neila believes the towel is in the closet."
+                    }
+                }
+            },
+            {
+                "sentence": "Juanita left the attic.",
+                "locations": {"Neila": "attic", "Juanita": "outside attic", "towel": "closet"},
+                "beliefs": {
+                    "1-order": {
+                        "Neila": "Believes there is a closet and a cabinet and believes towel is in the closet.",
+                        "Juanita": "Believes there is a closet and a cabinet and believes towel is in the closet."
+                    },
+                    "higher-order": {
+                        "Neila": "Knows Juanita believes there is a closet and a cabinet and Juanita believes the towel is in the closet.",
+                        "Juanita": "Knows Neila believes there is a closet and a cabinet and Neila believes the towel is in the closet."
+                    }
+                }
+            },
+            {
+                "sentence": "Neila moved the towel to the cabinet.",
+                "locations": {"Neila": "attic", "Juanita": "outside attic", "towel": "cabinet"},
+                "beliefs": {
+                    "1-order": {
+                        "Neila": "Believes there is a closet and a cabinet and believes towel is in the cabinet.",
+                        "Juanita": "Believes there is a closet and a cabinet and believes towel is in the closet."
+                    },
+                    "higher-order": {
+                        "Neila": "Knows Juanita believes there is a closet and a cabinet and Juanita believes the towel is in the closet.",
+                        "Juanita": "Knows Neila believes there is a closet and a cabinet and Neila believes the towel is in the closet."
+                    }
+                }
+            }
+        ],
+        "question": "After Juanita came back to the attic, where would Neila think Juanita would look for the towel?",
+        "answer": "closet.",
+        "belief": "False",
+        "question_type": "2ndA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Neila and Juanita were hanging out in the attic.",
+            "They saw a closet and a cabinet.",
+            "They found a towel in the closet.",
+            "Juanita left the attic.",
+            "Neila moved the towel to the cabinet."
+        ],
+        "memory_tracking": [
+            {
+                "sentence": "Neila and Juanita were hanging out in the attic.",
+                "locations": {"Neila": "attic", "Juanita": "attic"},
+                "beliefs": {
+                    "1-order": {
+                    },
+                    "higher-order": {}
+                }
+            },
+            {
+                "sentence": "They saw a closet and a cabinet.",
+                "locations": {"Neila": "attic", "Juanita": "attic"},
+                "beliefs": {
+                    "1-order": {
+                        "Neila": "Believes there is a closet and a cabinet.",
+                        "Juanita": "Believes there is a closet and a cabinet."
+                    },
+                    "higher-order": {
+                        "Neila": "Knows Juanita believes there is a closet and a cabinet.",
+                        "Juanita": "Knows Neila believes there is a closet and a cabinet."
+                    }
+                }
+            },
+            {
+                "sentence": "They found a towel in the closet.",
+                "locations": {"Neila": "attic", "Juanita": "attic", "towel": "closet"},
+                "beliefs": {
+                    "1-order": {
+                        "Neila": "Believes there is a closet and a cabinet and believes towel is in the closet.",
+                        "Juanita": "Believes there is a closet and a cabinet and believes towel is in the closet."
+                    },
+                    "higher-order": {
+                        "Neila": "Knows Juanita believes there is a closet and a cabinet and Juanita believes the towel is in the closet.",
+                        "Juanita": "Knows Neila believes there is a closet and a cabinet and Neila believes the towel is in the closet."
+                    }
+                }
+            },
+            {
+                "sentence": "Juanita left the attic.",
+                "locations": {"Neila": "attic", "Juanita": "outside attic", "towel": "closet"},
+                "beliefs": {
+                    "1-order": {
+                        "Neila": "Believes there is a closet and a cabinet and believes towel is in the closet.",
+                        "Juanita": "Believes there is a closet and a cabinet and believes towel is in the closet."
+                    },
+                    "higher-order": {
+                        "Neila": "Knows Juanita believes there is a closet and a cabinet and Juanita believes the towel is in the closet.",
+                        "Juanita": "Knows Neila believes there is a closet and a cabinet and Neila believes the towel is in the closet."
+                    }
+                }
+            },
+            {
+                "sentence": "Neila moved the towel to the cabinet.",
+                "locations": {"Neila": "attic", "Juanita": "outside attic", "towel": "cabinet"},
+                "beliefs": {
+                    "1-order": {
+                        "Neila": "Believes there is a closet and a cabinet and believes towel is in the cabinet.",
+                        "Juanita": "Believes there is a closet and a cabinet and believes towel is in the closet."
+                    },
+                    "higher-order": {
+                        "Neila": "Knows Juanita believes there is a closet and a cabinet and Juanita believes the towel is in the closet.",
+                        "Juanita": "Knows Neila believes there is a closet and a cabinet and Neila believes the towel is in the closet."
+                    }
+                }
+            }
+        ],
+        "question": "After Juanita came back to the attic, where would Juanita think Neila would look for the towel?",
+        "answer": "closet.",
+        "belief": "False",
+        "question_type": "2ndB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Sabra and Hillary were hanging out in the bedroom.",
+            "They saw a briefcase and a bucket.",
+            "They found a mitten in the briefcase.",
+            "Hillary left the bedroom.",
+            "Sabra moved the mitten to the bucket."
+        ],
+        "memory_tracking": [
+            {
+                "sentence": "Sabra and Hillary were hanging out in the bedroom.",
+                "locations": {"Sabra": "bedroom", "Hillary": "bedroom"},
+                "beliefs": {
+                    "1-order": {
+                    },
+                    "higher-order": {}
+                }
+            },
+            {
+                "sentence": "They saw a briefcase and a bucket.",
+                "locations": {"Sabra": "bedroom", "Hillary": "bedroom"},
+                "beliefs": {
+                    "1-order": {
+                        "Sabra": "Believes there is a briefcase and a bucket.",
+                        "Hillary": "Believes there is a briefcase and a bucket."
+                    },
+                    "higher-order": {
+                        "Sabra": "Knows Hillary believes there is a briefcase and a bucket.",
+                        "Hillary": "Knows Sabra believes there is a briefcase and a bucket."
+                    }
+                }
+            },
+            {
+                "sentence": "They found a mitten in the briefcase.",
+                "locations": {"Sabra": "bedroom", "Hillary": "bedroom", "mitten": "briefcase"},
+                "beliefs": {
+                    "1-order": {
+                        "Sabra": "Believes there is a briefcase and a bucket and believes mitten is in the briefcase.",
+                        "Hillary": "Believes there is a briefcase and a bucket and believes mitten is in the briefcase."
+                    },
+                    "higher-order": {
+                        "Sabra": "Knows Hillary believes there is a briefcase and a bucket and Hillary believes mitten is in the briefcase.",
+                        "Hillary": "Knows Sabra believes there is a briefcase and a bucket and Sabra believes mitten is in the briefcase."
+                    }
+                }
+            },
+            {
+                "sentence": "Hillary left the bedroom.",
+                "locations": {"Sabra": "bedroom", "Hillary": "outside bedroom", "mitten": "briefcase"},
+                "beliefs": {
+                    "1-order": {
+                        "Sabra": "Believes there is a briefcase and a bucket and believes mitten is in the briefcase.",
+                        "Hillary": "Believes there is a briefcase and a bucket and believes mitten is in the briefcase."
+                    },
+                    "higher-order": {
+                        "Sabra": "Knows Hillary believes there is a briefcase and a bucket and Hillary believes mitten is in the briefcase.",
+                        "Hillary": "Knows Sabra believes there is a briefcase and a bucket and Sabra believes mitten is in the briefcase."
+                    }
+                }
+            },
+            {
+                "sentence": "Sabra moved the mitten to the bucket.",
+                "locations": {"Sabra": "bedroom", "Hillary": "outside bedroom", "mitten": "bucket"},
+                "beliefs": {
+                    "1-order": {
+                        "Sabra": "Believes there is a briefcase and a bucket and believes mitten is in the bucket.",
+                        "Hillary": "Believes there is a briefcase and a bucket and believes mitten is in the briefcase."
+                    },
+                    "higher-order": {
+                        "Sabra": "Knows Hillary believes there is a briefcase and a bucket and Hillary believes mitten is in the briefcase.",
+                        "Hillary": "Knows Sabra believes there is a briefcase and a bucket and Sabra believes mitten is in the briefcase."
+                    }
+                }
+            }
+        ],
+        "question": "Where is the mitten?",
+        "answer": "bucket.",
+        "belief": "False",
+        "question_type": "reality",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Sabra and Hillary were hanging out in the bedroom.",
+            "They saw a briefcase and a bucket.",
+            "They found a mitten in the briefcase.",
+            "Hillary left the bedroom.",
+            "Sabra moved the mitten to the bucket."
+        ],
+        "memory_tracking": [
+            {
+                "sentence": "Sabra and Hillary were hanging out in the bedroom.",
+                "locations": {"Sabra": "bedroom", "Hillary": "bedroom"},
+                "beliefs": {
+                    "1-order": {
+                    },
+                    "higher-order": {}
+                }
+            },
+            {
+                "sentence": "They saw a briefcase and a bucket.",
+                "locations": {"Sabra": "bedroom", "Hillary": "bedroom"},
+                "beliefs": {
+                    "1-order": {
+                        "Sabra": "Believes there is a briefcase and a bucket.",
+                        "Hillary": "Believes there is a briefcase and a bucket."
+                    },
+                    "higher-order": {
+                        "Sabra": "Knows Hillary believes there is a briefcase and a bucket.",
+                        "Hillary": "Knows Sabra believes there is a briefcase and a bucket."
+                    }
+                }
+            },
+            {
+                "sentence": "They found a mitten in the briefcase.",
+                "locations": {"Sabra": "bedroom", "Hillary": "bedroom", "mitten": "briefcase"},
+                "beliefs": {
+                    "1-order": {
+                        "Sabra": "Believes there is a briefcase and a bucket and believes mitten is in the briefcase.",
+                        "Hillary": "Believes there is a briefcase and a bucket and believes mitten is in the briefcase."
+                    },
+                    "higher-order": {
+                        "Sabra": "Knows Hillary believes there is a briefcase and a bucket and Hillary believes mitten is in the briefcase.",
+                        "Hillary": "Knows Sabra believes there is a briefcase and a bucket and Sabra believes mitten is in the briefcase."
+                    }
+                }
+            },
+            {
+                "sentence": "Hillary left the bedroom.",
+                "locations": {"Sabra": "bedroom", "Hillary": "outside bedroom", "mitten": "briefcase"},
+                "beliefs": {
+                    "1-order": {
+                        "Sabra": "Believes there is a briefcase and a bucket and believes mitten is in the briefcase.",
+                        "Hillary": "Believes there is a briefcase and a bucket and believes mitten is in the briefcase."
+                    },
+                    "higher-order": {
+                        "Sabra": "Knows Hillary believes there is a briefcase and a bucket and Hillary believes mitten is in the briefcase.",
+                        "Hillary": "Knows Sabra believes there is a briefcase and a bucket and Sabra believes mitten is in the briefcase."
+                    }
+                }
+            },
+            {
+                "sentence": "Sabra moved the mitten to the bucket.",
+                "locations": {"Sabra": "bedroom", "Hillary": "outside bedroom", "mitten": "bucket"},
+                "beliefs": {
+                    "1-order": {
+                        "Sabra": "Believes there is a briefcase and a bucket and believes mitten is in the bucket.",
+                        "Hillary": "Believes there is a briefcase and a bucket and believes mitten is in the briefcase."
+                    },
+                    "higher-order": {
+                        "Sabra": "Knows Hillary believes there is a briefcase and a bucket and Hillary believes mitten is in the briefcase.",
+                        "Hillary": "Knows Sabra believes there is a briefcase and a bucket and Sabra believes mitten is in the briefcase."
+                    }
+                }
+            }
+        ],
+        "question": "After Hillary came back to the bedroom, where would Hillary look for the mitten?",
+        "answer": "briefcase.",
+        "belief": "False",
+        "question_type": "1stB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Sabra and Hillary were hanging out in the bedroom.",
+            "They saw a briefcase and a bucket.",
+            "They found a mitten in the briefcase.",
+            "Hillary left the bedroom.",
+            "Sabra moved the mitten to the bucket."
+        ],
+        "memory_tracking": [
+            {
+                "sentence": "Sabra and Hillary were hanging out in the bedroom.",
+                "locations": {"Sabra": "bedroom", "Hillary": "bedroom"},
+                "beliefs": {
+                    "1-order": {
+                    },
+                    "higher-order": {}
+                }
+            },
+            {
+                "sentence": "They saw a briefcase and a bucket.",
+                "locations": {"Sabra": "bedroom", "Hillary": "bedroom"},
+                "beliefs": {
+                    "1-order": {
+                        "Sabra": "Believes there is a briefcase and a bucket.",
+                        "Hillary": "Believes there is a briefcase and a bucket."
+                    },
+                    "higher-order": {
+                        "Sabra": "Knows Hillary believes there is a briefcase and a bucket.",
+                        "Hillary": "Knows Sabra believes there is a briefcase and a bucket."
+                    }
+                }
+            },
+            {
+                "sentence": "They found a mitten in the briefcase.",
+                "locations": {"Sabra": "bedroom", "Hillary": "bedroom", "mitten": "briefcase"},
+                "beliefs": {
+                    "1-order": {
+                        "Sabra": "Believes there is a briefcase and a bucket and believes mitten is in the briefcase.",
+                        "Hillary": "Believes there is a briefcase and a bucket and believes mitten is in the briefcase."
+                    },
+                    "higher-order": {
+                        "Sabra": "Knows Hillary believes there is a briefcase and a bucket and Hillary believes mitten is in the briefcase.",
+                        "Hillary": "Knows Sabra believes there is a briefcase and a bucket and Sabra believes mitten is in the briefcase."
+                    }
+                }
+            },
+            {
+                "sentence": "Hillary left the bedroom.",
+                "locations": {"Sabra": "bedroom", "Hillary": "outside bedroom", "mitten": "briefcase"},
+                "beliefs": {
+                    "1-order": {
+                        "Sabra": "Believes there is a briefcase and a bucket and believes mitten is in the briefcase.",
+                        "Hillary": "Believes there is a briefcase and a bucket and believes mitten is in the briefcase."
+                    },
+                    "higher-order": {
+                        "Sabra": "Knows Hillary believes there is a briefcase and a bucket and Hillary believes mitten is in the briefcase.",
+                        "Hillary": "Knows Sabra believes there is a briefcase and a bucket and Sabra believes mitten is in the briefcase."
+                    }
+                }
+            },
+            {
+                "sentence": "Sabra moved the mitten to the bucket.",
+                "locations": {"Sabra": "bedroom", "Hillary": "outside bedroom", "mitten": "bucket"},
+                "beliefs": {
+                    "1-order": {
+                        "Sabra": "Believes there is a briefcase and a bucket and believes mitten is in the bucket.",
+                        "Hillary": "Believes there is a briefcase and a bucket and believes mitten is in the briefcase."
+                    },
+                    "higher-order": {
+                        "Sabra": "Knows Hillary believes there is a briefcase and a bucket and Hillary believes mitten is in the briefcase.",
+                        "Hillary": "Knows Sabra believes there is a briefcase and a bucket and Sabra believes mitten is in the briefcase."
+                    }
+                }
+            }
+        ],
+        "question": "After Hillary came back to the bedroom, where would Sabra look for the mitten?",
+        "answer": "bucket.",
+        "belief": "False",
+        "question_type": "1stA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Sabra and Hillary were hanging out in the bedroom.",
+            "They saw a briefcase and a bucket.",
+            "They found a mitten in the briefcase.",
+            "Hillary left the bedroom.",
+            "Sabra moved the mitten to the bucket."
+        ],
+        "memory_tracking": [
+            {
+                "sentence": "Sabra and Hillary were hanging out in the bedroom.",
+                "locations": {"Sabra": "bedroom", "Hillary": "bedroom"},
+                "beliefs": {
+                    "1-order": {
+                    },
+                    "higher-order": {}
+                }
+            },
+            {
+                "sentence": "They saw a briefcase and a bucket.",
+                "locations": {"Sabra": "bedroom", "Hillary": "bedroom"},
+                "beliefs": {
+                    "1-order": {
+                        "Sabra": "Believes there is a briefcase and a bucket.",
+                        "Hillary": "Believes there is a briefcase and a bucket."
+                    },
+                    "higher-order": {
+                        "Sabra": "Knows Hillary believes there is a briefcase and a bucket.",
+                        "Hillary": "Knows Sabra believes there is a briefcase and a bucket."
+                    }
+                }
+            },
+            {
+                "sentence": "They found a mitten in the briefcase.",
+                "locations": {"Sabra": "bedroom", "Hillary": "bedroom", "mitten": "briefcase"},
+                "beliefs": {
+                    "1-order": {
+                        "Sabra": "Believes there is a briefcase and a bucket and believes mitten is in the briefcase.",
+                        "Hillary": "Believes there is a briefcase and a bucket and believes mitten is in the briefcase."
+                    },
+                    "higher-order": {
+                        "Sabra": "Knows Hillary believes there is a briefcase and a bucket and Hillary believes mitten is in the briefcase.",
+                        "Hillary": "Knows Sabra believes there is a briefcase and a bucket and Sabra believes mitten is in the briefcase."
+                    }
+                }
+            },
+            {
+                "sentence": "Hillary left the bedroom.",
+                "locations": {"Sabra": "bedroom", "Hillary": "outside bedroom", "mitten": "briefcase"},
+                "beliefs": {
+                    "1-order": {
+                        "Sabra": "Believes there is a briefcase and a bucket and believes mitten is in the briefcase.",
+                        "Hillary": "Believes there is a briefcase and a bucket and believes mitten is in the briefcase."
+                    },
+                    "higher-order": {
+                        "Sabra": "Knows Hillary believes there is a briefcase and a bucket and Hillary believes mitten is in the briefcase.",
+                        "Hillary": "Knows Sabra believes there is a briefcase and a bucket and Sabra believes mitten is in the briefcase."
+                    }
+                }
+            },
+            {
+                "sentence": "Sabra moved the mitten to the bucket.",
+                "locations": {"Sabra": "bedroom", "Hillary": "outside bedroom", "mitten": "bucket"},
+                "beliefs": {
+                    "1-order": {
+                        "Sabra": "Believes there is a briefcase and a bucket and believes mitten is in the bucket.",
+                        "Hillary": "Believes there is a briefcase and a bucket and believes mitten is in the briefcase."
+                    },
+                    "higher-order": {
+                        "Sabra": "Knows Hillary believes there is a briefcase and a bucket and Hillary believes mitten is in the briefcase.",
+                        "Hillary": "Knows Sabra believes there is a briefcase and a bucket and Sabra believes mitten is in the briefcase."
+                    }
+                }
+            }
+        ],
+        "question": "After Hillary came back to the bedroom, where would Sabra think Hillary would look for the mitten?",
+        "answer": "briefcase.",
+        "belief": "False",
+        "question_type": "2ndA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Sabra and Hillary were hanging out in the bedroom.",
+            "They saw a briefcase and a bucket.",
+            "They found a mitten in the briefcase.",
+            "Hillary left the bedroom.",
+            "Sabra moved the mitten to the bucket."
+        ],
+        "memory_tracking": [
+            {
+                "sentence": "Sabra and Hillary were hanging out in the bedroom.",
+                "locations": {"Sabra": "bedroom", "Hillary": "bedroom"},
+                "beliefs": {
+                    "1-order": {
+                    },
+                    "higher-order": {}
+                }
+            },
+            {
+                "sentence": "They saw a briefcase and a bucket.",
+                "locations": {"Sabra": "bedroom", "Hillary": "bedroom"},
+                "beliefs": {
+                    "1-order": {
+                        "Sabra": "Believes there is a briefcase and a bucket.",
+                        "Hillary": "Believes there is a briefcase and a bucket."
+                    },
+                    "higher-order": {
+                        "Sabra": "Knows Hillary believes there is a briefcase and a bucket.",
+                        "Hillary": "Knows Sabra believes there is a briefcase and a bucket."
+                    }
+                }
+            },
+            {
+                "sentence": "They found a mitten in the briefcase.",
+                "locations": {"Sabra": "bedroom", "Hillary": "bedroom", "mitten": "briefcase"},
+                "beliefs": {
+                    "1-order": {
+                        "Sabra": "Believes there is a briefcase and a bucket and believes mitten is in the briefcase.",
+                        "Hillary": "Believes there is a briefcase and a bucket and believes mitten is in the briefcase."
+                    },
+                    "higher-order": {
+                        "Sabra": "Knows Hillary believes there is a briefcase and a bucket and Hillary believes mitten is in the briefcase.",
+                        "Hillary": "Knows Sabra believes there is a briefcase and a bucket and Sabra believes mitten is in the briefcase."
+                    }
+                }
+            },
+            {
+                "sentence": "Hillary left the bedroom.",
+                "locations": {"Sabra": "bedroom", "Hillary": "outside bedroom", "mitten": "briefcase"},
+                "beliefs": {
+                    "1-order": {
+                        "Sabra": "Believes there is a briefcase and a bucket and believes mitten is in the briefcase.",
+                        "Hillary": "Believes there is a briefcase and a bucket and believes mitten is in the briefcase."
+                    },
+                    "higher-order": {
+                        "Sabra": "Knows Hillary believes there is a briefcase and a bucket and Hillary believes mitten is in the briefcase.",
+                        "Hillary": "Knows Sabra believes there is a briefcase and a bucket and Sabra believes mitten is in the briefcase."
+                    }
+                }
+            },
+            {
+                "sentence": "Sabra moved the mitten to the bucket.",
+                "locations": {"Sabra": "bedroom", "Hillary": "outside bedroom", "mitten": "bucket"},
+                "beliefs": {
+                    "1-order": {
+                        "Sabra": "Believes there is a briefcase and a bucket and believes mitten is in the bucket.",
+                        "Hillary": "Believes there is a briefcase and a bucket and believes mitten is in the briefcase."
+                    },
+                    "higher-order": {
+                        "Sabra": "Knows Hillary believes there is a briefcase and a bucket and Hillary believes mitten is in the briefcase.",
+                        "Hillary": "Knows Sabra believes there is a briefcase and a bucket and Sabra believes mitten is in the briefcase."
+                    }
+                }
+            }
+        ],
+        "question": "After Hillary came back to the bedroom, where would Hillary think Sabra would look for the mitten?",
+        "answer": "briefcase.",
+        "belief": "False",
+        "question_type": "2ndB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Cassandre and Norina were hanging out in the study.",
+            "They saw a box and a crate.",
+            "They found a torch in the box.",
+            "Norina left the study.",
+            "Cassandre moved the torch to the crate."
+        ],
+        "memory_tracking": [
+            {
+                "sentence": "Cassandre and Norina were hanging out in the study.",
+                "locations": {"Cassandre": "study", "Norina": "study"},
+                "beliefs": {
+                    "1-order": {
+                    },
+                    "higher-order": {}
+                }
+            },
+            {
+                "sentence": "They saw a box and a crate.",
+                "locations": {"Cassandre": "study", "Norina": "study"},
+                "beliefs": {
+                    "1-order": {
+                        "Cassandre": "Believes there is a box and a crate.",
+                        "Norina": "Believes there is a box and a crate."
+                    },
+                    "higher-order": {
+                        "Cassandre": "Knows Norina believes there is a box and a crate.",
+                        "Norina": "Knows Cassandre believes there is a box and a crate."
+                    }
+                }
+            },
+            {
+                "sentence": "They found a torch in the box.",
+                "locations": {"Cassandre": "study", "Norina": "study", "torch": "box"},
+                "beliefs": {
+                    "1-order": {
+                        "Cassandre": "Believes there is a box and a crate and believes the torch is in the box.",
+                        "Norina": "Believes there is a box and a crate and believes the torch is in the box."
+                    },
+                    "higher-order": {
+                        "Cassandre": "Knows Norina believes there is a box and a crate and Norina believes the torch is in the box.",
+                        "Norina": "Knows Cassandre believes there is a box and a crate and Cassandre believes the torch is in the box."
+                    }
+                }
+            },
+            {
+                "sentence": "Norina left the study.",
+                "locations": {"Cassandre": "study", "Norina": "outside study", "torch": "box"},
+                "beliefs": {
+                    "1-order": {
+                        "Cassandre": "Believes there is a box and a crate and believes the torch is in the box.",
+                        "Norina": "Believes there is a box and a crate and believes the torch is in the box."
+                    },
+                    "higher-order": {
+                        "Cassandre": "Knows Norina believes there is a box and a crate and Norina believes the torch is in the box.",
+                        "Norina": "Knows Cassandre believes there is a box and a crate and Cassandre believes the torch is in the box."
+                    }
+                }
+            },
+            {
+                "sentence": "Cassandre moved the torch to the crate.",
+                "locations": {"Cassandre": "study", "Norina": "outside study", "torch": "crate"},
+                "beliefs": {
+                    "1-order": {
+                        "Cassandre": "Believes there is a box and a crate and believes the torch is in the crate.",
+                        "Norina": "Believes there is a box and a crate and believes the torch is in the box."
+                    },
+                    "higher-order": {
+                        "Cassandre": "Knows Norina believes there is a box and a crate and Norina believes the torch is in the box.",
+                        "Norina": "Knows Cassandre believes there is a box and a crate and Cassandre believes the torch is in the box."
+                    }
+                }
+            }
+        ],
+        "question": "Where is the torch?",
+        "answer": "crate.",
+        "belief": "False",
+        "question_type": "reality",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Cassandre and Norina were hanging out in the study.",
+            "They saw a box and a crate.",
+            "They found a torch in the box.",
+            "Norina left the study.",
+            "Cassandre moved the torch to the crate."
+        ],
+        "memory_tracking": [
+            {
+                "sentence": "Cassandre and Norina were hanging out in the study.",
+                "locations": {"Cassandre": "study", "Norina": "study"},
+                "beliefs": {
+                    "1-order": {
+                    },
+                    "higher-order": {}
+                }
+            },
+            {
+                "sentence": "They saw a box and a crate.",
+                "locations": {"Cassandre": "study", "Norina": "study"},
+                "beliefs": {
+                    "1-order": {
+                        "Cassandre": "Believes there is a box and a crate.",
+                        "Norina": "Believes there is a box and a crate."
+                    },
+                    "higher-order": {
+                        "Cassandre": "Knows Norina believes there is a box and a crate.",
+                        "Norina": "Knows Cassandre believes there is a box and a crate."
+                    }
+                }
+            },
+            {
+                "sentence": "They found a torch in the box.",
+                "locations": {"Cassandre": "study", "Norina": "study", "torch": "box"},
+                "beliefs": {
+                    "1-order": {
+                        "Cassandre": "Believes there is a box and a crate and believes the torch is in the box.",
+                        "Norina": "Believes there is a box and a crate and believes the torch is in the box."
+                    },
+                    "higher-order": {
+                        "Cassandre": "Knows Norina believes there is a box and a crate and Norina believes the torch is in the box.",
+                        "Norina": "Knows Cassandre believes there is a box and a crate and Cassandre believes the torch is in the box."
+                    }
+                }
+            },
+            {
+                "sentence": "Norina left the study.",
+                "locations": {"Cassandre": "study", "Norina": "outside study", "torch": "box"},
+                "beliefs": {
+                    "1-order": {
+                        "Cassandre": "Believes there is a box and a crate and believes the torch is in the box.",
+                        "Norina": "Believes there is a box and a crate and believes the torch is in the box."
+                    },
+                    "higher-order": {
+                        "Cassandre": "Knows Norina believes there is a box and a crate and Norina believes the torch is in the box.",
+                        "Norina": "Knows Cassandre believes there is a box and a crate and Cassandre believes the torch is in the box."
+                    }
+                }
+            },
+            {
+                "sentence": "Cassandre moved the torch to the crate.",
+                "locations": {"Cassandre": "study", "Norina": "outside study", "torch": "crate"},
+                "beliefs": {
+                    "1-order": {
+                        "Cassandre": "Believes there is a box and a crate and believes the torch is in the crate.",
+                        "Norina": "Believes there is a box and a crate and believes the torch is in the box."
+                    },
+                    "higher-order": {
+                        "Cassandre": "Knows Norina believes there is a box and a crate and Norina believes the torch is in the box.",
+                        "Norina": "Knows Cassandre believes there is a box and a crate and Cassandre believes the torch is in the box."
+                    }
+                }
+            }
+        ],
+        "question": "After Norina came back to the study, where would Norina look for the torch?",
+        "answer": "box.",
+        "belief": "False",
+        "question_type": "1stB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Cassandre and Norina were hanging out in the study.",
+            "They saw a box and a crate.",
+            "They found a torch in the box.",
+            "Norina left the study.",
+            "Cassandre moved the torch to the crate."
+        ],
+        "memory_tracking": [
+            {
+                "sentence": "Cassandre and Norina were hanging out in the study.",
+                "locations": {"Cassandre": "study", "Norina": "study"},
+                "beliefs": {
+                    "1-order": {
+                    },
+                    "higher-order": {}
+                }
+            },
+            {
+                "sentence": "They saw a box and a crate.",
+                "locations": {"Cassandre": "study", "Norina": "study"},
+                "beliefs": {
+                    "1-order": {
+                        "Cassandre": "Believes there is a box and a crate.",
+                        "Norina": "Believes there is a box and a crate."
+                    },
+                    "higher-order": {
+                        "Cassandre": "Knows Norina believes there is a box and a crate.",
+                        "Norina": "Knows Cassandre believes there is a box and a crate."
+                    }
+                }
+            },
+            {
+                "sentence": "They found a torch in the box.",
+                "locations": {"Cassandre": "study", "Norina": "study", "torch": "box"},
+                "beliefs": {
+                    "1-order": {
+                        "Cassandre": "Believes there is a box and a crate and believes the torch is in the box.",
+                        "Norina": "Believes there is a box and a crate and believes the torch is in the box."
+                    },
+                    "higher-order": {
+                        "Cassandre": "Knows Norina believes there is a box and a crate and Norina believes the torch is in the box.",
+                        "Norina": "Knows Cassandre believes there is a box and a crate and Cassandre believes the torch is in the box."
+                    }
+                }
+            },
+            {
+                "sentence": "Norina left the study.",
+                "locations": {"Cassandre": "study", "Norina": "outside study", "torch": "box"},
+                "beliefs": {
+                    "1-order": {
+                        "Cassandre": "Believes there is a box and a crate and believes the torch is in the box.",
+                        "Norina": "Believes there is a box and a crate and believes the torch is in the box."
+                    },
+                    "higher-order": {
+                        "Cassandre": "Knows Norina believes there is a box and a crate and Norina believes the torch is in the box.",
+                        "Norina": "Knows Cassandre believes there is a box and a crate and Cassandre believes the torch is in the box."
+                    }
+                }
+            },
+            {
+                "sentence": "Cassandre moved the torch to the crate.",
+                "locations": {"Cassandre": "study", "Norina": "outside study", "torch": "crate"},
+                "beliefs": {
+                    "1-order": {
+                        "Cassandre": "Believes there is a box and a crate and believes the torch is in the crate.",
+                        "Norina": "Believes there is a box and a crate and believes the torch is in the box."
+                    },
+                    "higher-order": {
+                        "Cassandre": "Knows Norina believes there is a box and a crate and Norina believes the torch is in the box.",
+                        "Norina": "Knows Cassandre believes there is a box and a crate and Cassandre believes the torch is in the box."
+                    }
+                }
+            }
+        ],
+        "question": "After Norina came back to the study, where would Cassandre look for the torch?",
+        "answer": "crate.",
+        "belief": "False",
+        "question_type": "1stA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Cassandre and Norina were hanging out in the study.",
+            "They saw a box and a crate.",
+            "They found a torch in the box.",
+            "Norina left the study.",
+            "Cassandre moved the torch to the crate."
+        ],
+        "memory_tracking": [
+            {
+                "sentence": "Cassandre and Norina were hanging out in the study.",
+                "locations": {"Cassandre": "study", "Norina": "study"},
+                "beliefs": {
+                    "1-order": {
+                    },
+                    "higher-order": {}
+                }
+            },
+            {
+                "sentence": "They saw a box and a crate.",
+                "locations": {"Cassandre": "study", "Norina": "study"},
+                "beliefs": {
+                    "1-order": {
+                        "Cassandre": "Believes there is a box and a crate.",
+                        "Norina": "Believes there is a box and a crate."
+                    },
+                    "higher-order": {
+                        "Cassandre": "Knows Norina believes there is a box and a crate.",
+                        "Norina": "Knows Cassandre believes there is a box and a crate."
+                    }
+                }
+            },
+            {
+                "sentence": "They found a torch in the box.",
+                "locations": {"Cassandre": "study", "Norina": "study", "torch": "box"},
+                "beliefs": {
+                    "1-order": {
+                        "Cassandre": "Believes there is a box and a crate and believes the torch is in the box.",
+                        "Norina": "Believes there is a box and a crate and believes the torch is in the box."
+                    },
+                    "higher-order": {
+                        "Cassandre": "Knows Norina believes there is a box and a crate and Norina believes the torch is in the box.",
+                        "Norina": "Knows Cassandre believes there is a box and a crate and Cassandre believes the torch is in the box."
+                    }
+                }
+            },
+            {
+                "sentence": "Norina left the study.",
+                "locations": {"Cassandre": "study", "Norina": "outside study", "torch": "box"},
+                "beliefs": {
+                    "1-order": {
+                        "Cassandre": "Believes there is a box and a crate and believes the torch is in the box.",
+                        "Norina": "Believes there is a box and a crate and believes the torch is in the box."
+                    },
+                    "higher-order": {
+                        "Cassandre": "Knows Norina believes there is a box and a crate and Norina believes the torch is in the box.",
+                        "Norina": "Knows Cassandre believes there is a box and a crate and Cassandre believes the torch is in the box."
+                    }
+                }
+            },
+            {
+                "sentence": "Cassandre moved the torch to the crate.",
+                "locations": {"Cassandre": "study", "Norina": "outside study", "torch": "crate"},
+                "beliefs": {
+                    "1-order": {
+                        "Cassandre": "Believes there is a box and a crate and believes the torch is in the crate.",
+                        "Norina": "Believes there is a box and a crate and believes the torch is in the box."
+                    },
+                    "higher-order": {
+                        "Cassandre": "Knows Norina believes there is a box and a crate and Norina believes the torch is in the box.",
+                        "Norina": "Knows Cassandre believes there is a box and a crate and Cassandre believes the torch is in the box."
+                    }
+                }
+            }
+        ],
+        "question": "After Norina came back to the study, where would Cassandre think Norina would look for the torch?",
+        "answer": "box.",
+        "belief": "False",
+        "question_type": "2ndA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Cassandre and Norina were hanging out in the study.",
+            "They saw a box and a crate.",
+            "They found a torch in the box.",
+            "Norina left the study.",
+            "Cassandre moved the torch to the crate."
+        ],
+        "memory_tracking": [
+            {
+                "sentence": "Cassandre and Norina were hanging out in the study.",
+                "locations": {"Cassandre": "study", "Norina": "study"},
+                "beliefs": {
+                    "1-order": {
+                    },
+                    "higher-order": {}
+                }
+            },
+            {
+                "sentence": "They saw a box and a crate.",
+                "locations": {"Cassandre": "study", "Norina": "study"},
+                "beliefs": {
+                    "1-order": {
+                        "Cassandre": "Believes there is a box and a crate.",
+                        "Norina": "Believes there is a box and a crate."
+                    },
+                    "higher-order": {
+                        "Cassandre": "Knows Norina believes there is a box and a crate.",
+                        "Norina": "Knows Cassandre believes there is a box and a crate."
+                    }
+                }
+            },
+            {
+                "sentence": "They found a torch in the box.",
+                "locations": {"Cassandre": "study", "Norina": "study", "torch": "box"},
+                "beliefs": {
+                    "1-order": {
+                        "Cassandre": "Believes there is a box and a crate and believes the torch is in the box.",
+                        "Norina": "Believes there is a box and a crate and believes the torch is in the box."
+                    },
+                    "higher-order": {
+                        "Cassandre": "Knows Norina believes there is a box and a crate and Norina believes the torch is in the box.",
+                        "Norina": "Knows Cassandre believes there is a box and a crate and Cassandre believes the torch is in the box."
+                    }
+                }
+            },
+            {
+                "sentence": "Norina left the study.",
+                "locations": {"Cassandre": "study", "Norina": "outside study", "torch": "box"},
+                "beliefs": {
+                    "1-order": {
+                        "Cassandre": "Believes there is a box and a crate and believes the torch is in the box.",
+                        "Norina": "Believes there is a box and a crate and believes the torch is in the box."
+                    },
+                    "higher-order": {
+                        "Cassandre": "Knows Norina believes there is a box and a crate and Norina believes the torch is in the box.",
+                        "Norina": "Knows Cassandre believes there is a box and a crate and Cassandre believes the torch is in the box."
+                    }
+                }
+            },
+            {
+                "sentence": "Cassandre moved the torch to the crate.",
+                "locations": {"Cassandre": "study", "Norina": "outside study", "torch": "crate"},
+                "beliefs": {
+                    "1-order": {
+                        "Cassandre": "Believes there is a box and a crate and believes the torch is in the crate.",
+                        "Norina": "Believes there is a box and a crate and believes the torch is in the box."
+                    },
+                    "higher-order": {
+                        "Cassandre": "Knows Norina believes there is a box and a crate and Norina believes the torch is in the box.",
+                        "Norina": "Knows Cassandre believes there is a box and a crate and Cassandre believes the torch is in the box."
+                    }
+                }
+            }
+        ],
+        "question": "After Norina came back to the study, where would Norina think Cassandre would look for the torch?",
+        "answer": "box.",
+        "belief": "False",
+        "question_type": "2ndB",
+        "category": "False"
+    }
+]

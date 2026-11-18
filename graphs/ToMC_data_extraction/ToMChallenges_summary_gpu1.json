@@ -1,0 +1,446 @@
+{
+    "Sally-Anne_qwen3-30b_": [
+        {
+            "question_type": "reality",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stB",
+            "samples": 30,
+            "corrects": 28,
+            "accuracy": 0.9333,
+            "not_answered": 1
+        },
+        {
+            "question_type": "1stA",
+            "samples": 30,
+            "corrects": 28,
+            "accuracy": 0.9333,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndA",
+            "samples": 30,
+            "corrects": 29,
+            "accuracy": 0.9667,
+            "not_answered": 1
+        },
+        {
+            "question_type": "2ndB",
+            "samples": 30,
+            "corrects": 25,
+            "accuracy": 0.8333,
+            "not_answered": 2
+        }
+    ],
+    "Sally-Anne_qwen3-30b_CoT": [
+        {
+            "question_type": "reality",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stB",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stA",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndA",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndB",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        }
+    ],
+    "Sally-Anne_qwen3-30b_Complete": [
+        {
+            "question_type": "reality",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stB",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stA",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndA",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndB",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        }
+    ],
+    "Sally-Anne_qwen3-30b_standard": [
+        {
+            "question_type": "reality",
+            "samples": 30,
+            "corrects": 20,
+            "accuracy": 0.6667,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stB",
+            "samples": 30,
+            "corrects": 2,
+            "accuracy": 0.0667,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stA",
+            "samples": 30,
+            "corrects": 16,
+            "accuracy": 0.5333,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndA",
+            "samples": 30,
+            "corrects": 4,
+            "accuracy": 0.1333,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndB",
+            "samples": 30,
+            "corrects": 1,
+            "accuracy": 0.0333,
+            "not_answered": 0
+        }
+    ],
+    "Sally-Anne_qwen3-30b_obj_location": [
+        {
+            "question_type": "reality",
+            "samples": 30,
+            "corrects": 27,
+            "accuracy": 0.9,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stB",
+            "samples": 30,
+            "corrects": 0,
+            "accuracy": 0.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stA",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndA",
+            "samples": 30,
+            "corrects": 0,
+            "accuracy": 0.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndB",
+            "samples": 30,
+            "corrects": 0,
+            "accuracy": 0.0,
+            "not_answered": 0
+        }
+    ],
+    "Sally-Anne_qwen3-30b_obj_location_NEW": [
+        {
+            "question_type": "reality",
+            "samples": 30,
+            "corrects": 28,
+            "accuracy": 0.9333,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stB",
+            "samples": 30,
+            "corrects": 0,
+            "accuracy": 0.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stA",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndA",
+            "samples": 30,
+            "corrects": 0,
+            "accuracy": 0.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndB",
+            "samples": 30,
+            "corrects": 0,
+            "accuracy": 0.0,
+            "not_answered": 0
+        }
+    ],
+    "Sally-Anne_qwen2.5-72b_": [
+        {
+            "question_type": "reality",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stB",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stA",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndA",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndB",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        }
+    ],
+    "Sally-Anne_qwen2.5-72b_CoT": [
+        {
+            "question_type": "reality",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stB",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stA",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndA",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndB",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        }
+    ],
+    "Sally-Anne_qwen2.5-72b_Complete": [
+        {
+            "question_type": "reality",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stB",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stA",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndA",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndB",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        }
+    ],
+    "Sally-Anne_qwen2.5-72b_standard": [
+        {
+            "question_type": "reality",
+            "samples": 30,
+            "corrects": 24,
+            "accuracy": 0.8,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stB",
+            "samples": 30,
+            "corrects": 8,
+            "accuracy": 0.2667,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stA",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndA",
+            "samples": 30,
+            "corrects": 6,
+            "accuracy": 0.2,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndB",
+            "samples": 30,
+            "corrects": 1,
+            "accuracy": 0.0333,
+            "not_answered": 0
+        }
+    ],
+    "Sally-Anne_qwen2.5-72b_obj_location": [
+        {
+            "question_type": "reality",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stB",
+            "samples": 30,
+            "corrects": 0,
+            "accuracy": 0.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stA",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndA",
+            "samples": 30,
+            "corrects": 0,
+            "accuracy": 0.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndB",
+            "samples": 30,
+            "corrects": 0,
+            "accuracy": 0.0,
+            "not_answered": 0
+        }
+    ],
+    "Sally-Anne_qwen2.5-72b_obj_location_NEW": [
+        {
+            "question_type": "reality",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stB",
+            "samples": 30,
+            "corrects": 0,
+            "accuracy": 0.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1stA",
+            "samples": 30,
+            "corrects": 30,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndA",
+            "samples": 30,
+            "corrects": 0,
+            "accuracy": 0.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "2ndB",
+            "samples": 30,
+            "corrects": 0,
+            "accuracy": 0.0,
+            "not_answered": 0
+        }
+    ]
+}

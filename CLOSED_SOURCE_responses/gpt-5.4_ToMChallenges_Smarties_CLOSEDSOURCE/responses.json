@@ -1,0 +1,1262 @@
+[
+    {
+        "raw_output": "Neila first only saw the label saying \"plate,\" but then she opened the bag and discovered the actual contents. The story states clearly that she found a vest and that there was no plate in the bag. So the bag contained a vest. Therefore, the answer is \\answer{{vest}}.",
+        "prediction": "vest",
+        "gold": "vest",
+        "correct": true,
+        "category": "reality"
+    },
+    {
+        "raw_output": "The label on the bag says \"plate,\" which indicates what was supposed to be in it, even though Neila found a vest instead. Therefore, the answer is \\answer{{plate}}.",
+        "prediction": "plate",
+        "gold": "plate",
+        "correct": true,
+        "category": "assumption"
+    },
+    {
+        "raw_output": "Juanita did not see inside the bag. She only saw the bag with the label that says plate, so she would use that information to form her belief about what is inside. Therefore, she would expect to find a plate. \\answer{{plate}}",
+        "prediction": "plate",
+        "gold": "plate",
+        "correct": true,
+        "category": "1stB"
+    },
+    {
+        "raw_output": "Neila opened the bag and saw what was really inside. She found a vest and knows there is no plate in the bag. Therefore, if asked what she would expect to find in the bag, she would expect the actual contents: \\answer{vest}",
+        "prediction": "vest",
+        "gold": "vest",
+        "correct": true,
+        "category": "1stA"
+    },
+    {
+        "raw_output": "Juanita did not see inside the bag, but she knows Neila had seen the label before opening it. Since the label says plate, Juanita would think Neila originally expected to find a plate in the bag. Therefore, the answer is \\answer{{plate}}.",
+        "prediction": "plate",
+        "gold": "plate",
+        "correct": true,
+        "category": "2ndB"
+    },
+    {
+        "raw_output": "Neila knows the bag’s label says \"plate.\" Juanita only saw the bag and did not look inside. So Neila would think Juanita expects the labeled item to be in the bag. Therefore, the answer is \\answer{{plate}}.",
+        "prediction": "plate",
+        "gold": "plate",
+        "correct": true,
+        "category": "2ndA"
+    },
+    {
+        "raw_output": "Sabra first saw a backpack with a label saying “fork,” but labels can be wrong. She then opened the backpack and discovered the actual contents: a pepper, and explicitly there was no fork inside. After she closed it and put it back, Hillary only saw the backpack, but the question asks what was in the backpack, not what Hillary believes.\n\nTherefore, the answer is \\answer{{pepper}}.",
+        "prediction": "pepper",
+        "gold": "pepper",
+        "correct": true,
+        "category": "reality"
+    },
+    {
+        "raw_output": "The label on the backpack says \"fork,\" which indicates what was supposed to be inside. Sabra later discovered the actual contents were different, but the question asks what was supposed to be in the backpack. Therefore, the answer is \\answer{fork}.",
+        "prediction": "fork",
+        "gold": "fork",
+        "correct": true,
+        "category": "assumption"
+    },
+    {
+        "raw_output": "Hillary only saw the backpack in the bedroom and did not see inside it. The label on the backpack says \"fork,\" so based on that visible information, Hillary would expect the backpack to contain a fork. Therefore, the answer is \\answer{{fork}}.",
+        "prediction": "fork",
+        "gold": "fork",
+        "correct": true,
+        "category": "1stB"
+    },
+    {
+        "raw_output": "Sabra first saw a backpack with a label that said \"fork,\" so before opening it, that label suggested a fork. Then Sabra opened the backpack and directly saw that it actually contained a pepper, and also learned there was no fork inside. After closing it, Sabra's belief about the contents would be based on what Sabra actually saw. Therefore, Sabra would expect to find a pepper in the backpack.\n\n\\answer{{pepper}}",
+        "prediction": "pepper",
+        "gold": "pepper",
+        "correct": true,
+        "category": "1stA"
+    },
+    {
+        "raw_output": "Sabra first saw a backpack labeled \"fork\" and, before opening it, would have expected a fork inside based on the label. Hillary did not witness Sabra open the backpack, so Hillary would think Sabra's expectation was based on the label. Therefore, the answer is \\answer{{fork}}.",
+        "prediction": "fork",
+        "gold": "fork",
+        "correct": true,
+        "category": "2ndB"
+    },
+    {
+        "raw_output": "Hillary only saw the backpack and its label, not what was inside. Sabra knows the label says \"fork,\" and Sabra knows Hillary did not look inside. So Sabra would think Hillary expects to find a fork in the backpack. Therefore, the answer is \\answer{{fork}}.",
+        "prediction": "fork",
+        "gold": "fork",
+        "correct": true,
+        "category": "2ndA"
+    },
+    {
+        "raw_output": "Cassandre first saw a bin labeled \"hoodie,\" but labels can be wrong. She then opened it and directly observed the actual contents: a skirt, and no hoodie. After she closed it, Norina entered, but that does not change what was inside. Therefore, the item in the bin was a skirt. \\answer{{skirt}}",
+        "prediction": "skirt",
+        "gold": "skirt",
+        "correct": true,
+        "category": "reality"
+    },
+    {
+        "raw_output": "The label on the bin says \"hoodie,\" so that is what was supposed to be in it. Therefore, the answer is \\answer{hoodie}.",
+        "prediction": "hoodie",
+        "gold": "hoodie",
+        "correct": true,
+        "category": "assumption"
+    },
+    {
+        "raw_output": "Norina only saw the bin and its label, and did not see inside it. The label says \"hoodie,\" so she would expect the bin to contain a hoodie. Therefore, the answer is \\answer{{hoodie}}.",
+        "prediction": "hoodie",
+        "gold": "hoodie",
+        "correct": true,
+        "category": "1stB"
+    },
+    {
+        "raw_output": "Cassandre opened the bin and directly saw what was actually inside it: a skirt. Since she discovered there was no hoodie in the bin, her expectation about the contents is based on her own knowledge, not the label. Therefore, she would expect to find a skirt in the bin.\n\n\\answer{{skirt}}",
+        "prediction": "skirt",
+        "gold": "skirt",
+        "correct": true,
+        "category": "1stA"
+    },
+    {
+        "raw_output": "Cassandre initially saw a bin labeled “hoodie,” so before opening it, she would expect a hoodie inside. Even though Cassandre later discovered a skirt, Norina is being asked what she would think Cassandre would expect to find in the bin, based on the label. Therefore, the answer is \\answer{{hoodie}}.",
+        "prediction": "hoodie",
+        "gold": "hoodie",
+        "correct": true,
+        "category": "2ndB"
+    },
+    {
+        "raw_output": "Cassandre knows the bin is labeled “hoodie.” Although Cassandre discovered the actual contents are a skirt, Norina has only seen the bin and its label and did not look inside. So Cassandre would think Norina expects to find a hoodie in the bin. Therefore, the answer is \\answer{{hoodie}}.",
+        "prediction": "hoodie",
+        "gold": "hoodie",
+        "correct": true,
+        "category": "2ndA"
+    },
+    {
+        "raw_output": "Clio opened the box and directly observed its contents. Inside was a plate, and the story explicitly says there was no key in the box. Therefore, the object in the box was a plate. \\answer{{plate}}",
+        "prediction": "plate",
+        "gold": "plate",
+        "correct": true,
+        "category": "reality"
+    },
+    {
+        "raw_output": "The label on the box says \"key,\" which indicates what was supposed to be inside. Even though Clio found a plate, the question asks what was supposed to be in the box. Therefore, the answer is \\answer{key}.",
+        "prediction": "key",
+        "gold": "key",
+        "correct": true,
+        "category": "assumption"
+    },
+    {
+        "raw_output": "Daphene only saw the box and its label, and did not see inside it. The label says \"key,\" so she would expect the box to contain a key. Therefore, the answer is \\answer{{key}}.",
+        "prediction": "key",
+        "gold": "key",
+        "correct": true,
+        "category": "1stB"
+    },
+    {
+        "raw_output": "Clio first saw a box labeled “key,” but then she opened it and discovered that it actually contained a plate and no key. So Clio’s belief was updated by direct observation. Therefore, Clio would expect to find a plate in the box.\n\n\\answer{{plate}}",
+        "prediction": "plate",
+        "gold": "plate",
+        "correct": true,
+        "category": "1stA"
+    },
+    {
+        "raw_output": "Clio first saw a box labeled \"key\" and could not see inside, so before opening it Clio would expect a key. Daphene enters later and would think about Clio’s earlier expectation based on the label. Therefore, the answer is \\answer{{key}}.",
+        "prediction": "key",
+        "gold": "key",
+        "correct": true,
+        "category": "2ndB"
+    },
+    {
+        "raw_output": "Clio knows Daphene only saw the box and its label, and did not see inside. The label says \"key,\" so Clio would think Daphene expects the box to contain a key. Therefore, the answer is \\answer{{key}}.",
+        "prediction": "key",
+        "gold": "key",
+        "correct": true,
+        "category": "2ndA"
+    },
+    {
+        "raw_output": "Melania first saw a briefcase with a label that said \"vest,\" but labels can be misleading. She then opened the briefcase and discovered the actual contents: a pencil. The story explicitly says there is no vest in the briefcase. Therefore, when asked what was in the briefcase, the correct object is the pencil.\n\n\\answer{{pencil}}",
+        "prediction": "pencil",
+        "gold": "pencil",
+        "correct": true,
+        "category": "reality"
+    },
+    {
+        "raw_output": "The label on the briefcase says \"vest,\" which indicates what was supposed to be inside. Even though Melania found a pencil, the expected item was the one on the label. Therefore, the answer is \\answer{vest}.",
+        "prediction": "vest",
+        "gold": "vest",
+        "correct": true,
+        "category": "assumption"
+    },
+    {
+        "raw_output": "Krysta did not see inside the briefcase. She only saw the briefcase with the label saying \"vest.\" So she would use the label to form her belief about what is inside. Therefore, she would expect to find a vest.\n\n\\answer{{vest}}",
+        "prediction": "vest",
+        "gold": "vest",
+        "correct": true,
+        "category": "1stB"
+    },
+    {
+        "raw_output": "Melania first saw a briefcase labeled “vest,” so before opening it she might have expected a vest. But then she opened it and discovered that it actually contained a pencil and no vest. After closing it and putting it back, her own expectation about what is in the briefcase would be based on her updated knowledge. Therefore, she would expect to find a pencil in the briefcase.\n\n\\answer{{pencil}}",
+        "prediction": "pencil",
+        "gold": "pencil",
+        "correct": true,
+        "category": "1stA"
+    },
+    {
+        "raw_output": "Krysta did not see inside the briefcase. She saw a briefcase labeled “vest.” Krysta would think Melania, before opening it, expected the contents to match the label. So Krysta would think Melania would expect to find a vest in the briefcase. Therefore, the answer is \\answer{{vest}}.",
+        "prediction": "vest",
+        "gold": "vest",
+        "correct": true,
+        "category": "2ndB"
+    },
+    {
+        "raw_output": "Melania knows the briefcase’s label says “vest.” Krysta has only seen the briefcase and its label, and has not looked inside. So Melania would think Krysta expects the labeled item to be inside: a vest. Therefore, the answer is \\answer{{vest}}.",
+        "prediction": "vest",
+        "gold": "vest",
+        "correct": true,
+        "category": "2ndA"
+    },
+    {
+        "raw_output": "Hillary first saw a cabinet labeled “mask,” but she had not yet looked inside. When she opened it, she discovered the actual contents were a tape, and there was no mask inside. So when asked what was in the cabinet, the true contents were a tape. Therefore, the answer is \\answer{{tape}}.",
+        "prediction": "tape",
+        "gold": "tape",
+        "correct": true,
+        "category": "reality"
+    },
+    {
+        "raw_output": "The cabinet’s label says “mask,” which indicates what was supposed to be inside. Even though Hillary found a tape, the question asks what was supposed to be in the cabinet based on the label. Therefore, the answer is \\answer{{mask}}.",
+        "prediction": "mask",
+        "gold": "mask",
+        "correct": true,
+        "category": "assumption"
+    },
+    {
+        "raw_output": "Kathryne only saw the cabinet and its label, and did not see Hillary open it or discover the actual contents. So Kathryne would rely on the label \"mask\" and expect the cabinet to contain a mask. Therefore, the answer is \\answer{{mask}}.",
+        "prediction": "mask",
+        "gold": "mask",
+        "correct": true,
+        "category": "1stB"
+    },
+    {
+        "raw_output": "The cabinet is labeled \"mask,\" so before opening it Hillary would expect a mask. After opening it, Hillary discovered the cabinet actually contains a tape and no mask. Since the question asks what Hillary would expect to find in the cabinet, based on her updated knowledge she would expect the actual contents: \\answer{{tape}}",
+        "prediction": "tape",
+        "gold": "tape",
+        "correct": true,
+        "category": "1stA"
+    },
+    {
+        "raw_output": "The cabinet is labeled \"mask.\" Hillary initially would expect a mask before opening it, even though she later discovered a tape. Kathryne, seeing the cabinet and considering Hillary’s expectation from the label, would think Hillary would expect a **mask** in the cabinet. Therefore, the answer is \\answer{{mask}}.",
+        "prediction": "mask",
+        "gold": "mask",
+        "correct": true,
+        "category": "2ndB"
+    },
+    {
+        "raw_output": "Kathryne only saw the cabinet and its label, which says \"mask.\" Hillary knows Kathryne did not look inside, so Hillary would think Kathryne expects the labeled item to be inside. Therefore, the answer is \\answer{{mask}}.",
+        "prediction": "mask",
+        "gold": "mask",
+        "correct": true,
+        "category": "2ndA"
+    },
+    {
+        "raw_output": "Norina first saw only the label, but then she opened the chest and discovered its actual contents. Inside the chest was a coconut, and there was no ruler. Jobina only saw the chest, but the question asks what was in the chest, not what Jobina thinks.\n\nTherefore, the answer is \\answer{{coconut}}.",
+        "prediction": "coconut",
+        "gold": "coconut",
+        "correct": true,
+        "category": "reality"
+    },
+    {
+        "raw_output": "The chest’s label says “ruler,” which indicates what was supposed to be inside. Even though Norina found a coconut, the question asks what was supposed to be in the chest. Therefore, the answer is \\answer{{ruler}}.",
+        "prediction": "ruler",
+        "gold": "ruler",
+        "correct": true,
+        "category": "assumption"
+    },
+    {
+        "raw_output": "Jobina has not seen inside the chest. She only saw the chest, and the label says \"ruler.\" So she would use the label to form her expectation and think the chest contains a ruler. Therefore, the answer is \\answer{ruler}.",
+        "prediction": "ruler",
+        "gold": "ruler",
+        "correct": true,
+        "category": "1stB"
+    },
+    {
+        "raw_output": "Norina first saw a chest labeled “ruler,” but then she opened it and directly discovered that it actually contained a coconut and no ruler. Since Norina has firsthand knowledge of the true contents, she would expect the chest to contain the coconut. Therefore, the answer is \\answer{coconut}.",
+        "prediction": "coconut",
+        "gold": "coconut",
+        "correct": true,
+        "category": "1stA"
+    },
+    {
+        "raw_output": "Norina first saw a chest labeled “ruler” and, before opening it, would have expected a ruler inside. Even though Norina later discovered a coconut, Jobina is being asked what Norina would have expected to find. So Jobina would think Norina expected a ruler.\n\n\\answer{ruler}",
+        "prediction": "ruler",
+        "gold": "ruler",
+        "correct": true,
+        "category": "2ndB"
+    },
+    {
+        "raw_output": "The chest is labeled “ruler.” Norina knows the actual contents are a coconut, but Jobina has only seen the chest and its label, not inside it. So Norina would think Jobina expects the labeled item to be inside. Therefore, the answer is \\answer{{ruler}}.",
+        "prediction": "ruler",
+        "gold": "ruler",
+        "correct": true,
+        "category": "2ndA"
+    },
+    {
+        "raw_output": "Karalynn opened the coffer and directly observed its contents. She found that the label was misleading: although it said \"calculator,\" the actual item inside was a pepper, and there was no calculator in it. Clio only saw the coffer, but the question asks what was in the coffer, not what Clio thinks. Therefore, the answer is \\answer{{pepper}}.",
+        "prediction": "pepper",
+        "gold": "pepper",
+        "correct": true,
+        "category": "reality"
+    },
+    {
+        "raw_output": "The label on the coffer said calculator, which indicates what was supposed to be inside. Even though Karalynn found a pepper, the question asks what was supposed to be in the coffer. Therefore, the answer is \\answer{{calculator}}.",
+        "prediction": "calculator",
+        "gold": "calculator",
+        "correct": true,
+        "category": "assumption"
+    },
+    {
+        "raw_output": "Clio only saw the coffer and did not see inside it. The label on the coffer says \"calculator,\" so based on that visible information, Clio would expect the coffer to contain a calculator. Therefore, the answer is \\answer{{calculator}}.",
+        "prediction": "calculator",
+        "gold": "calculator",
+        "correct": true,
+        "category": "1stB"
+    },
+    {
+        "raw_output": "Karalynn first saw a coffer labeled calculator, but then she opened it and directly discovered that it actually contained a pepper and no calculator. Since she now knows what is really inside, she would expect to find the pepper in the coffer. Therefore, the answer is \\answer{{pepper}}.",
+        "prediction": "pepper",
+        "gold": "pepper",
+        "correct": true,
+        "category": "1stA"
+    },
+    {
+        "raw_output": "Karalynn first saw a coffer labeled \"calculator\" and had not yet looked inside, so she would initially expect a calculator. Clio, seeing the situation from the outside, would think that Karalynn would expect what the label indicates. Therefore, the answer is \\answer{{calculator}}.",
+        "prediction": "calculator",
+        "gold": "calculator",
+        "correct": true,
+        "category": "2ndB"
+    },
+    {
+        "raw_output": "Karalynn knows that Clio only saw the coffer and its label, and did not see inside it. So Karalynn would think Clio expects the item named on the label to be inside. Therefore, the answer is \\answer{{calculator}}.",
+        "prediction": "calculator",
+        "gold": "calculator",
+        "correct": true,
+        "category": "2ndA"
+    },
+    {
+        "raw_output": "Vera opened the chamber and directly observed its contents. Inside, she found a notebook, and the story explicitly says there was no cable in the chamber. Therefore, the item in the chamber was a notebook.\n\n\\answer{notebook}",
+        "prediction": "notebook",
+        "gold": "notebook",
+        "correct": true,
+        "category": "reality"
+    },
+    {
+        "raw_output": "The label on the chamber says \"cable,\" which indicates what was supposed to be inside. Even though Vera found a notebook instead, the expected contents were cable. Therefore, the answer is \\answer{{cable}}.",
+        "prediction": "cable",
+        "gold": "cable",
+        "correct": true,
+        "category": "assumption"
+    },
+    {
+        "raw_output": "Daphene only saw the chamber and its label. The label says \"cable,\" and Daphene did not witness Vera opening it or discovering the notebook. So Daphene would expect the chamber to contain what the label indicates. Therefore, the answer is \\answer{cable}.",
+        "prediction": "cable",
+        "gold": "cable",
+        "correct": true,
+        "category": "1stB"
+    },
+    {
+        "raw_output": "Vera first saw a chamber labeled \"cable,\" but then she opened it and discovered that it actually contained a notebook and no cable. Since Vera directly learned what was really inside, her expectation about the chamber’s contents would now be based on that knowledge. Therefore, the answer is \\answer{{notebook}}.",
+        "prediction": "notebook",
+        "gold": "notebook",
+        "correct": true,
+        "category": "1stA"
+    },
+    {
+        "raw_output": "Daphene knows Vera saw the label \"cable\" before opening the chamber, but Vera then opened it and discovered a notebook inside and no cable. So Vera’s expectation before opening was based on the label: she would expect a cable. Therefore, the answer is \\answer{{cable}}.",
+        "prediction": "cable",
+        "gold": "cable",
+        "correct": true,
+        "category": "2ndB"
+    },
+    {
+        "raw_output": "Vera knows the chamber’s label says \"cable.\" Daphene only saw the chamber and did not see inside it. So Vera would think Daphene expects the labeled item to be inside the chamber. Therefore, the answer is \\answer{{cable}}.",
+        "prediction": "cable",
+        "gold": "cable",
+        "correct": true,
+        "category": "2ndA"
+    },
+    {
+        "raw_output": "Sabra opened the locker and directly observed its contents. Inside, there was a mug, and explicitly no binder. So the object that was in the locker was a mug. Therefore, the answer is \\answer{{mug}}.",
+        "prediction": "mug",
+        "gold": "mug",
+        "correct": true,
+        "category": "reality"
+    },
+    {
+        "raw_output": "The label on the locker says \"binder,\" which indicates what was supposed to be inside. Even though Sabra found a mug, the expected item based on the label is binder. Therefore, the answer is \\answer{{binder}}.",
+        "prediction": "binder",
+        "gold": "binder",
+        "correct": true,
+        "category": "assumption"
+    },
+    {
+        "raw_output": "Melania only saw the locker from the outside and did not see inside it. The label on the locker says \"binder,\" so based on that visible information, she would expect a binder to be inside. Therefore, the answer is \\answer{binder}.",
+        "prediction": "binder",
+        "gold": "binder",
+        "correct": true,
+        "category": "1stB"
+    },
+    {
+        "raw_output": "Sabra first saw a locker labeled \"binder,\" so before opening it, Sabra would expect a binder inside. After opening it, Sabra discovered that the locker actually contained a mug and no binder. Since the question asks what Sabra would expect to find in the locker, we use Sabra’s updated knowledge after looking inside. Therefore, Sabra would expect to find the mug again.\n\n\\answer{{mug}}",
+        "prediction": "mug",
+        "gold": "mug",
+        "correct": true,
+        "category": "1stA"
+    },
+    {
+        "raw_output": "Sabra first saw a locker labeled “binder,” and before opening it, Sabra would expect a binder inside based on the label. Melania, seeing the labeled locker, would think Sabra had that expectation. Therefore, the answer is \\answer{{binder}}.",
+        "prediction": "binder",
+        "gold": "binder",
+        "correct": true,
+        "category": "2ndB"
+    },
+    {
+        "raw_output": "The locker is labeled \"binder,\" and Melania has only seen the locker from the outside. Sabra knows the true contents are a mug, but Sabra would expect Melania to rely on the label. Therefore, Sabra would think Melania expects to find a binder in the locker. \\answer{{binder}}",
+        "prediction": "binder",
+        "gold": "binder",
+        "correct": true,
+        "category": "2ndA"
+    },
+    {
+        "raw_output": "Clio first saw a suitcase with a label that said “cup,” but labels can be misleading. She then opened the suitcase and actually found a cucumber inside. The story explicitly says there is no cup in the suitcase. Felicity only sees the suitcase later, which does not change what is really inside it. Therefore, the answer is \\answer{cucumber}.",
+        "prediction": "cucumber",
+        "gold": "cucumber",
+        "correct": true,
+        "category": "reality"
+    },
+    {
+        "raw_output": "The suitcase’s label says “cup,” which indicates what was supposed to be inside. Clio later found a cucumber, but that was not what was supposed to be there. Therefore, the answer is \\answer{{cup}}.",
+        "prediction": "cup",
+        "gold": "cup",
+        "correct": true,
+        "category": "assumption"
+    },
+    {
+        "raw_output": "Felicity only saw the suitcase and did not see inside it. The label on the suitcase says \"cup,\" so based on the available information, she would expect the suitcase to contain a cup. Therefore, the answer is \\answer{{cup}}.",
+        "prediction": "cup",
+        "gold": "cup",
+        "correct": true,
+        "category": "1stB"
+    },
+    {
+        "raw_output": "Clio first saw a suitcase labeled “cup,” but then opened it and discovered the actual contents: a cucumber, with no cup inside. Since Clio now knows what is really in the suitcase, Clio would expect to find the cucumber in it.\n\n\\answer{{cucumber}}",
+        "prediction": "cucumber",
+        "gold": "cucumber",
+        "correct": true,
+        "category": "1stA"
+    },
+    {
+        "raw_output": "Clio initially saw a suitcase with a label that says cup, and before opening it, she would expect a cup inside. Felicity did not see the inside of the suitcase, so she would think about Clio’s expectation based on the label. Therefore, Felicity would think Clio would expect to find a \\answer{{cup}}.",
+        "prediction": "cup",
+        "gold": "cup",
+        "correct": true,
+        "category": "2ndB"
+    },
+    {
+        "raw_output": "Clio knows the suitcase’s label says “cup.” Felicity only saw the suitcase and did not look inside. So Clio would think Felicity expects the labeled item to be inside. Therefore, the answer is \\answer{{cup}}.",
+        "prediction": "cup",
+        "gold": "cup",
+        "correct": true,
+        "category": "2ndA"
+    },
+    {
+        "raw_output": "Felicity first sees a crate labeled “carrot,” but she cannot see inside. She opens it and discovers that the actual contents are a cup, and there is no carrot in the crate. Hillary later only sees the crate, but the question asks what was in the crate in reality. Therefore, the answer is \\answer{{cup}}.",
+        "prediction": "cup",
+        "gold": "cup",
+        "correct": true,
+        "category": "reality"
+    },
+    {
+        "raw_output": "The label on the crate says \"carrot,\" which indicates what was supposed to be in it. Even though Felicity found a cup inside, the question asks what was supposed to be in the crate. Therefore, the answer is \\answer{{carrot}}.",
+        "prediction": "carrot",
+        "gold": "carrot",
+        "correct": true,
+        "category": "assumption"
+    },
+    {
+        "raw_output": "Hillary did not see inside the crate. She only saw the crate and its label. The label says carrot, so based on her knowledge she would expect the crate to contain a carrot. Therefore, the answer is \\answer{{carrot}}.",
+        "prediction": "carrot",
+        "gold": "carrot",
+        "correct": true,
+        "category": "1stB"
+    },
+    {
+        "raw_output": "Felicity first saw a crate labeled \"carrot,\" but then she opened it and directly observed that inside was a cup and not a carrot. Since she now has true knowledge of the contents, she would expect the crate to contain the cup.\n\n\\answer{{cup}}",
+        "prediction": "cup",
+        "gold": "cup",
+        "correct": true,
+        "category": "1stA"
+    },
+    {
+        "raw_output": "Felicity first saw a crate labeled \"carrot\" and, before opening it, would have expected a carrot inside. She then opened it and discovered a cup, but the question asks what Hillary would think Felicity would expect to find in the crate. Since Hillary only saw the labeled crate and did not witness Felicity’s discovery, Hillary would think Felicity expected the labeled item. Therefore, the answer is \\answer{{carrot}}.",
+        "prediction": "carrot",
+        "gold": "carrot",
+        "correct": true,
+        "category": "2ndB"
+    },
+    {
+        "raw_output": "Felicity knows the crate’s label says \"carrot.\" Although Felicity discovered the actual contents are a cup, Hillary only saw the crate and its label. So Felicity would think Hillary expects there to be a carrot in the crate. Therefore, the answer is \\answer{{carrot}}.",
+        "prediction": "carrot",
+        "gold": "carrot",
+        "correct": true,
+        "category": "2ndA"
+    },
+    {
+        "raw_output": "Sabra first saw a tote labeled “lemon,” but she then opened it and discovered the actual contents. Inside the tote was a tie, and there was no lemon in it. Hillary only saw the tote, but the question asks what was in the tote in reality. Therefore, the answer is \\answer{{tie}}.",
+        "prediction": "tie",
+        "gold": "tie",
+        "correct": true,
+        "category": "reality"
+    },
+    {
+        "raw_output": "The label on the tote says lemon, so that indicates what was supposed to be inside it. Even though Sabra discovered a tie, the question asks what was supposed to be in the tote, which is based on the label. Therefore, the answer is \\answer{{lemon}}.",
+        "prediction": "lemon",
+        "gold": "lemon",
+        "correct": true,
+        "category": "assumption"
+    },
+    {
+        "raw_output": "Hillary only saw the tote from the outside and did not see inside it. The label says lemon, so based on that appearance, Hillary would expect the tote to contain a lemon. Therefore, the answer is \\answer{{lemon}}.",
+        "prediction": "lemon",
+        "gold": "lemon",
+        "correct": true,
+        "category": "1stB"
+    },
+    {
+        "raw_output": "Sabra first saw a tote labeled “lemon,” but then opened it and discovered that the actual contents were a tie. Since Sabra now knows what is really inside, Sabra would expect to find the tie in the tote. Therefore, the answer is \\answer{{tie}}.",
+        "prediction": "tie",
+        "gold": "tie",
+        "correct": true,
+        "category": "1stA"
+    },
+    {
+        "raw_output": "Sabra first saw a tote labeled \"lemon\" and had not yet looked inside, so Sabra would initially expect a lemon to be in it. Hillary, thinking about what Sabra would expect based on the label, would think Sabra expected to find a lemon. Therefore, the answer is \\answer{{lemon}}.",
+        "prediction": "lemon",
+        "gold": "lemon",
+        "correct": true,
+        "category": "2ndB"
+    },
+    {
+        "raw_output": "Sabra knows the tote’s label says \"lemon.\" Sabra also knows Hillary only entered afterward and merely saw the tote, without looking inside. So Sabra would think Hillary expects the labeled item to be inside: \\answer{lemon}",
+        "prediction": "lemon",
+        "gold": "lemon",
+        "correct": true,
+        "category": "2ndA"
+    },
+    {
+        "raw_output": "Meira first saw a knapsack labeled “pear,” but she then opened it and discovered the actual contents. Inside the knapsack was a shirt, and there was no pear. Juanita only saw the knapsack, but the question asks what was in the knapsack in reality. Therefore, the answer is \\answer{{shirt}}",
+        "prediction": "shirt",
+        "gold": "shirt",
+        "correct": true,
+        "category": "reality"
+    },
+    {
+        "raw_output": "The label on the knapsack says pear, so that indicates what was supposed to be inside. Even though Meira found a shirt, the question asks what was supposed to be in it. Therefore, the answer is \\answer{{pear}}.",
+        "prediction": "pear",
+        "gold": "pear",
+        "correct": true,
+        "category": "assumption"
+    },
+    {
+        "raw_output": "Juanita only saw the knapsack from the outside and did not see inside it. The label says \"pear,\" so based on that appearance, Juanita would expect the knapsack to contain a pear. Therefore, the answer is \\answer{{pear}}.",
+        "prediction": "pear",
+        "gold": "pear",
+        "correct": true,
+        "category": "1stB"
+    },
+    {
+        "raw_output": "Meira first saw a knapsack labeled “pear,” but then she opened it and discovered that inside was a shirt, with no pear in it. Since Meira now knows the true contents, when asked what she would expect to find in the knapsack, she would expect the item she actually saw inside. Therefore, the answer is \\answer{{shirt}}.",
+        "prediction": "shirt",
+        "gold": "shirt",
+        "correct": true,
+        "category": "1stA"
+    },
+    {
+        "raw_output": "Juanita did not see inside the knapsack. She only saw that the knapsack is labeled “pear.” Juanita is asked what Meira would expect to find in it. Since the label suggests its contents, Juanita would think Meira expected a pear. Therefore, the answer is \\answer{{pear}}.",
+        "prediction": "pear",
+        "gold": "pear",
+        "correct": true,
+        "category": "2ndB"
+    },
+    {
+        "raw_output": "Meira knows the knapsack’s label says pear. Juanita only entered later and only saw the knapsack, so Meira would think Juanita relies on the label. Therefore, Meira would think Juanita expects to find a pear in the knapsack. \\answer{{pear}}",
+        "prediction": "pear",
+        "gold": "pear",
+        "correct": true,
+        "category": "2ndA"
+    },
+    {
+        "raw_output": "Hillary opened the hamper and directly observed what was inside. She found a scarf, and the story explicitly says there is no cauliflower in the hamper. Therefore, the object in the hamper was a scarf. \\answer{{scarf}}",
+        "prediction": "scarf",
+        "gold": "scarf",
+        "correct": true,
+        "category": "reality"
+    },
+    {
+        "raw_output": "The label on the hamper says cauliflower, so that is what was supposed to be in it, even though Hillary found a scarf inside. Therefore, the answer is \\answer{{cauliflower}}.",
+        "prediction": "cauliflower",
+        "gold": "cauliflower",
+        "correct": true,
+        "category": "assumption"
+    },
+    {
+        "raw_output": "Clio only saw the hamper and its label. The label says cauliflower, and Clio did not see inside the hamper. So Clio would expect the labeled contents to be inside. Therefore, the answer is \\answer{{cauliflower}}.",
+        "prediction": "cauliflower",
+        "gold": "cauliflower",
+        "correct": true,
+        "category": "1stB"
+    },
+    {
+        "raw_output": "Hillary opened the hamper and directly saw what was inside. She found a scarf and also knows there is no cauliflower in it. So when asked what Hillary would expect to find in the hamper, she would expect the item she saw inside. Therefore, the answer is \\answer{scarf}.",
+        "prediction": "scarf",
+        "gold": "scarf",
+        "correct": true,
+        "category": "1stA"
+    },
+    {
+        "raw_output": "Hillary first saw a hamper labeled cauliflower and could not see inside, so before opening it she would expect cauliflower. Hillary then learned it actually contained a scarf, but the question asks what Clio would think Hillary would expect to find. Clio only saw the labeled hamper and would attribute Hillary’s expectation based on the label. Therefore, the answer is \\answer{{cauliflower}}.",
+        "prediction": "cauliflower",
+        "gold": "cauliflower",
+        "correct": true,
+        "category": "2ndB"
+    },
+    {
+        "raw_output": "Clio has only seen the hamper from the outside and would rely on the label. Hillary knows the label says cauliflower, even though Hillary discovered the real contents are a scarf. So Hillary would think Clio expects to find cauliflower in the hamper. Therefore, the answer is \\answer{{cauliflower}}.",
+        "prediction": "cauliflower",
+        "gold": "cauliflower",
+        "correct": true,
+        "category": "2ndA"
+    },
+    {
+        "raw_output": "The story states that although the label said lemon, when Amata opened the carryall she found a cable inside, and there was no lemon. Therefore, the item in the carryall was \\answer{{cable}}.",
+        "prediction": "cable",
+        "gold": "cable",
+        "correct": true,
+        "category": "reality"
+    },
+    {
+        "raw_output": "The carryall’s label says lemon, so that is what was supposed to be in it. Therefore, the answer is \\answer{{lemon}}.",
+        "prediction": "lemon",
+        "gold": "lemon",
+        "correct": true,
+        "category": "assumption"
+    },
+    {
+        "raw_output": "Neila did not see inside the carryall. She only saw the label that says lemon, so she would use that visible information to form her belief about the contents. Therefore, she would expect the carryall to contain a lemon.\n\n\\answer{{lemon}}",
+        "prediction": "lemon",
+        "gold": "lemon",
+        "correct": true,
+        "category": "1stB"
+    },
+    {
+        "raw_output": "Amata personally opened the carryall and saw that it contained a cable, with no lemon inside. So Amata's expectation about what is in the carryall is based on her own knowledge, not the label. Therefore, the answer is \\answer{{cable}}.",
+        "prediction": "cable",
+        "gold": "cable",
+        "correct": true,
+        "category": "1stA"
+    },
+    {
+        "raw_output": "Amata first saw a carryall labeled \"lemon\" and, before opening it, would have expected a lemon inside. Even though Amata later discovered a cable, the question asks what Neila would think Amata would expect to find in the carryall, based on the label and Amata’s initial belief. Therefore, the answer is \\answer{{lemon}}",
+        "prediction": "lemon",
+        "gold": "lemon",
+        "correct": true,
+        "category": "2ndB"
+    },
+    {
+        "raw_output": "Neila has only seen the carryall from the outside and would rely on the label. Amata knows that Neila did not see inside the carryall. So Amata would think Neila expects the item named on the label to be inside. Therefore, the answer is \\answer{{lemon}}.",
+        "prediction": "lemon",
+        "gold": "lemon",
+        "correct": true,
+        "category": "2ndA"
+    },
+    {
+        "raw_output": "Clio opened the drawer and discovered its actual contents. The story states that inside the drawer there was a durian and no pepper. So when asked what was in the drawer, the correct object is the durian. Therefore, the answer is \\answer{{durian}}.",
+        "prediction": "durian",
+        "gold": "durian",
+        "correct": true,
+        "category": "reality"
+    },
+    {
+        "raw_output": "The drawer’s label says “pepper,” so that is what was supposed to be inside it, even though Clio found a durian instead. Therefore, the answer is \\answer{pepper}.",
+        "prediction": "pepper",
+        "gold": "pepper",
+        "correct": true,
+        "category": "assumption"
+    },
+    {
+        "raw_output": "Amata only saw the drawer from the outside and would rely on the label. The label says pepper, and Amata did not see Clio open it or discover the durian. So Amata would expect pepper. Therefore, the answer is \\answer{{pepper}}.",
+        "prediction": "pepper",
+        "gold": "pepper",
+        "correct": true,
+        "category": "1stB"
+    },
+    {
+        "raw_output": "Clio personally opened the drawer and saw that it contained a durian, and also learned there was no pepper inside. So Clio’s expectation about the drawer’s contents is based on her direct knowledge, not the label. Therefore, the answer is \\answer{{durian}}.",
+        "prediction": "durian",
+        "gold": "durian",
+        "correct": true,
+        "category": "1stA"
+    },
+    {
+        "raw_output": "Amata did not see inside the drawer, but she saw the drawer labeled \"pepper.\" She would think Clio, before opening it, would expect the labeled contents. Therefore, the answer is \\answer{{pepper}}.",
+        "prediction": "pepper",
+        "gold": "pepper",
+        "correct": true,
+        "category": "2ndB"
+    },
+    {
+        "raw_output": "Clio knows the drawer is labeled \"pepper.\" Amata only saw the drawer and did not open it, so Clio would think Amata goes by the label and expects pepper inside. Therefore, the answer is \\answer{{pepper}}.",
+        "prediction": "pepper",
+        "gold": "pepper",
+        "correct": true,
+        "category": "2ndA"
+    },
+    {
+        "raw_output": "Daphene first saw a case labeled \"peach,\" but she had not seen inside yet. Then she opened it and discovered that the actual item inside was a cardigan, and there was no peach in the case. After closing it and putting it back, Melania entered. The question asks what was in the case in reality, not what anyone believed was in it. Therefore, the answer is \\answer{{cardigan}}.",
+        "prediction": "cardigan",
+        "gold": "cardigan",
+        "correct": true,
+        "category": "reality"
+    },
+    {
+        "raw_output": "The label on the case says \"peach,\" so that is what was supposed to be inside it. Therefore, the answer is \\answer{{peach}}.",
+        "prediction": "peach",
+        "gold": "peach",
+        "correct": true,
+        "category": "assumption"
+    },
+    {
+        "raw_output": "Melania has not seen inside the case. She only sees the label, which says \"peach,\" so she would use that information to form her belief about the contents. Therefore, she would expect to find a peach.\n\n\\answer{{peach}}",
+        "prediction": "peach",
+        "gold": "peach",
+        "correct": true,
+        "category": "1stB"
+    },
+    {
+        "raw_output": "Daphene first saw a case labeled “peach,” but then she opened it and discovered that it actually contained a cardigan and no peach. Since Daphene now knows what is really inside, she would expect to find the cardigan in the case. Therefore, the answer is \\answer{{cardigan}}.",
+        "prediction": "cardigan",
+        "gold": "cardigan",
+        "correct": true,
+        "category": "1stA"
+    },
+    {
+        "raw_output": "Melania did not see inside the case. She only saw the case with the label \"peach.\" She would think Daphene, before opening it, expected to find what the label said was inside. Therefore, the answer is \\answer{{peach}}.",
+        "prediction": "peach",
+        "gold": "peach",
+        "correct": true,
+        "category": "2ndB"
+    },
+    {
+        "raw_output": "Melania only saw the case from the outside, and the label says \"peach.\" Daphene knows Melania did not see inside the case. So Daphene would think Melania expects the labeled item to be inside. Therefore, the answer is \\answer{{peach}}.",
+        "prediction": "peach",
+        "gold": "peach",
+        "correct": true,
+        "category": "2ndA"
+    },
+    {
+        "raw_output": "Keri opened the cupboard and directly saw its contents. Inside was a cap, and there was no casette. The question asks what actually was in the cupboard, not what the label said or what Clio might think. Therefore, the answer is \\answer{{cap}}.",
+        "prediction": "cap",
+        "gold": "cap",
+        "correct": true,
+        "category": "reality"
+    },
+    {
+        "raw_output": "The cupboard’s label says “casette,” which indicates what was supposed to be inside. Even though Keri found a cap instead, the expected item is the one on the label. Therefore, the answer is \\answer{casette}.",
+        "prediction": "casette",
+        "gold": "casette",
+        "correct": true,
+        "category": "assumption"
+    },
+    {
+        "raw_output": "Clio only saw the cupboard and its label, which says “casette.” Clio did not see inside the cupboard, so Clio would rely on the label and expect the labeled item to be inside. Therefore, the answer is \\answer{{casette}}",
+        "prediction": "casette",
+        "gold": "casette",
+        "correct": true,
+        "category": "1stB"
+    },
+    {
+        "raw_output": "Keri first saw a cupboard labeled \"casette,\" but then opened it and discovered that inside was actually a cap, with no casette present. Since Keri has direct knowledge of the true contents, Keri would now expect the cupboard to contain the cap.\n\n\\answer{{cap}}",
+        "prediction": "cap",
+        "gold": "cap",
+        "correct": true,
+        "category": "1stA"
+    },
+    {
+        "raw_output": "Keri first saw a cupboard labeled \"casette\" and, before opening it, would expect a casette inside based on the label. Keri then discovered a cap, but the question asks what Clio would think Keri would expect to find. Since Clio only saw the cupboard and would infer Keri's prior expectation from the label, Clio would think Keri expected a casette.\n\n\\answer{{casette}}",
+        "prediction": "casette",
+        "gold": "casette",
+        "correct": true,
+        "category": "2ndB"
+    },
+    {
+        "raw_output": "Clio only saw the cupboard and its label, and did not look inside. Keri knows that Clio would rely on the label. So Keri would think Clio expects to find a casette in the cupboard. Therefore, the answer is \\answer{{casette}}.",
+        "prediction": "casette",
+        "gold": "casette",
+        "correct": true,
+        "category": "2ndA"
+    },
+    {
+        "raw_output": "Sabra opened the pantry and directly observed its contents. She found a mitten, and the story explicitly says there is no coat in the pantry. Therefore, the item that was in the pantry was a mitten.\n\n\\answer{{mitten}}",
+        "prediction": "mitten",
+        "gold": "mitten",
+        "correct": true,
+        "category": "reality"
+    },
+    {
+        "raw_output": "The pantry’s label says “coat,” which indicates what was supposed to be inside. Even though Sabra found a mitten instead, the expected item is the one on the label. Therefore, the answer is \\answer{coat}.",
+        "prediction": "coat",
+        "gold": "coat",
+        "correct": true,
+        "category": "assumption"
+    },
+    {
+        "raw_output": "Meira has not looked inside the pantry. She only saw the pantry and its label, which says \"coat.\" So she would use the label to form her belief about what is inside. Therefore, she would expect to find a coat.\n\n\\answer{coat}",
+        "prediction": "coat",
+        "gold": "coat",
+        "correct": true,
+        "category": "1stB"
+    },
+    {
+        "raw_output": "Sabra first saw a pantry labeled \"coat,\" but then she opened it and discovered that inside was actually a mitten, with no coat present. Since the question asks what Sabra would expect to find, we use Sabra’s own updated knowledge after looking inside. Therefore, she would expect the pantry to contain the mitten.\n\n\\answer{{mitten}}",
+        "prediction": "mitten",
+        "gold": "mitten",
+        "correct": true,
+        "category": "1stA"
+    },
+    {
+        "raw_output": "Sabra saw a pantry labeled \"coat\" before opening it, and she could not see inside. So before opening it, Sabra would expect a coat to be inside. Meira, seeing the pantry and reasoning about Sabra’s expectation, would think Sabra expected to find a coat in the pantry. Therefore, the answer is \\answer{{coat}}.",
+        "prediction": "coat",
+        "gold": "coat",
+        "correct": true,
+        "category": "2ndB"
+    },
+    {
+        "raw_output": "Sabra knows the pantry is labeled “coat.” Meira only saw the pantry and did not look inside, so Sabra would think Meira will go by the label and expect a coat. Therefore, the answer is \\answer{{coat}}.",
+        "prediction": "coat",
+        "gold": "coat",
+        "correct": true,
+        "category": "2ndA"
+    },
+    {
+        "raw_output": "Keri opened the safe and directly saw what was actually inside. She found a magnet, and the story explicitly says there was no coat in the safe. So when asked what was in the safe, the correct object is the magnet. Therefore, the answer is \\answer{{magnet}}.",
+        "prediction": "magnet",
+        "gold": "magnet",
+        "correct": true,
+        "category": "reality"
+    },
+    {
+        "raw_output": "The safe’s label says “coat,” which indicates what was supposed to be inside. Even though Keri found a magnet instead, the question asks what was supposed to be in the safe. Therefore, the answer is \\answer{{coat}}.",
+        "prediction": "coat",
+        "gold": "coat",
+        "correct": true,
+        "category": "assumption"
+    },
+    {
+        "raw_output": "Lian only saw the safe and its label. The label says \"coat,\" and Lian did not see Keri open it or discover the magnet. So based on Lian's perspective, Lian would expect the safe to contain a coat. Therefore, the answer is \\answer{{coat}}.",
+        "prediction": "coat",
+        "gold": "coat",
+        "correct": true,
+        "category": "1stB"
+    },
+    {
+        "raw_output": "Keri first saw a safe labeled \"coat,\" but then Keri opened it and directly observed that inside was a magnet and that there was no coat. Since Keri has updated knowledge based on seeing the true contents, Keri would now expect the safe to contain the magnet.\n\nTherefore, the answer is \\answer{{magnet}}.",
+        "prediction": "magnet",
+        "gold": "magnet",
+        "correct": true,
+        "category": "1stA"
+    },
+    {
+        "raw_output": "Keri first saw a safe labeled \"coat,\" so before opening it, Keri would expect a coat inside. Keri then learned it actually contained a magnet, but Lian did not see that part. Lian only saw the safe and would think about what Keri would have expected based on the label. Therefore, the answer is \\answer{{coat}}.",
+        "prediction": "coat",
+        "gold": "coat",
+        "correct": true,
+        "category": "2ndB"
+    },
+    {
+        "raw_output": "Keri knows that Lian has only seen the safe and its label, not what is actually inside. The label says \"coat,\" so Keri would think Lian expects to find a coat in the safe. Therefore, the answer is \\answer{coat}.",
+        "prediction": "coat",
+        "gold": "coat",
+        "correct": true,
+        "category": "2ndA"
+    },
+    {
+        "raw_output": "Evaleen opened the refrigerator and directly observed its contents. She found a key, and the story explicitly says there was no grapefruit inside. So the item in the refrigerator was a key. Therefore, the answer is \\answer{{key}}.",
+        "prediction": "key",
+        "gold": "key",
+        "correct": true,
+        "category": "reality"
+    },
+    {
+        "raw_output": "The question asks what was **supposed** to be in the refrigerator, which refers to the label rather than what was actually inside. The label said **grapefruit**, even though the actual contents were a key. Therefore, the answer is \\answer{{grapefruit}}.",
+        "prediction": "grapefruit",
+        "gold": "grapefruit",
+        "correct": true,
+        "category": "assumption"
+    },
+    {
+        "raw_output": "Vera only saw the refrigerator from the outside. The label says grapefruit, and Vera did not see inside it. So Vera would expect the contents to match the label. Therefore, the answer is \\answer{{grapefruit}}.",
+        "prediction": "grapefruit",
+        "gold": "grapefruit",
+        "correct": true,
+        "category": "1stB"
+    },
+    {
+        "raw_output": "Evaleen first saw a refrigerator labeled “grapefruit,” so before opening it she would expect grapefruit inside. Although she later discovered a key, the question asks what Evaleen would expect to find in the refrigerator, based on her expectation from the label. Therefore, the answer is \\answer{{grapefruit}}.",
+        "prediction": "grapefruit",
+        "gold": "key",
+        "correct": false,
+        "category": "1stA"
+    },
+    {
+        "raw_output": "Evaleen first saw a refrigerator labeled “grapefruit” and had not yet looked inside, so she would initially expect grapefruit to be in it. Vera, seeing the situation from the outside, would think Evaleen expected the labeled contents before opening it. Therefore, the answer is \\answer{{grapefruit}}.",
+        "prediction": "grapefruit",
+        "gold": "grapefruit",
+        "correct": true,
+        "category": "2ndB"
+    },
+    {
+        "raw_output": "Vera has only seen the refrigerator and its label, which says grapefruit. Evaleen knows Vera did not look inside, so Evaleen would think Vera expects the labeled contents. Therefore, the answer is \\answer{{grapefruit}}.",
+        "prediction": "grapefruit",
+        "gold": "grapefruit",
+        "correct": true,
+        "category": "2ndA"
+    },
+    {
+        "raw_output": "Clem opened the closet and discovered what was actually inside. The label said papaya, but the story states there was no papaya in the closet. Instead, Clem found a casette and then closed the closet. So the object in the closet was a casette. Therefore, the answer is \\answer{{casette}}.",
+        "prediction": "casette",
+        "gold": "casette",
+        "correct": true,
+        "category": "reality"
+    },
+    {
+        "raw_output": "The closet’s label says papaya, so that is what was supposed to be inside, even though the actual item was different. Therefore, the answer is \\answer{papaya}.",
+        "prediction": "papaya",
+        "gold": "papaya",
+        "correct": true,
+        "category": "assumption"
+    },
+    {
+        "raw_output": "Amata has not seen inside the closet. She only sees the label on the closet, which says papaya. So she would use the label to form her expectation and think the closet contains papaya. Therefore, the answer is \\answer{{papaya}}.",
+        "prediction": "papaya",
+        "gold": "papaya",
+        "correct": true,
+        "category": "1stB"
+    },
+    {
+        "raw_output": "Clem first saw a closet labeled “papaya,” but then Clem opened it and discovered the actual contents: a casette, with no papaya inside. Since Clem directly checked the closet, Clem would now expect the real item to be there.\n\nTherefore, the answer is \\answer{{casette}}.",
+        "prediction": "casette",
+        "gold": "casette",
+        "correct": true,
+        "category": "1stA"
+    },
+    {
+        "raw_output": "Clem initially saw a closet labeled “papaya,” and before opening it, Clem would expect papaya inside. Even though Clem later discovered a casette, the question asks what Amata would think Clem would expect to find in the closet, based on the label Amata sees. Therefore, the answer is \\answer{{papaya}}.",
+        "prediction": "papaya",
+        "gold": "papaya",
+        "correct": true,
+        "category": "2ndB"
+    },
+    {
+        "raw_output": "Amata only saw the closet from the outside, and the label says “papaya.” Clem knows that Amata did not look inside, so Clem would think Amata expects the labeled item to be inside. Therefore, the answer is \\answer{{papaya}}.",
+        "prediction": "papaya",
+        "gold": "papaya",
+        "correct": true,
+        "category": "2ndA"
+    },
+    {
+        "raw_output": "Lian first saw a bag with a label that said \"button,\" but the story then states Lian opened the bag and found a cable. It also explicitly says there is no button in the bag. So the object in the bag was a cable. Therefore, the answer is \\answer{cable}.",
+        "prediction": "cable",
+        "gold": "cable",
+        "correct": true,
+        "category": "reality"
+    },
+    {
+        "raw_output": "The label indicates what was supposed to be in the bag. It says \"button,\" even though the actual contents were different. Therefore, the answer is \\answer{button}.",
+        "prediction": "button",
+        "gold": "button",
+        "correct": true,
+        "category": "assumption"
+    },
+    {
+        "raw_output": "Norina has not seen inside the bag. She only sees the bag with the label that says \"button,\" so she would use the label to form her expectation. Therefore, the answer is \\answer{button}.",
+        "prediction": "button",
+        "gold": "button",
+        "correct": true,
+        "category": "1stB"
+    },
+    {
+        "raw_output": "Lian first saw a bag labeled \"button,\" but then opened it and discovered that it actually contained a cable and no button. Since Lian now knows the true contents, Lian would expect to find the cable in the bag. Therefore, the answer is \\answer{{cable}}.",
+        "prediction": "cable",
+        "gold": "cable",
+        "correct": true,
+        "category": "1stA"
+    },
+    {
+        "raw_output": "Lian first saw a bag labeled \"button\" and, before opening it, could not see inside. So Lian would initially expect a button in the bag because of the label. Even though Lian later discovered a cable, the question asks what Norina would think Lian would expect to find. Norina sees the labeled bag and would attribute that expectation to Lian. Therefore, the answer is \\answer{{button}}.",
+        "prediction": "button",
+        "gold": "button",
+        "correct": true,
+        "category": "2ndB"
+    },
+    {
+        "raw_output": "Lian knows Norina has only seen the bag from the outside and would rely on the label. The label says \"button,\" and Norina did not see inside. So Lian would think Norina expects a button in the bag. Therefore, the answer is \\answer{{button}}.",
+        "prediction": "button",
+        "gold": "button",
+        "correct": true,
+        "category": "2ndA"
+    },
+    {
+        "raw_output": "Kathryne first saw a backpack labeled \"chalk,\" but she then opened it and discovered the actual contents. Inside the backpack was a cap, and there was no chalk. So when asked what was in the backpack, the correct object is the cap.\n\n\\answer{cap}",
+        "prediction": "cap",
+        "gold": "cap",
+        "correct": true,
+        "category": "reality"
+    },
+    {
+        "raw_output": "The label on the backpack says chalk, so that indicates what was supposed to be inside. Even though Kathryne found a cap, the question asks what was supposed to be in the backpack. Therefore, the answer is \\answer{chalk}.",
+        "prediction": "chalk",
+        "gold": "chalk",
+        "correct": true,
+        "category": "assumption"
+    },
+    {
+        "raw_output": "Norina only saw the backpack and its label. The label says \"chalk,\" and Norina did not see inside the backpack. So Norina would expect the backpack to contain what the label says. Therefore, the answer is \\answer{chalk}.",
+        "prediction": "chalk",
+        "gold": "chalk",
+        "correct": true,
+        "category": "1stB"
+    },
+    {
+        "raw_output": "Kathryne first saw a backpack labeled \"chalk,\" so before opening it she would expect chalk inside. Even though she later discovered a cap, the question asks what Kathryne would expect to find in the backpack based on the label expectation. Therefore, the answer is \\answer{{chalk}}.",
+        "prediction": "chalk",
+        "gold": "cap",
+        "correct": false,
+        "category": "1stA"
+    },
+    {
+        "raw_output": "Kathryne first saw a backpack with a label that says chalk, so before opening it, she would expect chalk inside. Although Kathryne later discovered a cap, Norina is being asked what Norina would think Kathryne would expect to find, which is based on the backpack’s label. Therefore, the answer is \\answer{{chalk}}.",
+        "prediction": "chalk",
+        "gold": "chalk",
+        "correct": true,
+        "category": "2ndB"
+    },
+    {
+        "raw_output": "Kathryne knows that Norina has only seen the backpack from the outside and would rely on the label. The label says \"chalk,\" and Norina did not see inside the backpack. So Kathryne would think Norina expects to find chalk in the backpack. Therefore, the answer is \\answer{{chalk}}.",
+        "prediction": "chalk",
+        "gold": "chalk",
+        "correct": true,
+        "category": "2ndA"
+    },
+    {
+        "raw_output": "Clem opened the bin and directly observed its contents. Inside, Clem found a sweater, and the story explicitly says there was no bulb in the bin. Vera only saw the bin from the outside, but the question asks what was in the bin, not what Vera believes. Therefore, the answer is \\answer{{sweater}}.",
+        "prediction": "sweater",
+        "gold": "sweater",
+        "correct": true,
+        "category": "reality"
+    },
+    {
+        "raw_output": "The label on the bin says \"bulb,\" which indicates what was supposed to be inside. Even though Clem found a sweater, the question asks what was supposed to be in the bin. Therefore, the answer is \\answer{{bulb}}.",
+        "prediction": "bulb",
+        "gold": "bulb",
+        "correct": true,
+        "category": "assumption"
+    },
+    {
+        "raw_output": "Vera did not see inside the bin. She only saw the label saying \"bulb,\" so she would use that information to form her expectation. Therefore, she would expect the bin to contain a bulb.\n\n\\answer{bulb}",
+        "prediction": "bulb",
+        "gold": "bulb",
+        "correct": true,
+        "category": "1stB"
+    },
+    {
+        "raw_output": "Clem first saw a bin labeled “bulb,” but then opened it and discovered that it actually contained a sweater and no bulb. Since Clem now knows the true contents of the bin, Clem would expect to find the sweater in it. Therefore, the answer is \\answer{{\nsweater\n}}",
+        "prediction": "sweater",
+        "gold": "sweater",
+        "correct": true,
+        "category": "1stA"
+    },
+    {
+        "raw_output": "Vera would reason about Clem’s expectation before Clem opened the bin. Since the bin was labeled “bulb” and Clem had not yet seen inside, Clem would have expected a bulb. Therefore, the answer is \\answer{{bulb}}.",
+        "prediction": "bulb",
+        "gold": "bulb",
+        "correct": true,
+        "category": "2ndB"
+    },
+    {
+        "raw_output": "Clem knows Vera only saw the bin and its label, and did not look inside. The label says \"bulb,\" so Clem would think Vera expects the bin to contain a bulb. Therefore, the answer is \\answer{{bulb}}.",
+        "prediction": "bulb",
+        "gold": "bulb",
+        "correct": true,
+        "category": "2ndA"
+    },
+    {
+        "raw_output": "Karalynn first saw a box labeled “banana,” but she then opened it and discovered the actual contents. Inside the box was a cable, and there was no banana. Clem only saw the box later, but the question asks what was in the box, not what Clem believes.\n\nTherefore, the answer is \\answer{{cable}}.",
+        "prediction": "cable",
+        "gold": "cable",
+        "correct": true,
+        "category": "reality"
+    },
+    {
+        "raw_output": "The box’s label says banana. “Supposed to be in the box” refers to what the label indicates should be inside, not what was actually found. Therefore, the answer is \\answer{{banana}}",
+        "prediction": "banana",
+        "gold": "banana",
+        "correct": true,
+        "category": "assumption"
+    },
+    {
+        "raw_output": "Clem did not see inside the box. He only saw a box with a label that says banana, so he would use the label to form his belief about what is inside. Therefore, he would expect to find a banana.\n\n\\answer{{banana}}",
+        "prediction": "banana",
+        "gold": "banana",
+        "correct": true,
+        "category": "1stB"
+    },
+    {
+        "raw_output": "Karalynn first saw a box labeled banana and did not know its contents. She then opened it and discovered a cable, learning that there was no banana inside. Since Karalynn now knows the true contents of the box, she would expect to find the cable in it. Therefore, the answer is \\answer{{cable}}.",
+        "prediction": "cable",
+        "gold": "cable",
+        "correct": true,
+        "category": "1stA"
+    },
+    {
+        "raw_output": "Karalynn first saw a box labeled banana and, before opening it, would naturally expect a banana inside. Karalynn later learned it actually contained a cable, but Clem only entered afterward. The question asks what Clem would think Karalynn would expect to find in the box, which is based on the label Karalynn originally saw. Therefore, the answer is \\answer{{banana}}.",
+        "prediction": "banana",
+        "gold": "banana",
+        "correct": true,
+        "category": "2ndB"
+    },
+    {
+        "raw_output": "Karalynn knows the box is actually a cable, but she also knows Clem has only seen the box and its label. Since the label says banana, Karalynn would think Clem expects a banana to be inside. Therefore, the answer is \\answer{{banana}}.",
+        "prediction": "banana",
+        "gold": "banana",
+        "correct": true,
+        "category": "2ndA"
+    },
+    {
+        "raw_output": "Karalynn opened the briefcase and directly observed its contents. She found a corn, and the story explicitly says there is no fork in the briefcase. Florencia only saw the briefcase from outside, but the question asks what actually was in the briefcase, not what someone believed was in it. Therefore, the item in the briefcase was corn. \\answer{{corn}}",
+        "prediction": "corn",
+        "gold": "corn",
+        "correct": true,
+        "category": "reality"
+    },
+    {
+        "raw_output": "The label on the briefcase says \"fork,\" so that is what was supposed to be in it, even though it actually contained a corn. Therefore, the answer is \\answer{{fork}}.",
+        "prediction": "fork",
+        "gold": "fork",
+        "correct": true,
+        "category": "assumption"
+    },
+    {
+        "raw_output": "Florencia has not seen inside the briefcase. She only sees the briefcase with the label that says \"fork.\" Since she does not know that Karalynn found a corn inside and that there is no fork, she would rely on the label and expect a fork.\n\nTherefore, the answer is \\answer{{fork}}.",
+        "prediction": "fork",
+        "gold": "fork",
+        "correct": true,
+        "category": "1stB"
+    },
+    {
+        "raw_output": "Karalynn first saw a briefcase labeled “fork,” but then she opened it and directly observed that inside there was a corn and no fork. Since she now knows the actual contents, her expectation about what is in the briefcase is based on what she saw, not the label. Therefore, the answer is \\answer{{corn}}.",
+        "prediction": "corn",
+        "gold": "corn",
+        "correct": true,
+        "category": "1stA"
+    },
+    {
+        "raw_output": "Karalynn first saw a briefcase with a label that said \"fork,\" and before opening it, she could not see inside. So based on the label, Karalynn would initially expect a fork to be in the briefcase. Florencia, seeing the briefcase and considering what Karalynn would have expected, would think Karalynn expected to find a fork.\n\nTherefore, the answer is \\answer{{fork}}.",
+        "prediction": "fork",
+        "gold": "fork",
+        "correct": true,
+        "category": "2ndB"
+    },
+    {
+        "raw_output": "Karalynn knows Florencia has only seen the briefcase from the outside and the label says \"fork.\" Florencia did not see inside the briefcase, so Karalynn would think Florencia expects the labeled item to be inside. Therefore, the answer is \\answer{fork}.",
+        "prediction": "fork",
+        "gold": "fork",
+        "correct": true,
+        "category": "2ndA"
+    },
+    {
+        "raw_output": "Sara opened the cabinet and directly observed its contents. She found a mango, and the story explicitly says there was no banana in the cabinet. So the cabinet contained a mango. Therefore, the answer is \\answer{{mango}}.",
+        "prediction": "mango",
+        "gold": "mango",
+        "correct": true,
+        "category": "reality"
+    },
+    {
+        "raw_output": "The cabinet’s label says banana, which indicates what was supposed to be inside. Even though Sara found a mango, the question asks what was supposed to be in the cabinet. Therefore, the answer is \\answer{banana}.",
+        "prediction": "banana",
+        "gold": "banana",
+        "correct": true,
+        "category": "assumption"
+    },
+    {
+        "raw_output": "Meira did not see inside the cabinet. She only saw the label saying banana, so she would use that information to form her belief about what is inside. Therefore, she would expect to find a banana.\n\n\\answer{banana}",
+        "prediction": "banana",
+        "gold": "banana",
+        "correct": true,
+        "category": "1stB"
+    },
+    {
+        "raw_output": "Sara first saw a cabinet labeled “banana,” but then she opened it and discovered that it actually contained a mango and no banana. Since Sara now knows what is really inside, she would expect to find a mango in the cabinet.\n\n\\answer{{mango}}",
+        "prediction": "mango",
+        "gold": "mango",
+        "correct": true,
+        "category": "1stA"
+    },
+    {
+        "raw_output": "The cabinet is labeled banana. Sara initially could not see inside, so before opening it, she would expect a banana. Even though Sara later discovered a mango, the question asks what Meira would think Sara would expect to find. Meira only saw the labeled cabinet and would infer Sara’s expectation from the label. Therefore, the answer is \\answer{{banana}}.",
+        "prediction": "banana",
+        "gold": "banana",
+        "correct": true,
+        "category": "2ndB"
+    },
+    {
+        "raw_output": "Meira only saw the cabinet and its label, and did not look inside. Sara knows that Meira would go by the label on the cabinet. The label says banana, so Sara would think Meira expects to find a banana in the cabinet. Therefore, the answer is \\answer{{banana}}.",
+        "prediction": "banana",
+        "gold": "banana",
+        "correct": true,
+        "category": "2ndA"
+    },
+    {
+        "raw_output": "Neila opened the chest and directly observed its contents. Inside, she found a fork, and the story explicitly says there is no vest in the chest. So the object in the chest was a fork. Therefore, the answer is \\answer{{fork}}.",
+        "prediction": "fork",
+        "gold": "fork",
+        "correct": true,
+        "category": "reality"
+    },
+    {
+        "raw_output": "The story says the label on the chest says \"vest.\" The question asks what was supposed to be in the chest, which refers to the labeled expected contents, not the actual contents. Therefore, the answer is \\answer{{vest}}.",
+        "prediction": "vest",
+        "gold": "vest",
+        "correct": true,
+        "category": "assumption"
+    },
+    {
+        "raw_output": "Karalynn has not seen inside the chest. She only sees the label that says \"vest,\" so she would expect the chest to contain a vest. Therefore, the answer is \\answer{{vest}}.",
+        "prediction": "vest",
+        "gold": "vest",
+        "correct": true,
+        "category": "1stB"
+    },
+    {
+        "raw_output": "Neila first saw a chest labeled \"vest,\" but she then opened it and discovered that it actually contained a fork and no vest. Since Neila has direct knowledge of the true contents, she would expect the chest to contain the item she found earlier.\n\nTherefore, the answer is \\answer{{fork}}.",
+        "prediction": "fork",
+        "gold": "fork",
+        "correct": true,
+        "category": "1stA"
+    },
+    {
+        "raw_output": "Neila first saw a chest labeled \"vest,\" and before opening it, she would expect a vest inside. Even though Neila later discovered a fork, Karalynn is being asked what she would think Neila would expect to find in the chest, which follows the label-based expectation. Therefore, the answer is \\answer{{vest}}.",
+        "prediction": "vest",
+        "gold": "vest",
+        "correct": true,
+        "category": "2ndB"
+    },
+    {
+        "raw_output": "Karalynn only saw the chest and its label, and did not see inside it. Neila knows this. Since the label says \"vest,\" Neila would think Karalynn expects a vest to be inside. Therefore, the answer is \\answer{{vest}}.",
+        "prediction": "vest",
+        "gold": "vest",
+        "correct": true,
+        "category": "2ndA"
+    }
+]

@@ -1,0 +1,512 @@
+{
+    "Sally-Anne_gpt-20b Complete": {
+        "reality": {
+            "total_samples": 30,
+            "total_corrects": 30,
+            "accuracy_percentage": 100.0
+        },
+        "1st_order": {
+            "total_samples": 60,
+            "total_corrects": 60,
+            "accuracy_percentage": 100.0
+        },
+        "2nd_order": {
+            "total_samples": 60,
+            "total_corrects": 52,
+            "accuracy_percentage": 86.67
+        }
+    },
+    "Sally-Anne_gpt-20b CoT": {
+        "reality": {
+            "total_samples": 30,
+            "total_corrects": 30,
+            "accuracy_percentage": 100.0
+        },
+        "1st_order": {
+            "total_samples": 60,
+            "total_corrects": 59,
+            "accuracy_percentage": 98.33
+        },
+        "2nd_order": {
+            "total_samples": 60,
+            "total_corrects": 53,
+            "accuracy_percentage": 88.33
+        }
+    },
+    "Sally-Anne_gpt-20b_Complete Complete": {
+        "reality": {
+            "total_samples": 30,
+            "total_corrects": 30,
+            "accuracy_percentage": 100.0
+        },
+        "1st_order": {
+            "total_samples": 60,
+            "total_corrects": 58,
+            "accuracy_percentage": 96.67
+        },
+        "2nd_order": {
+            "total_samples": 60,
+            "total_corrects": 60,
+            "accuracy_percentage": 100.0
+        }
+    },
+    "Sally-Anne_gpt-20b_standard Complete": {
+        "reality": {
+            "total_samples": 30,
+            "total_corrects": 29,
+            "accuracy_percentage": 96.67
+        },
+        "1st_order": {
+            "total_samples": 60,
+            "total_corrects": 56,
+            "accuracy_percentage": 93.33
+        },
+        "2nd_order": {
+            "total_samples": 60,
+            "total_corrects": 29,
+            "accuracy_percentage": 48.33
+        }
+    },
+    "Sally-Anne_gpt-20b_obj_location Complete": {
+        "reality": {
+            "total_samples": 30,
+            "total_corrects": 30,
+            "accuracy_percentage": 100.0
+        },
+        "1st_order": {
+            "total_samples": 60,
+            "total_corrects": 29,
+            "accuracy_percentage": 48.33
+        },
+        "2nd_order": {
+            "total_samples": 60,
+            "total_corrects": 0,
+            "accuracy_percentage": 0.0
+        }
+    },
+    "Sally-Anne_gpt-20b_obj_location_NEW Complete": {
+        "reality": {
+            "total_samples": 30,
+            "total_corrects": 30,
+            "accuracy_percentage": 100.0
+        },
+        "1st_order": {
+            "total_samples": 60,
+            "total_corrects": 30,
+            "accuracy_percentage": 50.0
+        },
+        "2nd_order": {
+            "total_samples": 60,
+            "total_corrects": 0,
+            "accuracy_percentage": 0.0
+        }
+    },
+    "Sally-Anne_gemma2-27b Complete": {
+        "reality": {
+            "total_samples": 30,
+            "total_corrects": 30,
+            "accuracy_percentage": 100.0
+        },
+        "1st_order": {
+            "total_samples": 60,
+            "total_corrects": 60,
+            "accuracy_percentage": 100.0
+        },
+        "2nd_order": {
+            "total_samples": 60,
+            "total_corrects": 59,
+            "accuracy_percentage": 98.33
+        }
+    },
+    "Sally-Anne_gemma2-27b CoT": {
+        "reality": {
+            "total_samples": 30,
+            "total_corrects": 30,
+            "accuracy_percentage": 100.0
+        },
+        "1st_order": {
+            "total_samples": 60,
+            "total_corrects": 52,
+            "accuracy_percentage": 86.67
+        },
+        "2nd_order": {
+            "total_samples": 60,
+            "total_corrects": 60,
+            "accuracy_percentage": 100.0
+        }
+    },
+    "Sally-Anne_gemma2-27b_Complete Complete": {
+        "reality": {
+            "total_samples": 30,
+            "total_corrects": 30,
+            "accuracy_percentage": 100.0
+        },
+        "1st_order": {
+            "total_samples": 60,
+            "total_corrects": 45,
+            "accuracy_percentage": 75.0
+        },
+        "2nd_order": {
+            "total_samples": 60,
+            "total_corrects": 53,
+            "accuracy_percentage": 88.33
+        }
+    },
+    "Sally-Anne_gemma2-27b_standard Complete": {
+        "reality": {
+            "total_samples": 30,
+            "total_corrects": 28,
+            "accuracy_percentage": 93.33
+        },
+        "1st_order": {
+            "total_samples": 60,
+            "total_corrects": 30,
+            "accuracy_percentage": 50.0
+        },
+        "2nd_order": {
+            "total_samples": 60,
+            "total_corrects": 4,
+            "accuracy_percentage": 6.67
+        }
+    },
+    "Sally-Anne_gemma2-27b_obj_location Complete": {
+        "reality": {
+            "total_samples": 30,
+            "total_corrects": 30,
+            "accuracy_percentage": 100.0
+        },
+        "1st_order": {
+            "total_samples": 60,
+            "total_corrects": 30,
+            "accuracy_percentage": 50.0
+        },
+        "2nd_order": {
+            "total_samples": 60,
+            "total_corrects": 0,
+            "accuracy_percentage": 0.0
+        }
+    },
+    "Sally-Anne_gemma2-27b_obj_location_NEW Complete": {
+        "reality": {
+            "total_samples": 30,
+            "total_corrects": 30,
+            "accuracy_percentage": 100.0
+        },
+        "1st_order": {
+            "total_samples": 60,
+            "total_corrects": 30,
+            "accuracy_percentage": 50.0
+        },
+        "2nd_order": {
+            "total_samples": 60,
+            "total_corrects": 0,
+            "accuracy_percentage": 0.0
+        }
+    },
+    "Sally-Anne_granite4-32b Complete": {
+        "reality": {
+            "total_samples": 30,
+            "total_corrects": 30,
+            "accuracy_percentage": 100.0
+        },
+        "1st_order": {
+            "total_samples": 60,
+            "total_corrects": 37,
+            "accuracy_percentage": 61.67
+        },
+        "2nd_order": {
+            "total_samples": 60,
+            "total_corrects": 45,
+            "accuracy_percentage": 75.0
+        }
+    },
+    "Sally-Anne_granite4-32b CoT": {
+        "reality": {
+            "total_samples": 30,
+            "total_corrects": 22,
+            "accuracy_percentage": 73.33
+        },
+        "1st_order": {
+            "total_samples": 60,
+            "total_corrects": 35,
+            "accuracy_percentage": 58.33
+        },
+        "2nd_order": {
+            "total_samples": 60,
+            "total_corrects": 35,
+            "accuracy_percentage": 58.33
+        }
+    },
+    "Sally-Anne_granite4-32b_Complete Complete": {
+        "reality": {
+            "total_samples": 30,
+            "total_corrects": 29,
+            "accuracy_percentage": 96.67
+        },
+        "1st_order": {
+            "total_samples": 60,
+            "total_corrects": 37,
+            "accuracy_percentage": 61.67
+        },
+        "2nd_order": {
+            "total_samples": 60,
+            "total_corrects": 37,
+            "accuracy_percentage": 61.67
+        }
+    },
+    "Sally-Anne_granite4-32b_standard Complete": {
+        "reality": {
+            "total_samples": 30,
+            "total_corrects": 23,
+            "accuracy_percentage": 76.67
+        },
+        "1st_order": {
+            "total_samples": 60,
+            "total_corrects": 23,
+            "accuracy_percentage": 38.33
+        },
+        "2nd_order": {
+            "total_samples": 60,
+            "total_corrects": 4,
+            "accuracy_percentage": 6.67
+        }
+    },
+    "Sally-Anne_granite4-32b_obj_location Complete": {
+        "reality": {
+            "total_samples": 0,
+            "total_corrects": 0,
+            "accuracy_percentage": 0.0
+        },
+        "1st_order": {
+            "total_samples": 0,
+            "total_corrects": 0,
+            "accuracy_percentage": 0.0
+        },
+        "2nd_order": {
+            "total_samples": 0,
+            "total_corrects": 0,
+            "accuracy_percentage": 0.0
+        }
+    },
+    "Sally-Anne_granite4-32b_obj_location_NEW Complete": {
+        "reality": {
+            "total_samples": 0,
+            "total_corrects": 0,
+            "accuracy_percentage": 0.0
+        },
+        "1st_order": {
+            "total_samples": 0,
+            "total_corrects": 0,
+            "accuracy_percentage": 0.0
+        },
+        "2nd_order": {
+            "total_samples": 0,
+            "total_corrects": 0,
+            "accuracy_percentage": 0.0
+        }
+    },
+    "Sally-Anne_llama3-70b Complete": {
+        "reality": {
+            "total_samples": 30,
+            "total_corrects": 30,
+            "accuracy_percentage": 100.0
+        },
+        "1st_order": {
+            "total_samples": 60,
+            "total_corrects": 60,
+            "accuracy_percentage": 100.0
+        },
+        "2nd_order": {
+            "total_samples": 60,
+            "total_corrects": 60,
+            "accuracy_percentage": 100.0
+        }
+    },
+    "Sally-Anne_llama3-70b CoT": {
+        "reality": {
+            "total_samples": 30,
+            "total_corrects": 30,
+            "accuracy_percentage": 100.0
+        },
+        "1st_order": {
+            "total_samples": 60,
+            "total_corrects": 57,
+            "accuracy_percentage": 95.0
+        },
+        "2nd_order": {
+            "total_samples": 60,
+            "total_corrects": 60,
+            "accuracy_percentage": 100.0
+        }
+    },
+    "Sally-Anne_llama3-70b_Complete Complete": {
+        "reality": {
+            "total_samples": 30,
+            "total_corrects": 30,
+            "accuracy_percentage": 100.0
+        },
+        "1st_order": {
+            "total_samples": 60,
+            "total_corrects": 60,
+            "accuracy_percentage": 100.0
+        },
+        "2nd_order": {
+            "total_samples": 60,
+            "total_corrects": 58,
+            "accuracy_percentage": 96.67
+        }
+    },
+    "Sally-Anne_llama3-70b_standard Complete": {
+        "reality": {
+            "total_samples": 30,
+            "total_corrects": 23,
+            "accuracy_percentage": 76.67
+        },
+        "1st_order": {
+            "total_samples": 60,
+            "total_corrects": 33,
+            "accuracy_percentage": 55.0
+        },
+        "2nd_order": {
+            "total_samples": 60,
+            "total_corrects": 3,
+            "accuracy_percentage": 5.0
+        }
+    },
+    "Sally-Anne_llama3-70b_obj_location Complete": {
+        "reality": {
+            "total_samples": 30,
+            "total_corrects": 30,
+            "accuracy_percentage": 100.0
+        },
+        "1st_order": {
+            "total_samples": 60,
+            "total_corrects": 30,
+            "accuracy_percentage": 50.0
+        },
+        "2nd_order": {
+            "total_samples": 60,
+            "total_corrects": 0,
+            "accuracy_percentage": 0.0
+        }
+    },
+    "Sally-Anne_llama3-70b_obj_location_NEW Complete": {
+        "reality": {
+            "total_samples": 30,
+            "total_corrects": 30,
+            "accuracy_percentage": 100.0
+        },
+        "1st_order": {
+            "total_samples": 60,
+            "total_corrects": 30,
+            "accuracy_percentage": 50.0
+        },
+        "2nd_order": {
+            "total_samples": 60,
+            "total_corrects": 0,
+            "accuracy_percentage": 0.0
+        }
+    },
+    "Sally-Anne_qwen3.6-35b Complete": {
+        "reality": {
+            "total_samples": 30,
+            "total_corrects": 30,
+            "accuracy_percentage": 100.0
+        },
+        "1st_order": {
+            "total_samples": 60,
+            "total_corrects": 60,
+            "accuracy_percentage": 100.0
+        },
+        "2nd_order": {
+            "total_samples": 60,
+            "total_corrects": 53,
+            "accuracy_percentage": 88.33
+        }
+    },
+    "Sally-Anne_qwen3.6-35b CoT": {
+        "reality": {
+            "total_samples": 30,
+            "total_corrects": 30,
+            "accuracy_percentage": 100.0
+        },
+        "1st_order": {
+            "total_samples": 60,
+            "total_corrects": 60,
+            "accuracy_percentage": 100.0
+        },
+        "2nd_order": {
+            "total_samples": 60,
+            "total_corrects": 56,
+            "accuracy_percentage": 93.33
+        }
+    },
+    "Sally-Anne_qwen3.6-35b_Complete Complete": {
+        "reality": {
+            "total_samples": 30,
+            "total_corrects": 30,
+            "accuracy_percentage": 100.0
+        },
+        "1st_order": {
+            "total_samples": 60,
+            "total_corrects": 60,
+            "accuracy_percentage": 100.0
+        },
+        "2nd_order": {
+            "total_samples": 60,
+            "total_corrects": 57,
+            "accuracy_percentage": 95.0
+        }
+    },
+    "Sally-Anne_qwen3.6-35b_standard Complete": {
+        "reality": {
+            "total_samples": 30,
+            "total_corrects": 29,
+            "accuracy_percentage": 96.67
+        },
+        "1st_order": {
+            "total_samples": 60,
+            "total_corrects": 52,
+            "accuracy_percentage": 86.67
+        },
+        "2nd_order": {
+            "total_samples": 60,
+            "total_corrects": 24,
+            "accuracy_percentage": 40.0
+        }
+    },
+    "Sally-Anne_qwen3.6-35b_obj_location Complete": {
+        "reality": {
+            "total_samples": 30,
+            "total_corrects": 30,
+            "accuracy_percentage": 100.0
+        },
+        "1st_order": {
+            "total_samples": 60,
+            "total_corrects": 30,
+            "accuracy_percentage": 50.0
+        },
+        "2nd_order": {
+            "total_samples": 60,
+            "total_corrects": 2,
+            "accuracy_percentage": 3.33
+        }
+    },
+    "Sally-Anne_qwen3.6-35b_obj_location_NEW Complete": {
+        "reality": {
+            "total_samples": 30,
+            "total_corrects": 30,
+            "accuracy_percentage": 100.0
+        },
+        "1st_order": {
+            "total_samples": 60,
+            "total_corrects": 30,
+            "accuracy_percentage": 50.0
+        },
+        "2nd_order": {
+            "total_samples": 60,
+            "total_corrects": 0,
+            "accuracy_percentage": 0.0
+        }
+    }
+}

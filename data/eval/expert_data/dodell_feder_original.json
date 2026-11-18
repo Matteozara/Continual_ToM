@@ -1,0 +1,52 @@
+[
+    {
+        "story": "The weather was so warm today that all the tulips in Pam's backyard suddenly bloomed. The tulips next to Pam's office still have not yet flowered, though. Pam has been at work all day.",
+        "question": "When Pam is driving home after work, does she assume her tulips have bloomed?",
+        "answer": "no"
+    },
+    {
+        "story": "Susie parked her sports car in the driveway. In the middle of the night, Nathan moved her car into the garage to make room for his minivan. Susie woke up early in the morning.",
+        "question": "When Susie wakes up, does she see the minivan in the driveway?",
+        "answer": "yes"
+    },
+    {
+        "story": "The morning of the high school dance Sarah placed her high heel shoes under her dress and then went shopping. That afternoon, her sister borrowed the shoes and later put them under Sarah's bed.",
+        "question": "When Sarah gets ready, does she assume her shoes are under her dress?",
+        "answer": "yes"
+    },
+    {
+        "story": "Sally and Greg called ahead of time to make a reservation for the back-country cabin. The park ranger forgot to write down the reservation and two other hikers got to the cabin first.",
+        "question": "When Sally and Greg arrive, do they find their cabin unoccupied?",
+        "answer": "yes"
+    },
+    {
+        "story": "When Jeff got ready this morning, he put on a light pink shirt instead of a white one. Jeff is colorblind, so he can't tell the difference between subtle shades of color.",
+        "question": "Does Jeff believe he is wearing a white shirt?",
+        "answer": "yes"
+    },
+    {
+        "story": "Larry chose a debated topic for his class paper due on Friday. The news on Thursday indicated that the debate had been solved, but Larry never read it.",
+        "question": "When Larry writes his paper, does he think the debate has been solved?",
+        "answer": "no"
+    },
+    {
+        "story": "Every day Jill goes to the coffee shop on the corner and orders a latte, her favorite drink. Today, the cashier misunderstands Jill and prepares a mocha instead.",
+        "question": "Does Jill think her drink will taste like a mocha?",
+        "answer": "no"
+    },
+    {
+        "story": "Amy walked to work today. When George woke up, he saw her car in the drive. Her room was quiet and dark. George knows that when Amy is sick, she lies down in a dark room.",
+        "question": "Does George think Amy is sick today?",
+        "answer": "yes"
+    },
+    {
+        "story": "John told Mary that he had lost his keys. The two of them searched the house with no luck. Then Mary went outside to look in the car. Suddenly John noticed his keys behind the sofa.",
+        "question": "By the time Mary comes in, does John know where his keys are?",
+        "answer": "yes"
+    },
+    {
+        "story": "At night a bear broke into a cooler near a tent and drank the soda. Five hours later, the campers woke up and went to their cooler for breakfast.",
+        "question": "Do the campers find their cooler empty of soda?",
+        "answer": "yes"
+    }
+]

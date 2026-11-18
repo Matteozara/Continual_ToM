@@ -1,0 +1,1622 @@
+[
+    {
+        "type": "first_order_1_no_tom",
+        "category": "true_belief",
+        "story": [
+            "Jackson entered the hall.",
+            "Chloe entered the hall.",
+            "The boots is in the bathtub.",
+            "Jackson exited the hall.",
+            "Jackson entered the dining_room.",
+            "Chloe moved the boots to the pantry."
+        ],
+        "memory_tracking": [
+            {
+                "sentence": "Jackson entered the hall.",
+                "locations": {"Jackson": "hall"},
+                "beliefs": {
+                    "1-order": {
+                    },
+                    "higher-order": {}
+                }
+            },
+            {
+                "sentence": "Chloe entered the hall.",
+                "locations": {"Jackson": "hall", "Chloe": "hall"},
+                "beliefs": {
+                    "1-order": {
+                    },
+                    "higher-order": {
+                    }
+                }
+            },
+            {
+                "sentence": "The boots is in the bathtub.",
+                "locations": {"Jackson": "hall", "Chloe": "hall", "boots": "bathtub"},
+                "beliefs": {
+                    "1-order": {
+                        "Jackson": "Believes boots are in the bathtub.",
+                        "Chloe": "Believes boots are in the bathtub."
+                    },
+                    "higher-order": {
+                        "Jackson": "Knows Chloe believes boots are in the bathtub.",
+                        "Chloe": "Knows Jackson believes boots are in the bathtub."
+                    }
+                }
+            },
+            {
+                "sentence": "Jackson exited the hall.",
+                "locations": {"Jackson": "outside hall", "Chloe": "hall", "boots": "bathtub"},
+                "beliefs": {
+                    "1-order": {
+                        "Jackson": "Believes boots are in the bathtub.",
+                        "Chloe": "Believes boots are in the bathtub."
+                    },
+                    "higher-order": {
+                        "Jackson": "Knows Chloe believes boots are in the bathtub.",
+                        "Chloe": "Knows Jackson believes boots are in the bathtub."
+                    }
+                }
+            },
+            {
+                "sentence": "Jackson entered the dining_room.",
+                "locations": {"Jackson": "dining_room", "Chloe": "hall", "boots": "bathtub"},
+                "beliefs": {
+                    "1-order": {
+                        "Jackson": "Believes boots are in the bathtub.",
+                        "Chloe": "Believes boots are in the bathtub."
+                    },
+                    "higher-order": {
+                        "Jackson": "Knows Chloe believes boots are in the bathtub.",
+                        "Chloe": "Knows Jackson believes boots are in the bathtub."
+                    }
+                }
+            },
+            {
+                "sentence": "Chloe moved the boots to the pantry.",
+                "locations": {"Jackson": "dining_room", "Chloe": "hall", "boots": "pantry"},
+                "beliefs": {
+                    "1-order": {
+                        "Jackson": "Believes boots are in the bathtub.",
+                        "Chloe": "Believes boots are in the pantry."
+                    },
+                    "higher-order": {
+                        "Jackson": "Knows Chloe believes boots are in the bathtub.",
+                        "Chloe": "Knows Jackson believes boots are in the bathtub."
+                    }
+                }
+            }
+        ],
+        "question": "Where will Chloe look for the boots?",
+        "answer": "pantry"
+    },
+    {
+        "type": "second_order_1_tom",
+        "category": "true_belief",
+        "story": [
+            "Jackson entered the hall.",
+            "Chloe entered the hall.",
+            "The boots is in the bathtub.",
+            "Jackson exited the hall.",
+            "Jackson entered the dining_room.",
+            "Chloe moved the boots to the pantry."
+        ],
+        "memory_tracking": [
+            {
+                "sentence": "Jackson entered the hall.",
+                "locations": {"Jackson": "hall"},
+                "beliefs": {
+                    "1-order": {
+                    },
+                    "higher-order": {}
+                }
+            },
+            {
+                "sentence": "Chloe entered the hall.",
+                "locations": {"Jackson": "hall", "Chloe": "hall"},
+                "beliefs": {
+                    "1-order": {
+                    },
+                    "higher-order": {
+                    }
+                }
+            },
+            {
+                "sentence": "The boots is in the bathtub.",
+                "locations": {"Jackson": "hall", "Chloe": "hall", "boots": "bathtub"},
+                "beliefs": {
+                    "1-order": {
+                        "Jackson": "Believes boots are in the bathtub.",
+                        "Chloe": "Believes boots are in the bathtub."
+                    },
+                    "higher-order": {
+                        "Jackson": "Knows Chloe believes boots are in the bathtub.",
+                        "Chloe": "Knows Jackson believes boots are in the bathtub."
+                    }
+                }
+            },
+            {
+                "sentence": "Jackson exited the hall.",
+                "locations": {"Jackson": "outside hall", "Chloe": "hall", "boots": "bathtub"},
+                "beliefs": {
+                    "1-order": {
+                        "Jackson": "Believes boots are in the bathtub.",
+                        "Chloe": "Believes boots are in the bathtub."
+                    },
+                    "higher-order": {
+                        "Jackson": "Knows Chloe believes boots are in the bathtub.",
+                        "Chloe": "Knows Jackson believes boots are in the bathtub."
+                    }
+                }
+            },
+            {
+                "sentence": "Jackson entered the dining_room.",
+                "locations": {"Jackson": "dining_room", "Chloe": "hall", "boots": "bathtub"},
+                "beliefs": {
+                    "1-order": {
+                        "Jackson": "Believes boots are in the bathtub.",
+                        "Chloe": "Believes boots are in the bathtub."
+                    },
+                    "higher-order": {
+                        "Jackson": "Knows Chloe believes boots are in the bathtub.",
+                        "Chloe": "Knows Jackson believes boots are in the bathtub."
+                    }
+                }
+            },
+            {
+                "sentence": "Chloe moved the boots to the pantry.",
+                "locations": {"Jackson": "dining_room", "Chloe": "hall", "boots": "pantry"},
+                "beliefs": {
+                    "1-order": {
+                        "Jackson": "Believes boots are in the bathtub.",
+                        "Chloe": "Believes boots are in the pantry."
+                    },
+                    "higher-order": {
+                        "Jackson": "Knows Chloe believes boots are in the bathtub.",
+                        "Chloe": "Knows Jackson believes boots are in the bathtub."
+                    }
+                }
+            }
+        ],
+        "question": "Where does Chloe think that Jackson searches for the boots?",
+        "answer": "bathtub"
+    },
+    {
+        "type": "reality",
+        "category": "true_belief",
+        "story": [
+            "Jackson entered the hall.",
+            "Chloe entered the hall.",
+            "The boots is in the bathtub.",
+            "Jackson exited the hall.",
+            "Jackson entered the dining_room.",
+            "Chloe moved the boots to the pantry."
+        ],
+        "memory_tracking": [
+            {
+                "sentence": "Jackson entered the hall.",
+                "locations": {"Jackson": "hall"},
+                "beliefs": {
+                    "1-order": {
+                    },
+                    "higher-order": {}
+                }
+            },
+            {
+                "sentence": "Chloe entered the hall.",
+                "locations": {"Jackson": "hall", "Chloe": "hall"},
+                "beliefs": {
+                    "1-order": {
+                    },
+                    "higher-order": {
+                    }
+                }
+            },
+            {
+                "sentence": "The boots is in the bathtub.",
+                "locations": {"Jackson": "hall", "Chloe": "hall", "boots": "bathtub"},
+                "beliefs": {
+                    "1-order": {
+                        "Jackson": "Believes boots are in the bathtub.",
+                        "Chloe": "Believes boots are in the bathtub."
+                    },
+                    "higher-order": {
+                        "Jackson": "Knows Chloe believes boots are in the bathtub.",
+                        "Chloe": "Knows Jackson believes boots are in the bathtub."
+                    }
+                }
+            },
+            {
+                "sentence": "Jackson exited the hall.",
+                "locations": {"Jackson": "outside hall", "Chloe": "hall", "boots": "bathtub"},
+                "beliefs": {
+                    "1-order": {
+                        "Jackson": "Believes boots are in the bathtub.",
+                        "Chloe": "Believes boots are in the bathtub."
+                    },
+                    "higher-order": {
+                        "Jackson": "Knows Chloe believes boots are in the bathtub.",
+                        "Chloe": "Knows Jackson believes boots are in the bathtub."
+                    }
+                }
+            },
+            {
+                "sentence": "Jackson entered the dining_room.",
+                "locations": {"Jackson": "dining_room", "Chloe": "hall", "boots": "bathtub"},
+                "beliefs": {
+                    "1-order": {
+                        "Jackson": "Believes boots are in the bathtub.",
+                        "Chloe": "Believes boots are in the bathtub."
+                    },
+                    "higher-order": {
+                        "Jackson": "Knows Chloe believes boots are in the bathtub.",
+                        "Chloe": "Knows Jackson believes boots are in the bathtub."
+                    }
+                }
+            },
+            {
+                "sentence": "Chloe moved the boots to the pantry.",
+                "locations": {"Jackson": "dining_room", "Chloe": "hall", "boots": "pantry"},
+                "beliefs": {
+                    "1-order": {
+                        "Jackson": "Believes boots are in the bathtub.",
+                        "Chloe": "Believes boots are in the pantry."
+                    },
+                    "higher-order": {
+                        "Jackson": "Knows Chloe believes boots are in the bathtub.",
+                        "Chloe": "Knows Jackson believes boots are in the bathtub."
+                    }
+                }
+            }
+        ],
+        "question": "Where is the boots really?",
+        "answer": "pantry"
+    },
+    {
+        "type": "first_order_0_tom",
+        "category": "true_belief",
+        "story": [
+            "Jackson entered the hall.",
+            "Chloe entered the hall.",
+            "The boots is in the bathtub.",
+            "Jackson exited the hall.",
+            "Jackson entered the dining_room.",
+            "Chloe moved the boots to the pantry."
+        ],
+        "memory_tracking": [
+            {
+                "sentence": "Jackson entered the hall.",
+                "locations": {"Jackson": "hall"},
+                "beliefs": {
+                    "1-order": {
+                    },
+                    "higher-order": {}
+                }
+            },
+            {
+                "sentence": "Chloe entered the hall.",
+                "locations": {"Jackson": "hall", "Chloe": "hall"},
+                "beliefs": {
+                    "1-order": {
+                    },
+                    "higher-order": {
+                    }
+                }
+            },
+            {
+                "sentence": "The boots is in the bathtub.",
+                "locations": {"Jackson": "hall", "Chloe": "hall", "boots": "bathtub"},
+                "beliefs": {
+                    "1-order": {
+                        "Jackson": "Believes boots are in the bathtub.",
+                        "Chloe": "Believes boots are in the bathtub."
+                    },
+                    "higher-order": {
+                        "Jackson": "Knows Chloe believes boots are in the bathtub.",
+                        "Chloe": "Knows Jackson believes boots are in the bathtub."
+                    }
+                }
+            },
+            {
+                "sentence": "Jackson exited the hall.",
+                "locations": {"Jackson": "outside hall", "Chloe": "hall", "boots": "bathtub"},
+                "beliefs": {
+                    "1-order": {
+                        "Jackson": "Believes boots are in the bathtub.",
+                        "Chloe": "Believes boots are in the bathtub."
+                    },
+                    "higher-order": {
+                        "Jackson": "Knows Chloe believes boots are in the bathtub.",
+                        "Chloe": "Knows Jackson believes boots are in the bathtub."
+                    }
+                }
+            },
+            {
+                "sentence": "Jackson entered the dining_room.",
+                "locations": {"Jackson": "dining_room", "Chloe": "hall", "boots": "bathtub"},
+                "beliefs": {
+                    "1-order": {
+                        "Jackson": "Believes boots are in the bathtub.",
+                        "Chloe": "Believes boots are in the bathtub."
+                    },
+                    "higher-order": {
+                        "Jackson": "Knows Chloe believes boots are in the bathtub.",
+                        "Chloe": "Knows Jackson believes boots are in the bathtub."
+                    }
+                }
+            },
+            {
+                "sentence": "Chloe moved the boots to the pantry.",
+                "locations": {"Jackson": "dining_room", "Chloe": "hall", "boots": "pantry"},
+                "beliefs": {
+                    "1-order": {
+                        "Jackson": "Believes boots are in the bathtub.",
+                        "Chloe": "Believes boots are in the pantry."
+                    },
+                    "higher-order": {
+                        "Jackson": "Knows Chloe believes boots are in the bathtub.",
+                        "Chloe": "Knows Jackson believes boots are in the bathtub."
+                    }
+                }
+            }
+        ],
+        "question": "Where will Jackson look for the boots?",
+        "answer": "bathtub"
+    },
+    {
+        "type": "second_order_0_tom",
+        "category": "true_belief",
+        "story": [
+            "Jackson entered the hall.",
+            "Chloe entered the hall.",
+            "The boots is in the bathtub.",
+            "Jackson exited the hall.",
+            "Jackson entered the dining_room.",
+            "Chloe moved the boots to the pantry."
+        ],
+        "memory_tracking": [
+            {
+                "sentence": "Jackson entered the hall.",
+                "locations": {"Jackson": "hall"},
+                "beliefs": {
+                    "1-order": {
+                    },
+                    "higher-order": {}
+                }
+            },
+            {
+                "sentence": "Chloe entered the hall.",
+                "locations": {"Jackson": "hall", "Chloe": "hall"},
+                "beliefs": {
+                    "1-order": {
+                    },
+                    "higher-order": {
+                    }
+                }
+            },
+            {
+                "sentence": "The boots is in the bathtub.",
+                "locations": {"Jackson": "hall", "Chloe": "hall", "boots": "bathtub"},
+                "beliefs": {
+                    "1-order": {
+                        "Jackson": "Believes boots are in the bathtub.",
+                        "Chloe": "Believes boots are in the bathtub."
+                    },
+                    "higher-order": {
+                        "Jackson": "Knows Chloe believes boots are in the bathtub.",
+                        "Chloe": "Knows Jackson believes boots are in the bathtub."
+                    }
+                }
+            },
+            {
+                "sentence": "Jackson exited the hall.",
+                "locations": {"Jackson": "outside hall", "Chloe": "hall", "boots": "bathtub"},
+                "beliefs": {
+                    "1-order": {
+                        "Jackson": "Believes boots are in the bathtub.",
+                        "Chloe": "Believes boots are in the bathtub."
+                    },
+                    "higher-order": {
+                        "Jackson": "Knows Chloe believes boots are in the bathtub.",
+                        "Chloe": "Knows Jackson believes boots are in the bathtub."
+                    }
+                }
+            },
+            {
+                "sentence": "Jackson entered the dining_room.",
+                "locations": {"Jackson": "dining_room", "Chloe": "hall", "boots": "bathtub"},
+                "beliefs": {
+                    "1-order": {
+                        "Jackson": "Believes boots are in the bathtub.",
+                        "Chloe": "Believes boots are in the bathtub."
+                    },
+                    "higher-order": {
+                        "Jackson": "Knows Chloe believes boots are in the bathtub.",
+                        "Chloe": "Knows Jackson believes boots are in the bathtub."
+                    }
+                }
+            },
+            {
+                "sentence": "Chloe moved the boots to the pantry.",
+                "locations": {"Jackson": "dining_room", "Chloe": "hall", "boots": "pantry"},
+                "beliefs": {
+                    "1-order": {
+                        "Jackson": "Believes boots are in the bathtub.",
+                        "Chloe": "Believes boots are in the pantry."
+                    },
+                    "higher-order": {
+                        "Jackson": "Knows Chloe believes boots are in the bathtub.",
+                        "Chloe": "Knows Jackson believes boots are in the bathtub."
+                    }
+                }
+            }
+        ],
+        "question": "Where does Jackson think that Chloe searches for the boots?",
+        "answer": "bathtub"
+    },
+    {
+        "type": "first_order_0_no_tom",
+        "category": "false_belief",
+        "story": [
+            "Hannah entered the patio.",
+            "Noah entered the patio.",
+            "The sweater is in the bucket.",
+            "Noah exited the patio.",
+            "Ethan entered the study.",
+            "Ethan exited the study.",
+            "Hannah moved the sweater to the pantry."
+        ],
+        "memory_tracking": [
+            {
+                "sentence": "Hannah entered the patio.",
+                "locations": {"Hannah": "patio"},
+                "beliefs": {
+                    "1-order": {},
+                    "higher-order": {}
+                }
+            },
+            {
+                "sentence": "Noah entered the patio.",
+                "locations": {"Hannah": "patio", "Noah": "patio"},
+                "beliefs": {
+                    "1-order": {
+                    },
+                    "higher-order": {
+                    }
+                }
+            },
+            {
+                "sentence": "The sweater is in the bucket.",
+                "locations": {"Hannah": "patio", "Noah": "patio", "sweater": "bucket"},
+                "beliefs": {
+                    "1-order": {
+                        "Hannah": "Believes sweater is in the bucket.",
+                        "Noah": "Believes sweater is in the bucket."
+                    },
+                    "higher-order": {
+                        "Hannah": "Knows Noah believes sweater is in the bucket.",
+                        "Noah": "Knows Hannah believes sweater is in the bucket."
+                    }
+                }
+            },
+            {
+                "sentence": "Noah exited the patio.",
+                "locations": {"Hannah": "outside patio", "Noah": "patio", "sweater": "bucket"},
+                "beliefs": {
+                    "1-order": {
+                        "Hannah": "Believes sweater is in the bucket.",
+                        "Noah": "Believes sweater is in the bucket."
+                    },
+                    "higher-order": {
+                        "Hannah": "Knows Noah believes sweater is in the bucket.",
+                        "Noah": "Knows Hannah believes sweater is in the bucket."
+                    }
+                }
+            },
+            {
+                "sentence": "Ethan entered the study.",
+                "locations": {"Hannah": "outside patio", "Noah": "patio", "sweater": "bucket", "Ethan": "study"},
+                "beliefs": {
+                    "1-order": {
+                        "Hannah": "Believes sweater is in the bucket.",
+                        "Noah": "Believes sweater is in the bucket."
+                    },
+                    "higher-order": {
+                        "Hannah": "Knows Noah believes sweater is in the bucket.",
+                        "Noah": "Knows Hannah believes sweater is in the bucket."
+                    }
+                }
+            },
+            {
+                "sentence": "Ethan exited the study.",
+                "locations": {"Hannah": "outside patio", "Noah": "patio", "sweater": "bucket", "Ethan": "outside study"},
+                "beliefs": {
+                    "1-order": {
+                        "Hannah": "Believes sweater is in the bucket.",
+                        "Noah": "Believes sweater is in the bucket."
+                    },
+                    "higher-order": {
+                        "Hannah": "Knows Noah believes sweater is in the bucket.",
+                        "Noah": "Knows Hannah believes sweater is in the bucket."
+                    }
+                }
+            },
+            {
+                "sentence": "Hannah moved the sweater to the pantry.",
+                "locations": {"Hannah": "outside patio", "Noah": "patio", "sweater": "pantry", "Ethan": "outside study"},
+                "beliefs": {
+                    "1-order": {
+                        "Hannah": "Believes sweater is in the pantry.",
+                        "Noah": "Believes sweater is in the bucket.",
+                        "Ethan": "Has no belief regarding the sweater's location."
+                    },
+                    "higher-order": {
+                        "Hannah": "Knows Noah believes sweater is in the bucket.",
+                        "Noah": "Knows Hannah believes sweater is in the bucket."
+                    }
+                }
+            }
+        ],
+        "question": "Where will Hannah look for the sweater?",
+        "answer": "pantry"
+    },
+    {
+        "type": "second_order_0_tom",
+        "category": "false_belief",
+        "story": [
+            "Hannah entered the patio.",
+            "Noah entered the patio.",
+            "The sweater is in the bucket.",
+            "Noah exited the patio.",
+            "Ethan entered the study.",
+            "Ethan exited the study.",
+            "Hannah moved the sweater to the pantry."
+        ],
+        "memory_tracking": [
+            {
+                "sentence": "Hannah entered the patio.",
+                "locations": {"Hannah": "patio"},
+                "beliefs": {
+                    "1-order": {},
+                    "higher-order": {}
+                }
+            },
+            {
+                "sentence": "Noah entered the patio.",
+                "locations": {"Hannah": "patio", "Noah": "patio"},
+                "beliefs": {
+                    "1-order": {
+                    },
+                    "higher-order": {
+                    }
+                }
+            },
+            {
+                "sentence": "The sweater is in the bucket.",
+                "locations": {"Hannah": "patio", "Noah": "patio", "sweater": "bucket"},
+                "beliefs": {
+                    "1-order": {
+                        "Hannah": "Believes sweater is in the bucket.",
+                        "Noah": "Believes sweater is in the bucket."
+                    },
+                    "higher-order": {
+                        "Hannah": "Knows Noah believes sweater is in the bucket.",
+                        "Noah": "Knows Hannah believes sweater is in the bucket."
+                    }
+                }
+            },
+            {
+                "sentence": "Noah exited the patio.",
+                "locations": {"Hannah": "outside patio", "Noah": "patio", "sweater": "bucket"},
+                "beliefs": {
+                    "1-order": {
+                        "Hannah": "Believes sweater is in the bucket.",
+                        "Noah": "Believes sweater is in the bucket."
+                    },
+                    "higher-order": {
+                        "Hannah": "Knows Noah believes sweater is in the bucket.",
+                        "Noah": "Knows Hannah believes sweater is in the bucket."
+                    }
+                }
+            },
+            {
+                "sentence": "Ethan entered the study.",
+                "locations": {"Hannah": "outside patio", "Noah": "patio", "sweater": "bucket", "Ethan": "study"},
+                "beliefs": {
+                    "1-order": {
+                        "Hannah": "Believes sweater is in the bucket.",
+                        "Noah": "Believes sweater is in the bucket."
+                    },
+                    "higher-order": {
+                        "Hannah": "Knows Noah believes sweater is in the bucket.",
+                        "Noah": "Knows Hannah believes sweater is in the bucket."
+                    }
+                }
+            },
+            {
+                "sentence": "Ethan exited the study.",
+                "locations": {"Hannah": "outside patio", "Noah": "patio", "sweater": "bucket", "Ethan": "outside study"},
+                "beliefs": {
+                    "1-order": {
+                        "Hannah": "Believes sweater is in the bucket.",
+                        "Noah": "Believes sweater is in the bucket."
+                    },
+                    "higher-order": {
+                        "Hannah": "Knows Noah believes sweater is in the bucket.",
+                        "Noah": "Knows Hannah believes sweater is in the bucket."
+                    }
+                }
+            },
+            {
+                "sentence": "Hannah moved the sweater to the pantry.",
+                "locations": {"Hannah": "outside patio", "Noah": "patio", "sweater": "pantry", "Ethan": "outside study"},
+                "beliefs": {
+                    "1-order": {
+                        "Hannah": "Believes sweater is in the pantry.",
+                        "Noah": "Believes sweater is in the bucket.",
+                        "Ethan": "Has no belief regarding the sweater's location."
+                    },
+                    "higher-order": {
+                        "Hannah": "Knows Noah believes sweater is in the bucket.",
+                        "Noah": "Knows Hannah believes sweater is in the bucket."
+                    }
+                }
+            }
+        ],
+        "question": "Where does Hannah think that Noah searches for the sweater?",
+        "answer": "bucket"
+    },
+    {
+        "type": "reality",
+        "category": "false_belief",
+        "story": [
+            "Hannah entered the patio.",
+            "Noah entered the patio.",
+            "The sweater is in the bucket.",
+            "Noah exited the patio.",
+            "Ethan entered the study.",
+            "Ethan exited the study.",
+            "Hannah moved the sweater to the pantry."
+        ],
+        "memory_tracking": [
+            {
+                "sentence": "Hannah entered the patio.",
+                "locations": {"Hannah": "patio"},
+                "beliefs": {
+                    "1-order": {},
+                    "higher-order": {}
+                }
+            },
+            {
+                "sentence": "Noah entered the patio.",
+                "locations": {"Hannah": "patio", "Noah": "patio"},
+                "beliefs": {
+                    "1-order": {
+                    },
+                    "higher-order": {
+                    }
+                }
+            },
+            {
+                "sentence": "The sweater is in the bucket.",
+                "locations": {"Hannah": "patio", "Noah": "patio", "sweater": "bucket"},
+                "beliefs": {
+                    "1-order": {
+                        "Hannah": "Believes sweater is in the bucket.",
+                        "Noah": "Believes sweater is in the bucket."
+                    },
+                    "higher-order": {
+                        "Hannah": "Knows Noah believes sweater is in the bucket.",
+                        "Noah": "Knows Hannah believes sweater is in the bucket."
+                    }
+                }
+            },
+            {
+                "sentence": "Noah exited the patio.",
+                "locations": {"Hannah": "outside patio", "Noah": "patio", "sweater": "bucket"},
+                "beliefs": {
+                    "1-order": {
+                        "Hannah": "Believes sweater is in the bucket.",
+                        "Noah": "Believes sweater is in the bucket."
+                    },
+                    "higher-order": {
+                        "Hannah": "Knows Noah believes sweater is in the bucket.",
+                        "Noah": "Knows Hannah believes sweater is in the bucket."
+                    }
+                }
+            },
+            {
+                "sentence": "Ethan entered the study.",
+                "locations": {"Hannah": "outside patio", "Noah": "patio", "sweater": "bucket", "Ethan": "study"},
+                "beliefs": {
+                    "1-order": {
+                        "Hannah": "Believes sweater is in the bucket.",
+                        "Noah": "Believes sweater is in the bucket."
+                    },
+                    "higher-order": {
+                        "Hannah": "Knows Noah believes sweater is in the bucket.",
+                        "Noah": "Knows Hannah believes sweater is in the bucket."
+                    }
+                }
+            },
+            {
+                "sentence": "Ethan exited the study.",
+                "locations": {"Hannah": "outside patio", "Noah": "patio", "sweater": "bucket", "Ethan": "outside study"},
+                "beliefs": {
+                    "1-order": {
+                        "Hannah": "Believes sweater is in the bucket.",
+                        "Noah": "Believes sweater is in the bucket."
+                    },
+                    "higher-order": {
+                        "Hannah": "Knows Noah believes sweater is in the bucket.",
+                        "Noah": "Knows Hannah believes sweater is in the bucket."
+                    }
+                }
+            },
+            {
+                "sentence": "Hannah moved the sweater to the pantry.",
+                "locations": {"Hannah": "outside patio", "Noah": "patio", "sweater": "pantry", "Ethan": "outside study"},
+                "beliefs": {
+                    "1-order": {
+                        "Hannah": "Believes sweater is in the pantry.",
+                        "Noah": "Believes sweater is in the bucket.",
+                        "Ethan": "Has no belief regarding the sweater's location."
+                    },
+                    "higher-order": {
+                        "Hannah": "Knows Noah believes sweater is in the bucket.",
+                        "Noah": "Knows Hannah believes sweater is in the bucket."
+                    }
+                }
+            }
+        ],
+        "question": "Where is the sweater really?",
+        "answer": "pantry"
+    },
+    {
+        "type": "first_order_1_tom",
+        "category": "false_belief",
+        "story": [
+            "Hannah entered the patio.",
+            "Noah entered the patio.",
+            "The sweater is in the bucket.",
+            "Noah exited the patio.",
+            "Ethan entered the study.",
+            "Ethan exited the study.",
+            "Hannah moved the sweater to the pantry."
+        ],
+        "memory_tracking": [
+            {
+                "sentence": "Hannah entered the patio.",
+                "locations": {"Hannah": "patio"},
+                "beliefs": {
+                    "1-order": {},
+                    "higher-order": {}
+                }
+            },
+            {
+                "sentence": "Noah entered the patio.",
+                "locations": {"Hannah": "patio", "Noah": "patio"},
+                "beliefs": {
+                    "1-order": {
+                    },
+                    "higher-order": {
+                    }
+                }
+            },
+            {
+                "sentence": "The sweater is in the bucket.",
+                "locations": {"Hannah": "patio", "Noah": "patio", "sweater": "bucket"},
+                "beliefs": {
+                    "1-order": {
+                        "Hannah": "Believes sweater is in the bucket.",
+                        "Noah": "Believes sweater is in the bucket."
+                    },
+                    "higher-order": {
+                        "Hannah": "Knows Noah believes sweater is in the bucket.",
+                        "Noah": "Knows Hannah believes sweater is in the bucket."
+                    }
+                }
+            },
+            {
+                "sentence": "Noah exited the patio.",
+                "locations": {"Hannah": "outside patio", "Noah": "patio", "sweater": "bucket"},
+                "beliefs": {
+                    "1-order": {
+                        "Hannah": "Believes sweater is in the bucket.",
+                        "Noah": "Believes sweater is in the bucket."
+                    },
+                    "higher-order": {
+                        "Hannah": "Knows Noah believes sweater is in the bucket.",
+                        "Noah": "Knows Hannah believes sweater is in the bucket."
+                    }
+                }
+            },
+            {
+                "sentence": "Ethan entered the study.",
+                "locations": {"Hannah": "outside patio", "Noah": "patio", "sweater": "bucket", "Ethan": "study"},
+                "beliefs": {
+                    "1-order": {
+                        "Hannah": "Believes sweater is in the bucket.",
+                        "Noah": "Believes sweater is in the bucket."
+                    },
+                    "higher-order": {
+                        "Hannah": "Knows Noah believes sweater is in the bucket.",
+                        "Noah": "Knows Hannah believes sweater is in the bucket."
+                    }
+                }
+            },
+            {
+                "sentence": "Ethan exited the study.",
+                "locations": {"Hannah": "outside patio", "Noah": "patio", "sweater": "bucket", "Ethan": "outside study"},
+                "beliefs": {
+                    "1-order": {
+                        "Hannah": "Believes sweater is in the bucket.",
+                        "Noah": "Believes sweater is in the bucket."
+                    },
+                    "higher-order": {
+                        "Hannah": "Knows Noah believes sweater is in the bucket.",
+                        "Noah": "Knows Hannah believes sweater is in the bucket."
+                    }
+                }
+            },
+            {
+                "sentence": "Hannah moved the sweater to the pantry.",
+                "locations": {"Hannah": "outside patio", "Noah": "patio", "sweater": "pantry", "Ethan": "outside study"},
+                "beliefs": {
+                    "1-order": {
+                        "Hannah": "Believes sweater is in the pantry.",
+                        "Noah": "Believes sweater is in the bucket.",
+                        "Ethan": "Has no belief regarding the sweater's location."
+                    },
+                    "higher-order": {
+                        "Hannah": "Knows Noah believes sweater is in the bucket.",
+                        "Noah": "Knows Hannah believes sweater is in the bucket."
+                    }
+                }
+            }
+        ],
+        "question": "Where will Noah look for the sweater?",
+        "answer": "bucket"
+    },
+    {
+        "type": "second_order_1_tom",
+        "category": "false_belief",
+        "story": [
+            "Hannah entered the patio.",
+            "Noah entered the patio.",
+            "The sweater is in the bucket.",
+            "Noah exited the patio.",
+            "Ethan entered the study.",
+            "Ethan exited the study.",
+            "Hannah moved the sweater to the pantry."
+        ],
+        "memory_tracking": [
+            {
+                "sentence": "Hannah entered the patio.",
+                "locations": {"Hannah": "patio"},
+                "beliefs": {
+                    "1-order": {},
+                    "higher-order": {}
+                }
+            },
+            {
+                "sentence": "Noah entered the patio.",
+                "locations": {"Hannah": "patio", "Noah": "patio"},
+                "beliefs": {
+                    "1-order": {
+                    },
+                    "higher-order": {
+                    }
+                }
+            },
+            {
+                "sentence": "The sweater is in the bucket.",
+                "locations": {"Hannah": "patio", "Noah": "patio", "sweater": "bucket"},
+                "beliefs": {
+                    "1-order": {
+                        "Hannah": "Believes sweater is in the bucket.",
+                        "Noah": "Believes sweater is in the bucket."
+                    },
+                    "higher-order": {
+                        "Hannah": "Knows Noah believes sweater is in the bucket.",
+                        "Noah": "Knows Hannah believes sweater is in the bucket."
+                    }
+                }
+            },
+            {
+                "sentence": "Noah exited the patio.",
+                "locations": {"Hannah": "outside patio", "Noah": "patio", "sweater": "bucket"},
+                "beliefs": {
+                    "1-order": {
+                        "Hannah": "Believes sweater is in the bucket.",
+                        "Noah": "Believes sweater is in the bucket."
+                    },
+                    "higher-order": {
+                        "Hannah": "Knows Noah believes sweater is in the bucket.",
+                        "Noah": "Knows Hannah believes sweater is in the bucket."
+                    }
+                }
+            },
+            {
+                "sentence": "Ethan entered the study.",
+                "locations": {"Hannah": "outside patio", "Noah": "patio", "sweater": "bucket", "Ethan": "study"},
+                "beliefs": {
+                    "1-order": {
+                        "Hannah": "Believes sweater is in the bucket.",
+                        "Noah": "Believes sweater is in the bucket."
+                    },
+                    "higher-order": {
+                        "Hannah": "Knows Noah believes sweater is in the bucket.",
+                        "Noah": "Knows Hannah believes sweater is in the bucket."
+                    }
+                }
+            },
+            {
+                "sentence": "Ethan exited the study.",
+                "locations": {"Hannah": "outside patio", "Noah": "patio", "sweater": "bucket", "Ethan": "outside study"},
+                "beliefs": {
+                    "1-order": {
+                        "Hannah": "Believes sweater is in the bucket.",
+                        "Noah": "Believes sweater is in the bucket."
+                    },
+                    "higher-order": {
+                        "Hannah": "Knows Noah believes sweater is in the bucket.",
+                        "Noah": "Knows Hannah believes sweater is in the bucket."
+                    }
+                }
+            },
+            {
+                "sentence": "Hannah moved the sweater to the pantry.",
+                "locations": {"Hannah": "outside patio", "Noah": "patio", "sweater": "pantry", "Ethan": "outside study"},
+                "beliefs": {
+                    "1-order": {
+                        "Hannah": "Believes sweater is in the pantry.",
+                        "Noah": "Believes sweater is in the bucket.",
+                        "Ethan": "Has no belief regarding the sweater's location."
+                    },
+                    "higher-order": {
+                        "Hannah": "Knows Noah believes sweater is in the bucket.",
+                        "Noah": "Knows Hannah believes sweater is in the bucket."
+                    }
+                }
+            }
+        ],
+        "question": "Where does Noah think that Hannah searches for the sweater?",
+        "answer": "bucket"
+    },
+    {
+        "type": "first_order_1_no_tom",
+        "category": "second_order_false_belief",
+        "story": [
+            "Lily entered the garage.",
+            "Jacob hates the stockings Lily exited the garage.",
+            "Mia entered the crawlspace.",
+            "Jacob entered the crawlspace.",
+            "The melon is in the bucket.",
+            "Mia exited the crawlspace.",
+            "Jacob moved the melon to the suitcase.",
+            "Jacob hates the melon Jacob exited the crawlspace.",
+            "Mia entered the crawlspace."
+        ],
+        "memory_tracking": [
+            {
+                "sentence": "Lily entered the garage.",
+                "locations": {"Lily": "garage"},
+                "beliefs": {
+                    "1-order": {}, 
+                    "higher-order": {}
+                }
+            },
+            {
+                "sentence": "Jacob hates the stockings Lily exited the garage.",
+                "locations": {"Lily": "outside garage"},
+                "beliefs": {
+                    "1-order": {
+                        "Jacob": "Dislikes stockings."
+                    }, 
+                    "higher-order": {}
+                }
+            },
+            {
+                "sentence": "Mia entered the crawlspace.",
+                "locations": {"Lily": "outside garage", "Mia": "crawlspace"},
+                "beliefs": {
+                    "1-order": {
+                        "Jacob": "Dislikes stockings."
+                    }, 
+                    "higher-order": {}
+                }
+            },
+            {
+                "sentence": "Jacob entered the crawlspace.",
+                "locations": {"Lily": "outside garage", "Mia": "crawlspace", "Jacob": "crawlspace"},
+                "beliefs": {
+                    "1-order": {
+                        "Jacob": "Dislikes stockings."
+                    }, 
+                    "higher-order": {}
+                }
+            },
+            {
+                "sentence": "The melon is in the bucket.",
+                "locations": {"Lily": "outside garage", "Mia": "crawlspace", "Jacob": "crawlspace", "melon": "bucket"},
+                "beliefs": {
+                    "1-order": {
+                        "Jacob": "Dislikes stockings and believes melon is in bucket.",
+                        "Mia": "Believes melon is in bucket."
+                    }, 
+                    "higher-order": {
+                        "Mia": "Knows Jacob believes melon is in bucket.",
+                        "Jacob": "Knows Mia believes melon is in bucket."
+                    }
+                }
+            },
+            {
+                "sentence": "Mia exited the crawlspace.",
+                "locations": {"Lily": "outside garage", "Mia": "outside crawlspace", "Jacob": "crawlspace", "melon": "bucket"},
+                "beliefs": {
+                    "1-order": {
+                        "Jacob": "Dislikes stockings and believes melon is in bucket.",
+                        "Mia": "Believes melon is in bucket."
+                    }, 
+                    "higher-order": {
+                        "Mia": "Knows Jacob believes melon is in bucket.",
+                        "Jacob": "Knows Mia believes melon is in bucket."
+                    }
+                }
+            },
+            {
+                "sentence": "Jacob moved the melon to the suitcase.",
+                "locations": {"Lily": "outside garage", "Mia": "outside crawlspace", "Jacob": "crawlspace", "melon": "suitcase"},
+                "beliefs": {
+                    "1-order": {
+                        "Jacob": "Dislikes stockings and believes melon is in suitcase.",
+                        "Mia": "Believes melon is in bucket."
+                    }, 
+                    "higher-order": {
+                        "Mia": "Knows Jacob believes melon is in bucket.",
+                        "Jacob": "Knows Mia believes melon is in bucket."
+                    }
+                }
+            },
+            {
+                "sentence": "Jacob hates the melon Jacob exited the crawlspace.",
+                "locations": {"Lily": "outside garage", "Mia": "outside crawlspace", "Jacob": "outside crawlspace", "melon": "suitcase"},
+                "beliefs": {
+                    "1-order": {
+                        "Jacob": "Dislikes stockings and believes melon is in suitcase and hates the melon.",
+                        "Mia": "Believes melon is in bucket."
+                    }, 
+                    "higher-order": {
+                        "Mia": "Knows Jacob believes melon is in bucket.",
+                        "Jacob": "Knows Mia believes melon is in bucket."
+                    }
+                }
+            },
+            {
+                "sentence": "Mia entered the crawlspace.",
+                "locations": {"Lily": "outside garage", "Mia": "crawlspace", "Jacob": "outside crawlspace", "melon": "suitcase"},
+                "beliefs": {
+                    "1-order": {
+                        "Jacob": "Dislikes stockings and believes melon is in suitcase and hates the melon.",
+                        "Mia": "Believes melon is in bucket."
+                    }, 
+                    "higher-order": {
+                        "Mia": "Knows Jacob believes melon is in bucket.",
+                        "Jacob": "Knows Mia believes melon is in bucket."
+                    }
+                }
+            }
+        ],
+        "question": "Where will Jacob look for the melon?",
+        "answer": "suitcase"
+    },
+    {
+        "type": "second_order_1_tom",
+        "category": "second_order_false_belief",
+        "story": [
+            "Lily entered the garage.",
+            "Jacob hates the stockings Lily exited the garage.",
+            "Mia entered the crawlspace.",
+            "Jacob entered the crawlspace.",
+            "The melon is in the bucket.",
+            "Mia exited the crawlspace.",
+            "Jacob moved the melon to the suitcase.",
+            "Jacob hates the melon Jacob exited the crawlspace.",
+            "Mia entered the crawlspace."
+        ],
+        "memory_tracking": [
+            {
+                "sentence": "Lily entered the garage.",
+                "locations": {"Lily": "garage"},
+                "beliefs": {
+                    "1-order": {}, 
+                    "higher-order": {}
+                }
+            },
+            {
+                "sentence": "Jacob hates the stockings Lily exited the garage.",
+                "locations": {"Lily": "outside garage"},
+                "beliefs": {
+                    "1-order": {
+                        "Jacob": "Dislikes stockings."
+                    }, 
+                    "higher-order": {}
+                }
+            },
+            {
+                "sentence": "Mia entered the crawlspace.",
+                "locations": {"Lily": "outside garage", "Mia": "crawlspace"},
+                "beliefs": {
+                    "1-order": {
+                        "Jacob": "Dislikes stockings."
+                    }, 
+                    "higher-order": {}
+                }
+            },
+            {
+                "sentence": "Jacob entered the crawlspace.",
+                "locations": {"Lily": "outside garage", "Mia": "crawlspace", "Jacob": "crawlspace"},
+                "beliefs": {
+                    "1-order": {
+                        "Jacob": "Dislikes stockings."
+                    }, 
+                    "higher-order": {}
+                }
+            },
+            {
+                "sentence": "The melon is in the bucket.",
+                "locations": {"Lily": "outside garage", "Mia": "crawlspace", "Jacob": "crawlspace", "melon": "bucket"},
+                "beliefs": {
+                    "1-order": {
+                        "Jacob": "Dislikes stockings and believes melon is in bucket.",
+                        "Mia": "Believes melon is in bucket."
+                    }, 
+                    "higher-order": {
+                        "Mia": "Knows Jacob believes melon is in bucket.",
+                        "Jacob": "Knows Mia believes melon is in bucket."
+                    }
+                }
+            },
+            {
+                "sentence": "Mia exited the crawlspace.",
+                "locations": {"Lily": "outside garage", "Mia": "outside crawlspace", "Jacob": "crawlspace", "melon": "bucket"},
+                "beliefs": {
+                    "1-order": {
+                        "Jacob": "Dislikes stockings and believes melon is in bucket.",
+                        "Mia": "Believes melon is in bucket."
+                    }, 
+                    "higher-order": {
+                        "Mia": "Knows Jacob believes melon is in bucket.",
+                        "Jacob": "Knows Mia believes melon is in bucket."
+                    }
+                }
+            },
+            {
+                "sentence": "Jacob moved the melon to the suitcase.",
+                "locations": {"Lily": "outside garage", "Mia": "outside crawlspace", "Jacob": "crawlspace", "melon": "suitcase"},
+                "beliefs": {
+                    "1-order": {
+                        "Jacob": "Dislikes stockings and believes melon is in suitcase.",
+                        "Mia": "Believes melon is in bucket."
+                    }, 
+                    "higher-order": {
+                        "Mia": "Knows Jacob believes melon is in bucket.",
+                        "Jacob": "Knows Mia believes melon is in bucket."
+                    }
+                }
+            },
+            {
+                "sentence": "Jacob hates the melon Jacob exited the crawlspace.",
+                "locations": {"Lily": "outside garage", "Mia": "outside crawlspace", "Jacob": "outside crawlspace", "melon": "suitcase"},
+                "beliefs": {
+                    "1-order": {
+                        "Jacob": "Dislikes stockings and believes melon is in suitcase and hates the melon.",
+                        "Mia": "Believes melon is in bucket."
+                    }, 
+                    "higher-order": {
+                        "Mia": "Knows Jacob believes melon is in bucket.",
+                        "Jacob": "Knows Mia believes melon is in bucket."
+                    }
+                }
+            },
+            {
+                "sentence": "Mia entered the crawlspace.",
+                "locations": {"Lily": "outside garage", "Mia": "crawlspace", "Jacob": "outside crawlspace", "melon": "suitcase"},
+                "beliefs": {
+                    "1-order": {
+                        "Jacob": "Dislikes stockings and believes melon is in suitcase and hates the melon.",
+                        "Mia": "Believes melon is in bucket."
+                    }, 
+                    "higher-order": {
+                        "Mia": "Knows Jacob believes melon is in bucket.",
+                        "Jacob": "Knows Mia believes melon is in bucket."
+                    }
+                }
+            }
+        ],
+        "question": "Where does Jacob think that Mia searches for the melon?",
+        "answer": "bucket"
+    },
+    {
+        "type": "reality",
+        "category": "second_order_false_belief",
+        "story": [
+            "Lily entered the garage.",
+            "Jacob hates the stockings Lily exited the garage.",
+            "Mia entered the crawlspace.",
+            "Jacob entered the crawlspace.",
+            "The melon is in the bucket.",
+            "Mia exited the crawlspace.",
+            "Jacob moved the melon to the suitcase.",
+            "Jacob hates the melon Jacob exited the crawlspace.",
+            "Mia entered the crawlspace."
+        ],
+        "memory_tracking": [
+            {
+                "sentence": "Lily entered the garage.",
+                "locations": {"Lily": "garage"},
+                "beliefs": {
+                    "1-order": {}, 
+                    "higher-order": {}
+                }
+            },
+            {
+                "sentence": "Jacob hates the stockings Lily exited the garage.",
+                "locations": {"Lily": "outside garage"},
+                "beliefs": {
+                    "1-order": {
+                        "Jacob": "Dislikes stockings."
+                    }, 
+                    "higher-order": {}
+                }
+            },
+            {
+                "sentence": "Mia entered the crawlspace.",
+                "locations": {"Lily": "outside garage", "Mia": "crawlspace"},
+                "beliefs": {
+                    "1-order": {
+                        "Jacob": "Dislikes stockings."
+                    }, 
+                    "higher-order": {}
+                }
+            },
+            {
+                "sentence": "Jacob entered the crawlspace.",
+                "locations": {"Lily": "outside garage", "Mia": "crawlspace", "Jacob": "crawlspace"},
+                "beliefs": {
+                    "1-order": {
+                        "Jacob": "Dislikes stockings."
+                    }, 
+                    "higher-order": {}
+                }
+            },
+            {
+                "sentence": "The melon is in the bucket.",
+                "locations": {"Lily": "outside garage", "Mia": "crawlspace", "Jacob": "crawlspace", "melon": "bucket"},
+                "beliefs": {
+                    "1-order": {
+                        "Jacob": "Dislikes stockings and believes melon is in bucket.",
+                        "Mia": "Believes melon is in bucket."
+                    }, 
+                    "higher-order": {
+                        "Mia": "Knows Jacob believes melon is in bucket.",
+                        "Jacob": "Knows Mia believes melon is in bucket."
+                    }
+                }
+            },
+            {
+                "sentence": "Mia exited the crawlspace.",
+                "locations": {"Lily": "outside garage", "Mia": "outside crawlspace", "Jacob": "crawlspace", "melon": "bucket"},
+                "beliefs": {
+                    "1-order": {
+                        "Jacob": "Dislikes stockings and believes melon is in bucket.",
+                        "Mia": "Believes melon is in bucket."
+                    }, 
+                    "higher-order": {
+                        "Mia": "Knows Jacob believes melon is in bucket.",
+                        "Jacob": "Knows Mia believes melon is in bucket."
+                    }
+                }
+            },
+            {
+                "sentence": "Jacob moved the melon to the suitcase.",
+                "locations": {"Lily": "outside garage", "Mia": "outside crawlspace", "Jacob": "crawlspace", "melon": "suitcase"},
+                "beliefs": {
+                    "1-order": {
+                        "Jacob": "Dislikes stockings and believes melon is in suitcase.",
+                        "Mia": "Believes melon is in bucket."
+                    }, 
+                    "higher-order": {
+                        "Mia": "Knows Jacob believes melon is in bucket.",
+                        "Jacob": "Knows Mia believes melon is in bucket."
+                    }
+                }
+            },
+            {
+                "sentence": "Jacob hates the melon Jacob exited the crawlspace.",
+                "locations": {"Lily": "outside garage", "Mia": "outside crawlspace", "Jacob": "outside crawlspace", "melon": "suitcase"},
+                "beliefs": {
+                    "1-order": {
+                        "Jacob": "Dislikes stockings and believes melon is in suitcase and hates the melon.",
+                        "Mia": "Believes melon is in bucket."
+                    }, 
+                    "higher-order": {
+                        "Mia": "Knows Jacob believes melon is in bucket.",
+                        "Jacob": "Knows Mia believes melon is in bucket."
+                    }
+                }
+            },
+            {
+                "sentence": "Mia entered the crawlspace.",
+                "locations": {"Lily": "outside garage", "Mia": "crawlspace", "Jacob": "outside crawlspace", "melon": "suitcase"},
+                "beliefs": {
+                    "1-order": {
+                        "Jacob": "Dislikes stockings and believes melon is in suitcase and hates the melon.",
+                        "Mia": "Believes melon is in bucket."
+                    }, 
+                    "higher-order": {
+                        "Mia": "Knows Jacob believes melon is in bucket.",
+                        "Jacob": "Knows Mia believes melon is in bucket."
+                    }
+                }
+            }
+        ],
+        "question": "Where is the melon really?",
+        "answer": "suitcase"
+    },
+    {
+        "type": "first_order_0_no_tom",
+        "category": "second_order_false_belief",
+        "story": [
+            "Lily entered the garage.",
+            "Jacob hates the stockings Lily exited the garage.",
+            "Mia entered the crawlspace.",
+            "Jacob entered the crawlspace.",
+            "The melon is in the bucket.",
+            "Mia exited the crawlspace.",
+            "Jacob moved the melon to the suitcase.",
+            "Jacob hates the melon Jacob exited the crawlspace.",
+            "Mia entered the crawlspace."
+        ],
+        "memory_tracking": [
+            {
+                "sentence": "Lily entered the garage.",
+                "locations": {"Lily": "garage"},
+                "beliefs": {
+                    "1-order": {}, 
+                    "higher-order": {}
+                }
+            },
+            {
+                "sentence": "Jacob hates the stockings Lily exited the garage.",
+                "locations": {"Lily": "outside garage"},
+                "beliefs": {
+                    "1-order": {
+                        "Jacob": "Dislikes stockings."
+                    }, 
+                    "higher-order": {}
+                }
+            },
+            {
+                "sentence": "Mia entered the crawlspace.",
+                "locations": {"Lily": "outside garage", "Mia": "crawlspace"},
+                "beliefs": {
+                    "1-order": {
+                        "Jacob": "Dislikes stockings."
+                    }, 
+                    "higher-order": {}
+                }
+            },
+            {
+                "sentence": "Jacob entered the crawlspace.",
+                "locations": {"Lily": "outside garage", "Mia": "crawlspace", "Jacob": "crawlspace"},
+                "beliefs": {
+                    "1-order": {
+                        "Jacob": "Dislikes stockings."
+                    }, 
+                    "higher-order": {}
+                }
+            },
+            {
+                "sentence": "The melon is in the bucket.",
+                "locations": {"Lily": "outside garage", "Mia": "crawlspace", "Jacob": "crawlspace", "melon": "bucket"},
+                "beliefs": {
+                    "1-order": {
+                        "Jacob": "Dislikes stockings and believes melon is in bucket.",
+                        "Mia": "Believes melon is in bucket."
+                    }, 
+                    "higher-order": {
+                        "Mia": "Knows Jacob believes melon is in bucket.",
+                        "Jacob": "Knows Mia believes melon is in bucket."
+                    }
+                }
+            },
+            {
+                "sentence": "Mia exited the crawlspace.",
+                "locations": {"Lily": "outside garage", "Mia": "outside crawlspace", "Jacob": "crawlspace", "melon": "bucket"},
+                "beliefs": {
+                    "1-order": {
+                        "Jacob": "Dislikes stockings and believes melon is in bucket.",
+                        "Mia": "Believes melon is in bucket."
+                    }, 
+                    "higher-order": {
+                        "Mia": "Knows Jacob believes melon is in bucket.",
+                        "Jacob": "Knows Mia believes melon is in bucket."
+                    }
+                }
+            },
+            {
+                "sentence": "Jacob moved the melon to the suitcase.",
+                "locations": {"Lily": "outside garage", "Mia": "outside crawlspace", "Jacob": "crawlspace", "melon": "suitcase"},
+                "beliefs": {
+                    "1-order": {
+                        "Jacob": "Dislikes stockings and believes melon is in suitcase.",
+                        "Mia": "Believes melon is in bucket."
+                    }, 
+                    "higher-order": {
+                        "Mia": "Knows Jacob believes melon is in bucket.",
+                        "Jacob": "Knows Mia believes melon is in bucket."
+                    }
+                }
+            },
+            {
+                "sentence": "Jacob hates the melon Jacob exited the crawlspace.",
+                "locations": {"Lily": "outside garage", "Mia": "outside crawlspace", "Jacob": "outside crawlspace", "melon": "suitcase"},
+                "beliefs": {
+                    "1-order": {
+                        "Jacob": "Dislikes stockings and believes melon is in suitcase and hates the melon.",
+                        "Mia": "Believes melon is in bucket."
+                    }, 
+                    "higher-order": {
+                        "Mia": "Knows Jacob believes melon is in bucket.",
+                        "Jacob": "Knows Mia believes melon is in bucket."
+                    }
+                }
+            },
+            {
+                "sentence": "Mia entered the crawlspace.",
+                "locations": {"Lily": "outside garage", "Mia": "crawlspace", "Jacob": "outside crawlspace", "melon": "suitcase"},
+                "beliefs": {
+                    "1-order": {
+                        "Jacob": "Dislikes stockings and believes melon is in suitcase and hates the melon.",
+                        "Mia": "Believes melon is in bucket."
+                    }, 
+                    "higher-order": {
+                        "Mia": "Knows Jacob believes melon is in bucket.",
+                        "Jacob": "Knows Mia believes melon is in bucket."
+                    }
+                }
+            }
+        ],
+        "question": "Where will Mia look for the melon?",
+        "answer": "bucket"
+    },
+    {
+        "type": "second_order_0_tom",
+        "category": "second_order_false_belief",
+        "story": [
+            "Lily entered the garage.",
+            "Jacob hates the stockings Lily exited the garage.",
+            "Mia entered the crawlspace.",
+            "Jacob entered the crawlspace.",
+            "The melon is in the bucket.",
+            "Mia exited the crawlspace.",
+            "Jacob moved the melon to the suitcase.",
+            "Jacob hates the melon Jacob exited the crawlspace.",
+            "Mia entered the crawlspace."
+        ],
+        "memory_tracking": [
+            {
+                "sentence": "Lily entered the garage.",
+                "locations": {"Lily": "garage"},
+                "beliefs": {
+                    "1-order": {}, 
+                    "higher-order": {}
+                }
+            },
+            {
+                "sentence": "Jacob hates the stockings Lily exited the garage.",
+                "locations": {"Lily": "outside garage"},
+                "beliefs": {
+                    "1-order": {
+                        "Jacob": "Dislikes stockings."
+                    }, 
+                    "higher-order": {}
+                }
+            },
+            {
+                "sentence": "Mia entered the crawlspace.",
+                "locations": {"Lily": "outside garage", "Mia": "crawlspace"},
+                "beliefs": {
+                    "1-order": {
+                        "Jacob": "Dislikes stockings."
+                    }, 
+                    "higher-order": {}
+                }
+            },
+            {
+                "sentence": "Jacob entered the crawlspace.",
+                "locations": {"Lily": "outside garage", "Mia": "crawlspace", "Jacob": "crawlspace"},
+                "beliefs": {
+                    "1-order": {
+                        "Jacob": "Dislikes stockings."
+                    }, 
+                    "higher-order": {}
+                }
+            },
+            {
+                "sentence": "The melon is in the bucket.",
+                "locations": {"Lily": "outside garage", "Mia": "crawlspace", "Jacob": "crawlspace", "melon": "bucket"},
+                "beliefs": {
+                    "1-order": {
+                        "Jacob": "Dislikes stockings and believes melon is in bucket.",
+                        "Mia": "Believes melon is in bucket."
+                    }, 
+                    "higher-order": {
+                        "Mia": "Knows Jacob believes melon is in bucket.",
+                        "Jacob": "Knows Mia believes melon is in bucket."
+                    }
+                }
+            },
+            {
+                "sentence": "Mia exited the crawlspace.",
+                "locations": {"Lily": "outside garage", "Mia": "outside crawlspace", "Jacob": "crawlspace", "melon": "bucket"},
+                "beliefs": {
+                    "1-order": {
+                        "Jacob": "Dislikes stockings and believes melon is in bucket.",
+                        "Mia": "Believes melon is in bucket."
+                    }, 
+                    "higher-order": {
+                        "Mia": "Knows Jacob believes melon is in bucket.",
+                        "Jacob": "Knows Mia believes melon is in bucket."
+                    }
+                }
+            },
+            {
+                "sentence": "Jacob moved the melon to the suitcase.",
+                "locations": {"Lily": "outside garage", "Mia": "outside crawlspace", "Jacob": "crawlspace", "melon": "suitcase"},
+                "beliefs": {
+                    "1-order": {
+                        "Jacob": "Dislikes stockings and believes melon is in suitcase.",
+                        "Mia": "Believes melon is in bucket."
+                    }, 
+                    "higher-order": {
+                        "Mia": "Knows Jacob believes melon is in bucket.",
+                        "Jacob": "Knows Mia believes melon is in bucket."
+                    }
+                }
+            },
+            {
+                "sentence": "Jacob hates the melon Jacob exited the crawlspace.",
+                "locations": {"Lily": "outside garage", "Mia": "outside crawlspace", "Jacob": "outside crawlspace", "melon": "suitcase"},
+                "beliefs": {
+                    "1-order": {
+                        "Jacob": "Dislikes stockings and believes melon is in suitcase and hates the melon.",
+                        "Mia": "Believes melon is in bucket."
+                    }, 
+                    "higher-order": {
+                        "Mia": "Knows Jacob believes melon is in bucket.",
+                        "Jacob": "Knows Mia believes melon is in bucket."
+                    }
+                }
+            },
+            {
+                "sentence": "Mia entered the crawlspace.",
+                "locations": {"Lily": "outside garage", "Mia": "crawlspace", "Jacob": "outside crawlspace", "melon": "suitcase"},
+                "beliefs": {
+                    "1-order": {
+                        "Jacob": "Dislikes stockings and believes melon is in suitcase and hates the melon.",
+                        "Mia": "Believes melon is in bucket."
+                    }, 
+                    "higher-order": {
+                        "Mia": "Knows Jacob believes melon is in bucket.",
+                        "Jacob": "Knows Mia believes melon is in bucket."
+                    }
+                }
+            }
+        ],
+        "question": "Where does Mia think that Jacob searches for the melon?",
+        "answer": "bucket"
+    }
+]

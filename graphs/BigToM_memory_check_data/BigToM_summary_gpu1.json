@@ -1,0 +1,2447 @@
+{
+    "gpt-20b_CoT": [
+        {
+            "question_type": "1_forward_action_false_belief",
+            "samples": 200,
+            "corrects": 187,
+            "accuracy": 0.935,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_belief_true_control",
+            "samples": 200,
+            "corrects": 196,
+            "accuracy": 0.98,
+            "not_answered": 1
+        },
+        {
+            "question_type": "0_forward_belief_true_belief",
+            "samples": 200,
+            "corrects": 186,
+            "accuracy": 0.93,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_backward_belief_true_control",
+            "samples": 200,
+            "corrects": 197,
+            "accuracy": 0.985,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_backward_belief_true_belief",
+            "samples": 200,
+            "corrects": 47,
+            "accuracy": 0.235,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_belief_false_control",
+            "samples": 200,
+            "corrects": 198,
+            "accuracy": 0.99,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_backward_belief_false_control",
+            "samples": 200,
+            "corrects": 197,
+            "accuracy": 0.985,
+            "not_answered": 1
+        },
+        {
+            "question_type": "1_forward_action_false_control",
+            "samples": 200,
+            "corrects": 196,
+            "accuracy": 0.98,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_percept_to_belief_true_belief",
+            "samples": 200,
+            "corrects": 197,
+            "accuracy": 0.985,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_backward_belief_true_belief",
+            "samples": 200,
+            "corrects": 157,
+            "accuracy": 0.785,
+            "not_answered": 1
+        },
+        {
+            "question_type": "0_forward_action_false_belief",
+            "samples": 200,
+            "corrects": 167,
+            "accuracy": 0.835,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_backward_belief_false_belief",
+            "samples": 200,
+            "corrects": 192,
+            "accuracy": 0.96,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_belief_true_control",
+            "samples": 200,
+            "corrects": 197,
+            "accuracy": 0.985,
+            "not_answered": 1
+        },
+        {
+            "question_type": "1_forward_belief_true_belief",
+            "samples": 200,
+            "corrects": 87,
+            "accuracy": 0.435,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_action_true_belief",
+            "samples": 200,
+            "corrects": 194,
+            "accuracy": 0.97,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_action_true_control",
+            "samples": 200,
+            "corrects": 193,
+            "accuracy": 0.965,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_belief_false_belief",
+            "samples": 200,
+            "corrects": 192,
+            "accuracy": 0.96,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_action_false_control",
+            "samples": 200,
+            "corrects": 192,
+            "accuracy": 0.96,
+            "not_answered": 1
+        },
+        {
+            "question_type": "0_backward_belief_false_belief",
+            "samples": 200,
+            "corrects": 140,
+            "accuracy": 0.7,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_belief_false_control",
+            "samples": 200,
+            "corrects": 197,
+            "accuracy": 0.985,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_action_true_belief",
+            "samples": 200,
+            "corrects": 193,
+            "accuracy": 0.965,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_action_true_control",
+            "samples": 200,
+            "corrects": 186,
+            "accuracy": 0.93,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_belief_false_belief",
+            "samples": 200,
+            "corrects": 198,
+            "accuracy": 0.99,
+            "not_answered": 0
+        }
+    ],
+    "gpt-20b_Complete": [
+        {
+            "question_type": "1_forward_action_false_belief",
+            "samples": 200,
+            "corrects": 190,
+            "accuracy": 0.95,
+            "not_answered": 1
+        },
+        {
+            "question_type": "0_forward_belief_true_control",
+            "samples": 200,
+            "corrects": 197,
+            "accuracy": 0.985,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_belief_true_belief",
+            "samples": 200,
+            "corrects": 194,
+            "accuracy": 0.97,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_backward_belief_true_control",
+            "samples": 200,
+            "corrects": 195,
+            "accuracy": 0.975,
+            "not_answered": 1
+        },
+        {
+            "question_type": "1_backward_belief_true_belief",
+            "samples": 200,
+            "corrects": 152,
+            "accuracy": 0.76,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_belief_false_control",
+            "samples": 200,
+            "corrects": 198,
+            "accuracy": 0.99,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_backward_belief_false_control",
+            "samples": 200,
+            "corrects": 197,
+            "accuracy": 0.985,
+            "not_answered": 1
+        },
+        {
+            "question_type": "1_forward_action_false_control",
+            "samples": 200,
+            "corrects": 198,
+            "accuracy": 0.99,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_percept_to_belief_true_belief",
+            "samples": 200,
+            "corrects": 197,
+            "accuracy": 0.985,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_backward_belief_true_belief",
+            "samples": 200,
+            "corrects": 167,
+            "accuracy": 0.835,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_action_false_belief",
+            "samples": 200,
+            "corrects": 181,
+            "accuracy": 0.905,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_backward_belief_false_belief",
+            "samples": 200,
+            "corrects": 150,
+            "accuracy": 0.75,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_belief_true_control",
+            "samples": 200,
+            "corrects": 199,
+            "accuracy": 0.995,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_belief_true_belief",
+            "samples": 200,
+            "corrects": 190,
+            "accuracy": 0.95,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_action_true_belief",
+            "samples": 200,
+            "corrects": 197,
+            "accuracy": 0.985,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_action_true_control",
+            "samples": 200,
+            "corrects": 193,
+            "accuracy": 0.965,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_belief_false_belief",
+            "samples": 200,
+            "corrects": 194,
+            "accuracy": 0.97,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_action_false_control",
+            "samples": 200,
+            "corrects": 195,
+            "accuracy": 0.975,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_backward_belief_false_belief",
+            "samples": 200,
+            "corrects": 110,
+            "accuracy": 0.55,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_belief_false_control",
+            "samples": 200,
+            "corrects": 196,
+            "accuracy": 0.98,
+            "not_answered": 1
+        },
+        {
+            "question_type": "0_forward_action_true_belief",
+            "samples": 200,
+            "corrects": 196,
+            "accuracy": 0.98,
+            "not_answered": 2
+        },
+        {
+            "question_type": "0_forward_action_true_control",
+            "samples": 200,
+            "corrects": 186,
+            "accuracy": 0.93,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_belief_false_belief",
+            "samples": 200,
+            "corrects": 197,
+            "accuracy": 0.985,
+            "not_answered": 0
+        }
+    ],
+    "gpt-20b_standard": [
+        {
+            "question_type": "1_forward_action_false_belief",
+            "samples": 200,
+            "corrects": 115,
+            "accuracy": 0.575,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_belief_true_control",
+            "samples": 200,
+            "corrects": 194,
+            "accuracy": 0.97,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_belief_true_belief",
+            "samples": 200,
+            "corrects": 169,
+            "accuracy": 0.845,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_backward_belief_true_control",
+            "samples": 200,
+            "corrects": 192,
+            "accuracy": 0.96,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_backward_belief_true_belief",
+            "samples": 200,
+            "corrects": 138,
+            "accuracy": 0.69,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_belief_false_control",
+            "samples": 200,
+            "corrects": 197,
+            "accuracy": 0.985,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_backward_belief_false_control",
+            "samples": 200,
+            "corrects": 190,
+            "accuracy": 0.95,
+            "not_answered": 1
+        },
+        {
+            "question_type": "1_forward_action_false_control",
+            "samples": 200,
+            "corrects": 193,
+            "accuracy": 0.965,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_percept_to_belief_true_belief",
+            "samples": 200,
+            "corrects": 195,
+            "accuracy": 0.975,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_backward_belief_true_belief",
+            "samples": 200,
+            "corrects": 145,
+            "accuracy": 0.725,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_action_false_belief",
+            "samples": 200,
+            "corrects": 101,
+            "accuracy": 0.505,
+            "not_answered": 2
+        },
+        {
+            "question_type": "1_backward_belief_false_belief",
+            "samples": 200,
+            "corrects": 99,
+            "accuracy": 0.495,
+            "not_answered": 1
+        },
+        {
+            "question_type": "1_forward_belief_true_control",
+            "samples": 200,
+            "corrects": 197,
+            "accuracy": 0.985,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_belief_true_belief",
+            "samples": 200,
+            "corrects": 161,
+            "accuracy": 0.805,
+            "not_answered": 1
+        },
+        {
+            "question_type": "1_forward_action_true_belief",
+            "samples": 200,
+            "corrects": 157,
+            "accuracy": 0.785,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_action_true_control",
+            "samples": 200,
+            "corrects": 189,
+            "accuracy": 0.945,
+            "not_answered": 2
+        },
+        {
+            "question_type": "0_forward_belief_false_belief",
+            "samples": 200,
+            "corrects": 86,
+            "accuracy": 0.43,
+            "not_answered": 2
+        },
+        {
+            "question_type": "0_forward_action_false_control",
+            "samples": 200,
+            "corrects": 189,
+            "accuracy": 0.945,
+            "not_answered": 1
+        },
+        {
+            "question_type": "0_backward_belief_false_belief",
+            "samples": 200,
+            "corrects": 101,
+            "accuracy": 0.505,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_belief_false_control",
+            "samples": 200,
+            "corrects": 192,
+            "accuracy": 0.96,
+            "not_answered": 1
+        },
+        {
+            "question_type": "0_forward_action_true_belief",
+            "samples": 200,
+            "corrects": 156,
+            "accuracy": 0.78,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_action_true_control",
+            "samples": 200,
+            "corrects": 186,
+            "accuracy": 0.93,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_belief_false_belief",
+            "samples": 200,
+            "corrects": 92,
+            "accuracy": 0.46,
+            "not_answered": 2
+        }
+    ],
+    "gemma2-27b_CoT": [
+        {
+            "question_type": "1_forward_action_false_belief",
+            "samples": 200,
+            "corrects": 188,
+            "accuracy": 0.94,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_belief_true_control",
+            "samples": 200,
+            "corrects": 191,
+            "accuracy": 0.955,
+            "not_answered": 1
+        },
+        {
+            "question_type": "0_forward_belief_true_belief",
+            "samples": 200,
+            "corrects": 196,
+            "accuracy": 0.98,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_backward_belief_true_control",
+            "samples": 200,
+            "corrects": 196,
+            "accuracy": 0.98,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_backward_belief_true_belief",
+            "samples": 200,
+            "corrects": 99,
+            "accuracy": 0.495,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_belief_false_control",
+            "samples": 200,
+            "corrects": 198,
+            "accuracy": 0.99,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_backward_belief_false_control",
+            "samples": 200,
+            "corrects": 198,
+            "accuracy": 0.99,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_action_false_control",
+            "samples": 200,
+            "corrects": 195,
+            "accuracy": 0.975,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_percept_to_belief_true_belief",
+            "samples": 200,
+            "corrects": 196,
+            "accuracy": 0.98,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_backward_belief_true_belief",
+            "samples": 200,
+            "corrects": 158,
+            "accuracy": 0.79,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_action_false_belief",
+            "samples": 200,
+            "corrects": 169,
+            "accuracy": 0.845,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_backward_belief_false_belief",
+            "samples": 200,
+            "corrects": 182,
+            "accuracy": 0.91,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_belief_true_control",
+            "samples": 200,
+            "corrects": 197,
+            "accuracy": 0.985,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_belief_true_belief",
+            "samples": 200,
+            "corrects": 185,
+            "accuracy": 0.925,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_action_true_belief",
+            "samples": 200,
+            "corrects": 198,
+            "accuracy": 0.99,
+            "not_answered": 1
+        },
+        {
+            "question_type": "1_forward_action_true_control",
+            "samples": 200,
+            "corrects": 189,
+            "accuracy": 0.945,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_belief_false_belief",
+            "samples": 200,
+            "corrects": 198,
+            "accuracy": 0.99,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_action_false_control",
+            "samples": 200,
+            "corrects": 192,
+            "accuracy": 0.96,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_backward_belief_false_belief",
+            "samples": 200,
+            "corrects": 134,
+            "accuracy": 0.67,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_belief_false_control",
+            "samples": 200,
+            "corrects": 194,
+            "accuracy": 0.97,
+            "not_answered": 4
+        },
+        {
+            "question_type": "0_forward_action_true_belief",
+            "samples": 200,
+            "corrects": 199,
+            "accuracy": 0.995,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_action_true_control",
+            "samples": 200,
+            "corrects": 176,
+            "accuracy": 0.88,
+            "not_answered": 1
+        },
+        {
+            "question_type": "1_forward_belief_false_belief",
+            "samples": 200,
+            "corrects": 198,
+            "accuracy": 0.99,
+            "not_answered": 0
+        }
+    ],
+    "gemma2-27b_Complete": [
+        {
+            "question_type": "1_forward_action_false_belief",
+            "samples": 200,
+            "corrects": 188,
+            "accuracy": 0.94,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_belief_true_control",
+            "samples": 200,
+            "corrects": 193,
+            "accuracy": 0.965,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_belief_true_belief",
+            "samples": 200,
+            "corrects": 198,
+            "accuracy": 0.99,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_backward_belief_true_control",
+            "samples": 200,
+            "corrects": 197,
+            "accuracy": 0.985,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_backward_belief_true_belief",
+            "samples": 200,
+            "corrects": 155,
+            "accuracy": 0.775,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_belief_false_control",
+            "samples": 200,
+            "corrects": 198,
+            "accuracy": 0.99,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_backward_belief_false_control",
+            "samples": 200,
+            "corrects": 198,
+            "accuracy": 0.99,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_action_false_control",
+            "samples": 200,
+            "corrects": 198,
+            "accuracy": 0.99,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_percept_to_belief_true_belief",
+            "samples": 200,
+            "corrects": 196,
+            "accuracy": 0.98,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_backward_belief_true_belief",
+            "samples": 200,
+            "corrects": 165,
+            "accuracy": 0.825,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_action_false_belief",
+            "samples": 200,
+            "corrects": 185,
+            "accuracy": 0.925,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_backward_belief_false_belief",
+            "samples": 200,
+            "corrects": 122,
+            "accuracy": 0.61,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_belief_true_control",
+            "samples": 200,
+            "corrects": 197,
+            "accuracy": 0.985,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_belief_true_belief",
+            "samples": 200,
+            "corrects": 199,
+            "accuracy": 0.995,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_action_true_belief",
+            "samples": 200,
+            "corrects": 198,
+            "accuracy": 0.99,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_action_true_control",
+            "samples": 200,
+            "corrects": 183,
+            "accuracy": 0.915,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_belief_false_belief",
+            "samples": 200,
+            "corrects": 195,
+            "accuracy": 0.975,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_action_false_control",
+            "samples": 200,
+            "corrects": 192,
+            "accuracy": 0.96,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_backward_belief_false_belief",
+            "samples": 200,
+            "corrects": 94,
+            "accuracy": 0.47,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_belief_false_control",
+            "samples": 200,
+            "corrects": 197,
+            "accuracy": 0.985,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_action_true_belief",
+            "samples": 200,
+            "corrects": 198,
+            "accuracy": 0.99,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_action_true_control",
+            "samples": 200,
+            "corrects": 174,
+            "accuracy": 0.87,
+            "not_answered": 1
+        },
+        {
+            "question_type": "1_forward_belief_false_belief",
+            "samples": 200,
+            "corrects": 197,
+            "accuracy": 0.985,
+            "not_answered": 0
+        }
+    ],
+    "gemma2-27b_standard": [
+        {
+            "question_type": "1_forward_action_false_belief",
+            "samples": 200,
+            "corrects": 67,
+            "accuracy": 0.335,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_belief_true_control",
+            "samples": 200,
+            "corrects": 183,
+            "accuracy": 0.915,
+            "not_answered": 9
+        },
+        {
+            "question_type": "0_forward_belief_true_belief",
+            "samples": 200,
+            "corrects": 164,
+            "accuracy": 0.82,
+            "not_answered": 4
+        },
+        {
+            "question_type": "0_backward_belief_true_control",
+            "samples": 200,
+            "corrects": 188,
+            "accuracy": 0.94,
+            "not_answered": 4
+        },
+        {
+            "question_type": "1_backward_belief_true_belief",
+            "samples": 200,
+            "corrects": 147,
+            "accuracy": 0.735,
+            "not_answered": 1
+        },
+        {
+            "question_type": "1_forward_belief_false_control",
+            "samples": 200,
+            "corrects": 198,
+            "accuracy": 0.99,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_backward_belief_false_control",
+            "samples": 200,
+            "corrects": 189,
+            "accuracy": 0.945,
+            "not_answered": 4
+        },
+        {
+            "question_type": "1_forward_action_false_control",
+            "samples": 200,
+            "corrects": 191,
+            "accuracy": 0.955,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_percept_to_belief_true_belief",
+            "samples": 200,
+            "corrects": 192,
+            "accuracy": 0.96,
+            "not_answered": 2
+        },
+        {
+            "question_type": "0_backward_belief_true_belief",
+            "samples": 200,
+            "corrects": 153,
+            "accuracy": 0.765,
+            "not_answered": 5
+        },
+        {
+            "question_type": "0_forward_action_false_belief",
+            "samples": 200,
+            "corrects": 59,
+            "accuracy": 0.295,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_backward_belief_false_belief",
+            "samples": 200,
+            "corrects": 97,
+            "accuracy": 0.485,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_belief_true_control",
+            "samples": 200,
+            "corrects": 191,
+            "accuracy": 0.955,
+            "not_answered": 4
+        },
+        {
+            "question_type": "1_forward_belief_true_belief",
+            "samples": 200,
+            "corrects": 163,
+            "accuracy": 0.815,
+            "not_answered": 2
+        },
+        {
+            "question_type": "1_forward_action_true_belief",
+            "samples": 200,
+            "corrects": 164,
+            "accuracy": 0.82,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_action_true_control",
+            "samples": 200,
+            "corrects": 184,
+            "accuracy": 0.92,
+            "not_answered": 1
+        },
+        {
+            "question_type": "0_forward_belief_false_belief",
+            "samples": 200,
+            "corrects": 56,
+            "accuracy": 0.28,
+            "not_answered": 4
+        },
+        {
+            "question_type": "0_forward_action_false_control",
+            "samples": 200,
+            "corrects": 176,
+            "accuracy": 0.88,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_backward_belief_false_belief",
+            "samples": 200,
+            "corrects": 94,
+            "accuracy": 0.47,
+            "not_answered": 4
+        },
+        {
+            "question_type": "0_forward_belief_false_control",
+            "samples": 200,
+            "corrects": 190,
+            "accuracy": 0.95,
+            "not_answered": 5
+        },
+        {
+            "question_type": "0_forward_action_true_belief",
+            "samples": 200,
+            "corrects": 177,
+            "accuracy": 0.885,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_action_true_control",
+            "samples": 200,
+            "corrects": 169,
+            "accuracy": 0.845,
+            "not_answered": 3
+        },
+        {
+            "question_type": "1_forward_belief_false_belief",
+            "samples": 200,
+            "corrects": 61,
+            "accuracy": 0.305,
+            "not_answered": 3
+        }
+    ],
+    "granite4-32b_CoT": [
+        {
+            "question_type": "1_forward_action_false_belief",
+            "samples": 200,
+            "corrects": 124,
+            "accuracy": 0.62,
+            "not_answered": 4
+        },
+        {
+            "question_type": "0_forward_belief_true_control",
+            "samples": 200,
+            "corrects": 168,
+            "accuracy": 0.84,
+            "not_answered": 1
+        },
+        {
+            "question_type": "0_forward_belief_true_belief",
+            "samples": 200,
+            "corrects": 124,
+            "accuracy": 0.62,
+            "not_answered": 33
+        },
+        {
+            "question_type": "0_backward_belief_true_control",
+            "samples": 200,
+            "corrects": 147,
+            "accuracy": 0.735,
+            "not_answered": 32
+        },
+        {
+            "question_type": "1_backward_belief_true_belief",
+            "samples": 200,
+            "corrects": 14,
+            "accuracy": 0.07,
+            "not_answered": 172
+        },
+        {
+            "question_type": "1_forward_belief_false_control",
+            "samples": 200,
+            "corrects": 91,
+            "accuracy": 0.455,
+            "not_answered": 92
+        },
+        {
+            "question_type": "1_backward_belief_false_control",
+            "samples": 200,
+            "corrects": 21,
+            "accuracy": 0.105,
+            "not_answered": 171
+        },
+        {
+            "question_type": "1_forward_action_false_control",
+            "samples": 200,
+            "corrects": 143,
+            "accuracy": 0.715,
+            "not_answered": 31
+        },
+        {
+            "question_type": "1_percept_to_belief_true_belief",
+            "samples": 200,
+            "corrects": 141,
+            "accuracy": 0.705,
+            "not_answered": 23
+        },
+        {
+            "question_type": "0_backward_belief_true_belief",
+            "samples": 200,
+            "corrects": 119,
+            "accuracy": 0.595,
+            "not_answered": 38
+        },
+        {
+            "question_type": "0_forward_action_false_belief",
+            "samples": 200,
+            "corrects": 64,
+            "accuracy": 0.32,
+            "not_answered": 46
+        },
+        {
+            "question_type": "1_backward_belief_false_belief",
+            "samples": 200,
+            "corrects": 120,
+            "accuracy": 0.6,
+            "not_answered": 3
+        },
+        {
+            "question_type": "1_forward_belief_true_control",
+            "samples": 200,
+            "corrects": 174,
+            "accuracy": 0.87,
+            "not_answered": 1
+        },
+        {
+            "question_type": "1_forward_belief_true_belief",
+            "samples": 200,
+            "corrects": 121,
+            "accuracy": 0.605,
+            "not_answered": 39
+        },
+        {
+            "question_type": "1_forward_action_true_belief",
+            "samples": 200,
+            "corrects": 165,
+            "accuracy": 0.825,
+            "not_answered": 11
+        },
+        {
+            "question_type": "1_forward_action_true_control",
+            "samples": 200,
+            "corrects": 113,
+            "accuracy": 0.565,
+            "not_answered": 61
+        },
+        {
+            "question_type": "0_forward_belief_false_belief",
+            "samples": 200,
+            "corrects": 94,
+            "accuracy": 0.47,
+            "not_answered": 90
+        },
+        {
+            "question_type": "0_forward_action_false_control",
+            "samples": 200,
+            "corrects": 101,
+            "accuracy": 0.505,
+            "not_answered": 69
+        },
+        {
+            "question_type": "0_backward_belief_false_belief",
+            "samples": 200,
+            "corrects": 72,
+            "accuracy": 0.36,
+            "not_answered": 35
+        },
+        {
+            "question_type": "0_forward_belief_false_control",
+            "samples": 200,
+            "corrects": 110,
+            "accuracy": 0.55,
+            "not_answered": 69
+        },
+        {
+            "question_type": "0_forward_action_true_belief",
+            "samples": 200,
+            "corrects": 96,
+            "accuracy": 0.48,
+            "not_answered": 87
+        },
+        {
+            "question_type": "0_forward_action_true_control",
+            "samples": 200,
+            "corrects": 99,
+            "accuracy": 0.495,
+            "not_answered": 55
+        },
+        {
+            "question_type": "1_forward_belief_false_belief",
+            "samples": 200,
+            "corrects": 21,
+            "accuracy": 0.105,
+            "not_answered": 174
+        }
+    ],
+    "granite4-32b_Complete": [
+        {
+            "question_type": "1_forward_action_false_belief",
+            "samples": 200,
+            "corrects": 160,
+            "accuracy": 0.8,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_belief_true_control",
+            "samples": 200,
+            "corrects": 197,
+            "accuracy": 0.985,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_belief_true_belief",
+            "samples": 200,
+            "corrects": 171,
+            "accuracy": 0.855,
+            "not_answered": 1
+        },
+        {
+            "question_type": "0_backward_belief_true_control",
+            "samples": 200,
+            "corrects": 192,
+            "accuracy": 0.96,
+            "not_answered": 1
+        },
+        {
+            "question_type": "1_backward_belief_true_belief",
+            "samples": 200,
+            "corrects": 101,
+            "accuracy": 0.505,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_belief_false_control",
+            "samples": 200,
+            "corrects": 198,
+            "accuracy": 0.99,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_backward_belief_false_control",
+            "samples": 200,
+            "corrects": 197,
+            "accuracy": 0.985,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_action_false_control",
+            "samples": 200,
+            "corrects": 193,
+            "accuracy": 0.965,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_percept_to_belief_true_belief",
+            "samples": 200,
+            "corrects": 196,
+            "accuracy": 0.98,
+            "not_answered": 1
+        },
+        {
+            "question_type": "0_backward_belief_true_belief",
+            "samples": 200,
+            "corrects": 131,
+            "accuracy": 0.655,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_action_false_belief",
+            "samples": 200,
+            "corrects": 164,
+            "accuracy": 0.82,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_backward_belief_false_belief",
+            "samples": 200,
+            "corrects": 170,
+            "accuracy": 0.85,
+            "not_answered": 1
+        },
+        {
+            "question_type": "1_forward_belief_true_control",
+            "samples": 200,
+            "corrects": 197,
+            "accuracy": 0.985,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_belief_true_belief",
+            "samples": 200,
+            "corrects": 150,
+            "accuracy": 0.75,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_action_true_belief",
+            "samples": 200,
+            "corrects": 187,
+            "accuracy": 0.935,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_action_true_control",
+            "samples": 200,
+            "corrects": 183,
+            "accuracy": 0.915,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_belief_false_belief",
+            "samples": 200,
+            "corrects": 190,
+            "accuracy": 0.95,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_action_false_control",
+            "samples": 200,
+            "corrects": 186,
+            "accuracy": 0.93,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_backward_belief_false_belief",
+            "samples": 200,
+            "corrects": 133,
+            "accuracy": 0.665,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_belief_false_control",
+            "samples": 200,
+            "corrects": 197,
+            "accuracy": 0.985,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_action_true_belief",
+            "samples": 200,
+            "corrects": 191,
+            "accuracy": 0.955,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_action_true_control",
+            "samples": 200,
+            "corrects": 175,
+            "accuracy": 0.875,
+            "not_answered": 1
+        },
+        {
+            "question_type": "1_forward_belief_false_belief",
+            "samples": 200,
+            "corrects": 191,
+            "accuracy": 0.955,
+            "not_answered": 0
+        }
+    ],
+    "granite4-32b_standard": [
+        {
+            "question_type": "1_forward_action_false_belief",
+            "samples": 200,
+            "corrects": 73,
+            "accuracy": 0.365,
+            "not_answered": 56
+        },
+        {
+            "question_type": "0_forward_belief_true_control",
+            "samples": 200,
+            "corrects": 78,
+            "accuracy": 0.39,
+            "not_answered": 87
+        },
+        {
+            "question_type": "0_forward_belief_true_belief",
+            "samples": 200,
+            "corrects": 68,
+            "accuracy": 0.34,
+            "not_answered": 88
+        },
+        {
+            "question_type": "0_backward_belief_true_control",
+            "samples": 200,
+            "corrects": 68,
+            "accuracy": 0.34,
+            "not_answered": 94
+        },
+        {
+            "question_type": "1_backward_belief_true_belief",
+            "samples": 200,
+            "corrects": 69,
+            "accuracy": 0.345,
+            "not_answered": 73
+        },
+        {
+            "question_type": "1_forward_belief_false_control",
+            "samples": 200,
+            "corrects": 62,
+            "accuracy": 0.31,
+            "not_answered": 89
+        },
+        {
+            "question_type": "1_backward_belief_false_control",
+            "samples": 200,
+            "corrects": 89,
+            "accuracy": 0.445,
+            "not_answered": 73
+        },
+        {
+            "question_type": "1_forward_action_false_control",
+            "samples": 200,
+            "corrects": 73,
+            "accuracy": 0.365,
+            "not_answered": 63
+        },
+        {
+            "question_type": "1_percept_to_belief_true_belief",
+            "samples": 200,
+            "corrects": 78,
+            "accuracy": 0.39,
+            "not_answered": 83
+        },
+        {
+            "question_type": "0_backward_belief_true_belief",
+            "samples": 200,
+            "corrects": 73,
+            "accuracy": 0.365,
+            "not_answered": 81
+        },
+        {
+            "question_type": "0_forward_action_false_belief",
+            "samples": 200,
+            "corrects": 66,
+            "accuracy": 0.33,
+            "not_answered": 79
+        },
+        {
+            "question_type": "1_backward_belief_false_belief",
+            "samples": 200,
+            "corrects": 78,
+            "accuracy": 0.39,
+            "not_answered": 73
+        },
+        {
+            "question_type": "1_forward_belief_true_control",
+            "samples": 200,
+            "corrects": 80,
+            "accuracy": 0.4,
+            "not_answered": 72
+        },
+        {
+            "question_type": "1_forward_belief_true_belief",
+            "samples": 200,
+            "corrects": 68,
+            "accuracy": 0.34,
+            "not_answered": 81
+        },
+        {
+            "question_type": "1_forward_action_true_belief",
+            "samples": 200,
+            "corrects": 63,
+            "accuracy": 0.315,
+            "not_answered": 78
+        },
+        {
+            "question_type": "1_forward_action_true_control",
+            "samples": 200,
+            "corrects": 85,
+            "accuracy": 0.425,
+            "not_answered": 53
+        },
+        {
+            "question_type": "0_forward_belief_false_belief",
+            "samples": 200,
+            "corrects": 45,
+            "accuracy": 0.225,
+            "not_answered": 78
+        },
+        {
+            "question_type": "0_forward_action_false_control",
+            "samples": 200,
+            "corrects": 64,
+            "accuracy": 0.32,
+            "not_answered": 87
+        },
+        {
+            "question_type": "0_backward_belief_false_belief",
+            "samples": 200,
+            "corrects": 29,
+            "accuracy": 0.145,
+            "not_answered": 140
+        },
+        {
+            "question_type": "0_forward_belief_false_control",
+            "samples": 200,
+            "corrects": 71,
+            "accuracy": 0.355,
+            "not_answered": 74
+        },
+        {
+            "question_type": "0_forward_action_true_belief",
+            "samples": 200,
+            "corrects": 65,
+            "accuracy": 0.325,
+            "not_answered": 72
+        },
+        {
+            "question_type": "0_forward_action_true_control",
+            "samples": 200,
+            "corrects": 54,
+            "accuracy": 0.27,
+            "not_answered": 109
+        },
+        {
+            "question_type": "1_forward_belief_false_belief",
+            "samples": 200,
+            "corrects": 47,
+            "accuracy": 0.235,
+            "not_answered": 86
+        }
+    ],
+    "llama3-70b_CoT": [
+        {
+            "question_type": "1_forward_action_false_belief",
+            "samples": 200,
+            "corrects": 189,
+            "accuracy": 0.945,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_belief_true_control",
+            "samples": 200,
+            "corrects": 195,
+            "accuracy": 0.975,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_belief_true_belief",
+            "samples": 200,
+            "corrects": 196,
+            "accuracy": 0.98,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_backward_belief_true_control",
+            "samples": 200,
+            "corrects": 197,
+            "accuracy": 0.985,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_backward_belief_true_belief",
+            "samples": 200,
+            "corrects": 111,
+            "accuracy": 0.555,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_belief_false_control",
+            "samples": 200,
+            "corrects": 198,
+            "accuracy": 0.99,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_backward_belief_false_control",
+            "samples": 200,
+            "corrects": 198,
+            "accuracy": 0.99,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_action_false_control",
+            "samples": 200,
+            "corrects": 197,
+            "accuracy": 0.985,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_percept_to_belief_true_belief",
+            "samples": 200,
+            "corrects": 196,
+            "accuracy": 0.98,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_backward_belief_true_belief",
+            "samples": 200,
+            "corrects": 157,
+            "accuracy": 0.785,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_action_false_belief",
+            "samples": 200,
+            "corrects": 170,
+            "accuracy": 0.85,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_backward_belief_false_belief",
+            "samples": 200,
+            "corrects": 174,
+            "accuracy": 0.87,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_belief_true_control",
+            "samples": 200,
+            "corrects": 198,
+            "accuracy": 0.99,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_belief_true_belief",
+            "samples": 200,
+            "corrects": 182,
+            "accuracy": 0.91,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_action_true_belief",
+            "samples": 200,
+            "corrects": 199,
+            "accuracy": 0.995,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_action_true_control",
+            "samples": 200,
+            "corrects": 188,
+            "accuracy": 0.94,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_belief_false_belief",
+            "samples": 200,
+            "corrects": 198,
+            "accuracy": 0.99,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_action_false_control",
+            "samples": 200,
+            "corrects": 193,
+            "accuracy": 0.965,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_backward_belief_false_belief",
+            "samples": 200,
+            "corrects": 123,
+            "accuracy": 0.615,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_belief_false_control",
+            "samples": 200,
+            "corrects": 197,
+            "accuracy": 0.985,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_action_true_belief",
+            "samples": 200,
+            "corrects": 197,
+            "accuracy": 0.985,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_action_true_control",
+            "samples": 200,
+            "corrects": 184,
+            "accuracy": 0.92,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_belief_false_belief",
+            "samples": 200,
+            "corrects": 198,
+            "accuracy": 0.99,
+            "not_answered": 0
+        }
+    ],
+    "llama3-70b_Complete": [
+        {
+            "question_type": "1_forward_action_false_belief",
+            "samples": 200,
+            "corrects": 186,
+            "accuracy": 0.93,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_belief_true_control",
+            "samples": 200,
+            "corrects": 196,
+            "accuracy": 0.98,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_belief_true_belief",
+            "samples": 200,
+            "corrects": 197,
+            "accuracy": 0.985,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_backward_belief_true_control",
+            "samples": 200,
+            "corrects": 197,
+            "accuracy": 0.985,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_backward_belief_true_belief",
+            "samples": 200,
+            "corrects": 145,
+            "accuracy": 0.725,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_belief_false_control",
+            "samples": 200,
+            "corrects": 198,
+            "accuracy": 0.99,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_backward_belief_false_control",
+            "samples": 200,
+            "corrects": 197,
+            "accuracy": 0.985,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_action_false_control",
+            "samples": 200,
+            "corrects": 197,
+            "accuracy": 0.985,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_percept_to_belief_true_belief",
+            "samples": 200,
+            "corrects": 196,
+            "accuracy": 0.98,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_backward_belief_true_belief",
+            "samples": 200,
+            "corrects": 163,
+            "accuracy": 0.815,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_action_false_belief",
+            "samples": 200,
+            "corrects": 171,
+            "accuracy": 0.855,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_backward_belief_false_belief",
+            "samples": 200,
+            "corrects": 159,
+            "accuracy": 0.795,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_belief_true_control",
+            "samples": 200,
+            "corrects": 197,
+            "accuracy": 0.985,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_belief_true_belief",
+            "samples": 200,
+            "corrects": 192,
+            "accuracy": 0.96,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_action_true_belief",
+            "samples": 200,
+            "corrects": 200,
+            "accuracy": 1.0,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_action_true_control",
+            "samples": 200,
+            "corrects": 190,
+            "accuracy": 0.95,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_belief_false_belief",
+            "samples": 200,
+            "corrects": 196,
+            "accuracy": 0.98,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_action_false_control",
+            "samples": 200,
+            "corrects": 193,
+            "accuracy": 0.965,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_backward_belief_false_belief",
+            "samples": 200,
+            "corrects": 123,
+            "accuracy": 0.615,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_belief_false_control",
+            "samples": 200,
+            "corrects": 197,
+            "accuracy": 0.985,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_action_true_belief",
+            "samples": 200,
+            "corrects": 199,
+            "accuracy": 0.995,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_action_true_control",
+            "samples": 200,
+            "corrects": 186,
+            "accuracy": 0.93,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_belief_false_belief",
+            "samples": 200,
+            "corrects": 198,
+            "accuracy": 0.99,
+            "not_answered": 0
+        }
+    ],
+    "llama3-70b_standard": [
+        {
+            "question_type": "1_forward_action_false_belief",
+            "samples": 200,
+            "corrects": 88,
+            "accuracy": 0.44,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_belief_true_control",
+            "samples": 200,
+            "corrects": 187,
+            "accuracy": 0.935,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_belief_true_belief",
+            "samples": 200,
+            "corrects": 174,
+            "accuracy": 0.87,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_backward_belief_true_control",
+            "samples": 200,
+            "corrects": 187,
+            "accuracy": 0.935,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_backward_belief_true_belief",
+            "samples": 200,
+            "corrects": 150,
+            "accuracy": 0.75,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_belief_false_control",
+            "samples": 200,
+            "corrects": 195,
+            "accuracy": 0.975,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_backward_belief_false_control",
+            "samples": 200,
+            "corrects": 189,
+            "accuracy": 0.945,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_action_false_control",
+            "samples": 200,
+            "corrects": 189,
+            "accuracy": 0.945,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_percept_to_belief_true_belief",
+            "samples": 200,
+            "corrects": 193,
+            "accuracy": 0.965,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_backward_belief_true_belief",
+            "samples": 200,
+            "corrects": 144,
+            "accuracy": 0.72,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_action_false_belief",
+            "samples": 200,
+            "corrects": 83,
+            "accuracy": 0.415,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_backward_belief_false_belief",
+            "samples": 200,
+            "corrects": 116,
+            "accuracy": 0.58,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_belief_true_control",
+            "samples": 200,
+            "corrects": 192,
+            "accuracy": 0.96,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_belief_true_belief",
+            "samples": 200,
+            "corrects": 180,
+            "accuracy": 0.9,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_action_true_belief",
+            "samples": 200,
+            "corrects": 152,
+            "accuracy": 0.76,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_action_true_control",
+            "samples": 200,
+            "corrects": 188,
+            "accuracy": 0.94,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_belief_false_belief",
+            "samples": 200,
+            "corrects": 85,
+            "accuracy": 0.425,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_action_false_control",
+            "samples": 200,
+            "corrects": 177,
+            "accuracy": 0.885,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_backward_belief_false_belief",
+            "samples": 200,
+            "corrects": 118,
+            "accuracy": 0.59,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_belief_false_control",
+            "samples": 200,
+            "corrects": 190,
+            "accuracy": 0.95,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_action_true_belief",
+            "samples": 200,
+            "corrects": 156,
+            "accuracy": 0.78,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_action_true_control",
+            "samples": 200,
+            "corrects": 176,
+            "accuracy": 0.88,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_belief_false_belief",
+            "samples": 200,
+            "corrects": 87,
+            "accuracy": 0.435,
+            "not_answered": 0
+        }
+    ],
+    "qwen3.6-35b_CoT": [
+        {
+            "question_type": "1_forward_action_false_belief",
+            "samples": 200,
+            "corrects": 197,
+            "accuracy": 0.985,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_belief_true_control",
+            "samples": 200,
+            "corrects": 197,
+            "accuracy": 0.985,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_belief_true_belief",
+            "samples": 200,
+            "corrects": 185,
+            "accuracy": 0.925,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_backward_belief_true_control",
+            "samples": 200,
+            "corrects": 197,
+            "accuracy": 0.985,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_backward_belief_true_belief",
+            "samples": 200,
+            "corrects": 35,
+            "accuracy": 0.175,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_belief_false_control",
+            "samples": 200,
+            "corrects": 198,
+            "accuracy": 0.99,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_backward_belief_false_control",
+            "samples": 200,
+            "corrects": 198,
+            "accuracy": 0.99,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_action_false_control",
+            "samples": 200,
+            "corrects": 197,
+            "accuracy": 0.985,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_percept_to_belief_true_belief",
+            "samples": 200,
+            "corrects": 197,
+            "accuracy": 0.985,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_backward_belief_true_belief",
+            "samples": 200,
+            "corrects": 124,
+            "accuracy": 0.62,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_action_false_belief",
+            "samples": 200,
+            "corrects": 191,
+            "accuracy": 0.955,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_backward_belief_false_belief",
+            "samples": 200,
+            "corrects": 198,
+            "accuracy": 0.99,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_belief_true_control",
+            "samples": 200,
+            "corrects": 198,
+            "accuracy": 0.99,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_belief_true_belief",
+            "samples": 200,
+            "corrects": 164,
+            "accuracy": 0.82,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_action_true_belief",
+            "samples": 200,
+            "corrects": 193,
+            "accuracy": 0.965,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_action_true_control",
+            "samples": 200,
+            "corrects": 195,
+            "accuracy": 0.975,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_belief_false_belief",
+            "samples": 200,
+            "corrects": 198,
+            "accuracy": 0.99,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_action_false_control",
+            "samples": 200,
+            "corrects": 190,
+            "accuracy": 0.95,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_backward_belief_false_belief",
+            "samples": 200,
+            "corrects": 178,
+            "accuracy": 0.89,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_belief_false_control",
+            "samples": 200,
+            "corrects": 198,
+            "accuracy": 0.99,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_action_true_belief",
+            "samples": 200,
+            "corrects": 196,
+            "accuracy": 0.98,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_action_true_control",
+            "samples": 200,
+            "corrects": 187,
+            "accuracy": 0.935,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_belief_false_belief",
+            "samples": 200,
+            "corrects": 198,
+            "accuracy": 0.99,
+            "not_answered": 0
+        }
+    ],
+    "qwen3.6-35b_Complete": [
+        {
+            "question_type": "1_forward_action_false_belief",
+            "samples": 200,
+            "corrects": 198,
+            "accuracy": 0.99,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_belief_true_control",
+            "samples": 200,
+            "corrects": 196,
+            "accuracy": 0.98,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_belief_true_belief",
+            "samples": 200,
+            "corrects": 193,
+            "accuracy": 0.965,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_backward_belief_true_control",
+            "samples": 200,
+            "corrects": 197,
+            "accuracy": 0.985,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_backward_belief_true_belief",
+            "samples": 200,
+            "corrects": 90,
+            "accuracy": 0.45,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_belief_false_control",
+            "samples": 200,
+            "corrects": 198,
+            "accuracy": 0.99,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_backward_belief_false_control",
+            "samples": 200,
+            "corrects": 197,
+            "accuracy": 0.985,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_action_false_control",
+            "samples": 200,
+            "corrects": 198,
+            "accuracy": 0.99,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_percept_to_belief_true_belief",
+            "samples": 200,
+            "corrects": 197,
+            "accuracy": 0.985,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_backward_belief_true_belief",
+            "samples": 200,
+            "corrects": 133,
+            "accuracy": 0.665,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_action_false_belief",
+            "samples": 200,
+            "corrects": 191,
+            "accuracy": 0.955,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_backward_belief_false_belief",
+            "samples": 200,
+            "corrects": 192,
+            "accuracy": 0.96,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_belief_true_control",
+            "samples": 200,
+            "corrects": 198,
+            "accuracy": 0.99,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_belief_true_belief",
+            "samples": 200,
+            "corrects": 184,
+            "accuracy": 0.92,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_action_true_belief",
+            "samples": 200,
+            "corrects": 195,
+            "accuracy": 0.975,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_action_true_control",
+            "samples": 200,
+            "corrects": 196,
+            "accuracy": 0.98,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_belief_false_belief",
+            "samples": 200,
+            "corrects": 198,
+            "accuracy": 0.99,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_action_false_control",
+            "samples": 200,
+            "corrects": 195,
+            "accuracy": 0.975,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_backward_belief_false_belief",
+            "samples": 200,
+            "corrects": 168,
+            "accuracy": 0.84,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_belief_false_control",
+            "samples": 200,
+            "corrects": 197,
+            "accuracy": 0.985,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_action_true_belief",
+            "samples": 200,
+            "corrects": 197,
+            "accuracy": 0.985,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_action_true_control",
+            "samples": 200,
+            "corrects": 188,
+            "accuracy": 0.94,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_belief_false_belief",
+            "samples": 200,
+            "corrects": 198,
+            "accuracy": 0.99,
+            "not_answered": 0
+        }
+    ],
+    "qwen3.6-35b_standard": [
+        {
+            "question_type": "1_forward_action_false_belief",
+            "samples": 200,
+            "corrects": 167,
+            "accuracy": 0.835,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_belief_true_control",
+            "samples": 200,
+            "corrects": 197,
+            "accuracy": 0.985,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_belief_true_belief",
+            "samples": 200,
+            "corrects": 172,
+            "accuracy": 0.86,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_backward_belief_true_control",
+            "samples": 200,
+            "corrects": 194,
+            "accuracy": 0.97,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_backward_belief_true_belief",
+            "samples": 200,
+            "corrects": 112,
+            "accuracy": 0.56,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_belief_false_control",
+            "samples": 200,
+            "corrects": 198,
+            "accuracy": 0.99,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_backward_belief_false_control",
+            "samples": 200,
+            "corrects": 194,
+            "accuracy": 0.97,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_action_false_control",
+            "samples": 200,
+            "corrects": 195,
+            "accuracy": 0.975,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_percept_to_belief_true_belief",
+            "samples": 200,
+            "corrects": 197,
+            "accuracy": 0.985,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_backward_belief_true_belief",
+            "samples": 200,
+            "corrects": 123,
+            "accuracy": 0.615,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_action_false_belief",
+            "samples": 200,
+            "corrects": 167,
+            "accuracy": 0.835,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_backward_belief_false_belief",
+            "samples": 200,
+            "corrects": 161,
+            "accuracy": 0.805,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_belief_true_control",
+            "samples": 200,
+            "corrects": 196,
+            "accuracy": 0.98,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_belief_true_belief",
+            "samples": 200,
+            "corrects": 160,
+            "accuracy": 0.8,
+            "not_answered": 0
+        },
+        {
+            "question_type": "1_forward_action_true_belief",
+            "samples": 200,
+            "corrects": 158,
+            "accuracy": 0.79,
+            "not_answered": 1
+        },
+        {
+            "question_type": "1_forward_action_true_control",
+            "samples": 200,
+            "corrects": 194,
+            "accuracy": 0.97,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_belief_false_belief",
+            "samples": 200,
+            "corrects": 177,
+            "accuracy": 0.885,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_action_false_control",
+            "samples": 200,
+            "corrects": 189,
+            "accuracy": 0.945,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_backward_belief_false_belief",
+            "samples": 200,
+            "corrects": 152,
+            "accuracy": 0.76,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_belief_false_control",
+            "samples": 200,
+            "corrects": 196,
+            "accuracy": 0.98,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_action_true_belief",
+            "samples": 200,
+            "corrects": 166,
+            "accuracy": 0.83,
+            "not_answered": 0
+        },
+        {
+            "question_type": "0_forward_action_true_control",
+            "samples": 200,
+            "corrects": 187,
+            "accuracy": 0.935,
+            "not_answered": 1
+        },
+        {
+            "question_type": "1_forward_belief_false_belief",
+            "samples": 200,
+            "corrects": 173,
+            "accuracy": 0.865,
+            "not_answered": 0
+        }
+    ]
+}

@@ -1,0 +1,175 @@
+[
+    {
+        "story": [
+            "Here is a bag filled with popcorn.",
+            "There is no chocolate in the bag.",
+            "Yet, the label on the bag says 'chocolate' and not 'popcorn.' Sam finds the bag.",
+            "She had never seen the bag before.",
+            "She cannot see what is inside the bag.",
+            "She reads the label."
+        ],
+        "question": "What does Sam believe the bag contains?",
+        "options": [
+            "A. chocolate",
+            "B. popcorn",
+            "C. she has no guess"
+        ],
+        "answer": "chocolate",
+        "gold": "A"
+    },
+    {
+        "story": [
+            "Here is a bag filled with popcorn.",
+            "There is no chocolate in the bag.",
+            "The bag is made of transparent plastic, so you can see what is inside.",
+            "Yet, the label on the bag says 'chocolate' and not 'popcorn.' Sam finds the bag.",
+            "She had never seen the bag before.",
+            "Sam reads the label."
+        ],
+        "question": "What does Sam believe the bag contains?",
+        "options": [
+            "A. popcorn",
+            "B. chocolate",
+            "C. she has no guess"
+        ],
+        "answer": "popcorn",
+        "gold": "A"
+    },
+    {
+        "story": [
+            "Here is a bag filled with popcorn.",
+            "There is no chocolate in the bag.",
+            "Yet, the label on the bag says 'chocolate' and not 'popcorn.' Sam finds the bag.",
+            "She had never seen the bag before.",
+            "She cannot see what is inside the bag.",
+            "Sam cannot read.",
+            "Sam looks at the label."
+        ],
+        "question": "What does Sam believe the bag contains?",
+        "options": [
+            "A. she has no guess",
+            "B. chocolate",
+            "C. popcorn"
+        ],
+        "answer": "she has no guess",
+        "gold": "A"
+    },
+    {
+        "story": [
+            "Here is a bag filled with popcorn.",
+            "There is no chocolate in the bag.",
+            "The label on the bag says 'chocolate', rather than 'popcorn.' Before coming into the room, Sam's friend told her ‘the bag in the room has popcorn in it, ignore the label'.",
+            "Sam believes her friend.",
+            "Sam finds the bag.",
+            "She had never seen the bag before.",
+            "She cannot see what is inside the bag.",
+            "Sam reads the label, which says the bag has chocolate in it."
+        ],
+        "question": "What does Sam believe the bag contains?",
+        "options": [
+            "A. popcorn",
+            "B. chocolate",
+            "C. she has no guess"
+        ],
+        "answer": "popcorn",
+        "gold": "A"
+    },
+    {
+        "story": [
+            "Sam fills a bag with popcorn and closes it.",
+            "There is no chocolate in the bag.",
+            "Sam writes a label and puts it on the bag.",
+            "Sam looks at the bag.",
+            "She cannot see what is inside the bag.",
+            "Sam reads the label.",
+            "The label says the bag has chocolate in it."
+        ],
+        "question": "What does Sam believe the bag contains?",
+        "options": [
+            "A. popcorn",
+            "B. chocolate",
+            "C. she has no guess"
+        ],
+        "answer": "popcorn",
+        "gold": "A"
+    },
+    {
+        "story": [
+            "In the room there are John, Mark, a cat, a transparent plastic box, and a glass chest.",
+            "John takes the cat and puts it in the chest.",
+            "He leaves the room and goes to school.",
+            "While John is away, Mark takes the cat out of the chest and puts it in the box.",
+            "Mark leaves the room and goes to work.",
+            "John comes back from school and enters the room.",
+            "He doesn't know what happened in the room when he was away."
+        ],
+        "question": "Where does John believe the cat is?",
+        "options": [
+            "A. in the box",
+            "B. in the chest",
+            "C. he has no guess"
+        ],
+        "answer": "in the box",
+        "gold": "A"
+    },
+    {
+        "story": [
+            "In the room there are John, Mark, a cat, a box, and a basket.",
+            "John takes the cat and puts it on the basket.",
+            "He leaves the room and goes to school.",
+            "While John is away, Mark takes the cat off the basket and puts it on the box.",
+            "Mark leaves the room and goes to work.",
+            "John comes back from school and enters the room.",
+            "John looks around the room.",
+            "He doesn't know what happened in the room when he was away."
+        ],
+        "question": "Where does John believe the cat is?",
+        "options": [
+            "A. on the box",
+            "B. on the basket",
+            "C. he has no guess"
+        ],
+        "answer": "on the basket",
+        "gold": "B"
+    },
+    {
+        "story": [
+            "In the room there are John, Mark, a cat, a box, and a basket.",
+            "John takes the cat and puts it in the basket.",
+            "He leaves the room and goes to school.",
+            "Mark calls John to tell him he is going to move the cat to the box.",
+            "John believes him.",
+            "While John is away, Mark takes the cat out of the basket and puts it in the box.",
+            "Mark leaves the room and goes to work.",
+            "John comes back from school and enters the room.",
+            "He doesn't know what happened in the room when he was away."
+        ],
+        "question": "Where does John believe the cat is?",
+        "options": [
+            "A. in the box",
+            "B. in the basket",
+            "C. he has no guess"
+        ],
+        "answer": "in the box",
+        "gold": "A"
+    },
+    {
+        "story": [
+            "In the room there are John, Mark, a cat, a box, and a basket.",
+            "John takes the cat and puts it in the basket.",
+            "He leaves the room and goes to school.",
+            "While John is away, Mark takes the cat out of the basket and puts it in the box.",
+            "Mark leaves the room and goes to work.",
+            "John and Mark come back and enter the room.",
+            "They don't know what happened in the room when they were away."
+        ],
+        "question": "Where does John believe the cat is?",
+        "options": [
+            "A. in the basket",
+            "B. in the box",
+            "C. he has no guess"
+        ],
+        "answer": "in the basket",
+        "gold": "A"
+    }
+]

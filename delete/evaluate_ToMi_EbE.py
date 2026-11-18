@@ -1,0 +1,259 @@
+import os
+import argparse
+import re
+import torch
+from transformers import AutoTokenizer, AutoModelForCausalLM
+import time
+from collections import defaultdict
+from load_data import load_ToMi
+from tqdm import tqdm
+from prompts import build_prompt_ToMi_EbE
+from utils import generate_answer, MAX_TOKENS_EbE, check_similarity
+from extract_answers import extract_answer_OQ, extract_memory
+import json
+
+
+
+###############################
+#   Evaluate single example   #
+###############################
+
+def evaluate_example(example, tokenizer, model):
+    model_time_total = 0
+    input_tokens_total = 0
+    output_tokens_total = 0
+    phrases = example.get("story")
+    question = example.get("question")
+    memory = ""
+    memory_logs = []
+    gold = example["answer"].strip().lower()
+
+    #########   start time
+    start_total = time.time()
+
+    for i, event in enumerate(phrases):
+        prompt = build_prompt_ToMi_EbE(event, memory)
+        #print("--------------------------------------------")
+        #print(f"Prompt: {prompt}")
+        raw_prediction, model_time, input_tokens, output_tokens = generate_answer(tokenizer, model, prompt, MAX_TOKENS_EbE)
+        #print(f"Raw prediction: {raw_prediction}")
+        model_time_total += model_time
+        input_tokens_total += input_tokens
+        output_tokens_total += output_tokens
+        new_memory = extract_memory(raw_prediction)
+        '''print(f"Check similarity: {check_similarity(event, new_memory)}")
+        print(f"Memory: {new_memory}")
+        print(f"Event: {event}")'''
+        if new_memory:
+            memory = new_memory
+        simple_entry_memory = {
+            "phrase_number": i,
+            "predicted_raw": raw_prediction,
+            "memory": new_memory,
+        }
+        memory_logs.append(simple_entry_memory)
+    
+    prompt = build_prompt_ToMi_EbE("", memory, question)
+    #print("################     --------------------------------------------        ##################")
+    #print(f"Prompt: {prompt}")
+
+    raw_prediction, model_time, input_tokens, output_tokens = generate_answer(tokenizer, model, prompt, MAX_TOKENS_EbE)
+    #print(f"Raw prediction: {raw_prediction}")
+    pred = extract_answer_OQ(raw_prediction)
+    
+    #########   end time
+    total_time = time.time() - start_total
+
+    #pred = raw_prediction.strip().lower()
+    if pred:
+        correct = gold in pred
+    else:
+        correct = False
+
+
+    model_time_total += model_time
+    input_tokens_total += input_tokens
+    output_tokens_total += output_tokens
+
+    model_time_event = model_time_total / (len(phrases)+1)
+    input_tokens_event = input_tokens_total / (len(phrases)+1)
+    output_tokens_event = output_tokens_total / (len(phrases)+1)
+
+
+    total_tokens = input_tokens_total + output_tokens_total
+
+    return {
+        "predicted_raw": raw_prediction,
+        "predicted": pred,
+        "gold": gold,
+        "correct": correct,
+        "model_time_event": model_time_event,
+        "input_tokens_event": input_tokens_event,
+        "output_tokens_event": output_tokens_event,
+        "total_time": total_time,
+        "model_time_total": model_time_total,
+        "input_tokens_total": input_tokens_total,
+        "output_tokens_total": output_tokens_total,
+        "total_tokens": total_tokens,
+        "category": example.get("category", "unknown"),
+        "memory_logs": memory_logs,
+    }
+
+
+#######################
+#   Main evaluation   #
+#######################
+
+def eval_ToMi_EbE(tokenizer, model, model_name = "", data_path = "./data/eval/ToMi/", max_samples=None):
+    output_dir = "./results"
+    res_dir = "./predictions"
+    os.makedirs(output_dir, exist_ok=True)
+    os.makedirs(res_dir, exist_ok=True)
+
+    for split in ["val", "test"]:
+        split_data_path = f"{data_path}{split}.json"
+        output_file = f"{output_dir}/ToMi_{split}_EbE_{model_name}.txt"
+        raw_io_file = f"{res_dir}/ToMi_{split}_EbE_{model_name}_raw.txt"
+
+        results = []
+        simple_predictions = []
+        total_not_answered = 0
+        total_model_time = 0.0
+        event_model_time = 0.0
+        total_total_time = 0.0
+        total_input_tokens = 0
+        event_input_tokens = 0
+        total_output_tokens = 0
+        event_output_tokens = 0
+
+        #tracking per-category
+        group_stats = defaultdict(lambda: {
+            "results": [],
+            "model_time": 0.0,
+            "total_time": 0.0,
+            "correct_count": 0,
+            "not_answered": 0,
+        })
+
+        loader = load_ToMi(split_data_path)
+        data = list(loader)
+
+        
+
+        for idx, example in enumerate(tqdm(data, desc=f"Evaluating ToMi {split}...")):
+            res = evaluate_example(example, tokenizer, model)
+            results.append(res)
+
+            simple_entry = {
+                "id": example.get("id", idx),
+                "predicted_raw": res["predicted_raw"],
+                "predicted": res["predicted"],
+                "gold": res["gold"],
+                "memory_trace": res["memory_logs"]
+            }
+            simple_predictions.append(simple_entry)
+
+            event_model_time += res["model_time_event"]
+            total_model_time += res["model_time_total"]
+            total_total_time += res["total_time"]
+
+            total_input_tokens += res["input_tokens_total"]
+            event_input_tokens += res["input_tokens_event"]
+            total_output_tokens += res["output_tokens_total"]
+            event_output_tokens += res["output_tokens_event"]
+
+            q_order = example.get("category", "unknown")
+            group_stats[q_order]["results"].append(res)
+            group_stats[q_order]["model_time"] += res["model_time_total"]
+            group_stats[q_order]["total_time"] += res["total_time"]
+            if res["correct"]:
+                group_stats[q_order]["correct_count"] += 1
+        
+            if res["predicted"] == "":
+                total_not_answered += 1
+                group_stats[q_order]["not_answered"] += 1
+
+            if max_samples and idx + 1 >= max_samples:
+                break
+
+        with open(raw_io_file, "w", encoding="utf-8") as f:
+            json.dump(simple_predictions, f, indent=4, ensure_ascii=False)
+
+        print(f"All predictions saved at: {raw_io_file}")
+
+        #SUMMARY of results
+        total_samples = len(results)
+        total_correct = sum(r["correct"] for r in results)
+        overall_accuracy = total_correct / total_samples if total_samples > 0 else 0.0
+
+        lines = []
+        lines.append("------ Overall Evaluation Summary ------")
+        lines.append(f"Total samples: {total_samples}")
+        lines.append(f"Total corrects: {total_correct}")
+        lines.append(f"Overall Accuracy: {overall_accuracy:.2f}")
+        lines.append(f"Not Answered: {total_not_answered}")
+        lines.append(f"Not Answered Rate: {total_not_answered / total_samples:.2f}")
+        lines.append("")
+        lines.append("TIME")
+        lines.append(f"Total Model Time: {total_model_time:.2f}s")
+        lines.append(f"Model Time per sample: {total_model_time / total_samples:.2f}s")
+        lines.append(f"Model Time per event: {event_model_time / total_samples:.2f}s")
+        lines.append(f"Total End-to-End Time: {total_total_time:.2f}s")
+        lines.append(f"Total Time per sample: {total_total_time / total_samples:.2f}s")
+        lines.append("")
+        lines.append("TOKENS")
+        lines.append(f"Total Input Tokens: {total_input_tokens}")
+        lines.append(f"Total Output Tokens: {total_output_tokens}")
+        lines.append(f"Total Tokens: {total_input_tokens + total_output_tokens}")
+        lines.append(f"Avg Input Tokens per sample: {total_input_tokens / total_samples:.2f}")
+        lines.append(f"Avg Input Tokens per event: {event_input_tokens / total_samples:.2f}")
+        lines.append(f"Avg Output Tokens per sample: {total_output_tokens / total_samples:.2f}")
+        lines.append(f"Avg Output Tokens per event: {event_output_tokens / total_samples:.2f}")
+        lines.append(f"Avg Tokens per sample: {(total_input_tokens + total_output_tokens) / total_samples:.2f}")
+        lines.append("---------------------------------------\n")
+
+        lines.append("------ Per Category Summary ------")
+        for q_order, stats in group_stats.items():
+            n_samples = len(stats["results"])
+            accuracy = stats["correct_count"] / n_samples if n_samples > 0 else 0.0
+            not_answered = stats["not_answered"]
+            not_answered_rate = not_answered / n_samples if n_samples > 0 else 0.0
+            model_time_avg = stats["model_time"] / n_samples if n_samples > 0 else 0.0
+            total_time_avg = stats["total_time"] / n_samples if n_samples > 0 else 0.0
+
+            lines.append(f"Category: {q_order}")
+            lines.append(f"  Samples: {n_samples}")
+            lines.append(f"  Corrects: {stats['correct_count']}")
+            lines.append(f"  Accuracy: {accuracy:.2f}")
+            lines.append(f"  Not Answered: {not_answered}")
+            lines.append(f"  Not Answered Rate: {not_answered_rate:.2f}")
+            lines.append("")
+            lines.append("  TIME")
+            lines.append(f"  Total Model Time: {stats['model_time']:.2f}s")
+            lines.append(f"  Model Time per sample: {model_time_avg:.2f}s")
+            lines.append(f"  Total Time: {stats['total_time']:.2f}s")
+            lines.append(f"  Total Time per sample: {total_time_avg:.2f}s\n")
+            lines.append("---------------------------------------")
+
+        #print
+        print("\n".join(lines))
+
+        #save
+        with open(output_file, "w") as f:
+            f.write("\n".join(lines))
+
+    
+    summary = {
+        "total_summary": {
+            "total_samples": total_samples,
+            "overall_accuracy": overall_accuracy,
+            "total_model_time": total_model_time,
+            "total_total_time": total_total_time,
+            "model_time_per_sample": total_model_time / total_samples if total_samples > 0 else 0.0,
+            "total_time_per_sample": total_total_time / total_samples if total_samples > 0 else 0.0,
+            "results": results
+        },
+        "per_category": group_stats
+    }
+
+    return summary

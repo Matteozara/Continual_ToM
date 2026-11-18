@@ -1,0 +1,2522 @@
+[
+    {
+        "story": [
+            "Neila found a bag in the attic.",
+            "The label on the bag says plate.",
+            "Neila couldn’t see what was inside the bag.",
+            "Neila opened the bag and found a vest.",
+            "There is no plate in the bag.",
+            "Neila closed the bag and put it back.",
+            "Juanita entered the attic and saw the bag."
+        ],
+        "question": "What was in the bag?",
+        "answer": "vest",
+        "question_type": "reality"
+    },
+    {
+        "story": [
+            "Neila found a bag in the attic.",
+            "The label on the bag says plate.",
+            "Neila couldn’t see what was inside the bag.",
+            "Neila opened the bag and found a vest.",
+            "There is no plate in the bag.",
+            "Neila closed the bag and put it back.",
+            "Juanita entered the attic and saw the bag."
+        ],
+        "question": "What was supposed to be in the bag?",
+        "answer": "plate",
+        "question_type": "assumption"
+    },
+    {
+        "story": [
+            "Neila found a bag in the attic.",
+            "The label on the bag says plate.",
+            "Neila couldn’t see what was inside the bag.",
+            "Neila opened the bag and found a vest.",
+            "There is no plate in the bag.",
+            "Neila closed the bag and put it back.",
+            "Juanita entered the attic and saw the bag."
+        ],
+        "question": "What would Juanita expect to find in the bag?",
+        "answer": "plate",
+        "question_type": "1stB"
+    },
+    {
+        "story": [
+            "Neila found a bag in the attic.",
+            "The label on the bag says plate.",
+            "Neila couldn’t see what was inside the bag.",
+            "Neila opened the bag and found a vest.",
+            "There is no plate in the bag.",
+            "Neila closed the bag and put it back.",
+            "Juanita entered the attic and saw the bag."
+        ],
+        "question": "What would Neila expect to find in the bag?",
+        "answer": "vest",
+        "question_type": "1stA"
+    },
+    {
+        "story": [
+            "Neila found a bag in the attic.",
+            "The label on the bag says plate.",
+            "Neila couldn’t see what was inside the bag.",
+            "Neila opened the bag and found a vest.",
+            "There is no plate in the bag.",
+            "Neila closed the bag and put it back.",
+            "Juanita entered the attic and saw the bag."
+        ],
+        "question": "What would Juanita think Neila would expect to find in the bag?",
+        "answer": "plate",
+        "question_type": "2ndB"
+    },
+    {
+        "story": [
+            "Neila found a bag in the attic.",
+            "The label on the bag says plate.",
+            "Neila couldn’t see what was inside the bag.",
+            "Neila opened the bag and found a vest.",
+            "There is no plate in the bag.",
+            "Neila closed the bag and put it back.",
+            "Juanita entered the attic and saw the bag."
+        ],
+        "question": "What would Neila think Juanita would expect to find in the bag?",
+        "answer": "plate",
+        "question_type": "2ndA"
+    },
+    {
+        "story": [
+            "Sabra found a backpack in the bedroom.",
+            "The label on the backpack says fork.",
+            "Sabra couldn’t see what was inside the backpack.",
+            "Sabra opened the backpack and found a pepper.",
+            "There is no fork in the backpack.",
+            "Sabra closed the backpack and put it back.",
+            "Hillary entered the bedroom and saw the backpack."
+        ],
+        "question": "What was in the backpack?",
+        "answer": "pepper",
+        "question_type": "reality"
+    },
+    {
+        "story": [
+            "Sabra found a backpack in the bedroom.",
+            "The label on the backpack says fork.",
+            "Sabra couldn’t see what was inside the backpack.",
+            "Sabra opened the backpack and found a pepper.",
+            "There is no fork in the backpack.",
+            "Sabra closed the backpack and put it back.",
+            "Hillary entered the bedroom and saw the backpack."
+        ],
+        "question": "What was supposed to be in the backpack?",
+        "answer": "fork",
+        "question_type": "assumption"
+    },
+    {
+        "story": [
+            "Sabra found a backpack in the bedroom.",
+            "The label on the backpack says fork.",
+            "Sabra couldn’t see what was inside the backpack.",
+            "Sabra opened the backpack and found a pepper.",
+            "There is no fork in the backpack.",
+            "Sabra closed the backpack and put it back.",
+            "Hillary entered the bedroom and saw the backpack."
+        ],
+        "question": "What would Hillary expect to find in the backpack?",
+        "answer": "fork",
+        "question_type": "1stB"
+    },
+    {
+        "story": [
+            "Sabra found a backpack in the bedroom.",
+            "The label on the backpack says fork.",
+            "Sabra couldn’t see what was inside the backpack.",
+            "Sabra opened the backpack and found a pepper.",
+            "There is no fork in the backpack.",
+            "Sabra closed the backpack and put it back.",
+            "Hillary entered the bedroom and saw the backpack."
+        ],
+        "question": "What would Sabra expect to find in the backpack?",
+        "answer": "pepper",
+        "question_type": "1stA"
+    },
+    {
+        "story": [
+            "Sabra found a backpack in the bedroom.",
+            "The label on the backpack says fork.",
+            "Sabra couldn’t see what was inside the backpack.",
+            "Sabra opened the backpack and found a pepper.",
+            "There is no fork in the backpack.",
+            "Sabra closed the backpack and put it back.",
+            "Hillary entered the bedroom and saw the backpack."
+        ],
+        "question": "What would Hillary think Sabra would expect to find in the backpack?",
+        "answer": "fork",
+        "question_type": "2ndB"
+    },
+    {
+        "story": [
+            "Sabra found a backpack in the bedroom.",
+            "The label on the backpack says fork.",
+            "Sabra couldn’t see what was inside the backpack.",
+            "Sabra opened the backpack and found a pepper.",
+            "There is no fork in the backpack.",
+            "Sabra closed the backpack and put it back.",
+            "Hillary entered the bedroom and saw the backpack."
+        ],
+        "question": "What would Sabra think Hillary would expect to find in the backpack?",
+        "answer": "fork",
+        "question_type": "2ndA"
+    },
+    {
+        "story": [
+            "Cassandre found a bin in the study.",
+            "The label on the bin says hoodie.",
+            "Cassandre couldn’t see what was inside the bin.",
+            "Cassandre opened the bin and found a skirt.",
+            "There is no hoodie in the bin.",
+            "Cassandre closed the bin and put it back.",
+            "Norina entered the study and saw the bin."
+        ],
+        "question": "What was in the bin?",
+        "answer": "skirt",
+        "question_type": "reality"
+    },
+    {
+        "story": [
+            "Cassandre found a bin in the study.",
+            "The label on the bin says hoodie.",
+            "Cassandre couldn’t see what was inside the bin.",
+            "Cassandre opened the bin and found a skirt.",
+            "There is no hoodie in the bin.",
+            "Cassandre closed the bin and put it back.",
+            "Norina entered the study and saw the bin."
+        ],
+        "question": "What was supposed to be in the bin?",
+        "answer": "hoodie",
+        "question_type": "assumption"
+    },
+    {
+        "story": [
+            "Cassandre found a bin in the study.",
+            "The label on the bin says hoodie.",
+            "Cassandre couldn’t see what was inside the bin.",
+            "Cassandre opened the bin and found a skirt.",
+            "There is no hoodie in the bin.",
+            "Cassandre closed the bin and put it back.",
+            "Norina entered the study and saw the bin."
+        ],
+        "question": "What would Norina expect to find in the bin?",
+        "answer": "hoodie",
+        "question_type": "1stB"
+    },
+    {
+        "story": [
+            "Cassandre found a bin in the study.",
+            "The label on the bin says hoodie.",
+            "Cassandre couldn’t see what was inside the bin.",
+            "Cassandre opened the bin and found a skirt.",
+            "There is no hoodie in the bin.",
+            "Cassandre closed the bin and put it back.",
+            "Norina entered the study and saw the bin."
+        ],
+        "question": "What would Cassandre expect to find in the bin?",
+        "answer": "skirt",
+        "question_type": "1stA"
+    },
+    {
+        "story": [
+            "Cassandre found a bin in the study.",
+            "The label on the bin says hoodie.",
+            "Cassandre couldn’t see what was inside the bin.",
+            "Cassandre opened the bin and found a skirt.",
+            "There is no hoodie in the bin.",
+            "Cassandre closed the bin and put it back.",
+            "Norina entered the study and saw the bin."
+        ],
+        "question": "What would Norina think Cassandre would expect to find in the bin?",
+        "answer": "hoodie",
+        "question_type": "2ndB"
+    },
+    {
+        "story": [
+            "Cassandre found a bin in the study.",
+            "The label on the bin says hoodie.",
+            "Cassandre couldn’t see what was inside the bin.",
+            "Cassandre opened the bin and found a skirt.",
+            "There is no hoodie in the bin.",
+            "Cassandre closed the bin and put it back.",
+            "Norina entered the study and saw the bin."
+        ],
+        "question": "What would Cassandre think Norina would expect to find in the bin?",
+        "answer": "hoodie",
+        "question_type": "2ndA"
+    },
+    {
+        "story": [
+            "Clio found a box in the garage.",
+            "The label on the box says key.",
+            "Clio couldn’t see what was inside the box.",
+            "Clio opened the box and found a plate.",
+            "There is no key in the box.",
+            "Clio closed the box and put it back.",
+            "Daphene entered the garage and saw the box."
+        ],
+        "question": "What was in the box?",
+        "answer": "plate",
+        "question_type": "reality"
+    },
+    {
+        "story": [
+            "Clio found a box in the garage.",
+            "The label on the box says key.",
+            "Clio couldn’t see what was inside the box.",
+            "Clio opened the box and found a plate.",
+            "There is no key in the box.",
+            "Clio closed the box and put it back.",
+            "Daphene entered the garage and saw the box."
+        ],
+        "question": "What was supposed to be in the box?",
+        "answer": "key",
+        "question_type": "assumption"
+    },
+    {
+        "story": [
+            "Clio found a box in the garage.",
+            "The label on the box says key.",
+            "Clio couldn’t see what was inside the box.",
+            "Clio opened the box and found a plate.",
+            "There is no key in the box.",
+            "Clio closed the box and put it back.",
+            "Daphene entered the garage and saw the box."
+        ],
+        "question": "What would Daphene expect to find in the box?",
+        "answer": "key",
+        "question_type": "1stB"
+    },
+    {
+        "story": [
+            "Clio found a box in the garage.",
+            "The label on the box says key.",
+            "Clio couldn’t see what was inside the box.",
+            "Clio opened the box and found a plate.",
+            "There is no key in the box.",
+            "Clio closed the box and put it back.",
+            "Daphene entered the garage and saw the box."
+        ],
+        "question": "What would Clio expect to find in the box?",
+        "answer": "plate",
+        "question_type": "1stA"
+    },
+    {
+        "story": [
+            "Clio found a box in the garage.",
+            "The label on the box says key.",
+            "Clio couldn’t see what was inside the box.",
+            "Clio opened the box and found a plate.",
+            "There is no key in the box.",
+            "Clio closed the box and put it back.",
+            "Daphene entered the garage and saw the box."
+        ],
+        "question": "What would Daphene think Clio would expect to find in the box?",
+        "answer": "key",
+        "question_type": "2ndB"
+    },
+    {
+        "story": [
+            "Clio found a box in the garage.",
+            "The label on the box says key.",
+            "Clio couldn’t see what was inside the box.",
+            "Clio opened the box and found a plate.",
+            "There is no key in the box.",
+            "Clio closed the box and put it back.",
+            "Daphene entered the garage and saw the box."
+        ],
+        "question": "What would Clio think Daphene would expect to find in the box?",
+        "answer": "key",
+        "question_type": "2ndA"
+    },
+    {
+        "story": [
+            "Melania found a briefcase in the living room.",
+            "The label on the briefcase says vest.",
+            "Melania couldn’t see what was inside the briefcase.",
+            "Melania opened the briefcase and found a pencil.",
+            "There is no vest in the briefcase.",
+            "Melania closed the briefcase and put it back.",
+            "Krysta entered the living room and saw the briefcase."
+        ],
+        "question": "What was in the briefcase?",
+        "answer": "pencil",
+        "question_type": "reality"
+    },
+    {
+        "story": [
+            "Melania found a briefcase in the living room.",
+            "The label on the briefcase says vest.",
+            "Melania couldn’t see what was inside the briefcase.",
+            "Melania opened the briefcase and found a pencil.",
+            "There is no vest in the briefcase.",
+            "Melania closed the briefcase and put it back.",
+            "Krysta entered the living room and saw the briefcase."
+        ],
+        "question": "What was supposed to be in the briefcase?",
+        "answer": "vest",
+        "question_type": "assumption"
+    },
+    {
+        "story": [
+            "Melania found a briefcase in the living room.",
+            "The label on the briefcase says vest.",
+            "Melania couldn’t see what was inside the briefcase.",
+            "Melania opened the briefcase and found a pencil.",
+            "There is no vest in the briefcase.",
+            "Melania closed the briefcase and put it back.",
+            "Krysta entered the living room and saw the briefcase."
+        ],
+        "question": "What would Krysta expect to find in the briefcase?",
+        "answer": "vest",
+        "question_type": "1stB"
+    },
+    {
+        "story": [
+            "Melania found a briefcase in the living room.",
+            "The label on the briefcase says vest.",
+            "Melania couldn’t see what was inside the briefcase.",
+            "Melania opened the briefcase and found a pencil.",
+            "There is no vest in the briefcase.",
+            "Melania closed the briefcase and put it back.",
+            "Krysta entered the living room and saw the briefcase."
+        ],
+        "question": "What would Melania expect to find in the briefcase?",
+        "answer": "pencil",
+        "question_type": "1stA"
+    },
+    {
+        "story": [
+            "Melania found a briefcase in the living room.",
+            "The label on the briefcase says vest.",
+            "Melania couldn’t see what was inside the briefcase.",
+            "Melania opened the briefcase and found a pencil.",
+            "There is no vest in the briefcase.",
+            "Melania closed the briefcase and put it back.",
+            "Krysta entered the living room and saw the briefcase."
+        ],
+        "question": "What would Krysta think Melania would expect to find in the briefcase?",
+        "answer": "vest",
+        "question_type": "2ndB"
+    },
+    {
+        "story": [
+            "Melania found a briefcase in the living room.",
+            "The label on the briefcase says vest.",
+            "Melania couldn’t see what was inside the briefcase.",
+            "Melania opened the briefcase and found a pencil.",
+            "There is no vest in the briefcase.",
+            "Melania closed the briefcase and put it back.",
+            "Krysta entered the living room and saw the briefcase."
+        ],
+        "question": "What would Melania think Krysta would expect to find in the briefcase?",
+        "answer": "vest",
+        "question_type": "2ndA"
+    },
+    {
+        "story": [
+            "Hillary found a cabinet in the basement.",
+            "The label on the cabinet says mask.",
+            "Hillary couldn’t see what was inside the cabinet.",
+            "Hillary opened the cabinet and found a tape.",
+            "There is no mask in the cabinet.",
+            "Hillary closed the cabinet and put it back.",
+            "Kathryne entered the basement and saw the cabinet."
+        ],
+        "question": "What was in the cabinet?",
+        "answer": "tape",
+        "question_type": "reality"
+    },
+    {
+        "story": [
+            "Hillary found a cabinet in the basement.",
+            "The label on the cabinet says mask.",
+            "Hillary couldn’t see what was inside the cabinet.",
+            "Hillary opened the cabinet and found a tape.",
+            "There is no mask in the cabinet.",
+            "Hillary closed the cabinet and put it back.",
+            "Kathryne entered the basement and saw the cabinet."
+        ],
+        "question": "What was supposed to be in the cabinet?",
+        "answer": "mask",
+        "question_type": "assumption"
+    },
+    {
+        "story": [
+            "Hillary found a cabinet in the basement.",
+            "The label on the cabinet says mask.",
+            "Hillary couldn’t see what was inside the cabinet.",
+            "Hillary opened the cabinet and found a tape.",
+            "There is no mask in the cabinet.",
+            "Hillary closed the cabinet and put it back.",
+            "Kathryne entered the basement and saw the cabinet."
+        ],
+        "question": "What would Kathryne expect to find in the cabinet?",
+        "answer": "mask",
+        "question_type": "1stB"
+    },
+    {
+        "story": [
+            "Hillary found a cabinet in the basement.",
+            "The label on the cabinet says mask.",
+            "Hillary couldn’t see what was inside the cabinet.",
+            "Hillary opened the cabinet and found a tape.",
+            "There is no mask in the cabinet.",
+            "Hillary closed the cabinet and put it back.",
+            "Kathryne entered the basement and saw the cabinet."
+        ],
+        "question": "What would Hillary expect to find in the cabinet?",
+        "answer": "tape",
+        "question_type": "1stA"
+    },
+    {
+        "story": [
+            "Hillary found a cabinet in the basement.",
+            "The label on the cabinet says mask.",
+            "Hillary couldn’t see what was inside the cabinet.",
+            "Hillary opened the cabinet and found a tape.",
+            "There is no mask in the cabinet.",
+            "Hillary closed the cabinet and put it back.",
+            "Kathryne entered the basement and saw the cabinet."
+        ],
+        "question": "What would Kathryne think Hillary would expect to find in the cabinet?",
+        "answer": "mask",
+        "question_type": "2ndB"
+    },
+    {
+        "story": [
+            "Hillary found a cabinet in the basement.",
+            "The label on the cabinet says mask.",
+            "Hillary couldn’t see what was inside the cabinet.",
+            "Hillary opened the cabinet and found a tape.",
+            "There is no mask in the cabinet.",
+            "Hillary closed the cabinet and put it back.",
+            "Kathryne entered the basement and saw the cabinet."
+        ],
+        "question": "What would Hillary think Kathryne would expect to find in the cabinet?",
+        "answer": "mask",
+        "question_type": "2ndA"
+    },
+    {
+        "story": [
+            "Norina found a chest in the loft.",
+            "The label on the chest says ruler.",
+            "Norina couldn’t see what was inside the chest.",
+            "Norina opened the chest and found a coconut.",
+            "There is no ruler in the chest.",
+            "Norina closed the chest and put it back.",
+            "Jobina entered the loft and saw the chest."
+        ],
+        "question": "What was in the chest?",
+        "answer": "coconut",
+        "question_type": "reality"
+    },
+    {
+        "story": [
+            "Norina found a chest in the loft.",
+            "The label on the chest says ruler.",
+            "Norina couldn’t see what was inside the chest.",
+            "Norina opened the chest and found a coconut.",
+            "There is no ruler in the chest.",
+            "Norina closed the chest and put it back.",
+            "Jobina entered the loft and saw the chest."
+        ],
+        "question": "What was supposed to be in the chest?",
+        "answer": "ruler",
+        "question_type": "assumption"
+    },
+    {
+        "story": [
+            "Norina found a chest in the loft.",
+            "The label on the chest says ruler.",
+            "Norina couldn’t see what was inside the chest.",
+            "Norina opened the chest and found a coconut.",
+            "There is no ruler in the chest.",
+            "Norina closed the chest and put it back.",
+            "Jobina entered the loft and saw the chest."
+        ],
+        "question": "What would Jobina expect to find in the chest?",
+        "answer": "ruler",
+        "question_type": "1stB"
+    },
+    {
+        "story": [
+            "Norina found a chest in the loft.",
+            "The label on the chest says ruler.",
+            "Norina couldn’t see what was inside the chest.",
+            "Norina opened the chest and found a coconut.",
+            "There is no ruler in the chest.",
+            "Norina closed the chest and put it back.",
+            "Jobina entered the loft and saw the chest."
+        ],
+        "question": "What would Norina expect to find in the chest?",
+        "answer": "coconut",
+        "question_type": "1stA"
+    },
+    {
+        "story": [
+            "Norina found a chest in the loft.",
+            "The label on the chest says ruler.",
+            "Norina couldn’t see what was inside the chest.",
+            "Norina opened the chest and found a coconut.",
+            "There is no ruler in the chest.",
+            "Norina closed the chest and put it back.",
+            "Jobina entered the loft and saw the chest."
+        ],
+        "question": "What would Jobina think Norina would expect to find in the chest?",
+        "answer": "ruler",
+        "question_type": "2ndB"
+    },
+    {
+        "story": [
+            "Norina found a chest in the loft.",
+            "The label on the chest says ruler.",
+            "Norina couldn’t see what was inside the chest.",
+            "Norina opened the chest and found a coconut.",
+            "There is no ruler in the chest.",
+            "Norina closed the chest and put it back.",
+            "Jobina entered the loft and saw the chest."
+        ],
+        "question": "What would Norina think Jobina would expect to find in the chest?",
+        "answer": "ruler",
+        "question_type": "2ndA"
+    },
+    {
+        "story": [
+            "Karalynn found a coffer in the kitchen.",
+            "The label on the coffer says calculator.",
+            "Karalynn couldn’t see what was inside the coffer.",
+            "Karalynn opened the coffer and found a pepper.",
+            "There is no calculator in the coffer.",
+            "Karalynn closed the coffer and put it back.",
+            "Clio entered the kitchen and saw the coffer."
+        ],
+        "question": "What was in the coffer?",
+        "answer": "pepper",
+        "question_type": "reality"
+    },
+    {
+        "story": [
+            "Karalynn found a coffer in the kitchen.",
+            "The label on the coffer says calculator.",
+            "Karalynn couldn’t see what was inside the coffer.",
+            "Karalynn opened the coffer and found a pepper.",
+            "There is no calculator in the coffer.",
+            "Karalynn closed the coffer and put it back.",
+            "Clio entered the kitchen and saw the coffer."
+        ],
+        "question": "What was supposed to be in the coffer?",
+        "answer": "calculator",
+        "question_type": "assumption"
+    },
+    {
+        "story": [
+            "Karalynn found a coffer in the kitchen.",
+            "The label on the coffer says calculator.",
+            "Karalynn couldn’t see what was inside the coffer.",
+            "Karalynn opened the coffer and found a pepper.",
+            "There is no calculator in the coffer.",
+            "Karalynn closed the coffer and put it back.",
+            "Clio entered the kitchen and saw the coffer."
+        ],
+        "question": "What would Clio expect to find in the coffer?",
+        "answer": "calculator",
+        "question_type": "1stB"
+    },
+    {
+        "story": [
+            "Karalynn found a coffer in the kitchen.",
+            "The label on the coffer says calculator.",
+            "Karalynn couldn’t see what was inside the coffer.",
+            "Karalynn opened the coffer and found a pepper.",
+            "There is no calculator in the coffer.",
+            "Karalynn closed the coffer and put it back.",
+            "Clio entered the kitchen and saw the coffer."
+        ],
+        "question": "What would Karalynn expect to find in the coffer?",
+        "answer": "pepper",
+        "question_type": "1stA"
+    },
+    {
+        "story": [
+            "Karalynn found a coffer in the kitchen.",
+            "The label on the coffer says calculator.",
+            "Karalynn couldn’t see what was inside the coffer.",
+            "Karalynn opened the coffer and found a pepper.",
+            "There is no calculator in the coffer.",
+            "Karalynn closed the coffer and put it back.",
+            "Clio entered the kitchen and saw the coffer."
+        ],
+        "question": "What would Clio think Karalynn would expect to find in the coffer?",
+        "answer": "calculator",
+        "question_type": "2ndB"
+    },
+    {
+        "story": [
+            "Karalynn found a coffer in the kitchen.",
+            "The label on the coffer says calculator.",
+            "Karalynn couldn’t see what was inside the coffer.",
+            "Karalynn opened the coffer and found a pepper.",
+            "There is no calculator in the coffer.",
+            "Karalynn closed the coffer and put it back.",
+            "Clio entered the kitchen and saw the coffer."
+        ],
+        "question": "What would Karalynn think Clio would expect to find in the coffer?",
+        "answer": "calculator",
+        "question_type": "2ndA"
+    },
+    {
+        "story": [
+            "Vera found a chamber in the terrace.",
+            "The label on the chamber says cable.",
+            "Vera couldn’t see what was inside the chamber.",
+            "Vera opened the chamber and found a notebook.",
+            "There is no cable in the chamber.",
+            "Vera closed the chamber and put it back.",
+            "Daphene entered the terrace and saw the chamber."
+        ],
+        "question": "What was in the chamber?",
+        "answer": "notebook",
+        "question_type": "reality"
+    },
+    {
+        "story": [
+            "Vera found a chamber in the terrace.",
+            "The label on the chamber says cable.",
+            "Vera couldn’t see what was inside the chamber.",
+            "Vera opened the chamber and found a notebook.",
+            "There is no cable in the chamber.",
+            "Vera closed the chamber and put it back.",
+            "Daphene entered the terrace and saw the chamber."
+        ],
+        "question": "What was supposed to be in the chamber?",
+        "answer": "cable",
+        "question_type": "assumption"
+    },
+    {
+        "story": [
+            "Vera found a chamber in the terrace.",
+            "The label on the chamber says cable.",
+            "Vera couldn’t see what was inside the chamber.",
+            "Vera opened the chamber and found a notebook.",
+            "There is no cable in the chamber.",
+            "Vera closed the chamber and put it back.",
+            "Daphene entered the terrace and saw the chamber."
+        ],
+        "question": "What would Daphene expect to find in the chamber?",
+        "answer": "cable",
+        "question_type": "1stB"
+    },
+    {
+        "story": [
+            "Vera found a chamber in the terrace.",
+            "The label on the chamber says cable.",
+            "Vera couldn’t see what was inside the chamber.",
+            "Vera opened the chamber and found a notebook.",
+            "There is no cable in the chamber.",
+            "Vera closed the chamber and put it back.",
+            "Daphene entered the terrace and saw the chamber."
+        ],
+        "question": "What would Vera expect to find in the chamber?",
+        "answer": "notebook",
+        "question_type": "1stA"
+    },
+    {
+        "story": [
+            "Vera found a chamber in the terrace.",
+            "The label on the chamber says cable.",
+            "Vera couldn’t see what was inside the chamber.",
+            "Vera opened the chamber and found a notebook.",
+            "There is no cable in the chamber.",
+            "Vera closed the chamber and put it back.",
+            "Daphene entered the terrace and saw the chamber."
+        ],
+        "question": "What would Daphene think Vera would expect to find in the chamber?",
+        "answer": "cable",
+        "question_type": "2ndB"
+    },
+    {
+        "story": [
+            "Vera found a chamber in the terrace.",
+            "The label on the chamber says cable.",
+            "Vera couldn’t see what was inside the chamber.",
+            "Vera opened the chamber and found a notebook.",
+            "There is no cable in the chamber.",
+            "Vera closed the chamber and put it back.",
+            "Daphene entered the terrace and saw the chamber."
+        ],
+        "question": "What would Vera think Daphene would expect to find in the chamber?",
+        "answer": "cable",
+        "question_type": "2ndA"
+    },
+    {
+        "story": [
+            "Sabra found a locker in the balcony.",
+            "The label on the locker says binder.",
+            "Sabra couldn’t see what was inside the locker.",
+            "Sabra opened the locker and found a mug.",
+            "There is no binder in the locker.",
+            "Sabra closed the locker and put it back.",
+            "Melania entered the balcony and saw the locker."
+        ],
+        "question": "What was in the locker?",
+        "answer": "mug",
+        "question_type": "reality"
+    },
+    {
+        "story": [
+            "Sabra found a locker in the balcony.",
+            "The label on the locker says binder.",
+            "Sabra couldn’t see what was inside the locker.",
+            "Sabra opened the locker and found a mug.",
+            "There is no binder in the locker.",
+            "Sabra closed the locker and put it back.",
+            "Melania entered the balcony and saw the locker."
+        ],
+        "question": "What was supposed to be in the locker?",
+        "answer": "binder",
+        "question_type": "assumption"
+    },
+    {
+        "story": [
+            "Sabra found a locker in the balcony.",
+            "The label on the locker says binder.",
+            "Sabra couldn’t see what was inside the locker.",
+            "Sabra opened the locker and found a mug.",
+            "There is no binder in the locker.",
+            "Sabra closed the locker and put it back.",
+            "Melania entered the balcony and saw the locker."
+        ],
+        "question": "What would Melania expect to find in the locker?",
+        "answer": "binder",
+        "question_type": "1stB"
+    },
+    {
+        "story": [
+            "Sabra found a locker in the balcony.",
+            "The label on the locker says binder.",
+            "Sabra couldn’t see what was inside the locker.",
+            "Sabra opened the locker and found a mug.",
+            "There is no binder in the locker.",
+            "Sabra closed the locker and put it back.",
+            "Melania entered the balcony and saw the locker."
+        ],
+        "question": "What would Sabra expect to find in the locker?",
+        "answer": "mug",
+        "question_type": "1stA"
+    },
+    {
+        "story": [
+            "Sabra found a locker in the balcony.",
+            "The label on the locker says binder.",
+            "Sabra couldn’t see what was inside the locker.",
+            "Sabra opened the locker and found a mug.",
+            "There is no binder in the locker.",
+            "Sabra closed the locker and put it back.",
+            "Melania entered the balcony and saw the locker."
+        ],
+        "question": "What would Melania think Sabra would expect to find in the locker?",
+        "answer": "binder",
+        "question_type": "2ndB"
+    },
+    {
+        "story": [
+            "Sabra found a locker in the balcony.",
+            "The label on the locker says binder.",
+            "Sabra couldn’t see what was inside the locker.",
+            "Sabra opened the locker and found a mug.",
+            "There is no binder in the locker.",
+            "Sabra closed the locker and put it back.",
+            "Melania entered the balcony and saw the locker."
+        ],
+        "question": "What would Sabra think Melania would expect to find in the locker?",
+        "answer": "binder",
+        "question_type": "2ndA"
+    },
+    {
+        "story": [
+            "Clio found a suitcase in the nursery.",
+            "The label on the suitcase says cup.",
+            "Clio couldn’t see what was inside the suitcase.",
+            "Clio opened the suitcase and found a cucumber.",
+            "There is no cup in the suitcase.",
+            "Clio closed the suitcase and put it back.",
+            "Felicity entered the nursery and saw the suitcase."
+        ],
+        "question": "What was in the suitcase?",
+        "answer": "cucumber",
+        "question_type": "reality"
+    },
+    {
+        "story": [
+            "Clio found a suitcase in the nursery.",
+            "The label on the suitcase says cup.",
+            "Clio couldn’t see what was inside the suitcase.",
+            "Clio opened the suitcase and found a cucumber.",
+            "There is no cup in the suitcase.",
+            "Clio closed the suitcase and put it back.",
+            "Felicity entered the nursery and saw the suitcase."
+        ],
+        "question": "What was supposed to be in the suitcase?",
+        "answer": "cup",
+        "question_type": "assumption"
+    },
+    {
+        "story": [
+            "Clio found a suitcase in the nursery.",
+            "The label on the suitcase says cup.",
+            "Clio couldn’t see what was inside the suitcase.",
+            "Clio opened the suitcase and found a cucumber.",
+            "There is no cup in the suitcase.",
+            "Clio closed the suitcase and put it back.",
+            "Felicity entered the nursery and saw the suitcase."
+        ],
+        "question": "What would Felicity expect to find in the suitcase?",
+        "answer": "cup",
+        "question_type": "1stB"
+    },
+    {
+        "story": [
+            "Clio found a suitcase in the nursery.",
+            "The label on the suitcase says cup.",
+            "Clio couldn’t see what was inside the suitcase.",
+            "Clio opened the suitcase and found a cucumber.",
+            "There is no cup in the suitcase.",
+            "Clio closed the suitcase and put it back.",
+            "Felicity entered the nursery and saw the suitcase."
+        ],
+        "question": "What would Clio expect to find in the suitcase?",
+        "answer": "cucumber",
+        "question_type": "1stA"
+    },
+    {
+        "story": [
+            "Clio found a suitcase in the nursery.",
+            "The label on the suitcase says cup.",
+            "Clio couldn’t see what was inside the suitcase.",
+            "Clio opened the suitcase and found a cucumber.",
+            "There is no cup in the suitcase.",
+            "Clio closed the suitcase and put it back.",
+            "Felicity entered the nursery and saw the suitcase."
+        ],
+        "question": "What would Felicity think Clio would expect to find in the suitcase?",
+        "answer": "cup",
+        "question_type": "2ndB"
+    },
+    {
+        "story": [
+            "Clio found a suitcase in the nursery.",
+            "The label on the suitcase says cup.",
+            "Clio couldn’t see what was inside the suitcase.",
+            "Clio opened the suitcase and found a cucumber.",
+            "There is no cup in the suitcase.",
+            "Clio closed the suitcase and put it back.",
+            "Felicity entered the nursery and saw the suitcase."
+        ],
+        "question": "What would Clio think Felicity would expect to find in the suitcase?",
+        "answer": "cup",
+        "question_type": "2ndA"
+    },
+    {
+        "story": [
+            "Felicity found a crate in the conservatory.",
+            "The label on the crate says carrot.",
+            "Felicity couldn’t see what was inside the crate.",
+            "Felicity opened the crate and found a cup.",
+            "There is no carrot in the crate.",
+            "Felicity closed the crate and put it back.",
+            "Hillary entered the conservatory and saw the crate."
+        ],
+        "question": "What was in the crate?",
+        "answer": "cup",
+        "question_type": "reality"
+    },
+    {
+        "story": [
+            "Felicity found a crate in the conservatory.",
+            "The label on the crate says carrot.",
+            "Felicity couldn’t see what was inside the crate.",
+            "Felicity opened the crate and found a cup.",
+            "There is no carrot in the crate.",
+            "Felicity closed the crate and put it back.",
+            "Hillary entered the conservatory and saw the crate."
+        ],
+        "question": "What was supposed to be in the crate?",
+        "answer": "carrot",
+        "question_type": "assumption"
+    },
+    {
+        "story": [
+            "Felicity found a crate in the conservatory.",
+            "The label on the crate says carrot.",
+            "Felicity couldn’t see what was inside the crate.",
+            "Felicity opened the crate and found a cup.",
+            "There is no carrot in the crate.",
+            "Felicity closed the crate and put it back.",
+            "Hillary entered the conservatory and saw the crate."
+        ],
+        "question": "What would Hillary expect to find in the crate?",
+        "answer": "carrot",
+        "question_type": "1stB"
+    },
+    {
+        "story": [
+            "Felicity found a crate in the conservatory.",
+            "The label on the crate says carrot.",
+            "Felicity couldn’t see what was inside the crate.",
+            "Felicity opened the crate and found a cup.",
+            "There is no carrot in the crate.",
+            "Felicity closed the crate and put it back.",
+            "Hillary entered the conservatory and saw the crate."
+        ],
+        "question": "What would Felicity expect to find in the crate?",
+        "answer": "cup",
+        "question_type": "1stA"
+    },
+    {
+        "story": [
+            "Felicity found a crate in the conservatory.",
+            "The label on the crate says carrot.",
+            "Felicity couldn’t see what was inside the crate.",
+            "Felicity opened the crate and found a cup.",
+            "There is no carrot in the crate.",
+            "Felicity closed the crate and put it back.",
+            "Hillary entered the conservatory and saw the crate."
+        ],
+        "question": "What would Hillary think Felicity would expect to find in the crate?",
+        "answer": "carrot",
+        "question_type": "2ndB"
+    },
+    {
+        "story": [
+            "Felicity found a crate in the conservatory.",
+            "The label on the crate says carrot.",
+            "Felicity couldn’t see what was inside the crate.",
+            "Felicity opened the crate and found a cup.",
+            "There is no carrot in the crate.",
+            "Felicity closed the crate and put it back.",
+            "Hillary entered the conservatory and saw the crate."
+        ],
+        "question": "What would Felicity think Hillary would expect to find in the crate?",
+        "answer": "carrot",
+        "question_type": "2ndA"
+    },
+    {
+        "story": [
+            "Sabra found a tote in the lounge.",
+            "The label on the tote says lemon.",
+            "Sabra couldn’t see what was inside the tote.",
+            "Sabra opened the tote and found a tie.",
+            "There is no lemon in the tote.",
+            "Sabra closed the tote and put it back.",
+            "Hillary entered the lounge and saw the tote."
+        ],
+        "question": "What was in the tote?",
+        "answer": "tie",
+        "question_type": "reality"
+    },
+    {
+        "story": [
+            "Sabra found a tote in the lounge.",
+            "The label on the tote says lemon.",
+            "Sabra couldn’t see what was inside the tote.",
+            "Sabra opened the tote and found a tie.",
+            "There is no lemon in the tote.",
+            "Sabra closed the tote and put it back.",
+            "Hillary entered the lounge and saw the tote."
+        ],
+        "question": "What was supposed to be in the tote?",
+        "answer": "lemon",
+        "question_type": "assumption"
+    },
+    {
+        "story": [
+            "Sabra found a tote in the lounge.",
+            "The label on the tote says lemon.",
+            "Sabra couldn’t see what was inside the tote.",
+            "Sabra opened the tote and found a tie.",
+            "There is no lemon in the tote.",
+            "Sabra closed the tote and put it back.",
+            "Hillary entered the lounge and saw the tote."
+        ],
+        "question": "What would Hillary expect to find in the tote?",
+        "answer": "lemon",
+        "question_type": "1stB"
+    },
+    {
+        "story": [
+            "Sabra found a tote in the lounge.",
+            "The label on the tote says lemon.",
+            "Sabra couldn’t see what was inside the tote.",
+            "Sabra opened the tote and found a tie.",
+            "There is no lemon in the tote.",
+            "Sabra closed the tote and put it back.",
+            "Hillary entered the lounge and saw the tote."
+        ],
+        "question": "What would Sabra expect to find in the tote?",
+        "answer": "tie",
+        "question_type": "1stA"
+    },
+    {
+        "story": [
+            "Sabra found a tote in the lounge.",
+            "The label on the tote says lemon.",
+            "Sabra couldn’t see what was inside the tote.",
+            "Sabra opened the tote and found a tie.",
+            "There is no lemon in the tote.",
+            "Sabra closed the tote and put it back.",
+            "Hillary entered the lounge and saw the tote."
+        ],
+        "question": "What would Hillary think Sabra would expect to find in the tote?",
+        "answer": "lemon",
+        "question_type": "2ndB"
+    },
+    {
+        "story": [
+            "Sabra found a tote in the lounge.",
+            "The label on the tote says lemon.",
+            "Sabra couldn’t see what was inside the tote.",
+            "Sabra opened the tote and found a tie.",
+            "There is no lemon in the tote.",
+            "Sabra closed the tote and put it back.",
+            "Hillary entered the lounge and saw the tote."
+        ],
+        "question": "What would Sabra think Hillary would expect to find in the tote?",
+        "answer": "lemon",
+        "question_type": "2ndA"
+    },
+    {
+        "story": [
+            "Meira found a knapsack in the dining room.",
+            "The label on the knapsack says pear.",
+            "Meira couldn’t see what was inside the knapsack.",
+            "Meira opened the knapsack and found a shirt.",
+            "There is no pear in the knapsack.",
+            "Meira closed the knapsack and put it back.",
+            "Juanita entered the dining room and saw the knapsack."
+        ],
+        "question": "What was in the knapsack?",
+        "answer": "shirt",
+        "question_type": "reality"
+    },
+    {
+        "story": [
+            "Meira found a knapsack in the dining room.",
+            "The label on the knapsack says pear.",
+            "Meira couldn’t see what was inside the knapsack.",
+            "Meira opened the knapsack and found a shirt.",
+            "There is no pear in the knapsack.",
+            "Meira closed the knapsack and put it back.",
+            "Juanita entered the dining room and saw the knapsack."
+        ],
+        "question": "What was supposed to be in the knapsack?",
+        "answer": "pear",
+        "question_type": "assumption"
+    },
+    {
+        "story": [
+            "Meira found a knapsack in the dining room.",
+            "The label on the knapsack says pear.",
+            "Meira couldn’t see what was inside the knapsack.",
+            "Meira opened the knapsack and found a shirt.",
+            "There is no pear in the knapsack.",
+            "Meira closed the knapsack and put it back.",
+            "Juanita entered the dining room and saw the knapsack."
+        ],
+        "question": "What would Juanita expect to find in the knapsack?",
+        "answer": "pear",
+        "question_type": "1stB"
+    },
+    {
+        "story": [
+            "Meira found a knapsack in the dining room.",
+            "The label on the knapsack says pear.",
+            "Meira couldn’t see what was inside the knapsack.",
+            "Meira opened the knapsack and found a shirt.",
+            "There is no pear in the knapsack.",
+            "Meira closed the knapsack and put it back.",
+            "Juanita entered the dining room and saw the knapsack."
+        ],
+        "question": "What would Meira expect to find in the knapsack?",
+        "answer": "shirt",
+        "question_type": "1stA"
+    },
+    {
+        "story": [
+            "Meira found a knapsack in the dining room.",
+            "The label on the knapsack says pear.",
+            "Meira couldn’t see what was inside the knapsack.",
+            "Meira opened the knapsack and found a shirt.",
+            "There is no pear in the knapsack.",
+            "Meira closed the knapsack and put it back.",
+            "Juanita entered the dining room and saw the knapsack."
+        ],
+        "question": "What would Juanita think Meira would expect to find in the knapsack?",
+        "answer": "pear",
+        "question_type": "2ndB"
+    },
+    {
+        "story": [
+            "Meira found a knapsack in the dining room.",
+            "The label on the knapsack says pear.",
+            "Meira couldn’t see what was inside the knapsack.",
+            "Meira opened the knapsack and found a shirt.",
+            "There is no pear in the knapsack.",
+            "Meira closed the knapsack and put it back.",
+            "Juanita entered the dining room and saw the knapsack."
+        ],
+        "question": "What would Meira think Juanita would expect to find in the knapsack?",
+        "answer": "pear",
+        "question_type": "2ndA"
+    },
+    {
+        "story": [
+            "Hillary found a hamper in the library.",
+            "The label on the hamper says cauliflower.",
+            "Hillary couldn’t see what was inside the hamper.",
+            "Hillary opened the hamper and found a scarf.",
+            "There is no cauliflower in the hamper.",
+            "Hillary closed the hamper and put it back.",
+            "Clio entered the library and saw the hamper."
+        ],
+        "question": "What was in the hamper?",
+        "answer": "scarf",
+        "question_type": "reality"
+    },
+    {
+        "story": [
+            "Hillary found a hamper in the library.",
+            "The label on the hamper says cauliflower.",
+            "Hillary couldn’t see what was inside the hamper.",
+            "Hillary opened the hamper and found a scarf.",
+            "There is no cauliflower in the hamper.",
+            "Hillary closed the hamper and put it back.",
+            "Clio entered the library and saw the hamper."
+        ],
+        "question": "What was supposed to be in the hamper?",
+        "answer": "cauliflower",
+        "question_type": "assumption"
+    },
+    {
+        "story": [
+            "Hillary found a hamper in the library.",
+            "The label on the hamper says cauliflower.",
+            "Hillary couldn’t see what was inside the hamper.",
+            "Hillary opened the hamper and found a scarf.",
+            "There is no cauliflower in the hamper.",
+            "Hillary closed the hamper and put it back.",
+            "Clio entered the library and saw the hamper."
+        ],
+        "question": "What would Clio expect to find in the hamper?",
+        "answer": "cauliflower",
+        "question_type": "1stB"
+    },
+    {
+        "story": [
+            "Hillary found a hamper in the library.",
+            "The label on the hamper says cauliflower.",
+            "Hillary couldn’t see what was inside the hamper.",
+            "Hillary opened the hamper and found a scarf.",
+            "There is no cauliflower in the hamper.",
+            "Hillary closed the hamper and put it back.",
+            "Clio entered the library and saw the hamper."
+        ],
+        "question": "What would Hillary expect to find in the hamper?",
+        "answer": "scarf",
+        "question_type": "1stA"
+    },
+    {
+        "story": [
+            "Hillary found a hamper in the library.",
+            "The label on the hamper says cauliflower.",
+            "Hillary couldn’t see what was inside the hamper.",
+            "Hillary opened the hamper and found a scarf.",
+            "There is no cauliflower in the hamper.",
+            "Hillary closed the hamper and put it back.",
+            "Clio entered the library and saw the hamper."
+        ],
+        "question": "What would Clio think Hillary would expect to find in the hamper?",
+        "answer": "cauliflower",
+        "question_type": "2ndB"
+    },
+    {
+        "story": [
+            "Hillary found a hamper in the library.",
+            "The label on the hamper says cauliflower.",
+            "Hillary couldn’t see what was inside the hamper.",
+            "Hillary opened the hamper and found a scarf.",
+            "There is no cauliflower in the hamper.",
+            "Hillary closed the hamper and put it back.",
+            "Clio entered the library and saw the hamper."
+        ],
+        "question": "What would Hillary think Clio would expect to find in the hamper?",
+        "answer": "cauliflower",
+        "question_type": "2ndA"
+    },
+    {
+        "story": [
+            "Amata found a carryall in the farm.",
+            "The label on the carryall says lemon.",
+            "Amata couldn’t see what was inside the carryall.",
+            "Amata opened the carryall and found a cable.",
+            "There is no lemon in the carryall.",
+            "Amata closed the carryall and put it back.",
+            "Neila entered the farm and saw the carryall."
+        ],
+        "question": "What was in the carryall?",
+        "answer": "cable",
+        "question_type": "reality"
+    },
+    {
+        "story": [
+            "Amata found a carryall in the farm.",
+            "The label on the carryall says lemon.",
+            "Amata couldn’t see what was inside the carryall.",
+            "Amata opened the carryall and found a cable.",
+            "There is no lemon in the carryall.",
+            "Amata closed the carryall and put it back.",
+            "Neila entered the farm and saw the carryall."
+        ],
+        "question": "What was supposed to be in the carryall?",
+        "answer": "lemon",
+        "question_type": "assumption"
+    },
+    {
+        "story": [
+            "Amata found a carryall in the farm.",
+            "The label on the carryall says lemon.",
+            "Amata couldn’t see what was inside the carryall.",
+            "Amata opened the carryall and found a cable.",
+            "There is no lemon in the carryall.",
+            "Amata closed the carryall and put it back.",
+            "Neila entered the farm and saw the carryall."
+        ],
+        "question": "What would Neila expect to find in the carryall?",
+        "answer": "lemon",
+        "question_type": "1stB"
+    },
+    {
+        "story": [
+            "Amata found a carryall in the farm.",
+            "The label on the carryall says lemon.",
+            "Amata couldn’t see what was inside the carryall.",
+            "Amata opened the carryall and found a cable.",
+            "There is no lemon in the carryall.",
+            "Amata closed the carryall and put it back.",
+            "Neila entered the farm and saw the carryall."
+        ],
+        "question": "What would Amata expect to find in the carryall?",
+        "answer": "cable",
+        "question_type": "1stA"
+    },
+    {
+        "story": [
+            "Amata found a carryall in the farm.",
+            "The label on the carryall says lemon.",
+            "Amata couldn’t see what was inside the carryall.",
+            "Amata opened the carryall and found a cable.",
+            "There is no lemon in the carryall.",
+            "Amata closed the carryall and put it back.",
+            "Neila entered the farm and saw the carryall."
+        ],
+        "question": "What would Neila think Amata would expect to find in the carryall?",
+        "answer": "lemon",
+        "question_type": "2ndB"
+    },
+    {
+        "story": [
+            "Amata found a carryall in the farm.",
+            "The label on the carryall says lemon.",
+            "Amata couldn’t see what was inside the carryall.",
+            "Amata opened the carryall and found a cable.",
+            "There is no lemon in the carryall.",
+            "Amata closed the carryall and put it back.",
+            "Neila entered the farm and saw the carryall."
+        ],
+        "question": "What would Amata think Neila would expect to find in the carryall?",
+        "answer": "lemon",
+        "question_type": "2ndA"
+    },
+    {
+        "story": [
+            "Clio found a drawer in the bar.",
+            "The label on the drawer says pepper.",
+            "Clio couldn’t see what was inside the drawer.",
+            "Clio opened the drawer and found a durian.",
+            "There is no pepper in the drawer.",
+            "Clio closed the drawer and put it back.",
+            "Amata entered the bar and saw the drawer."
+        ],
+        "question": "What was in the drawer?",
+        "answer": "durian",
+        "question_type": "reality"
+    },
+    {
+        "story": [
+            "Clio found a drawer in the bar.",
+            "The label on the drawer says pepper.",
+            "Clio couldn’t see what was inside the drawer.",
+            "Clio opened the drawer and found a durian.",
+            "There is no pepper in the drawer.",
+            "Clio closed the drawer and put it back.",
+            "Amata entered the bar and saw the drawer."
+        ],
+        "question": "What was supposed to be in the drawer?",
+        "answer": "pepper",
+        "question_type": "assumption"
+    },
+    {
+        "story": [
+            "Clio found a drawer in the bar.",
+            "The label on the drawer says pepper.",
+            "Clio couldn’t see what was inside the drawer.",
+            "Clio opened the drawer and found a durian.",
+            "There is no pepper in the drawer.",
+            "Clio closed the drawer and put it back.",
+            "Amata entered the bar and saw the drawer."
+        ],
+        "question": "What would Amata expect to find in the drawer?",
+        "answer": "pepper",
+        "question_type": "1stB"
+    },
+    {
+        "story": [
+            "Clio found a drawer in the bar.",
+            "The label on the drawer says pepper.",
+            "Clio couldn’t see what was inside the drawer.",
+            "Clio opened the drawer and found a durian.",
+            "There is no pepper in the drawer.",
+            "Clio closed the drawer and put it back.",
+            "Amata entered the bar and saw the drawer."
+        ],
+        "question": "What would Clio expect to find in the drawer?",
+        "answer": "durian",
+        "question_type": "1stA"
+    },
+    {
+        "story": [
+            "Clio found a drawer in the bar.",
+            "The label on the drawer says pepper.",
+            "Clio couldn’t see what was inside the drawer.",
+            "Clio opened the drawer and found a durian.",
+            "There is no pepper in the drawer.",
+            "Clio closed the drawer and put it back.",
+            "Amata entered the bar and saw the drawer."
+        ],
+        "question": "What would Amata think Clio would expect to find in the drawer?",
+        "answer": "pepper",
+        "question_type": "2ndB"
+    },
+    {
+        "story": [
+            "Clio found a drawer in the bar.",
+            "The label on the drawer says pepper.",
+            "Clio couldn’t see what was inside the drawer.",
+            "Clio opened the drawer and found a durian.",
+            "There is no pepper in the drawer.",
+            "Clio closed the drawer and put it back.",
+            "Amata entered the bar and saw the drawer."
+        ],
+        "question": "What would Clio think Amata would expect to find in the drawer?",
+        "answer": "pepper",
+        "question_type": "2ndA"
+    },
+    {
+        "story": [
+            "Daphene found a case in the market.",
+            "The label on the case says peach.",
+            "Daphene couldn’t see what was inside the case.",
+            "Daphene opened the case and found a cardigan.",
+            "There is no peach in the case.",
+            "Daphene closed the case and put it back.",
+            "Melania entered the market and saw the case."
+        ],
+        "question": "What was in the case?",
+        "answer": "cardigan",
+        "question_type": "reality"
+    },
+    {
+        "story": [
+            "Daphene found a case in the market.",
+            "The label on the case says peach.",
+            "Daphene couldn’t see what was inside the case.",
+            "Daphene opened the case and found a cardigan.",
+            "There is no peach in the case.",
+            "Daphene closed the case and put it back.",
+            "Melania entered the market and saw the case."
+        ],
+        "question": "What was supposed to be in the case?",
+        "answer": "peach",
+        "question_type": "assumption"
+    },
+    {
+        "story": [
+            "Daphene found a case in the market.",
+            "The label on the case says peach.",
+            "Daphene couldn’t see what was inside the case.",
+            "Daphene opened the case and found a cardigan.",
+            "There is no peach in the case.",
+            "Daphene closed the case and put it back.",
+            "Melania entered the market and saw the case."
+        ],
+        "question": "What would Melania expect to find in the case?",
+        "answer": "peach",
+        "question_type": "1stB"
+    },
+    {
+        "story": [
+            "Daphene found a case in the market.",
+            "The label on the case says peach.",
+            "Daphene couldn’t see what was inside the case.",
+            "Daphene opened the case and found a cardigan.",
+            "There is no peach in the case.",
+            "Daphene closed the case and put it back.",
+            "Melania entered the market and saw the case."
+        ],
+        "question": "What would Daphene expect to find in the case?",
+        "answer": "cardigan",
+        "question_type": "1stA"
+    },
+    {
+        "story": [
+            "Daphene found a case in the market.",
+            "The label on the case says peach.",
+            "Daphene couldn’t see what was inside the case.",
+            "Daphene opened the case and found a cardigan.",
+            "There is no peach in the case.",
+            "Daphene closed the case and put it back.",
+            "Melania entered the market and saw the case."
+        ],
+        "question": "What would Melania think Daphene would expect to find in the case?",
+        "answer": "peach",
+        "question_type": "2ndB"
+    },
+    {
+        "story": [
+            "Daphene found a case in the market.",
+            "The label on the case says peach.",
+            "Daphene couldn’t see what was inside the case.",
+            "Daphene opened the case and found a cardigan.",
+            "There is no peach in the case.",
+            "Daphene closed the case and put it back.",
+            "Melania entered the market and saw the case."
+        ],
+        "question": "What would Daphene think Melania would expect to find in the case?",
+        "answer": "peach",
+        "question_type": "2ndA"
+    },
+    {
+        "story": [
+            "Keri found a cupboard in the garden.",
+            "The label on the cupboard says casette.",
+            "Keri couldn’t see what was inside the cupboard.",
+            "Keri opened the cupboard and found a cap.",
+            "There is no casette in the cupboard.",
+            "Keri closed the cupboard and put it back.",
+            "Clio entered the garden and saw the cupboard."
+        ],
+        "question": "What was in the cupboard?",
+        "answer": "cap",
+        "question_type": "reality"
+    },
+    {
+        "story": [
+            "Keri found a cupboard in the garden.",
+            "The label on the cupboard says casette.",
+            "Keri couldn’t see what was inside the cupboard.",
+            "Keri opened the cupboard and found a cap.",
+            "There is no casette in the cupboard.",
+            "Keri closed the cupboard and put it back.",
+            "Clio entered the garden and saw the cupboard."
+        ],
+        "question": "What was supposed to be in the cupboard?",
+        "answer": "casette",
+        "question_type": "assumption"
+    },
+    {
+        "story": [
+            "Keri found a cupboard in the garden.",
+            "The label on the cupboard says casette.",
+            "Keri couldn’t see what was inside the cupboard.",
+            "Keri opened the cupboard and found a cap.",
+            "There is no casette in the cupboard.",
+            "Keri closed the cupboard and put it back.",
+            "Clio entered the garden and saw the cupboard."
+        ],
+        "question": "What would Clio expect to find in the cupboard?",
+        "answer": "casette",
+        "question_type": "1stB"
+    },
+    {
+        "story": [
+            "Keri found a cupboard in the garden.",
+            "The label on the cupboard says casette.",
+            "Keri couldn’t see what was inside the cupboard.",
+            "Keri opened the cupboard and found a cap.",
+            "There is no casette in the cupboard.",
+            "Keri closed the cupboard and put it back.",
+            "Clio entered the garden and saw the cupboard."
+        ],
+        "question": "What would Keri expect to find in the cupboard?",
+        "answer": "cap",
+        "question_type": "1stA"
+    },
+    {
+        "story": [
+            "Keri found a cupboard in the garden.",
+            "The label on the cupboard says casette.",
+            "Keri couldn’t see what was inside the cupboard.",
+            "Keri opened the cupboard and found a cap.",
+            "There is no casette in the cupboard.",
+            "Keri closed the cupboard and put it back.",
+            "Clio entered the garden and saw the cupboard."
+        ],
+        "question": "What would Clio think Keri would expect to find in the cupboard?",
+        "answer": "casette",
+        "question_type": "2ndB"
+    },
+    {
+        "story": [
+            "Keri found a cupboard in the garden.",
+            "The label on the cupboard says casette.",
+            "Keri couldn’t see what was inside the cupboard.",
+            "Keri opened the cupboard and found a cap.",
+            "There is no casette in the cupboard.",
+            "Keri closed the cupboard and put it back.",
+            "Clio entered the garden and saw the cupboard."
+        ],
+        "question": "What would Keri think Clio would expect to find in the cupboard?",
+        "answer": "casette",
+        "question_type": "2ndA"
+    },
+    {
+        "story": [
+            "Sabra found a pantry in the bank.",
+            "The label on the pantry says coat.",
+            "Sabra couldn’t see what was inside the pantry.",
+            "Sabra opened the pantry and found a mitten.",
+            "There is no coat in the pantry.",
+            "Sabra closed the pantry and put it back.",
+            "Meira entered the bank and saw the pantry."
+        ],
+        "question": "What was in the pantry?",
+        "answer": "mitten",
+        "question_type": "reality"
+    },
+    {
+        "story": [
+            "Sabra found a pantry in the bank.",
+            "The label on the pantry says coat.",
+            "Sabra couldn’t see what was inside the pantry.",
+            "Sabra opened the pantry and found a mitten.",
+            "There is no coat in the pantry.",
+            "Sabra closed the pantry and put it back.",
+            "Meira entered the bank and saw the pantry."
+        ],
+        "question": "What was supposed to be in the pantry?",
+        "answer": "coat",
+        "question_type": "assumption"
+    },
+    {
+        "story": [
+            "Sabra found a pantry in the bank.",
+            "The label on the pantry says coat.",
+            "Sabra couldn’t see what was inside the pantry.",
+            "Sabra opened the pantry and found a mitten.",
+            "There is no coat in the pantry.",
+            "Sabra closed the pantry and put it back.",
+            "Meira entered the bank and saw the pantry."
+        ],
+        "question": "What would Meira expect to find in the pantry?",
+        "answer": "coat",
+        "question_type": "1stB"
+    },
+    {
+        "story": [
+            "Sabra found a pantry in the bank.",
+            "The label on the pantry says coat.",
+            "Sabra couldn’t see what was inside the pantry.",
+            "Sabra opened the pantry and found a mitten.",
+            "There is no coat in the pantry.",
+            "Sabra closed the pantry and put it back.",
+            "Meira entered the bank and saw the pantry."
+        ],
+        "question": "What would Sabra expect to find in the pantry?",
+        "answer": "mitten",
+        "question_type": "1stA"
+    },
+    {
+        "story": [
+            "Sabra found a pantry in the bank.",
+            "The label on the pantry says coat.",
+            "Sabra couldn’t see what was inside the pantry.",
+            "Sabra opened the pantry and found a mitten.",
+            "There is no coat in the pantry.",
+            "Sabra closed the pantry and put it back.",
+            "Meira entered the bank and saw the pantry."
+        ],
+        "question": "What would Meira think Sabra would expect to find in the pantry?",
+        "answer": "coat",
+        "question_type": "2ndB"
+    },
+    {
+        "story": [
+            "Sabra found a pantry in the bank.",
+            "The label on the pantry says coat.",
+            "Sabra couldn’t see what was inside the pantry.",
+            "Sabra opened the pantry and found a mitten.",
+            "There is no coat in the pantry.",
+            "Sabra closed the pantry and put it back.",
+            "Meira entered the bank and saw the pantry."
+        ],
+        "question": "What would Sabra think Meira would expect to find in the pantry?",
+        "answer": "coat",
+        "question_type": "2ndA"
+    },
+    {
+        "story": [
+            "Keri found a safe in the office.",
+            "The label on the safe says coat.",
+            "Keri couldn’t see what was inside the safe.",
+            "Keri opened the safe and found a magnet.",
+            "There is no coat in the safe.",
+            "Keri closed the safe and put it back.",
+            "Lian entered the office and saw the safe."
+        ],
+        "question": "What was in the safe?",
+        "answer": "magnet",
+        "question_type": "reality"
+    },
+    {
+        "story": [
+            "Keri found a safe in the office.",
+            "The label on the safe says coat.",
+            "Keri couldn’t see what was inside the safe.",
+            "Keri opened the safe and found a magnet.",
+            "There is no coat in the safe.",
+            "Keri closed the safe and put it back.",
+            "Lian entered the office and saw the safe."
+        ],
+        "question": "What was supposed to be in the safe?",
+        "answer": "coat",
+        "question_type": "assumption"
+    },
+    {
+        "story": [
+            "Keri found a safe in the office.",
+            "The label on the safe says coat.",
+            "Keri couldn’t see what was inside the safe.",
+            "Keri opened the safe and found a magnet.",
+            "There is no coat in the safe.",
+            "Keri closed the safe and put it back.",
+            "Lian entered the office and saw the safe."
+        ],
+        "question": "What would Lian expect to find in the safe?",
+        "answer": "coat",
+        "question_type": "1stB"
+    },
+    {
+        "story": [
+            "Keri found a safe in the office.",
+            "The label on the safe says coat.",
+            "Keri couldn’t see what was inside the safe.",
+            "Keri opened the safe and found a magnet.",
+            "There is no coat in the safe.",
+            "Keri closed the safe and put it back.",
+            "Lian entered the office and saw the safe."
+        ],
+        "question": "What would Keri expect to find in the safe?",
+        "answer": "magnet",
+        "question_type": "1stA"
+    },
+    {
+        "story": [
+            "Keri found a safe in the office.",
+            "The label on the safe says coat.",
+            "Keri couldn’t see what was inside the safe.",
+            "Keri opened the safe and found a magnet.",
+            "There is no coat in the safe.",
+            "Keri closed the safe and put it back.",
+            "Lian entered the office and saw the safe."
+        ],
+        "question": "What would Lian think Keri would expect to find in the safe?",
+        "answer": "coat",
+        "question_type": "2ndB"
+    },
+    {
+        "story": [
+            "Keri found a safe in the office.",
+            "The label on the safe says coat.",
+            "Keri couldn’t see what was inside the safe.",
+            "Keri opened the safe and found a magnet.",
+            "There is no coat in the safe.",
+            "Keri closed the safe and put it back.",
+            "Lian entered the office and saw the safe."
+        ],
+        "question": "What would Keri think Lian would expect to find in the safe?",
+        "answer": "coat",
+        "question_type": "2ndA"
+    },
+    {
+        "story": [
+            "Evaleen found a refrigerator in the factory.",
+            "The label on the refrigerator says grapefruit.",
+            "Evaleen couldn’t see what was inside the refrigerator.",
+            "Evaleen opened the refrigerator and found a key.",
+            "There is no grapefruit in the refrigerator.",
+            "Evaleen closed the refrigerator and put it back.",
+            "Vera entered the factory and saw the refrigerator."
+        ],
+        "question": "What was in the refrigerator?",
+        "answer": "key",
+        "question_type": "reality"
+    },
+    {
+        "story": [
+            "Evaleen found a refrigerator in the factory.",
+            "The label on the refrigerator says grapefruit.",
+            "Evaleen couldn’t see what was inside the refrigerator.",
+            "Evaleen opened the refrigerator and found a key.",
+            "There is no grapefruit in the refrigerator.",
+            "Evaleen closed the refrigerator and put it back.",
+            "Vera entered the factory and saw the refrigerator."
+        ],
+        "question": "What was supposed to be in the refrigerator?",
+        "answer": "grapefruit",
+        "question_type": "assumption"
+    },
+    {
+        "story": [
+            "Evaleen found a refrigerator in the factory.",
+            "The label on the refrigerator says grapefruit.",
+            "Evaleen couldn’t see what was inside the refrigerator.",
+            "Evaleen opened the refrigerator and found a key.",
+            "There is no grapefruit in the refrigerator.",
+            "Evaleen closed the refrigerator and put it back.",
+            "Vera entered the factory and saw the refrigerator."
+        ],
+        "question": "What would Vera expect to find in the refrigerator?",
+        "answer": "grapefruit",
+        "question_type": "1stB"
+    },
+    {
+        "story": [
+            "Evaleen found a refrigerator in the factory.",
+            "The label on the refrigerator says grapefruit.",
+            "Evaleen couldn’t see what was inside the refrigerator.",
+            "Evaleen opened the refrigerator and found a key.",
+            "There is no grapefruit in the refrigerator.",
+            "Evaleen closed the refrigerator and put it back.",
+            "Vera entered the factory and saw the refrigerator."
+        ],
+        "question": "What would Evaleen expect to find in the refrigerator?",
+        "answer": "key",
+        "question_type": "1stA"
+    },
+    {
+        "story": [
+            "Evaleen found a refrigerator in the factory.",
+            "The label on the refrigerator says grapefruit.",
+            "Evaleen couldn’t see what was inside the refrigerator.",
+            "Evaleen opened the refrigerator and found a key.",
+            "There is no grapefruit in the refrigerator.",
+            "Evaleen closed the refrigerator and put it back.",
+            "Vera entered the factory and saw the refrigerator."
+        ],
+        "question": "What would Vera think Evaleen would expect to find in the refrigerator?",
+        "answer": "grapefruit",
+        "question_type": "2ndB"
+    },
+    {
+        "story": [
+            "Evaleen found a refrigerator in the factory.",
+            "The label on the refrigerator says grapefruit.",
+            "Evaleen couldn’t see what was inside the refrigerator.",
+            "Evaleen opened the refrigerator and found a key.",
+            "There is no grapefruit in the refrigerator.",
+            "Evaleen closed the refrigerator and put it back.",
+            "Vera entered the factory and saw the refrigerator."
+        ],
+        "question": "What would Evaleen think Vera would expect to find in the refrigerator?",
+        "answer": "grapefruit",
+        "question_type": "2ndA"
+    },
+    {
+        "story": [
+            "Clem found a closet in the house.",
+            "The label on the closet says papaya.",
+            "Clem couldn’t see what was inside the closet.",
+            "Clem opened the closet and found a casette.",
+            "There is no papaya in the closet.",
+            "Clem closed the closet and put it back.",
+            "Amata entered the house and saw the closet."
+        ],
+        "question": "What was in the closet?",
+        "answer": "casette",
+        "question_type": "reality"
+    },
+    {
+        "story": [
+            "Clem found a closet in the house.",
+            "The label on the closet says papaya.",
+            "Clem couldn’t see what was inside the closet.",
+            "Clem opened the closet and found a casette.",
+            "There is no papaya in the closet.",
+            "Clem closed the closet and put it back.",
+            "Amata entered the house and saw the closet."
+        ],
+        "question": "What was supposed to be in the closet?",
+        "answer": "papaya",
+        "question_type": "assumption"
+    },
+    {
+        "story": [
+            "Clem found a closet in the house.",
+            "The label on the closet says papaya.",
+            "Clem couldn’t see what was inside the closet.",
+            "Clem opened the closet and found a casette.",
+            "There is no papaya in the closet.",
+            "Clem closed the closet and put it back.",
+            "Amata entered the house and saw the closet."
+        ],
+        "question": "What would Amata expect to find in the closet?",
+        "answer": "papaya",
+        "question_type": "1stB"
+    },
+    {
+        "story": [
+            "Clem found a closet in the house.",
+            "The label on the closet says papaya.",
+            "Clem couldn’t see what was inside the closet.",
+            "Clem opened the closet and found a casette.",
+            "There is no papaya in the closet.",
+            "Clem closed the closet and put it back.",
+            "Amata entered the house and saw the closet."
+        ],
+        "question": "What would Clem expect to find in the closet?",
+        "answer": "casette",
+        "question_type": "1stA"
+    },
+    {
+        "story": [
+            "Clem found a closet in the house.",
+            "The label on the closet says papaya.",
+            "Clem couldn’t see what was inside the closet.",
+            "Clem opened the closet and found a casette.",
+            "There is no papaya in the closet.",
+            "Clem closed the closet and put it back.",
+            "Amata entered the house and saw the closet."
+        ],
+        "question": "What would Amata think Clem would expect to find in the closet?",
+        "answer": "papaya",
+        "question_type": "2ndB"
+    },
+    {
+        "story": [
+            "Clem found a closet in the house.",
+            "The label on the closet says papaya.",
+            "Clem couldn’t see what was inside the closet.",
+            "Clem opened the closet and found a casette.",
+            "There is no papaya in the closet.",
+            "Clem closed the closet and put it back.",
+            "Amata entered the house and saw the closet."
+        ],
+        "question": "What would Clem think Amata would expect to find in the closet?",
+        "answer": "papaya",
+        "question_type": "2ndA"
+    },
+    {
+        "story": [
+            "Lian found a bag in the hall.",
+            "The label on the bag says button.",
+            "Lian couldn’t see what was inside the bag.",
+            "Lian opened the bag and found a cable.",
+            "There is no button in the bag.",
+            "Lian closed the bag and put it back.",
+            "Norina entered the hall and saw the bag."
+        ],
+        "question": "What was in the bag?",
+        "answer": "cable",
+        "question_type": "reality"
+    },
+    {
+        "story": [
+            "Lian found a bag in the hall.",
+            "The label on the bag says button.",
+            "Lian couldn’t see what was inside the bag.",
+            "Lian opened the bag and found a cable.",
+            "There is no button in the bag.",
+            "Lian closed the bag and put it back.",
+            "Norina entered the hall and saw the bag."
+        ],
+        "question": "What was supposed to be in the bag?",
+        "answer": "button",
+        "question_type": "assumption"
+    },
+    {
+        "story": [
+            "Lian found a bag in the hall.",
+            "The label on the bag says button.",
+            "Lian couldn’t see what was inside the bag.",
+            "Lian opened the bag and found a cable.",
+            "There is no button in the bag.",
+            "Lian closed the bag and put it back.",
+            "Norina entered the hall and saw the bag."
+        ],
+        "question": "What would Norina expect to find in the bag?",
+        "answer": "button",
+        "question_type": "1stB"
+    },
+    {
+        "story": [
+            "Lian found a bag in the hall.",
+            "The label on the bag says button.",
+            "Lian couldn’t see what was inside the bag.",
+            "Lian opened the bag and found a cable.",
+            "There is no button in the bag.",
+            "Lian closed the bag and put it back.",
+            "Norina entered the hall and saw the bag."
+        ],
+        "question": "What would Lian expect to find in the bag?",
+        "answer": "cable",
+        "question_type": "1stA"
+    },
+    {
+        "story": [
+            "Lian found a bag in the hall.",
+            "The label on the bag says button.",
+            "Lian couldn’t see what was inside the bag.",
+            "Lian opened the bag and found a cable.",
+            "There is no button in the bag.",
+            "Lian closed the bag and put it back.",
+            "Norina entered the hall and saw the bag."
+        ],
+        "question": "What would Norina think Lian would expect to find in the bag?",
+        "answer": "button",
+        "question_type": "2ndB"
+    },
+    {
+        "story": [
+            "Lian found a bag in the hall.",
+            "The label on the bag says button.",
+            "Lian couldn’t see what was inside the bag.",
+            "Lian opened the bag and found a cable.",
+            "There is no button in the bag.",
+            "Lian closed the bag and put it back.",
+            "Norina entered the hall and saw the bag."
+        ],
+        "question": "What would Lian think Norina would expect to find in the bag?",
+        "answer": "button",
+        "question_type": "2ndA"
+    },
+    {
+        "story": [
+            "Kathryne found a backpack in the bathroom.",
+            "The label on the backpack says chalk.",
+            "Kathryne couldn’t see what was inside the backpack.",
+            "Kathryne opened the backpack and found a cap.",
+            "There is no chalk in the backpack.",
+            "Kathryne closed the backpack and put it back.",
+            "Norina entered the bathroom and saw the backpack."
+        ],
+        "question": "What was in the backpack?",
+        "answer": "cap",
+        "question_type": "reality"
+    },
+    {
+        "story": [
+            "Kathryne found a backpack in the bathroom.",
+            "The label on the backpack says chalk.",
+            "Kathryne couldn’t see what was inside the backpack.",
+            "Kathryne opened the backpack and found a cap.",
+            "There is no chalk in the backpack.",
+            "Kathryne closed the backpack and put it back.",
+            "Norina entered the bathroom and saw the backpack."
+        ],
+        "question": "What was supposed to be in the backpack?",
+        "answer": "chalk",
+        "question_type": "assumption"
+    },
+    {
+        "story": [
+            "Kathryne found a backpack in the bathroom.",
+            "The label on the backpack says chalk.",
+            "Kathryne couldn’t see what was inside the backpack.",
+            "Kathryne opened the backpack and found a cap.",
+            "There is no chalk in the backpack.",
+            "Kathryne closed the backpack and put it back.",
+            "Norina entered the bathroom and saw the backpack."
+        ],
+        "question": "What would Norina expect to find in the backpack?",
+        "answer": "chalk",
+        "question_type": "1stB"
+    },
+    {
+        "story": [
+            "Kathryne found a backpack in the bathroom.",
+            "The label on the backpack says chalk.",
+            "Kathryne couldn’t see what was inside the backpack.",
+            "Kathryne opened the backpack and found a cap.",
+            "There is no chalk in the backpack.",
+            "Kathryne closed the backpack and put it back.",
+            "Norina entered the bathroom and saw the backpack."
+        ],
+        "question": "What would Kathryne expect to find in the backpack?",
+        "answer": "cap",
+        "question_type": "1stA"
+    },
+    {
+        "story": [
+            "Kathryne found a backpack in the bathroom.",
+            "The label on the backpack says chalk.",
+            "Kathryne couldn’t see what was inside the backpack.",
+            "Kathryne opened the backpack and found a cap.",
+            "There is no chalk in the backpack.",
+            "Kathryne closed the backpack and put it back.",
+            "Norina entered the bathroom and saw the backpack."
+        ],
+        "question": "What would Norina think Kathryne would expect to find in the backpack?",
+        "answer": "chalk",
+        "question_type": "2ndB"
+    },
+    {
+        "story": [
+            "Kathryne found a backpack in the bathroom.",
+            "The label on the backpack says chalk.",
+            "Kathryne couldn’t see what was inside the backpack.",
+            "Kathryne opened the backpack and found a cap.",
+            "There is no chalk in the backpack.",
+            "Kathryne closed the backpack and put it back.",
+            "Norina entered the bathroom and saw the backpack."
+        ],
+        "question": "What would Kathryne think Norina would expect to find in the backpack?",
+        "answer": "chalk",
+        "question_type": "2ndA"
+    },
+    {
+        "story": [
+            "Clem found a bin in the shower room.",
+            "The label on the bin says bulb.",
+            "Clem couldn’t see what was inside the bin.",
+            "Clem opened the bin and found a sweater.",
+            "There is no bulb in the bin.",
+            "Clem closed the bin and put it back.",
+            "Vera entered the shower room and saw the bin."
+        ],
+        "question": "What was in the bin?",
+        "answer": "sweater",
+        "question_type": "reality"
+    },
+    {
+        "story": [
+            "Clem found a bin in the shower room.",
+            "The label on the bin says bulb.",
+            "Clem couldn’t see what was inside the bin.",
+            "Clem opened the bin and found a sweater.",
+            "There is no bulb in the bin.",
+            "Clem closed the bin and put it back.",
+            "Vera entered the shower room and saw the bin."
+        ],
+        "question": "What was supposed to be in the bin?",
+        "answer": "bulb",
+        "question_type": "assumption"
+    },
+    {
+        "story": [
+            "Clem found a bin in the shower room.",
+            "The label on the bin says bulb.",
+            "Clem couldn’t see what was inside the bin.",
+            "Clem opened the bin and found a sweater.",
+            "There is no bulb in the bin.",
+            "Clem closed the bin and put it back.",
+            "Vera entered the shower room and saw the bin."
+        ],
+        "question": "What would Vera expect to find in the bin?",
+        "answer": "bulb",
+        "question_type": "1stB"
+    },
+    {
+        "story": [
+            "Clem found a bin in the shower room.",
+            "The label on the bin says bulb.",
+            "Clem couldn’t see what was inside the bin.",
+            "Clem opened the bin and found a sweater.",
+            "There is no bulb in the bin.",
+            "Clem closed the bin and put it back.",
+            "Vera entered the shower room and saw the bin."
+        ],
+        "question": "What would Clem expect to find in the bin?",
+        "answer": "sweater",
+        "question_type": "1stA"
+    },
+    {
+        "story": [
+            "Clem found a bin in the shower room.",
+            "The label on the bin says bulb.",
+            "Clem couldn’t see what was inside the bin.",
+            "Clem opened the bin and found a sweater.",
+            "There is no bulb in the bin.",
+            "Clem closed the bin and put it back.",
+            "Vera entered the shower room and saw the bin."
+        ],
+        "question": "What would Vera think Clem would expect to find in the bin?",
+        "answer": "bulb",
+        "question_type": "2ndB"
+    },
+    {
+        "story": [
+            "Clem found a bin in the shower room.",
+            "The label on the bin says bulb.",
+            "Clem couldn’t see what was inside the bin.",
+            "Clem opened the bin and found a sweater.",
+            "There is no bulb in the bin.",
+            "Clem closed the bin and put it back.",
+            "Vera entered the shower room and saw the bin."
+        ],
+        "question": "What would Clem think Vera would expect to find in the bin?",
+        "answer": "bulb",
+        "question_type": "2ndA"
+    },
+    {
+        "story": [
+            "Karalynn found a box in the storeroom.",
+            "The label on the box says banana.",
+            "Karalynn couldn’t see what was inside the box.",
+            "Karalynn opened the box and found a cable.",
+            "There is no banana in the box.",
+            "Karalynn closed the box and put it back.",
+            "Clem entered the storeroom and saw the box."
+        ],
+        "question": "What was in the box?",
+        "answer": "cable",
+        "question_type": "reality"
+    },
+    {
+        "story": [
+            "Karalynn found a box in the storeroom.",
+            "The label on the box says banana.",
+            "Karalynn couldn’t see what was inside the box.",
+            "Karalynn opened the box and found a cable.",
+            "There is no banana in the box.",
+            "Karalynn closed the box and put it back.",
+            "Clem entered the storeroom and saw the box."
+        ],
+        "question": "What was supposed to be in the box?",
+        "answer": "banana",
+        "question_type": "assumption"
+    },
+    {
+        "story": [
+            "Karalynn found a box in the storeroom.",
+            "The label on the box says banana.",
+            "Karalynn couldn’t see what was inside the box.",
+            "Karalynn opened the box and found a cable.",
+            "There is no banana in the box.",
+            "Karalynn closed the box and put it back.",
+            "Clem entered the storeroom and saw the box."
+        ],
+        "question": "What would Clem expect to find in the box?",
+        "answer": "banana",
+        "question_type": "1stB"
+    },
+    {
+        "story": [
+            "Karalynn found a box in the storeroom.",
+            "The label on the box says banana.",
+            "Karalynn couldn’t see what was inside the box.",
+            "Karalynn opened the box and found a cable.",
+            "There is no banana in the box.",
+            "Karalynn closed the box and put it back.",
+            "Clem entered the storeroom and saw the box."
+        ],
+        "question": "What would Karalynn expect to find in the box?",
+        "answer": "cable",
+        "question_type": "1stA"
+    },
+    {
+        "story": [
+            "Karalynn found a box in the storeroom.",
+            "The label on the box says banana.",
+            "Karalynn couldn’t see what was inside the box.",
+            "Karalynn opened the box and found a cable.",
+            "There is no banana in the box.",
+            "Karalynn closed the box and put it back.",
+            "Clem entered the storeroom and saw the box."
+        ],
+        "question": "What would Clem think Karalynn would expect to find in the box?",
+        "answer": "banana",
+        "question_type": "2ndB"
+    },
+    {
+        "story": [
+            "Karalynn found a box in the storeroom.",
+            "The label on the box says banana.",
+            "Karalynn couldn’t see what was inside the box.",
+            "Karalynn opened the box and found a cable.",
+            "There is no banana in the box.",
+            "Karalynn closed the box and put it back.",
+            "Clem entered the storeroom and saw the box."
+        ],
+        "question": "What would Karalynn think Clem would expect to find in the box?",
+        "answer": "banana",
+        "question_type": "2ndA"
+    },
+    {
+        "story": [
+            "Karalynn found a briefcase in the parking.",
+            "The label on the briefcase says fork.",
+            "Karalynn couldn’t see what was inside the briefcase.",
+            "Karalynn opened the briefcase and found a corn.",
+            "There is no fork in the briefcase.",
+            "Karalynn closed the briefcase and put it back.",
+            "Florencia entered the parking and saw the briefcase."
+        ],
+        "question": "What was in the briefcase?",
+        "answer": "corn",
+        "question_type": "reality"
+    },
+    {
+        "story": [
+            "Karalynn found a briefcase in the parking.",
+            "The label on the briefcase says fork.",
+            "Karalynn couldn’t see what was inside the briefcase.",
+            "Karalynn opened the briefcase and found a corn.",
+            "There is no fork in the briefcase.",
+            "Karalynn closed the briefcase and put it back.",
+            "Florencia entered the parking and saw the briefcase."
+        ],
+        "question": "What was supposed to be in the briefcase?",
+        "answer": "fork",
+        "question_type": "assumption"
+    },
+    {
+        "story": [
+            "Karalynn found a briefcase in the parking.",
+            "The label on the briefcase says fork.",
+            "Karalynn couldn’t see what was inside the briefcase.",
+            "Karalynn opened the briefcase and found a corn.",
+            "There is no fork in the briefcase.",
+            "Karalynn closed the briefcase and put it back.",
+            "Florencia entered the parking and saw the briefcase."
+        ],
+        "question": "What would Florencia expect to find in the briefcase?",
+        "answer": "fork",
+        "question_type": "1stB"
+    },
+    {
+        "story": [
+            "Karalynn found a briefcase in the parking.",
+            "The label on the briefcase says fork.",
+            "Karalynn couldn’t see what was inside the briefcase.",
+            "Karalynn opened the briefcase and found a corn.",
+            "There is no fork in the briefcase.",
+            "Karalynn closed the briefcase and put it back.",
+            "Florencia entered the parking and saw the briefcase."
+        ],
+        "question": "What would Karalynn expect to find in the briefcase?",
+        "answer": "corn",
+        "question_type": "1stA"
+    },
+    {
+        "story": [
+            "Karalynn found a briefcase in the parking.",
+            "The label on the briefcase says fork.",
+            "Karalynn couldn’t see what was inside the briefcase.",
+            "Karalynn opened the briefcase and found a corn.",
+            "There is no fork in the briefcase.",
+            "Karalynn closed the briefcase and put it back.",
+            "Florencia entered the parking and saw the briefcase."
+        ],
+        "question": "What would Florencia think Karalynn would expect to find in the briefcase?",
+        "answer": "fork",
+        "question_type": "2ndB"
+    },
+    {
+        "story": [
+            "Karalynn found a briefcase in the parking.",
+            "The label on the briefcase says fork.",
+            "Karalynn couldn’t see what was inside the briefcase.",
+            "Karalynn opened the briefcase and found a corn.",
+            "There is no fork in the briefcase.",
+            "Karalynn closed the briefcase and put it back.",
+            "Florencia entered the parking and saw the briefcase."
+        ],
+        "question": "What would Karalynn think Florencia would expect to find in the briefcase?",
+        "answer": "fork",
+        "question_type": "2ndA"
+    },
+    {
+        "story": [
+            "Sara found a cabinet in the squad room.",
+            "The label on the cabinet says banana.",
+            "Sara couldn’t see what was inside the cabinet.",
+            "Sara opened the cabinet and found a mango.",
+            "There is no banana in the cabinet.",
+            "Sara closed the cabinet and put it back.",
+            "Meira entered the squad room and saw the cabinet."
+        ],
+        "question": "What was in the cabinet?",
+        "answer": "mango",
+        "question_type": "reality"
+    },
+    {
+        "story": [
+            "Sara found a cabinet in the squad room.",
+            "The label on the cabinet says banana.",
+            "Sara couldn’t see what was inside the cabinet.",
+            "Sara opened the cabinet and found a mango.",
+            "There is no banana in the cabinet.",
+            "Sara closed the cabinet and put it back.",
+            "Meira entered the squad room and saw the cabinet."
+        ],
+        "question": "What was supposed to be in the cabinet?",
+        "answer": "banana",
+        "question_type": "assumption"
+    },
+    {
+        "story": [
+            "Sara found a cabinet in the squad room.",
+            "The label on the cabinet says banana.",
+            "Sara couldn’t see what was inside the cabinet.",
+            "Sara opened the cabinet and found a mango.",
+            "There is no banana in the cabinet.",
+            "Sara closed the cabinet and put it back.",
+            "Meira entered the squad room and saw the cabinet."
+        ],
+        "question": "What would Meira expect to find in the cabinet?",
+        "answer": "banana",
+        "question_type": "1stB"
+    },
+    {
+        "story": [
+            "Sara found a cabinet in the squad room.",
+            "The label on the cabinet says banana.",
+            "Sara couldn’t see what was inside the cabinet.",
+            "Sara opened the cabinet and found a mango.",
+            "There is no banana in the cabinet.",
+            "Sara closed the cabinet and put it back.",
+            "Meira entered the squad room and saw the cabinet."
+        ],
+        "question": "What would Sara expect to find in the cabinet?",
+        "answer": "mango",
+        "question_type": "1stA"
+    },
+    {
+        "story": [
+            "Sara found a cabinet in the squad room.",
+            "The label on the cabinet says banana.",
+            "Sara couldn’t see what was inside the cabinet.",
+            "Sara opened the cabinet and found a mango.",
+            "There is no banana in the cabinet.",
+            "Sara closed the cabinet and put it back.",
+            "Meira entered the squad room and saw the cabinet."
+        ],
+        "question": "What would Meira think Sara would expect to find in the cabinet?",
+        "answer": "banana",
+        "question_type": "2ndB"
+    },
+    {
+        "story": [
+            "Sara found a cabinet in the squad room.",
+            "The label on the cabinet says banana.",
+            "Sara couldn’t see what was inside the cabinet.",
+            "Sara opened the cabinet and found a mango.",
+            "There is no banana in the cabinet.",
+            "Sara closed the cabinet and put it back.",
+            "Meira entered the squad room and saw the cabinet."
+        ],
+        "question": "What would Sara think Meira would expect to find in the cabinet?",
+        "answer": "banana",
+        "question_type": "2ndA"
+    },
+    {
+        "story": [
+            "Neila found a chest in the recreation room.",
+            "The label on the chest says vest.",
+            "Neila couldn’t see what was inside the chest.",
+            "Neila opened the chest and found a fork.",
+            "There is no vest in the chest.",
+            "Neila closed the chest and put it back.",
+            "Karalynn entered the recreation room and saw the chest."
+        ],
+        "question": "What was in the chest?",
+        "answer": "fork",
+        "question_type": "reality"
+    },
+    {
+        "story": [
+            "Neila found a chest in the recreation room.",
+            "The label on the chest says vest.",
+            "Neila couldn’t see what was inside the chest.",
+            "Neila opened the chest and found a fork.",
+            "There is no vest in the chest.",
+            "Neila closed the chest and put it back.",
+            "Karalynn entered the recreation room and saw the chest."
+        ],
+        "question": "What was supposed to be in the chest?",
+        "answer": "vest",
+        "question_type": "assumption"
+    },
+    {
+        "story": [
+            "Neila found a chest in the recreation room.",
+            "The label on the chest says vest.",
+            "Neila couldn’t see what was inside the chest.",
+            "Neila opened the chest and found a fork.",
+            "There is no vest in the chest.",
+            "Neila closed the chest and put it back.",
+            "Karalynn entered the recreation room and saw the chest."
+        ],
+        "question": "What would Karalynn expect to find in the chest?",
+        "answer": "vest",
+        "question_type": "1stB"
+    },
+    {
+        "story": [
+            "Neila found a chest in the recreation room.",
+            "The label on the chest says vest.",
+            "Neila couldn’t see what was inside the chest.",
+            "Neila opened the chest and found a fork.",
+            "There is no vest in the chest.",
+            "Neila closed the chest and put it back.",
+            "Karalynn entered the recreation room and saw the chest."
+        ],
+        "question": "What would Neila expect to find in the chest?",
+        "answer": "fork",
+        "question_type": "1stA"
+    },
+    {
+        "story": [
+            "Neila found a chest in the recreation room.",
+            "The label on the chest says vest.",
+            "Neila couldn’t see what was inside the chest.",
+            "Neila opened the chest and found a fork.",
+            "There is no vest in the chest.",
+            "Neila closed the chest and put it back.",
+            "Karalynn entered the recreation room and saw the chest."
+        ],
+        "question": "What would Karalynn think Neila would expect to find in the chest?",
+        "answer": "vest",
+        "question_type": "2ndB"
+    },
+    {
+        "story": [
+            "Neila found a chest in the recreation room.",
+            "The label on the chest says vest.",
+            "Neila couldn’t see what was inside the chest.",
+            "Neila opened the chest and found a fork.",
+            "There is no vest in the chest.",
+            "Neila closed the chest and put it back.",
+            "Karalynn entered the recreation room and saw the chest."
+        ],
+        "question": "What would Neila think Karalynn would expect to find in the chest?",
+        "answer": "vest",
+        "question_type": "2ndA"
+    }
+]

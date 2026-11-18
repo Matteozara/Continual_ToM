@@ -1,0 +1,2102 @@
+[
+    {
+        "story": [
+            "Neila and Juanita were hanging out in the attic.",
+            "They saw a closet and a cabinet.",
+            "They found a towel in the closet.",
+            "Juanita left the attic.",
+            "Neila moved the towel to the cabinet."
+        ],
+        "question": "Where is the towel?",
+        "answer": "cabinet.",
+        "belief": "False",
+        "question_type": "reality",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Neila and Juanita were hanging out in the attic.",
+            "They saw a closet and a cabinet.",
+            "They found a towel in the closet.",
+            "Juanita left the attic.",
+            "Neila moved the towel to the cabinet."
+        ],
+        "question": "After Juanita came back to the attic, where would Juanita look for the towel?",
+        "answer": "closet.",
+        "belief": "False",
+        "question_type": "1stB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Neila and Juanita were hanging out in the attic.",
+            "They saw a closet and a cabinet.",
+            "They found a towel in the closet.",
+            "Juanita left the attic.",
+            "Neila moved the towel to the cabinet."
+        ],
+        "question": "After Juanita came back to the attic, where would Neila look for the towel?",
+        "answer": "cabinet.",
+        "belief": "False",
+        "question_type": "1stA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Neila and Juanita were hanging out in the attic.",
+            "They saw a closet and a cabinet.",
+            "They found a towel in the closet.",
+            "Juanita left the attic.",
+            "Neila moved the towel to the cabinet."
+        ],
+        "question": "After Juanita came back to the attic, where would Neila think Juanita would look for the towel?",
+        "answer": "closet.",
+        "belief": "False",
+        "question_type": "2ndA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Neila and Juanita were hanging out in the attic.",
+            "They saw a closet and a cabinet.",
+            "They found a towel in the closet.",
+            "Juanita left the attic.",
+            "Neila moved the towel to the cabinet."
+        ],
+        "question": "After Juanita came back to the attic, where would Juanita think Neila would look for the towel?",
+        "answer": "closet.",
+        "belief": "False",
+        "question_type": "2ndB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Sabra and Hillary were hanging out in the bedroom.",
+            "They saw a briefcase and a bucket.",
+            "They found a mitten in the briefcase.",
+            "Hillary left the bedroom.",
+            "Sabra moved the mitten to the bucket."
+        ],
+        "question": "Where is the mitten?",
+        "answer": "bucket.",
+        "belief": "False",
+        "question_type": "reality",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Sabra and Hillary were hanging out in the bedroom.",
+            "They saw a briefcase and a bucket.",
+            "They found a mitten in the briefcase.",
+            "Hillary left the bedroom.",
+            "Sabra moved the mitten to the bucket."
+        ],
+        "question": "After Hillary came back to the bedroom, where would Hillary look for the mitten?",
+        "answer": "briefcase.",
+        "belief": "False",
+        "question_type": "1stB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Sabra and Hillary were hanging out in the bedroom.",
+            "They saw a briefcase and a bucket.",
+            "They found a mitten in the briefcase.",
+            "Hillary left the bedroom.",
+            "Sabra moved the mitten to the bucket."
+        ],
+        "question": "After Hillary came back to the bedroom, where would Sabra look for the mitten?",
+        "answer": "bucket.",
+        "belief": "False",
+        "question_type": "1stA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Sabra and Hillary were hanging out in the bedroom.",
+            "They saw a briefcase and a bucket.",
+            "They found a mitten in the briefcase.",
+            "Hillary left the bedroom.",
+            "Sabra moved the mitten to the bucket."
+        ],
+        "question": "After Hillary came back to the bedroom, where would Sabra think Hillary would look for the mitten?",
+        "answer": "briefcase.",
+        "belief": "False",
+        "question_type": "2ndA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Sabra and Hillary were hanging out in the bedroom.",
+            "They saw a briefcase and a bucket.",
+            "They found a mitten in the briefcase.",
+            "Hillary left the bedroom.",
+            "Sabra moved the mitten to the bucket."
+        ],
+        "question": "After Hillary came back to the bedroom, where would Hillary think Sabra would look for the mitten?",
+        "answer": "briefcase.",
+        "belief": "False",
+        "question_type": "2ndB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Cassandre and Norina were hanging out in the study.",
+            "They saw a box and a crate.",
+            "They found a torch in the box.",
+            "Norina left the study.",
+            "Cassandre moved the torch to the crate."
+        ],
+        "question": "Where is the torch?",
+        "answer": "crate.",
+        "belief": "False",
+        "question_type": "reality",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Cassandre and Norina were hanging out in the study.",
+            "They saw a box and a crate.",
+            "They found a torch in the box.",
+            "Norina left the study.",
+            "Cassandre moved the torch to the crate."
+        ],
+        "question": "After Norina came back to the study, where would Norina look for the torch?",
+        "answer": "box.",
+        "belief": "False",
+        "question_type": "1stB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Cassandre and Norina were hanging out in the study.",
+            "They saw a box and a crate.",
+            "They found a torch in the box.",
+            "Norina left the study.",
+            "Cassandre moved the torch to the crate."
+        ],
+        "question": "After Norina came back to the study, where would Cassandre look for the torch?",
+        "answer": "crate.",
+        "belief": "False",
+        "question_type": "1stA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Cassandre and Norina were hanging out in the study.",
+            "They saw a box and a crate.",
+            "They found a torch in the box.",
+            "Norina left the study.",
+            "Cassandre moved the torch to the crate."
+        ],
+        "question": "After Norina came back to the study, where would Cassandre think Norina would look for the torch?",
+        "answer": "box.",
+        "belief": "False",
+        "question_type": "2ndA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Cassandre and Norina were hanging out in the study.",
+            "They saw a box and a crate.",
+            "They found a torch in the box.",
+            "Norina left the study.",
+            "Cassandre moved the torch to the crate."
+        ],
+        "question": "After Norina came back to the study, where would Norina think Cassandre would look for the torch?",
+        "answer": "box.",
+        "belief": "False",
+        "question_type": "2ndB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Clio and Daphene were hanging out in the garage.",
+            "They saw a rack and a backpack.",
+            "They found a bottle in the rack.",
+            "Daphene left the garage.",
+            "Clio moved the bottle to the backpack."
+        ],
+        "question": "Where is the bottle?",
+        "answer": "backpack.",
+        "belief": "False",
+        "question_type": "reality",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Clio and Daphene were hanging out in the garage.",
+            "They saw a rack and a backpack.",
+            "They found a bottle in the rack.",
+            "Daphene left the garage.",
+            "Clio moved the bottle to the backpack."
+        ],
+        "question": "After Daphene came back to the garage, where would Daphene look for the bottle?",
+        "answer": "rack.",
+        "belief": "False",
+        "question_type": "1stB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Clio and Daphene were hanging out in the garage.",
+            "They saw a rack and a backpack.",
+            "They found a bottle in the rack.",
+            "Daphene left the garage.",
+            "Clio moved the bottle to the backpack."
+        ],
+        "question": "After Daphene came back to the garage, where would Clio look for the bottle?",
+        "answer": "backpack.",
+        "belief": "False",
+        "question_type": "1stA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Clio and Daphene were hanging out in the garage.",
+            "They saw a rack and a backpack.",
+            "They found a bottle in the rack.",
+            "Daphene left the garage.",
+            "Clio moved the bottle to the backpack."
+        ],
+        "question": "After Daphene came back to the garage, where would Clio think Daphene would look for the bottle?",
+        "answer": "rack.",
+        "belief": "False",
+        "question_type": "2ndA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Clio and Daphene were hanging out in the garage.",
+            "They saw a rack and a backpack.",
+            "They found a bottle in the rack.",
+            "Daphene left the garage.",
+            "Clio moved the bottle to the backpack."
+        ],
+        "question": "After Daphene came back to the garage, where would Daphene think Clio would look for the bottle?",
+        "answer": "rack.",
+        "belief": "False",
+        "question_type": "2ndB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Melania and Krysta were hanging out in the living room.",
+            "They saw a rack and a crate.",
+            "They found a zucchini in the rack.",
+            "Krysta left the living room.",
+            "Melania moved the zucchini to the crate."
+        ],
+        "question": "Where is the zucchini?",
+        "answer": "crate.",
+        "belief": "False",
+        "question_type": "reality",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Melania and Krysta were hanging out in the living room.",
+            "They saw a rack and a crate.",
+            "They found a zucchini in the rack.",
+            "Krysta left the living room.",
+            "Melania moved the zucchini to the crate."
+        ],
+        "question": "After Krysta came back to the living room, where would Krysta look for the zucchini?",
+        "answer": "rack.",
+        "belief": "False",
+        "question_type": "1stB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Melania and Krysta were hanging out in the living room.",
+            "They saw a rack and a crate.",
+            "They found a zucchini in the rack.",
+            "Krysta left the living room.",
+            "Melania moved the zucchini to the crate."
+        ],
+        "question": "After Krysta came back to the living room, where would Melania look for the zucchini?",
+        "answer": "crate.",
+        "belief": "False",
+        "question_type": "1stA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Melania and Krysta were hanging out in the living room.",
+            "They saw a rack and a crate.",
+            "They found a zucchini in the rack.",
+            "Krysta left the living room.",
+            "Melania moved the zucchini to the crate."
+        ],
+        "question": "After Krysta came back to the living room, where would Melania think Krysta would look for the zucchini?",
+        "answer": "rack.",
+        "belief": "False",
+        "question_type": "2ndA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Melania and Krysta were hanging out in the living room.",
+            "They saw a rack and a crate.",
+            "They found a zucchini in the rack.",
+            "Krysta left the living room.",
+            "Melania moved the zucchini to the crate."
+        ],
+        "question": "After Krysta came back to the living room, where would Krysta think Melania would look for the zucchini?",
+        "answer": "rack.",
+        "belief": "False",
+        "question_type": "2ndB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Hillary and Kathryne were hanging out in the basement.",
+            "They saw a basket and a rack.",
+            "They found a potato in the basket.",
+            "Kathryne left the basement.",
+            "Hillary moved the potato to the rack."
+        ],
+        "question": "Where is the potato?",
+        "answer": "rack.",
+        "belief": "False",
+        "question_type": "reality",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Hillary and Kathryne were hanging out in the basement.",
+            "They saw a basket and a rack.",
+            "They found a potato in the basket.",
+            "Kathryne left the basement.",
+            "Hillary moved the potato to the rack."
+        ],
+        "question": "After Kathryne came back to the basement, where would Kathryne look for the potato?",
+        "answer": "basket.",
+        "belief": "False",
+        "question_type": "1stB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Hillary and Kathryne were hanging out in the basement.",
+            "They saw a basket and a rack.",
+            "They found a potato in the basket.",
+            "Kathryne left the basement.",
+            "Hillary moved the potato to the rack."
+        ],
+        "question": "After Kathryne came back to the basement, where would Hillary look for the potato?",
+        "answer": "rack.",
+        "belief": "False",
+        "question_type": "1stA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Hillary and Kathryne were hanging out in the basement.",
+            "They saw a basket and a rack.",
+            "They found a potato in the basket.",
+            "Kathryne left the basement.",
+            "Hillary moved the potato to the rack."
+        ],
+        "question": "After Kathryne came back to the basement, where would Hillary think Kathryne would look for the potato?",
+        "answer": "basket.",
+        "belief": "False",
+        "question_type": "2ndA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Hillary and Kathryne were hanging out in the basement.",
+            "They saw a basket and a rack.",
+            "They found a potato in the basket.",
+            "Kathryne left the basement.",
+            "Hillary moved the potato to the rack."
+        ],
+        "question": "After Kathryne came back to the basement, where would Kathryne think Hillary would look for the potato?",
+        "answer": "basket.",
+        "belief": "False",
+        "question_type": "2ndB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Norina and Jobina were hanging out in the loft.",
+            "They saw a hamper and a bag.",
+            "They found a plum in the hamper.",
+            "Jobina left the loft.",
+            "Norina moved the plum to the bag."
+        ],
+        "question": "Where is the plum?",
+        "answer": "bag.",
+        "belief": "False",
+        "question_type": "reality",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Norina and Jobina were hanging out in the loft.",
+            "They saw a hamper and a bag.",
+            "They found a plum in the hamper.",
+            "Jobina left the loft.",
+            "Norina moved the plum to the bag."
+        ],
+        "question": "After Jobina came back to the loft, where would Jobina look for the plum?",
+        "answer": "hamper.",
+        "belief": "False",
+        "question_type": "1stB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Norina and Jobina were hanging out in the loft.",
+            "They saw a hamper and a bag.",
+            "They found a plum in the hamper.",
+            "Jobina left the loft.",
+            "Norina moved the plum to the bag."
+        ],
+        "question": "After Jobina came back to the loft, where would Norina look for the plum?",
+        "answer": "bag.",
+        "belief": "False",
+        "question_type": "1stA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Norina and Jobina were hanging out in the loft.",
+            "They saw a hamper and a bag.",
+            "They found a plum in the hamper.",
+            "Jobina left the loft.",
+            "Norina moved the plum to the bag."
+        ],
+        "question": "After Jobina came back to the loft, where would Norina think Jobina would look for the plum?",
+        "answer": "hamper.",
+        "belief": "False",
+        "question_type": "2ndA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Norina and Jobina were hanging out in the loft.",
+            "They saw a hamper and a bag.",
+            "They found a plum in the hamper.",
+            "Jobina left the loft.",
+            "Norina moved the plum to the bag."
+        ],
+        "question": "After Jobina came back to the loft, where would Jobina think Norina would look for the plum?",
+        "answer": "hamper.",
+        "belief": "False",
+        "question_type": "2ndB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Karalynn and Clio were hanging out in the kitchen.",
+            "They saw a refrigerator and a cabinet.",
+            "They found a towel in the refrigerator.",
+            "Clio left the kitchen.",
+            "Karalynn moved the towel to the cabinet."
+        ],
+        "question": "Where is the towel?",
+        "answer": "cabinet.",
+        "belief": "False",
+        "question_type": "reality",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Karalynn and Clio were hanging out in the kitchen.",
+            "They saw a refrigerator and a cabinet.",
+            "They found a towel in the refrigerator.",
+            "Clio left the kitchen.",
+            "Karalynn moved the towel to the cabinet."
+        ],
+        "question": "After Clio came back to the kitchen, where would Clio look for the towel?",
+        "answer": "refrigerator.",
+        "belief": "False",
+        "question_type": "1stB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Karalynn and Clio were hanging out in the kitchen.",
+            "They saw a refrigerator and a cabinet.",
+            "They found a towel in the refrigerator.",
+            "Clio left the kitchen.",
+            "Karalynn moved the towel to the cabinet."
+        ],
+        "question": "After Clio came back to the kitchen, where would Karalynn look for the towel?",
+        "answer": "cabinet.",
+        "belief": "False",
+        "question_type": "1stA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Karalynn and Clio were hanging out in the kitchen.",
+            "They saw a refrigerator and a cabinet.",
+            "They found a towel in the refrigerator.",
+            "Clio left the kitchen.",
+            "Karalynn moved the towel to the cabinet."
+        ],
+        "question": "After Clio came back to the kitchen, where would Karalynn think Clio would look for the towel?",
+        "answer": "refrigerator.",
+        "belief": "False",
+        "question_type": "2ndA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Karalynn and Clio were hanging out in the kitchen.",
+            "They saw a refrigerator and a cabinet.",
+            "They found a towel in the refrigerator.",
+            "Clio left the kitchen.",
+            "Karalynn moved the towel to the cabinet."
+        ],
+        "question": "After Clio came back to the kitchen, where would Clio think Karalynn would look for the towel?",
+        "answer": "refrigerator.",
+        "belief": "False",
+        "question_type": "2ndB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Vera and Daphene were hanging out in the terrace.",
+            "They saw a bin and a chamber.",
+            "They found a plate in the bin.",
+            "Daphene left the terrace.",
+            "Vera moved the plate to the chamber."
+        ],
+        "question": "Where is the plate?",
+        "answer": "chamber.",
+        "belief": "False",
+        "question_type": "reality",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Vera and Daphene were hanging out in the terrace.",
+            "They saw a bin and a chamber.",
+            "They found a plate in the bin.",
+            "Daphene left the terrace.",
+            "Vera moved the plate to the chamber."
+        ],
+        "question": "After Daphene came back to the terrace, where would Daphene look for the plate?",
+        "answer": "bin.",
+        "belief": "False",
+        "question_type": "1stB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Vera and Daphene were hanging out in the terrace.",
+            "They saw a bin and a chamber.",
+            "They found a plate in the bin.",
+            "Daphene left the terrace.",
+            "Vera moved the plate to the chamber."
+        ],
+        "question": "After Daphene came back to the terrace, where would Vera look for the plate?",
+        "answer": "chamber.",
+        "belief": "False",
+        "question_type": "1stA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Vera and Daphene were hanging out in the terrace.",
+            "They saw a bin and a chamber.",
+            "They found a plate in the bin.",
+            "Daphene left the terrace.",
+            "Vera moved the plate to the chamber."
+        ],
+        "question": "After Daphene came back to the terrace, where would Vera think Daphene would look for the plate?",
+        "answer": "bin.",
+        "belief": "False",
+        "question_type": "2ndA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Vera and Daphene were hanging out in the terrace.",
+            "They saw a bin and a chamber.",
+            "They found a plate in the bin.",
+            "Daphene left the terrace.",
+            "Vera moved the plate to the chamber."
+        ],
+        "question": "After Daphene came back to the terrace, where would Daphene think Vera would look for the plate?",
+        "answer": "bin.",
+        "belief": "False",
+        "question_type": "2ndB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Sabra and Melania were hanging out in the balcony.",
+            "They saw a barrel and a refrigerator.",
+            "They found a knife in the barrel.",
+            "Melania left the balcony.",
+            "Sabra moved the knife to the refrigerator."
+        ],
+        "question": "Where is the knife?",
+        "answer": "refrigerator.",
+        "belief": "False",
+        "question_type": "reality",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Sabra and Melania were hanging out in the balcony.",
+            "They saw a barrel and a refrigerator.",
+            "They found a knife in the barrel.",
+            "Melania left the balcony.",
+            "Sabra moved the knife to the refrigerator."
+        ],
+        "question": "After Melania came back to the balcony, where would Melania look for the knife?",
+        "answer": "barrel.",
+        "belief": "False",
+        "question_type": "1stB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Sabra and Melania were hanging out in the balcony.",
+            "They saw a barrel and a refrigerator.",
+            "They found a knife in the barrel.",
+            "Melania left the balcony.",
+            "Sabra moved the knife to the refrigerator."
+        ],
+        "question": "After Melania came back to the balcony, where would Sabra look for the knife?",
+        "answer": "refrigerator.",
+        "belief": "False",
+        "question_type": "1stA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Sabra and Melania were hanging out in the balcony.",
+            "They saw a barrel and a refrigerator.",
+            "They found a knife in the barrel.",
+            "Melania left the balcony.",
+            "Sabra moved the knife to the refrigerator."
+        ],
+        "question": "After Melania came back to the balcony, where would Sabra think Melania would look for the knife?",
+        "answer": "barrel.",
+        "belief": "False",
+        "question_type": "2ndA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Sabra and Melania were hanging out in the balcony.",
+            "They saw a barrel and a refrigerator.",
+            "They found a knife in the barrel.",
+            "Melania left the balcony.",
+            "Sabra moved the knife to the refrigerator."
+        ],
+        "question": "After Melania came back to the balcony, where would Melania think Sabra would look for the knife?",
+        "answer": "barrel.",
+        "belief": "False",
+        "question_type": "2ndB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Clio and Felicity were hanging out in the nursery.",
+            "They saw a coffer and a cabinet.",
+            "They found a towel in the coffer.",
+            "Felicity left the nursery.",
+            "Clio moved the towel to the cabinet."
+        ],
+        "question": "Where is the towel?",
+        "answer": "cabinet.",
+        "belief": "False",
+        "question_type": "reality",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Clio and Felicity were hanging out in the nursery.",
+            "They saw a coffer and a cabinet.",
+            "They found a towel in the coffer.",
+            "Felicity left the nursery.",
+            "Clio moved the towel to the cabinet."
+        ],
+        "question": "After Felicity came back to the nursery, where would Felicity look for the towel?",
+        "answer": "coffer.",
+        "belief": "False",
+        "question_type": "1stB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Clio and Felicity were hanging out in the nursery.",
+            "They saw a coffer and a cabinet.",
+            "They found a towel in the coffer.",
+            "Felicity left the nursery.",
+            "Clio moved the towel to the cabinet."
+        ],
+        "question": "After Felicity came back to the nursery, where would Clio look for the towel?",
+        "answer": "cabinet.",
+        "belief": "False",
+        "question_type": "1stA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Clio and Felicity were hanging out in the nursery.",
+            "They saw a coffer and a cabinet.",
+            "They found a towel in the coffer.",
+            "Felicity left the nursery.",
+            "Clio moved the towel to the cabinet."
+        ],
+        "question": "After Felicity came back to the nursery, where would Clio think Felicity would look for the towel?",
+        "answer": "coffer.",
+        "belief": "False",
+        "question_type": "2ndA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Clio and Felicity were hanging out in the nursery.",
+            "They saw a coffer and a cabinet.",
+            "They found a towel in the coffer.",
+            "Felicity left the nursery.",
+            "Clio moved the towel to the cabinet."
+        ],
+        "question": "After Felicity came back to the nursery, where would Felicity think Clio would look for the towel?",
+        "answer": "coffer.",
+        "belief": "False",
+        "question_type": "2ndB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Felicity and Hillary were hanging out in the conservatory.",
+            "They saw a bin and a crate.",
+            "They found a guava in the bin.",
+            "Hillary left the conservatory.",
+            "Felicity moved the guava to the crate."
+        ],
+        "question": "Where is the guava?",
+        "answer": "crate.",
+        "belief": "False",
+        "question_type": "reality",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Felicity and Hillary were hanging out in the conservatory.",
+            "They saw a bin and a crate.",
+            "They found a guava in the bin.",
+            "Hillary left the conservatory.",
+            "Felicity moved the guava to the crate."
+        ],
+        "question": "After Hillary came back to the conservatory, where would Hillary look for the guava?",
+        "answer": "bin.",
+        "belief": "False",
+        "question_type": "1stB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Felicity and Hillary were hanging out in the conservatory.",
+            "They saw a bin and a crate.",
+            "They found a guava in the bin.",
+            "Hillary left the conservatory.",
+            "Felicity moved the guava to the crate."
+        ],
+        "question": "After Hillary came back to the conservatory, where would Felicity look for the guava?",
+        "answer": "crate.",
+        "belief": "False",
+        "question_type": "1stA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Felicity and Hillary were hanging out in the conservatory.",
+            "They saw a bin and a crate.",
+            "They found a guava in the bin.",
+            "Hillary left the conservatory.",
+            "Felicity moved the guava to the crate."
+        ],
+        "question": "After Hillary came back to the conservatory, where would Felicity think Hillary would look for the guava?",
+        "answer": "bin.",
+        "belief": "False",
+        "question_type": "2ndA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Felicity and Hillary were hanging out in the conservatory.",
+            "They saw a bin and a crate.",
+            "They found a guava in the bin.",
+            "Hillary left the conservatory.",
+            "Felicity moved the guava to the crate."
+        ],
+        "question": "After Hillary came back to the conservatory, where would Hillary think Felicity would look for the guava?",
+        "answer": "bin.",
+        "belief": "False",
+        "question_type": "2ndB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Sabra and Hillary were hanging out in the lounge.",
+            "They saw a bin and a bucket.",
+            "They found a papaya in the bin.",
+            "Hillary left the lounge.",
+            "Sabra moved the papaya to the bucket."
+        ],
+        "question": "Where is the papaya?",
+        "answer": "bucket.",
+        "belief": "False",
+        "question_type": "reality",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Sabra and Hillary were hanging out in the lounge.",
+            "They saw a bin and a bucket.",
+            "They found a papaya in the bin.",
+            "Hillary left the lounge.",
+            "Sabra moved the papaya to the bucket."
+        ],
+        "question": "After Hillary came back to the lounge, where would Hillary look for the papaya?",
+        "answer": "bin.",
+        "belief": "False",
+        "question_type": "1stB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Sabra and Hillary were hanging out in the lounge.",
+            "They saw a bin and a bucket.",
+            "They found a papaya in the bin.",
+            "Hillary left the lounge.",
+            "Sabra moved the papaya to the bucket."
+        ],
+        "question": "After Hillary came back to the lounge, where would Sabra look for the papaya?",
+        "answer": "bucket.",
+        "belief": "False",
+        "question_type": "1stA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Sabra and Hillary were hanging out in the lounge.",
+            "They saw a bin and a bucket.",
+            "They found a papaya in the bin.",
+            "Hillary left the lounge.",
+            "Sabra moved the papaya to the bucket."
+        ],
+        "question": "After Hillary came back to the lounge, where would Sabra think Hillary would look for the papaya?",
+        "answer": "bin.",
+        "belief": "False",
+        "question_type": "2ndA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Sabra and Hillary were hanging out in the lounge.",
+            "They saw a bin and a bucket.",
+            "They found a papaya in the bin.",
+            "Hillary left the lounge.",
+            "Sabra moved the papaya to the bucket."
+        ],
+        "question": "After Hillary came back to the lounge, where would Hillary think Sabra would look for the papaya?",
+        "answer": "bin.",
+        "belief": "False",
+        "question_type": "2ndB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Meira and Juanita were hanging out in the dining room.",
+            "They saw a crate and a cabinet.",
+            "They found a pumpkin in the crate.",
+            "Juanita left the dining room.",
+            "Meira moved the pumpkin to the cabinet."
+        ],
+        "question": "Where is the pumpkin?",
+        "answer": "cabinet.",
+        "belief": "False",
+        "question_type": "reality",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Meira and Juanita were hanging out in the dining room.",
+            "They saw a crate and a cabinet.",
+            "They found a pumpkin in the crate.",
+            "Juanita left the dining room.",
+            "Meira moved the pumpkin to the cabinet."
+        ],
+        "question": "After Juanita came back to the dining room, where would Juanita look for the pumpkin?",
+        "answer": "crate.",
+        "belief": "False",
+        "question_type": "1stB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Meira and Juanita were hanging out in the dining room.",
+            "They saw a crate and a cabinet.",
+            "They found a pumpkin in the crate.",
+            "Juanita left the dining room.",
+            "Meira moved the pumpkin to the cabinet."
+        ],
+        "question": "After Juanita came back to the dining room, where would Meira look for the pumpkin?",
+        "answer": "cabinet.",
+        "belief": "False",
+        "question_type": "1stA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Meira and Juanita were hanging out in the dining room.",
+            "They saw a crate and a cabinet.",
+            "They found a pumpkin in the crate.",
+            "Juanita left the dining room.",
+            "Meira moved the pumpkin to the cabinet."
+        ],
+        "question": "After Juanita came back to the dining room, where would Meira think Juanita would look for the pumpkin?",
+        "answer": "crate.",
+        "belief": "False",
+        "question_type": "2ndA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Meira and Juanita were hanging out in the dining room.",
+            "They saw a crate and a cabinet.",
+            "They found a pumpkin in the crate.",
+            "Juanita left the dining room.",
+            "Meira moved the pumpkin to the cabinet."
+        ],
+        "question": "After Juanita came back to the dining room, where would Juanita think Meira would look for the pumpkin?",
+        "answer": "crate.",
+        "belief": "False",
+        "question_type": "2ndB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Hillary and Clio were hanging out in the library.",
+            "They saw a cabinet and a knapsack.",
+            "They found a notebook in the cabinet.",
+            "Clio left the library.",
+            "Hillary moved the notebook to the knapsack."
+        ],
+        "question": "Where is the notebook?",
+        "answer": "knapsack.",
+        "belief": "False",
+        "question_type": "reality",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Hillary and Clio were hanging out in the library.",
+            "They saw a cabinet and a knapsack.",
+            "They found a notebook in the cabinet.",
+            "Clio left the library.",
+            "Hillary moved the notebook to the knapsack."
+        ],
+        "question": "After Clio came back to the library, where would Clio look for the notebook?",
+        "answer": "cabinet.",
+        "belief": "False",
+        "question_type": "1stB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Hillary and Clio were hanging out in the library.",
+            "They saw a cabinet and a knapsack.",
+            "They found a notebook in the cabinet.",
+            "Clio left the library.",
+            "Hillary moved the notebook to the knapsack."
+        ],
+        "question": "After Clio came back to the library, where would Hillary look for the notebook?",
+        "answer": "knapsack.",
+        "belief": "False",
+        "question_type": "1stA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Hillary and Clio were hanging out in the library.",
+            "They saw a cabinet and a knapsack.",
+            "They found a notebook in the cabinet.",
+            "Clio left the library.",
+            "Hillary moved the notebook to the knapsack."
+        ],
+        "question": "After Clio came back to the library, where would Hillary think Clio would look for the notebook?",
+        "answer": "cabinet.",
+        "belief": "False",
+        "question_type": "2ndA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Hillary and Clio were hanging out in the library.",
+            "They saw a cabinet and a knapsack.",
+            "They found a notebook in the cabinet.",
+            "Clio left the library.",
+            "Hillary moved the notebook to the knapsack."
+        ],
+        "question": "After Clio came back to the library, where would Clio think Hillary would look for the notebook?",
+        "answer": "cabinet.",
+        "belief": "False",
+        "question_type": "2ndB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Amata and Neila were hanging out in the farm.",
+            "They saw a coffer and a briefcase.",
+            "They found a jar in the coffer.",
+            "Neila left the farm.",
+            "Amata moved the jar to the briefcase."
+        ],
+        "question": "Where is the jar?",
+        "answer": "briefcase.",
+        "belief": "False",
+        "question_type": "reality",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Amata and Neila were hanging out in the farm.",
+            "They saw a coffer and a briefcase.",
+            "They found a jar in the coffer.",
+            "Neila left the farm.",
+            "Amata moved the jar to the briefcase."
+        ],
+        "question": "After Neila came back to the farm, where would Neila look for the jar?",
+        "answer": "coffer.",
+        "belief": "False",
+        "question_type": "1stB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Amata and Neila were hanging out in the farm.",
+            "They saw a coffer and a briefcase.",
+            "They found a jar in the coffer.",
+            "Neila left the farm.",
+            "Amata moved the jar to the briefcase."
+        ],
+        "question": "After Neila came back to the farm, where would Amata look for the jar?",
+        "answer": "briefcase.",
+        "belief": "False",
+        "question_type": "1stA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Amata and Neila were hanging out in the farm.",
+            "They saw a coffer and a briefcase.",
+            "They found a jar in the coffer.",
+            "Neila left the farm.",
+            "Amata moved the jar to the briefcase."
+        ],
+        "question": "After Neila came back to the farm, where would Amata think Neila would look for the jar?",
+        "answer": "coffer.",
+        "belief": "False",
+        "question_type": "2ndA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Amata and Neila were hanging out in the farm.",
+            "They saw a coffer and a briefcase.",
+            "They found a jar in the coffer.",
+            "Neila left the farm.",
+            "Amata moved the jar to the briefcase."
+        ],
+        "question": "After Neila came back to the farm, where would Neila think Amata would look for the jar?",
+        "answer": "coffer.",
+        "belief": "False",
+        "question_type": "2ndB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Clio and Amata were hanging out in the bar.",
+            "They saw a box and a crate.",
+            "They found a raincoat in the box.",
+            "Amata left the bar.",
+            "Clio moved the raincoat to the crate."
+        ],
+        "question": "Where is the raincoat?",
+        "answer": "crate.",
+        "belief": "False",
+        "question_type": "reality",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Clio and Amata were hanging out in the bar.",
+            "They saw a box and a crate.",
+            "They found a raincoat in the box.",
+            "Amata left the bar.",
+            "Clio moved the raincoat to the crate."
+        ],
+        "question": "After Amata came back to the bar, where would Amata look for the raincoat?",
+        "answer": "box.",
+        "belief": "False",
+        "question_type": "1stB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Clio and Amata were hanging out in the bar.",
+            "They saw a box and a crate.",
+            "They found a raincoat in the box.",
+            "Amata left the bar.",
+            "Clio moved the raincoat to the crate."
+        ],
+        "question": "After Amata came back to the bar, where would Clio look for the raincoat?",
+        "answer": "crate.",
+        "belief": "False",
+        "question_type": "1stA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Clio and Amata were hanging out in the bar.",
+            "They saw a box and a crate.",
+            "They found a raincoat in the box.",
+            "Amata left the bar.",
+            "Clio moved the raincoat to the crate."
+        ],
+        "question": "After Amata came back to the bar, where would Clio think Amata would look for the raincoat?",
+        "answer": "box.",
+        "belief": "False",
+        "question_type": "2ndA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Clio and Amata were hanging out in the bar.",
+            "They saw a box and a crate.",
+            "They found a raincoat in the box.",
+            "Amata left the bar.",
+            "Clio moved the raincoat to the crate."
+        ],
+        "question": "After Amata came back to the bar, where would Amata think Clio would look for the raincoat?",
+        "answer": "box.",
+        "belief": "False",
+        "question_type": "2ndB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Daphene and Melania were hanging out in the market.",
+            "They saw a coffer and a bag.",
+            "They found a casette in the coffer.",
+            "Melania left the market.",
+            "Daphene moved the casette to the bag."
+        ],
+        "question": "Where is the casette?",
+        "answer": "bag.",
+        "belief": "False",
+        "question_type": "reality",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Daphene and Melania were hanging out in the market.",
+            "They saw a coffer and a bag.",
+            "They found a casette in the coffer.",
+            "Melania left the market.",
+            "Daphene moved the casette to the bag."
+        ],
+        "question": "After Melania came back to the market, where would Melania look for the casette?",
+        "answer": "coffer.",
+        "belief": "False",
+        "question_type": "1stB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Daphene and Melania were hanging out in the market.",
+            "They saw a coffer and a bag.",
+            "They found a casette in the coffer.",
+            "Melania left the market.",
+            "Daphene moved the casette to the bag."
+        ],
+        "question": "After Melania came back to the market, where would Daphene look for the casette?",
+        "answer": "bag.",
+        "belief": "False",
+        "question_type": "1stA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Daphene and Melania were hanging out in the market.",
+            "They saw a coffer and a bag.",
+            "They found a casette in the coffer.",
+            "Melania left the market.",
+            "Daphene moved the casette to the bag."
+        ],
+        "question": "After Melania came back to the market, where would Daphene think Melania would look for the casette?",
+        "answer": "coffer.",
+        "belief": "False",
+        "question_type": "2ndA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Daphene and Melania were hanging out in the market.",
+            "They saw a coffer and a bag.",
+            "They found a casette in the coffer.",
+            "Melania left the market.",
+            "Daphene moved the casette to the bag."
+        ],
+        "question": "After Melania came back to the market, where would Melania think Daphene would look for the casette?",
+        "answer": "coffer.",
+        "belief": "False",
+        "question_type": "2ndB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Keri and Clio were hanging out in the garden.",
+            "They saw a barrel and a backpack.",
+            "They found a banana in the barrel.",
+            "Clio left the garden.",
+            "Keri moved the banana to the backpack."
+        ],
+        "question": "Where is the banana?",
+        "answer": "backpack.",
+        "belief": "False",
+        "question_type": "reality",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Keri and Clio were hanging out in the garden.",
+            "They saw a barrel and a backpack.",
+            "They found a banana in the barrel.",
+            "Clio left the garden.",
+            "Keri moved the banana to the backpack."
+        ],
+        "question": "After Clio came back to the garden, where would Clio look for the banana?",
+        "answer": "barrel.",
+        "belief": "False",
+        "question_type": "1stB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Keri and Clio were hanging out in the garden.",
+            "They saw a barrel and a backpack.",
+            "They found a banana in the barrel.",
+            "Clio left the garden.",
+            "Keri moved the banana to the backpack."
+        ],
+        "question": "After Clio came back to the garden, where would Keri look for the banana?",
+        "answer": "backpack.",
+        "belief": "False",
+        "question_type": "1stA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Keri and Clio were hanging out in the garden.",
+            "They saw a barrel and a backpack.",
+            "They found a banana in the barrel.",
+            "Clio left the garden.",
+            "Keri moved the banana to the backpack."
+        ],
+        "question": "After Clio came back to the garden, where would Keri think Clio would look for the banana?",
+        "answer": "barrel.",
+        "belief": "False",
+        "question_type": "2ndA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Keri and Clio were hanging out in the garden.",
+            "They saw a barrel and a backpack.",
+            "They found a banana in the barrel.",
+            "Clio left the garden.",
+            "Keri moved the banana to the backpack."
+        ],
+        "question": "After Clio came back to the garden, where would Clio think Keri would look for the banana?",
+        "answer": "barrel.",
+        "belief": "False",
+        "question_type": "2ndB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Sabra and Meira were hanging out in the bank.",
+            "They saw a knapsack and a box.",
+            "They found a button in the knapsack.",
+            "Meira left the bank.",
+            "Sabra moved the button to the box."
+        ],
+        "question": "Where is the button?",
+        "answer": "box.",
+        "belief": "False",
+        "question_type": "reality",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Sabra and Meira were hanging out in the bank.",
+            "They saw a knapsack and a box.",
+            "They found a button in the knapsack.",
+            "Meira left the bank.",
+            "Sabra moved the button to the box."
+        ],
+        "question": "After Meira came back to the bank, where would Meira look for the button?",
+        "answer": "knapsack.",
+        "belief": "False",
+        "question_type": "1stB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Sabra and Meira were hanging out in the bank.",
+            "They saw a knapsack and a box.",
+            "They found a button in the knapsack.",
+            "Meira left the bank.",
+            "Sabra moved the button to the box."
+        ],
+        "question": "After Meira came back to the bank, where would Sabra look for the button?",
+        "answer": "box.",
+        "belief": "False",
+        "question_type": "1stA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Sabra and Meira were hanging out in the bank.",
+            "They saw a knapsack and a box.",
+            "They found a button in the knapsack.",
+            "Meira left the bank.",
+            "Sabra moved the button to the box."
+        ],
+        "question": "After Meira came back to the bank, where would Sabra think Meira would look for the button?",
+        "answer": "knapsack.",
+        "belief": "False",
+        "question_type": "2ndA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Sabra and Meira were hanging out in the bank.",
+            "They saw a knapsack and a box.",
+            "They found a button in the knapsack.",
+            "Meira left the bank.",
+            "Sabra moved the button to the box."
+        ],
+        "question": "After Meira came back to the bank, where would Meira think Sabra would look for the button?",
+        "answer": "knapsack.",
+        "belief": "False",
+        "question_type": "2ndB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Keri and Lian were hanging out in the office.",
+            "They saw a knapsack and a tray.",
+            "They found a knife in the knapsack.",
+            "Lian left the office.",
+            "Keri moved the knife to the tray."
+        ],
+        "question": "Where is the knife?",
+        "answer": "tray.",
+        "belief": "False",
+        "question_type": "reality",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Keri and Lian were hanging out in the office.",
+            "They saw a knapsack and a tray.",
+            "They found a knife in the knapsack.",
+            "Lian left the office.",
+            "Keri moved the knife to the tray."
+        ],
+        "question": "After Lian came back to the office, where would Lian look for the knife?",
+        "answer": "knapsack.",
+        "belief": "False",
+        "question_type": "1stB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Keri and Lian were hanging out in the office.",
+            "They saw a knapsack and a tray.",
+            "They found a knife in the knapsack.",
+            "Lian left the office.",
+            "Keri moved the knife to the tray."
+        ],
+        "question": "After Lian came back to the office, where would Keri look for the knife?",
+        "answer": "tray.",
+        "belief": "False",
+        "question_type": "1stA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Keri and Lian were hanging out in the office.",
+            "They saw a knapsack and a tray.",
+            "They found a knife in the knapsack.",
+            "Lian left the office.",
+            "Keri moved the knife to the tray."
+        ],
+        "question": "After Lian came back to the office, where would Keri think Lian would look for the knife?",
+        "answer": "knapsack.",
+        "belief": "False",
+        "question_type": "2ndA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Keri and Lian were hanging out in the office.",
+            "They saw a knapsack and a tray.",
+            "They found a knife in the knapsack.",
+            "Lian left the office.",
+            "Keri moved the knife to the tray."
+        ],
+        "question": "After Lian came back to the office, where would Lian think Keri would look for the knife?",
+        "answer": "knapsack.",
+        "belief": "False",
+        "question_type": "2ndB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Evaleen and Vera were hanging out in the factory.",
+            "They saw a cupboard and a drawer.",
+            "They found a magnet in the cupboard.",
+            "Vera left the factory.",
+            "Evaleen moved the magnet to the drawer."
+        ],
+        "question": "Where is the magnet?",
+        "answer": "drawer.",
+        "belief": "False",
+        "question_type": "reality",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Evaleen and Vera were hanging out in the factory.",
+            "They saw a cupboard and a drawer.",
+            "They found a magnet in the cupboard.",
+            "Vera left the factory.",
+            "Evaleen moved the magnet to the drawer."
+        ],
+        "question": "After Vera came back to the factory, where would Vera look for the magnet?",
+        "answer": "cupboard.",
+        "belief": "False",
+        "question_type": "1stB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Evaleen and Vera were hanging out in the factory.",
+            "They saw a cupboard and a drawer.",
+            "They found a magnet in the cupboard.",
+            "Vera left the factory.",
+            "Evaleen moved the magnet to the drawer."
+        ],
+        "question": "After Vera came back to the factory, where would Evaleen look for the magnet?",
+        "answer": "drawer.",
+        "belief": "False",
+        "question_type": "1stA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Evaleen and Vera were hanging out in the factory.",
+            "They saw a cupboard and a drawer.",
+            "They found a magnet in the cupboard.",
+            "Vera left the factory.",
+            "Evaleen moved the magnet to the drawer."
+        ],
+        "question": "After Vera came back to the factory, where would Evaleen think Vera would look for the magnet?",
+        "answer": "cupboard.",
+        "belief": "False",
+        "question_type": "2ndA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Evaleen and Vera were hanging out in the factory.",
+            "They saw a cupboard and a drawer.",
+            "They found a magnet in the cupboard.",
+            "Vera left the factory.",
+            "Evaleen moved the magnet to the drawer."
+        ],
+        "question": "After Vera came back to the factory, where would Vera think Evaleen would look for the magnet?",
+        "answer": "cupboard.",
+        "belief": "False",
+        "question_type": "2ndB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Clem and Amata were hanging out in the house.",
+            "They saw a coffer and a tote.",
+            "They found a rubber in the coffer.",
+            "Amata left the house.",
+            "Clem moved the rubber to the tote."
+        ],
+        "question": "Where is the rubber?",
+        "answer": "tote.",
+        "belief": "False",
+        "question_type": "reality",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Clem and Amata were hanging out in the house.",
+            "They saw a coffer and a tote.",
+            "They found a rubber in the coffer.",
+            "Amata left the house.",
+            "Clem moved the rubber to the tote."
+        ],
+        "question": "After Amata came back to the house, where would Amata look for the rubber?",
+        "answer": "coffer.",
+        "belief": "False",
+        "question_type": "1stB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Clem and Amata were hanging out in the house.",
+            "They saw a coffer and a tote.",
+            "They found a rubber in the coffer.",
+            "Amata left the house.",
+            "Clem moved the rubber to the tote."
+        ],
+        "question": "After Amata came back to the house, where would Clem look for the rubber?",
+        "answer": "tote.",
+        "belief": "False",
+        "question_type": "1stA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Clem and Amata were hanging out in the house.",
+            "They saw a coffer and a tote.",
+            "They found a rubber in the coffer.",
+            "Amata left the house.",
+            "Clem moved the rubber to the tote."
+        ],
+        "question": "After Amata came back to the house, where would Clem think Amata would look for the rubber?",
+        "answer": "coffer.",
+        "belief": "False",
+        "question_type": "2ndA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Clem and Amata were hanging out in the house.",
+            "They saw a coffer and a tote.",
+            "They found a rubber in the coffer.",
+            "Amata left the house.",
+            "Clem moved the rubber to the tote."
+        ],
+        "question": "After Amata came back to the house, where would Amata think Clem would look for the rubber?",
+        "answer": "coffer.",
+        "belief": "False",
+        "question_type": "2ndB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Lian and Norina were hanging out in the hall.",
+            "They saw a safe and a carryall.",
+            "They found a jar in the safe.",
+            "Norina left the hall.",
+            "Lian moved the jar to the carryall."
+        ],
+        "question": "Where is the jar?",
+        "answer": "carryall.",
+        "belief": "False",
+        "question_type": "reality",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Lian and Norina were hanging out in the hall.",
+            "They saw a safe and a carryall.",
+            "They found a jar in the safe.",
+            "Norina left the hall.",
+            "Lian moved the jar to the carryall."
+        ],
+        "question": "After Norina came back to the hall, where would Norina look for the jar?",
+        "answer": "safe.",
+        "belief": "False",
+        "question_type": "1stB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Lian and Norina were hanging out in the hall.",
+            "They saw a safe and a carryall.",
+            "They found a jar in the safe.",
+            "Norina left the hall.",
+            "Lian moved the jar to the carryall."
+        ],
+        "question": "After Norina came back to the hall, where would Lian look for the jar?",
+        "answer": "carryall.",
+        "belief": "False",
+        "question_type": "1stA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Lian and Norina were hanging out in the hall.",
+            "They saw a safe and a carryall.",
+            "They found a jar in the safe.",
+            "Norina left the hall.",
+            "Lian moved the jar to the carryall."
+        ],
+        "question": "After Norina came back to the hall, where would Lian think Norina would look for the jar?",
+        "answer": "safe.",
+        "belief": "False",
+        "question_type": "2ndA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Lian and Norina were hanging out in the hall.",
+            "They saw a safe and a carryall.",
+            "They found a jar in the safe.",
+            "Norina left the hall.",
+            "Lian moved the jar to the carryall."
+        ],
+        "question": "After Norina came back to the hall, where would Norina think Lian would look for the jar?",
+        "answer": "safe.",
+        "belief": "False",
+        "question_type": "2ndB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Kathryne and Norina were hanging out in the bathroom.",
+            "They saw a backpack and a basket.",
+            "They found a broccoli in the backpack.",
+            "Norina left the bathroom.",
+            "Kathryne moved the broccoli to the basket."
+        ],
+        "question": "Where is the broccoli?",
+        "answer": "basket.",
+        "belief": "False",
+        "question_type": "reality",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Kathryne and Norina were hanging out in the bathroom.",
+            "They saw a backpack and a basket.",
+            "They found a broccoli in the backpack.",
+            "Norina left the bathroom.",
+            "Kathryne moved the broccoli to the basket."
+        ],
+        "question": "After Norina came back to the bathroom, where would Norina look for the broccoli?",
+        "answer": "backpack.",
+        "belief": "False",
+        "question_type": "1stB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Kathryne and Norina were hanging out in the bathroom.",
+            "They saw a backpack and a basket.",
+            "They found a broccoli in the backpack.",
+            "Norina left the bathroom.",
+            "Kathryne moved the broccoli to the basket."
+        ],
+        "question": "After Norina came back to the bathroom, where would Kathryne look for the broccoli?",
+        "answer": "basket.",
+        "belief": "False",
+        "question_type": "1stA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Kathryne and Norina were hanging out in the bathroom.",
+            "They saw a backpack and a basket.",
+            "They found a broccoli in the backpack.",
+            "Norina left the bathroom.",
+            "Kathryne moved the broccoli to the basket."
+        ],
+        "question": "After Norina came back to the bathroom, where would Kathryne think Norina would look for the broccoli?",
+        "answer": "backpack.",
+        "belief": "False",
+        "question_type": "2ndA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Kathryne and Norina were hanging out in the bathroom.",
+            "They saw a backpack and a basket.",
+            "They found a broccoli in the backpack.",
+            "Norina left the bathroom.",
+            "Kathryne moved the broccoli to the basket."
+        ],
+        "question": "After Norina came back to the bathroom, where would Norina think Kathryne would look for the broccoli?",
+        "answer": "backpack.",
+        "belief": "False",
+        "question_type": "2ndB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Clem and Vera were hanging out in the shower room.",
+            "They saw a refrigerator and a rack.",
+            "They found a lock in the refrigerator.",
+            "Vera left the shower room.",
+            "Clem moved the lock to the rack."
+        ],
+        "question": "Where is the lock?",
+        "answer": "rack.",
+        "belief": "False",
+        "question_type": "reality",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Clem and Vera were hanging out in the shower room.",
+            "They saw a refrigerator and a rack.",
+            "They found a lock in the refrigerator.",
+            "Vera left the shower room.",
+            "Clem moved the lock to the rack."
+        ],
+        "question": "After Vera came back to the shower room, where would Vera look for the lock?",
+        "answer": "refrigerator.",
+        "belief": "False",
+        "question_type": "1stB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Clem and Vera were hanging out in the shower room.",
+            "They saw a refrigerator and a rack.",
+            "They found a lock in the refrigerator.",
+            "Vera left the shower room.",
+            "Clem moved the lock to the rack."
+        ],
+        "question": "After Vera came back to the shower room, where would Clem look for the lock?",
+        "answer": "rack.",
+        "belief": "False",
+        "question_type": "1stA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Clem and Vera were hanging out in the shower room.",
+            "They saw a refrigerator and a rack.",
+            "They found a lock in the refrigerator.",
+            "Vera left the shower room.",
+            "Clem moved the lock to the rack."
+        ],
+        "question": "After Vera came back to the shower room, where would Clem think Vera would look for the lock?",
+        "answer": "refrigerator.",
+        "belief": "False",
+        "question_type": "2ndA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Clem and Vera were hanging out in the shower room.",
+            "They saw a refrigerator and a rack.",
+            "They found a lock in the refrigerator.",
+            "Vera left the shower room.",
+            "Clem moved the lock to the rack."
+        ],
+        "question": "After Vera came back to the shower room, where would Vera think Clem would look for the lock?",
+        "answer": "refrigerator.",
+        "belief": "False",
+        "question_type": "2ndB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Karalynn and Clem were hanging out in the storeroom.",
+            "They saw a pot and a backpack.",
+            "They found a sweater in the pot.",
+            "Clem left the storeroom.",
+            "Karalynn moved the sweater to the backpack."
+        ],
+        "question": "Where is the sweater?",
+        "answer": "backpack.",
+        "belief": "False",
+        "question_type": "reality",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Karalynn and Clem were hanging out in the storeroom.",
+            "They saw a pot and a backpack.",
+            "They found a sweater in the pot.",
+            "Clem left the storeroom.",
+            "Karalynn moved the sweater to the backpack."
+        ],
+        "question": "After Clem came back to the storeroom, where would Clem look for the sweater?",
+        "answer": "pot.",
+        "belief": "False",
+        "question_type": "1stB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Karalynn and Clem were hanging out in the storeroom.",
+            "They saw a pot and a backpack.",
+            "They found a sweater in the pot.",
+            "Clem left the storeroom.",
+            "Karalynn moved the sweater to the backpack."
+        ],
+        "question": "After Clem came back to the storeroom, where would Karalynn look for the sweater?",
+        "answer": "backpack.",
+        "belief": "False",
+        "question_type": "1stA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Karalynn and Clem were hanging out in the storeroom.",
+            "They saw a pot and a backpack.",
+            "They found a sweater in the pot.",
+            "Clem left the storeroom.",
+            "Karalynn moved the sweater to the backpack."
+        ],
+        "question": "After Clem came back to the storeroom, where would Karalynn think Clem would look for the sweater?",
+        "answer": "pot.",
+        "belief": "False",
+        "question_type": "2ndA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Karalynn and Clem were hanging out in the storeroom.",
+            "They saw a pot and a backpack.",
+            "They found a sweater in the pot.",
+            "Clem left the storeroom.",
+            "Karalynn moved the sweater to the backpack."
+        ],
+        "question": "After Clem came back to the storeroom, where would Clem think Karalynn would look for the sweater?",
+        "answer": "pot.",
+        "belief": "False",
+        "question_type": "2ndB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Karalynn and Florencia were hanging out in the parking.",
+            "They saw a bin and a crate.",
+            "They found a button in the bin.",
+            "Florencia left the parking.",
+            "Karalynn moved the button to the crate."
+        ],
+        "question": "Where is the button?",
+        "answer": "crate.",
+        "belief": "False",
+        "question_type": "reality",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Karalynn and Florencia were hanging out in the parking.",
+            "They saw a bin and a crate.",
+            "They found a button in the bin.",
+            "Florencia left the parking.",
+            "Karalynn moved the button to the crate."
+        ],
+        "question": "After Florencia came back to the parking, where would Florencia look for the button?",
+        "answer": "bin.",
+        "belief": "False",
+        "question_type": "1stB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Karalynn and Florencia were hanging out in the parking.",
+            "They saw a bin and a crate.",
+            "They found a button in the bin.",
+            "Florencia left the parking.",
+            "Karalynn moved the button to the crate."
+        ],
+        "question": "After Florencia came back to the parking, where would Karalynn look for the button?",
+        "answer": "crate.",
+        "belief": "False",
+        "question_type": "1stA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Karalynn and Florencia were hanging out in the parking.",
+            "They saw a bin and a crate.",
+            "They found a button in the bin.",
+            "Florencia left the parking.",
+            "Karalynn moved the button to the crate."
+        ],
+        "question": "After Florencia came back to the parking, where would Karalynn think Florencia would look for the button?",
+        "answer": "bin.",
+        "belief": "False",
+        "question_type": "2ndA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Karalynn and Florencia were hanging out in the parking.",
+            "They saw a bin and a crate.",
+            "They found a button in the bin.",
+            "Florencia left the parking.",
+            "Karalynn moved the button to the crate."
+        ],
+        "question": "After Florencia came back to the parking, where would Florencia think Karalynn would look for the button?",
+        "answer": "bin.",
+        "belief": "False",
+        "question_type": "2ndB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Sara and Meira were hanging out in the squad room.",
+            "They saw a basket and a locker.",
+            "They found a plate in the basket.",
+            "Meira left the squad room.",
+            "Sara moved the plate to the locker."
+        ],
+        "question": "Where is the plate?",
+        "answer": "locker.",
+        "belief": "False",
+        "question_type": "reality",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Sara and Meira were hanging out in the squad room.",
+            "They saw a basket and a locker.",
+            "They found a plate in the basket.",
+            "Meira left the squad room.",
+            "Sara moved the plate to the locker."
+        ],
+        "question": "After Meira came back to the squad room, where would Meira look for the plate?",
+        "answer": "basket.",
+        "belief": "False",
+        "question_type": "1stB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Sara and Meira were hanging out in the squad room.",
+            "They saw a basket and a locker.",
+            "They found a plate in the basket.",
+            "Meira left the squad room.",
+            "Sara moved the plate to the locker."
+        ],
+        "question": "After Meira came back to the squad room, where would Sara look for the plate?",
+        "answer": "locker.",
+        "belief": "False",
+        "question_type": "1stA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Sara and Meira were hanging out in the squad room.",
+            "They saw a basket and a locker.",
+            "They found a plate in the basket.",
+            "Meira left the squad room.",
+            "Sara moved the plate to the locker."
+        ],
+        "question": "After Meira came back to the squad room, where would Sara think Meira would look for the plate?",
+        "answer": "basket.",
+        "belief": "False",
+        "question_type": "2ndA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Sara and Meira were hanging out in the squad room.",
+            "They saw a basket and a locker.",
+            "They found a plate in the basket.",
+            "Meira left the squad room.",
+            "Sara moved the plate to the locker."
+        ],
+        "question": "After Meira came back to the squad room, where would Meira think Sara would look for the plate?",
+        "answer": "basket.",
+        "belief": "False",
+        "question_type": "2ndB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Neila and Karalynn were hanging out in the recreation room.",
+            "They saw a chest and a carryall.",
+            "They found a knife in the chest.",
+            "Karalynn left the recreation room.",
+            "Neila moved the knife to the carryall."
+        ],
+        "question": "Where is the knife?",
+        "answer": "carryall.",
+        "belief": "False",
+        "question_type": "reality",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Neila and Karalynn were hanging out in the recreation room.",
+            "They saw a chest and a carryall.",
+            "They found a knife in the chest.",
+            "Karalynn left the recreation room.",
+            "Neila moved the knife to the carryall."
+        ],
+        "question": "After Karalynn came back to the recreation room, where would Karalynn look for the knife?",
+        "answer": "chest.",
+        "belief": "False",
+        "question_type": "1stB",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Neila and Karalynn were hanging out in the recreation room.",
+            "They saw a chest and a carryall.",
+            "They found a knife in the chest.",
+            "Karalynn left the recreation room.",
+            "Neila moved the knife to the carryall."
+        ],
+        "question": "After Karalynn came back to the recreation room, where would Neila look for the knife?",
+        "answer": "carryall.",
+        "belief": "False",
+        "question_type": "1stA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Neila and Karalynn were hanging out in the recreation room.",
+            "They saw a chest and a carryall.",
+            "They found a knife in the chest.",
+            "Karalynn left the recreation room.",
+            "Neila moved the knife to the carryall."
+        ],
+        "question": "After Karalynn came back to the recreation room, where would Neila think Karalynn would look for the knife?",
+        "answer": "chest.",
+        "belief": "False",
+        "question_type": "2ndA",
+        "category": "False"
+    },
+    {
+        "story": [
+            "Neila and Karalynn were hanging out in the recreation room.",
+            "They saw a chest and a carryall.",
+            "They found a knife in the chest.",
+            "Karalynn left the recreation room.",
+            "Neila moved the knife to the carryall."
+        ],
+        "question": "After Karalynn came back to the recreation room, where would Karalynn think Neila would look for the knife?",
+        "answer": "chest.",
+        "belief": "False",
+        "question_type": "2ndB",
+        "category": "False"
+    }
+]

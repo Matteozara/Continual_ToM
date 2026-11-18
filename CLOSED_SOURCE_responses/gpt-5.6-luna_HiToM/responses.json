@@ -1,0 +1,23 @@
+[
+    {
+        "raw_output": "The watermelon starts in the blue container. Ella moves it to the red pantry, but later Amelia moves it back to the blue container. Therefore, the watermelon is really in the blue container.\n\n\\answer{L}",
+        "prediction": "L",
+        "gold": "L",
+        "correct": true,
+        "category": 0
+    },
+    {
+        "raw_output": "Initially, the onion is in the red crate. Later, Isabella moves it from the red crate to the blue crate. No one moves it afterward. Isabella’s public claim that it is in the green cupboard is false, while Owen’s private statement correctly identifies the blue crate.\n\nTherefore, the answer is \\answer{O}.",
+        "prediction": "O",
+        "gold": "O",
+        "correct": true,
+        "category": 0
+    },
+    {
+        "raw_output": "Ava left the pantry before Charlotte moved the pear, so Ava herself may still believe it is in the red box. However, Ava knows Alexander remained in the pantry after Charlotte moved it, so Ava thinks Alexander knows that Charlotte knows the pear is in the red bucket. Therefore, the answer is \\(\\answer{M}\\).",
+        "prediction": "M",
+        "gold": "L",
+        "correct": false,
+        "category": 3
+    }
+]

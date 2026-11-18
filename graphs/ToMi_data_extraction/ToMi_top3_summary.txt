@@ -1,0 +1,40 @@
+======================================================================
+TOP 3 ACCURACIES PER CATEGORY PER SPLIT (ToMi)
+======================================================================
+
+>>> SPLIT: TEST
+------------------------------
+Category: true_belief
+  1. 0.6198 | llama3-8b (standard)
+  2. 0.6156 | qwen3-4b (CoT)
+  3. 0.6120 | llama3-8b (CoT)
+
+Category: false_belief
+  1. 0.7766 | qwen2.5-7b (CoT)
+  2. 0.7598 | qwen3-4b (CoT)
+  3. 0.6805 | nemo-12b (CoT)
+
+Category: second_order_false_belief
+  1. 0.7129 | qwen3-4b (CoT)
+  2. 0.6739 | qwen2.5-7b (CoT)
+  3. 0.6042 | llama3-8b (CoT)
+
+
+>>> SPLIT: VAL
+------------------------------
+Category: true_belief
+  1. 0.6360 | llama3-8b (standard)
+  2. 0.6000 | qwen3-4b (CoT)
+  3. 0.5904 | llama3-8b (CoT)
+
+Category: false_belief
+  1. 0.7477 | qwen2.5-7b (CoT)
+  2. 0.7297 | qwen3-4b (CoT)
+  3. 0.6859 | nemo-12b (CoT)
+
+Category: second_order_false_belief
+  1. 0.7183 | qwen3-4b (CoT)
+  2. 0.6637 | qwen2.5-7b (CoT)
+  3. 0.6060 | nemo-12b (CoT)
+
+======================================================================
