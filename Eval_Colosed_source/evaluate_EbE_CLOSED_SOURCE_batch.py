@@ -127,7 +127,6 @@ async def run_batch_requests(
 
         responses.extend(chunk_responses)
 
-        # Optional pacing
         await asyncio.sleep(2)
 
     return responses
@@ -135,9 +134,6 @@ async def run_batch_requests(
 
 
 async def eval_tom_benchmarks_EbE(tokenizer, model, model_name="", benchmark="HiToM", data_path=None, max_samples=None, batch_size=16, engine_type="vllm", ebe_type="standard"):
-    
-    
-    # 1. Handle Splits
     if benchmark == "ToMChallenges": splits = ["Sally-Anne", "Smarties"]
     elif benchmark == "ToMi": splits = ["val", "test"]
     else: splits = [""]
@@ -207,8 +203,6 @@ async def eval_tom_benchmarks_EbE(tokenizer, model, model_name="", benchmark="Hi
         start_time = time.time()
         
 
-        # --- SEQUENTIAL STEP LOOP ---
-        #loop through steps (inside each step process ALL available stories)
         for step_idx in tqdm(range(max_story_len + 1), desc=f"Evaluating EbE {current_name}... "):
             active_indices = [idx for idx, s in enumerate(states) if not s["finished"]]
             if not active_indices: break
@@ -314,7 +308,6 @@ async def eval_tom_benchmarks_EbE(tokenizer, model, model_name="", benchmark="Hi
                         cached_tokens = 0
 
 
-                # distribute approximate time
                 s["model_time"] += batch_duration / len(active_indices)
 
                 s["in_tokens"] += input_tokens
@@ -370,7 +363,6 @@ async def eval_tom_benchmarks_EbE(tokenizer, model, model_name="", benchmark="Hi
                 print(f"Checkpoint saved after step {step_idx + 1} (in: {checkpoint_file})")
             
 
-        # --- FINAL AGGREGATION & SAVING ---
         results = []
         all_raw_data = []
         group_stats = {}
@@ -411,7 +403,6 @@ async def eval_tom_benchmarks_EbE(tokenizer, model, model_name="", benchmark="Hi
                 "memory_logs": s["memory_logs"]
             })
 
-            # Update Per-Category Summary
             cat = s["category"]
             if cat not in group_stats:
                 group_stats[cat] = {"total": 0, "correct": 0, "not_answered": 0, "model_time": 0.0}

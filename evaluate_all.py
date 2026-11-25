@@ -25,8 +25,6 @@ benchmark_group_keys = {
 }
 
 def eval_tom_benchmarks(tokenizer, model, model_name="", benchmark="HiToM", data_path=None, max_samples=None, suffix="", batch_size=64, engine_type="vllm", type_variation="standard"):
-    # 1. Configuration & Split Handling
-    # Handle benchmarks that have multiple sub-files/splits
     if engine_type == "vllm":
         sampling_params = SamplingParams(max_tokens=MAX_TOKENS, temperature=0.0, seed=42)
         
@@ -46,7 +44,6 @@ def eval_tom_benchmarks(tokenizer, model, model_name="", benchmark="HiToM", data
         current_name = f"{benchmark}_{split}" if split else benchmark #f"{benchmark}_TABLE0"
         current_name += f"_{type_variation}"
         
-        # Determine Data Path
         if data_path is None:
             print(f"Skipping {current_name}: The path provided is None")
             continue
@@ -66,10 +63,8 @@ def eval_tom_benchmarks(tokenizer, model, model_name="", benchmark="HiToM", data
         else: suffix_task=""
         output_file, raw_io_file = create_folders(current_name, model_name, suffix_task)
         
-        # Identify grouping key for the final report
         group_key = benchmark_group_keys.get(benchmark, "Question Type")
 
-        # 2. Load Data
         if benchmark == "HiToM": loader = load_HiToM(current_path)
         elif benchmark == "BigToM": loader = load_BigToM(current_path)
         elif benchmark == "ToMChallenges": loader = load_ToMChallenges(current_path)
@@ -86,7 +81,7 @@ def eval_tom_benchmarks(tokenizer, model, model_name="", benchmark="HiToM", data
         results, simple_predictions = [], []
         group_stats = defaultdict(lambda: {"correct": 0, "total": 0, "model_time": 0.0, "not_answered": 0, "in_tokens": 0, "out_tokens": 0})
 
-        # 3. Prepare Prompts
+        #Prompts
         for count, ex in enumerate(data):
             if benchmark == "HiToM":
                 if suffix=="cot": prompt_content = build_prompt_HiToM_CoT(ex, type_variation)
@@ -117,7 +112,7 @@ def eval_tom_benchmarks(tokenizer, model, model_name="", benchmark="HiToM", data
                 else: prompt_content = build_prompt_ToMi(ex, type_variation)
                 cat = ex.get("category", "unknown")
 
-            # Gemma System Message Fix
+            #Fix for Gemma
             if "gemma2" in model_name.lower() and prompt_content[0]["role"] == "system":
                 sys_msg = prompt_content.pop(0)["content"]
                 prompt_content[0]["content"] = f"{sys_msg}\n\n{prompt_content[0]['content']}"
@@ -136,7 +131,7 @@ def eval_tom_benchmarks(tokenizer, model, model_name="", benchmark="HiToM", data
 
         overall_start_time = time.time()
 
-        # 4. Inference Engine
+        #Inference
         if engine_type == "vllm":
             #sampling_params = SamplingParams(max_tokens=MAX_TOKENS, temperature=0.0, seed=42)
             start_gen_time = time.time()
@@ -149,7 +144,7 @@ def eval_tom_benchmarks(tokenizer, model, model_name="", benchmark="HiToM", data
                     len(output.outputs[0].token_ids), total_gen_time / len(data), 
                     results, simple_predictions, group_stats, benchmark
                 )
-        else: # Hugging Face
+        else: # HF
             for i in tqdm(range(0, len(all_prompts), batch_size), desc=f"Eval {current_name}"):
                 batch_prompts = all_prompts[i : i + batch_size]
                 batch_meta = all_meta[i : i + batch_size]
@@ -168,7 +163,6 @@ def eval_tom_benchmarks(tokenizer, model, model_name="", benchmark="HiToM", data
                         batch_elapsed / len(batch_prompts), results, simple_predictions, group_stats, benchmark
                     )
 
-        # 5. Finalize Split
         total_time = time.time() - overall_start_time
         with open(raw_io_file, "w", encoding="utf-8") as f:
             json.dump(simple_predictions, f, indent=4, ensure_ascii=False)

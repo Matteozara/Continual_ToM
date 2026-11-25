@@ -1,10 +1,3 @@
-'''
-
-Implememted the batching phase
-
-'''
-
-
 import os
 import time
 import json
@@ -46,7 +39,6 @@ def eval_tom_benchmarks_EbE(tokenizer, model, model_name="", benchmark="HiToM", 
         sampling_params = SamplingParams(max_tokens=MAX_TOKENS, temperature=0.0, seed=42)
     
     
-    # 1. Handle Splits
     if benchmark == "ToMChallenges": splits = ["Sally-Anne", "Smarties"]
     elif benchmark == "ToMi": splits = ["val", "test"]
     else: splits = [""]
@@ -114,8 +106,6 @@ def eval_tom_benchmarks_EbE(tokenizer, model, model_name="", benchmark="HiToM", 
         start_time = time.time()
         
 
-        # --- SEQUENTIAL STEP LOOP ---
-        #loop through steps (inside each step process ALL available stories)
         for step_idx in tqdm(range(max_story_len + 1), desc=f"Evaluating EbE {current_name}... "):
             active_indices = [idx for idx, s in enumerate(states) if not s["finished"]]
             if not active_indices: break
@@ -131,13 +121,12 @@ def eval_tom_benchmarks_EbE(tokenizer, model, model_name="", benchmark="HiToM", 
                     if step_idx < len(s["story"]):
                         prompt_content = prompt_fn(s["story"][step_idx], s["memory"], ebe_type=ebe_type)
                     else:
-                        # Question phase
+                        #final question
                         if benchmark in ["ToMChallenges", "ToMi", "ToMi_reality"]:
                             prompt_content = prompt_fn("", s["memory"], s["question"], ebe_type=ebe_type)
                         else:
                             prompt_content = prompt_fn("", s["memory"], s["question"], s["options"], ebe_type=ebe_type)
                     
-                    # Formatting
                     if isinstance(prompt_content, list):
                         #print(f"Prompt to format: {prompt_content}")####################################################
                         prompt_to_format = [dict(m) for m in prompt_content] # Create a copy
@@ -151,7 +140,7 @@ def eval_tom_benchmarks_EbE(tokenizer, model, model_name="", benchmark="HiToM", 
                                 content = msg["content"]
                                 formatted_p += f"{content}\n"
                         else:
-                            # Standard Chat Template for all other models
+                            #Standard chat template
                             formatted_p = tokenizer.apply_chat_template(prompt_to_format, tokenize=False, add_generation_prompt=True)
 
 
@@ -159,7 +148,7 @@ def eval_tom_benchmarks_EbE(tokenizer, model, model_name="", benchmark="HiToM", 
                         formatted_p = str(prompt_content)
                     prompts.append(formatted_p if formatted_p.strip() else " ")
 
-                # --- 2. Inference ---
+                #Inference
                 if engine_type == "vllm":
                     inference_start = time.time()
                     outputs = model.generate(prompts, sampling_params, use_tqdm=False)
@@ -175,7 +164,6 @@ def eval_tom_benchmarks_EbE(tokenizer, model, model_name="", benchmark="HiToM", 
                     raw_outputs = tokenizer.batch_decode(gen_tokens[:, inputs.input_ids.shape[1]:], skip_special_tokens=True)
                     token_counts = [(inputs.input_ids.shape[1], gen_tokens.shape[1] - inputs.input_ids.shape[1]) for _ in raw_outputs]
 
-                # --- 3. State Update ---
                 for (raw_text, (in_t, out_t)), idx in zip(zip(raw_outputs, token_counts), batch_indices):
                     s = states[idx]
                     s["model_time"] += inference_duration
@@ -194,12 +182,10 @@ def eval_tom_benchmarks_EbE(tokenizer, model, model_name="", benchmark="HiToM", 
                             "new_memory": s["memory"]
                         })
                     else:
-                        # Final answer extraction
                         s["final_res"] = extract_answer_OQ(raw_text).lower().strip() if benchmark in ["ToMChallenges", "ToMi", "ToMi_reality"] else extract_answer_MC(raw_text).upper().strip()
                         s["finished"] = True
             
 
-        # --- FINAL AGGREGATION & SAVING ---
         results = []
         all_raw_data = []
         group_stats = {}
@@ -239,7 +225,6 @@ def eval_tom_benchmarks_EbE(tokenizer, model, model_name="", benchmark="HiToM", 
                 "memory_logs": s["memory_logs"]
             })
 
-            # Update Per-Category Summary
             cat = s["category"]
             if cat not in group_stats:
                 group_stats[cat] = {"total": 0, "correct": 0, "not_answered": 0, "model_time": 0.0}

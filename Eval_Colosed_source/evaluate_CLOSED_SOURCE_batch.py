@@ -29,8 +29,9 @@ from openai import (
 load_dotenv()
 
 
-from openai import OpenAI
-client = OpenAI(api_key=os.getenv("OPENAI_KEY"))
+from openai import AsyncOpenAI
+
+client = AsyncOpenAI(api_key=os.getenv("OPENAI_KEY"))
 
 from load_data import load_HiToM, load_BigToM, load_ToMChallenges, load_ToMi
 from prompts import (
@@ -44,12 +45,15 @@ from extract_answers import extract_answer_MC, extract_answer_OQ
 
 benchmark_group_keys = {
     "HiToM": "Question Order",
+    "HiToM0": "Question Order",
     "BigToM": "Question Type",
     "ToMChallenges": "Question Type",
     "ToMi": "Category",
     "ToMi_reality": "Category"
 }
 
+
+import asyncio
 
 @retry(
     retry=retry_if_exception_type(
@@ -60,68 +64,79 @@ benchmark_group_keys = {
             APITimeoutError,
         )
     ),
-    wait=wait_random_exponential(
-        min=2,
-        max=60
-    ),
+    wait=wait_random_exponential(min=2, max=60),
     stop=stop_after_attempt(5),
     reraise=True,
 )
-def generate_openai(prompt, model_name):
-    start = time.time()
-    response = client.responses.create(
-        model=model_name,
-        input=prompt,
-        #temperature=0, #maybe to remove
-        max_output_tokens=MAX_TOKENS,
-    )
+async def generate_openai_async(prompt, model_name, semaphore):
 
-    latency = time.time() - start
+    async with semaphore:
 
-    #############################################
-    print("\n===== Usage =====")
-    print(response.usage)
+        start = time.time()
 
-    # Basic token counts
-    print("Input tokens:", getattr(response.usage, "input_tokens", "N/A"))
-    print("Output tokens:", getattr(response.usage, "output_tokens", "N/A"))
+        response = await client.responses.create(
+            model=model_name,
+            input=prompt,
+            max_output_tokens=MAX_TOKENS,
+        )
 
-    # Check for prompt caching info
-    details = getattr(response.usage, "input_tokens_details", None)
+        latency = time.time() - start
 
-    if details is not None:
-        print("Input token details:", details)
+        '''#############################################
+        print("\n===== Usage =====")
+        print(response.usage)
 
-        cached = getattr(details, "cached_tokens", None)
-        if cached is not None:
-            print("Cached tokens:", cached)
-    else:
-        print("No input_tokens_details field available.")
-    
-    #############################################
+        # Basic token counts
+        print("Input tokens:", getattr(response.usage, "input_tokens", "N/A"))
+        print("Output tokens:", getattr(response.usage, "output_tokens", "N/A"))
 
-    '''print("\n===== RAW RESPONSE TEXT =====")
-    print(response.output_text)
+        # Check for prompt caching info
+        details = getattr(response.usage, "input_tokens_details", None)
 
-    print("\n===== FULL RESPONSE OBJECT =====")
-    print(response)'''
+        if details is not None:
+            print("Input token details:", details)
 
-
-    return (
-        response.output_text,
-        response.usage.input_tokens,
-        response.usage.output_tokens,
-        latency,
-    )
-
-
-def eval_tom_benchmarks(tokenizer, model, model_name="", benchmark="HiToM", data_path=None, max_samples=None, suffix="", batch_size=64, engine_type="openai"):
-    # 1. Configuration & Split Handling
-    # Handle benchmarks that have multiple sub-files/splits
+            cached = getattr(details, "cached_tokens", None)
+            if cached is not None:
+                print("Cached tokens:", cached)
+        else:
+            print("No input_tokens_details field available.")
         
+        #############################################'''
 
-    
+        return (
+            response.output_text,
+            response.usage.input_tokens,
+            response.usage.output_tokens,
+            latency,
+        )
 
+
+async def run_openai_batch(
+    prompts,
+    model_name,
+    batch_size,
+):
+
+    semaphore = asyncio.Semaphore(batch_size)
+
+    tasks = [
+        generate_openai_async(
+            prompt,
+            model_name,
+            semaphore,
+        )
+        for prompt in prompts
+    ]
+
+    return await asyncio.gather(
+        *tasks,
+        return_exceptions=True,
+    )
+
+
+
+async def eval_tom_benchmarks(tokenizer, model, model_name="", benchmark="HiToM", data_path=None, max_samples=None, suffix="", batch_size=8, engine_type="openai"):
     if benchmark == "ToMChallenges":
         splits = ["Sally-Anne", "Smarties"]
     elif benchmark == "ToMi":
@@ -132,9 +147,8 @@ def eval_tom_benchmarks(tokenizer, model, model_name="", benchmark="HiToM", data
     all_results = {}
 
     for split in splits:
-        current_name = f"{benchmark}_{split}" if split else benchmark #f"{benchmark}_TABLE0"
+        current_name = f"{benchmark}_{split}_CLOSEDSOURCE" if split else f"{benchmark}_CLOSEDSOURCE" #f"{benchmark}_TABLE0"
         
-        # Determine Data Path
         if data_path is None:
             print(f"Skipping {current_name}: The path provided is None")
             continue
@@ -154,11 +168,10 @@ def eval_tom_benchmarks(tokenizer, model, model_name="", benchmark="HiToM", data
         else: suffix_task=""
         output_file, raw_io_file = create_folders(current_name, model_name, suffix_task)
         
-        # Identify grouping key for the final report
         group_key = benchmark_group_keys.get(benchmark, "Question Type")
 
-        # 2. Load Data
         if benchmark == "HiToM": loader = load_HiToM(current_path)
+        if benchmark == "HiToM0": loader = load_HiToM(current_path)
         elif benchmark == "BigToM": loader = load_BigToM(current_path)
         elif benchmark == "ToMChallenges": loader = load_ToMChallenges(current_path)
         elif benchmark == "ToMi": loader = load_ToMi(current_path)
@@ -174,9 +187,9 @@ def eval_tom_benchmarks(tokenizer, model, model_name="", benchmark="HiToM", data
         results, simple_predictions = [], []
         group_stats = defaultdict(lambda: {"correct": 0, "total": 0, "model_time": 0.0, "not_answered": 0, "in_tokens": 0, "out_tokens": 0})
 
-        # 3. Prepare Prompts
+        #Prompts
         for count, ex in enumerate(data):
-            if benchmark == "HiToM":
+            if benchmark in ("HiToM", "HiToM0"):
                 if suffix=="cot": prompt_content = build_prompt_HiToM_CoT(ex)
                 elif suffix=="complete": prompt_content = build_prompt_HiToM_Complete(ex)
                 else: prompt_content = build_prompt_HiToM(ex)
@@ -212,27 +225,32 @@ def eval_tom_benchmarks(tokenizer, model, model_name="", benchmark="HiToM", data
 
         overall_start_time = time.time()
 
-        # 4. Inference Engine
+        #Inference
         if engine_type == "openai":
 
-            for prompt, meta in tqdm(
-                zip(all_prompts, all_meta),
-                total=len(all_prompts),
-                desc=f"Eval {current_name}"
-            ):
-                try:
-                    raw_pred, in_tokens, out_tokens, latency = generate_openai(
-                        prompt,
-                        model_name
-                    )
+            responses = await run_openai_batch(
+                all_prompts,
+                model_name,
+                batch_size,
+            )
 
-                except Exception as e:
-                    print(f"\nFailed after retries: {e}")
+            for response, meta in tqdm(
+                zip(responses, all_meta),
+                total=len(all_meta),
+                desc=f"Eval {current_name}",
+            ):
+
+                if isinstance(response, Exception):
+                    print(response)
 
                     raw_pred = ""
                     in_tokens = 0
                     out_tokens = 0
                     latency = 0
+
+                else:
+
+                    raw_pred, in_tokens, out_tokens, latency = response
 
                 process_and_store_result(
                     raw_pred,
@@ -247,7 +265,6 @@ def eval_tom_benchmarks(tokenizer, model, model_name="", benchmark="HiToM", data
                 )
 
         
-        # 5. Finalize Split
         total_time = time.time() - overall_start_time
         with open(raw_io_file, "w", encoding="utf-8") as f:
             json.dump(simple_predictions, f, indent=4, ensure_ascii=False)

@@ -2,13 +2,8 @@ from evaluate_CLOSED_SOURCE_batch import eval_tom_benchmarks
 from evaluate_EbE_CLOSED_SOURCE_batch import eval_tom_benchmarks_EbE 
 import asyncio
 
-# ==========================
-# Configuration
-# ==========================
 
 MODEL_NAME = "gpt-5.4" #"gpt-5.5" #"gpt-5.4" #"gpt-5.6-luna" #"gpt-5.1" #"gpt-5.4" #"gpt-5-nano"
-
-# Choose one:
 
 #BENCHMARK = "HiToM"
 #DATA_PATH = "./data/eval/HiToM/hitom.json"
@@ -33,22 +28,14 @@ DATA_PATH = "./data/eval/ToMi/"
 
 
 
-# Prompt variant:
-# "", "cot", "complete" (standard evaluation)
 PROMPT_TYPE = "cot"
 
-# EbE memory variant:
-# "standard", ...
 EBE_TYPE = "standard" #"standard" #"obj_location" #"standard"
 
-# Which evaluation to run:
-# "standard" or "ebe"
 EVAL_METHOD = "ebe"
 
-# Evaluate the whole dataset (or set an integer)
 MAX_SAMPLES = None
 
-# Always use the OpenAI API
 ENGINE_TYPE = "openai"
 
 

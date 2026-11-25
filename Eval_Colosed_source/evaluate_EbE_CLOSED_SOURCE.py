@@ -52,9 +52,6 @@ benchmark_group_keys = {
 }
 
 def eval_tom_benchmarks_EbE(tokenizer, model, model_name="", benchmark="HiToM", data_path=None, max_samples=None, batch_size=64, engine_type="vllm", ebe_type="standard"):
-    
-    
-    # 1. Handle Splits
     if benchmark == "ToMChallenges": splits = ["Sally-Anne", "Smarties"]
     elif benchmark == "ToMi": splits = ["val", "test"]
     else: splits = [""]
@@ -124,8 +121,6 @@ def eval_tom_benchmarks_EbE(tokenizer, model, model_name="", benchmark="HiToM", 
         start_time = time.time()
         
 
-        # --- SEQUENTIAL STEP LOOP ---
-        #loop through steps (inside each step process ALL available stories)
         for step_idx in tqdm(range(max_story_len + 1), desc=f"Evaluating EbE {current_name}... "):
             active_indices = [idx for idx, s in enumerate(states) if not s["finished"]]
             if not active_indices: break
@@ -156,7 +151,6 @@ def eval_tom_benchmarks_EbE(tokenizer, model, model_name="", benchmark="HiToM", 
                             ebe_type=ebe_type
                         )
 
-                # --- OpenAI inference ---
                 inference_start = time.time()
 
                 response = None
@@ -224,14 +218,12 @@ def eval_tom_benchmarks_EbE(tokenizer, model, model_name="", benchmark="HiToM", 
                         output_tokens = 0
                         cached_tokens = 0
 
-                # --- State update ---
                 s["model_time"] += inference_duration
                 s["in_tokens"] += input_tokens
                 s["out_tokens"] += output_tokens
                 s["cached_tokens"] += cached_tokens
 
 
-                #JUST TO SEE (DEBUG)
                 total_input = s["in_tokens"]
                 total_output = s["out_tokens"]
                 total_cached = s["cached_tokens"]
@@ -297,7 +289,6 @@ def eval_tom_benchmarks_EbE(tokenizer, model, model_name="", benchmark="HiToM", 
                 print(f"Checkpoint saved after step {step_idx + 1}")
             
 
-        # --- FINAL AGGREGATION & SAVING ---
         results = []
         all_raw_data = []
         group_stats = {}
@@ -338,7 +329,6 @@ def eval_tom_benchmarks_EbE(tokenizer, model, model_name="", benchmark="HiToM", 
                 "memory_logs": s["memory_logs"]
             })
 
-            # Update Per-Category Summary
             cat = s["category"]
             if cat not in group_stats:
                 group_stats[cat] = {"total": 0, "correct": 0, "not_answered": 0, "model_time": 0.0}

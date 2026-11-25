@@ -1,5 +1,4 @@
 import os
-# 1. Setup
 os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 
 import json
@@ -56,7 +55,7 @@ def process_beliefs_with_stats(data):
     docs = list(nlp.pipe(all_texts, batch_size=256))
     doc_iter = iter(docs)
     
-    # Counters
+    #counters
     total_stories = len(data)
     stories_with_any_belief = 0
     stories_with_belief_drops = 0
@@ -80,16 +79,12 @@ def process_beliefs_with_stats(data):
             
             total_memories_processed += 1
             current_beliefs = extract_beliefs(current_doc)
-            # --- ADJUSTMENT START: Check for conceptual drops, ignoring location changes ---
-            # 1. Map out all active (believer, target_object) pairs in the current step
             current_pairs = {(b, t) for (b, t, l) in current_beliefs}
             
-            # 2. A belief is only dropped if the relationship between the entity and object disappears completely
             dropped = set()
             for (prev_b, prev_t, prev_l) in previous_step_beliefs:
                 if (prev_b, prev_t) not in current_pairs:
                     dropped.add((prev_b, prev_t, prev_l))
-            # --- ADJUSTMENT END ---
 
             #dropped = previous_step_beliefs - current_beliefs
             
@@ -112,17 +107,14 @@ def process_beliefs_with_stats(data):
             
         processed_stories.append(entry)
 
-    # --- Percentage Calculations ---
+    #calculations
     perc_stories_with_belief = (stories_with_any_belief / total_stories * 100) if total_stories > 0 else 0
     perc_stories_without_belief = 100 - perc_stories_with_belief
     
-    # Of the stories that actually HAD beliefs, how many dropped them?
     perc_belief_instability = (stories_with_belief_drops / stories_with_any_belief * 100) if stories_with_any_belief > 0 else 0
     
-    # Overall percentage of all stories that experienced a drop
     perc_total_stories_dropped = (stories_with_belief_drops / total_stories * 100) if total_stories > 0 else 0
 
-    # --- Print Statistical Overview ---
     print("\n" + "="*50)
     print("           BELIEF CONSISTENCY & PERCENTAGE REPORT")
     print("="*50)
@@ -156,7 +148,6 @@ def process_beliefs_with_stats(data):
     
     return final_output
 
-# --- Execution ---
 NER_DIR = "NER_Beliefs/" #"NER_Beliefs_gpu1/"
 RES_DIR_pred = f"{NER_DIR}/beliefs"
 os.makedirs(RES_DIR_pred, exist_ok=True)

@@ -209,11 +209,9 @@ def load_model(model_name, engine_type="vllm"):
 def generate_answer(tokenizer, model, prompt, max_length=64):
     device = device_available()
 
-    #convert the prompt style (instruction + user)
     prompt = tokenizer.apply_chat_template(prompt, tokenize=False, add_generation_prompt=True)
     
     inputs = tokenizer(prompt, return_tensors="pt").to(device)
-    #count tokens input
     input_tokens = inputs["input_ids"].shape[-1]
     
     start_model = time.time()
@@ -231,7 +229,6 @@ def generate_answer(tokenizer, model, prompt, max_length=64):
 
     generated_tokens = outputs[0][inputs["input_ids"].shape[-1]:]
 
-    #count output tokens
     output_tokens = generated_tokens.shape[-1]
 
     answer = tokenizer.decode(generated_tokens, skip_special_tokens=True)
@@ -312,14 +309,12 @@ def save_results_EbE(results, total_end_to_end_time, group_stats, output_file, g
     if total_samples == 0:
         return
 
-    # Aggregate Overall Totals
     total_correct = sum(1 for r in results if r["correct"])
     total_not_answered = sum(1 for r in results if r["not_answered"])
     total_model_time = sum(r["model_time_total"] for r in results)    
     total_input_tokens = sum(r["input_tokens_total"] for r in results)
     total_output_tokens = sum(r["output_tokens_total"] for r in results)
     
-    # Aggregate Event-Level Averages (EbE specific)
     avg_event_time = sum(r["model_time_event"] for r in results) / total_samples
     avg_event_in_tokens = sum(r["input_tokens_event"] for r in results) / total_samples
     avg_event_out_tokens = sum(r["output_tokens_event"] for r in results) / total_samples
@@ -341,7 +336,7 @@ def save_results_EbE(results, total_end_to_end_time, group_stats, output_file, g
     lines.append("TIME")
     lines.append(f"Total Model Time: {total_model_time:.2f}s")
     lines.append(f"Model Time per sample: {total_model_time / total_samples:.2f}s")
-    lines.append(f"Avg Time per EVENT: {avg_event_time:.4f}s") # New EbE Metric
+    lines.append(f"Avg Time per EVENT: {avg_event_time:.4f}s")
     lines.append(f"Total End-to-End Time: {total_end_to_end_time:.2f}s")
     lines.append(f"Total Time per sample: {total_end_to_end_time / total_samples:.2f}s")
     lines.append("")
@@ -352,8 +347,8 @@ def save_results_EbE(results, total_end_to_end_time, group_stats, output_file, g
     lines.append(f"Total Tokens: {total_input_tokens + total_output_tokens}")
     lines.append(f"Avg Input Tokens per sample: {total_input_tokens / total_samples:.2f}")
     lines.append(f"Avg Output Tokens per sample: {total_output_tokens / total_samples:.2f}")
-    lines.append(f"Avg Input Tokens per EVENT: {avg_event_in_tokens:.2f}") # New EbE Metric
-    lines.append(f"Avg Output Tokens per EVENT: {avg_event_out_tokens:.2f}") # New EbE Metric
+    lines.append(f"Avg Input Tokens per EVENT: {avg_event_in_tokens:.2f}")
+    lines.append(f"Avg Output Tokens per EVENT: {avg_event_out_tokens:.2f}")
     lines.append("---------------------------------------\n")
 
     lines.append(f"------ Per {group_category} Summary ------")
@@ -374,13 +369,11 @@ def save_results_EbE(results, total_end_to_end_time, group_stats, output_file, g
         lines.append(f"  Total Model Time: {stats['model_time']:.2f}s")
         lines.append(f"  Model Time per sample: {stats['model_time'] / n_samples:.2f}s")
         
-        # Adding token info to per-category if you want it (derived from results)
         cat_in_tokens = sum(r["input_tokens_total"] for r in results if r["category"] == q_type)
         cat_out_tokens = sum(r["output_tokens_total"] for r in results if r["category"] == q_type)
         lines.append(f"  Avg Tokens (In/Out): {cat_in_tokens/n_samples:.1f} / {cat_out_tokens/n_samples:.1f}")
         lines.append("---------------------------------------")
 
-    # Save to file
     with open(output_file, "w", encoding="utf-8") as f:
         f.write("\n".join(lines))
 
@@ -407,8 +400,6 @@ def save_results_closed_source(results, model_name, benchmark):
             "category": r["category"]
         })
 
-    # Append if file exists
-    # Append if file exists and contains valid JSON
     if os.path.exists(json_file) and os.path.getsize(json_file) > 0:
         with open(json_file, "r", encoding="utf-8") as f:
             old_results = json.load(f)
